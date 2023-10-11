@@ -392,10 +392,6 @@ public class WMWActivity extends BaseActivity {
 
     protected void onResume() {
         super.onResume();
-		if (new File(getObbPath()).exists())
-		{
-			notifyAddObbFilePathToFileManager(getObbPath());
-		}
         this.isRunning = true;
         if (this._view != null) {
             this.resumeOnFocus = false;
@@ -424,25 +420,7 @@ public class WMWActivity extends BaseActivity {
         shareHandler.sendMessageDelayed(message, 5000L);
     }
 	
-	public String getObbPath() {
-		PackageManager packageManager = getPackageManager();
-		PackageInfo packageInfo = null;
-		try {
-			packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
-		} catch (PackageManager.NameNotFoundException e) {}
-		
-		String pn = getPackageName();
-		if (Environment.getExternalStorageState().equals("mounted")) { 
-			File file = Environment.getExternalStorageDirectory();
-			file = new File(file.toString() + "/Android/obb/" + pn); 
-			if (packageInfo.versionCode > 0) { 
-				String str = file + File.separator + "main." + packageInfo.versionCode + "." + pn + ".obb";
-				Log.e("WMW", "obbFilePath: " + str);
-				return str;
-			} 
-		}  
-		return null;
-	}
+	
 
     protected void onStart() {
         super.onStart();
