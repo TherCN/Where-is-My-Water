@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_MainMenu				0
+ 
+ WN_WORLD_1					1
+ ...
+ WN_WORLD_END        		24
+ 
+ 
+ 
+ WN_WORLD_OVERLAY_1			145
+ ...
+ WN_WORLD_OVERLAY_END		168
+ 
+ 
+ 
+ WN_WORLD_BACKGROUND_1		169
+ ...
+ WN_WORLD_BACKGROUND_END	192
+ 
+ 
+ 
+ WN_WORLD_TEXT_1			25
+ ..
+ WN_WORLD_TEXT_END			48
+ 
+ 
+ 
+ WN_WORLD_STARLABEL_1		49
+ ..
+ WN_WORLD_STARLABEL_END		72
+ 
+ 
+ 
+ WN_WORLD_DUCKLABEL_1		73
+ ..
+ WN_WORLD_DUCKLABEL_END		96 
+ 
+ 
+ 
+ WN_WORLD_LOCKTOPLABEL_1	97
+ ..
+ WN_WORLD_LOCKTOPLABEL_END	120
+ 
+ 
+ 
+ WN_WORLD_LOCKLABEL_1		121
+ ..
+ WN_WORLD_LOCKLABEL_END		144
+ 
+ 
+ 
+ WN_WORLD_MORE		500
+ 
+ WN_BACKGROUND      501
+ WN_UNLOCK          502
+ WN_STAR_COUNT      503
+ WN_COLLECTIBLE     504
+ WN_SCROLL_SET		505
+ WN_ACHIEVEMENTS	506
+ WN_RESET			507
+ 
+ WN_FOOTER			508
+ 
+ -->
+<Widgets texturePath="/Textures/">
+	
+	<!-- ALL WIDGETS ON LAYER 0 WILL GET A SHADOW APPLIED -->
+	
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1001" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5 0" tileForceAspect="1" tileOffset="0.25 0.25" texBGName="tile_yellow.webp" />
+	
+	
+	<!-- LAYER 1 WILL APPLY A SHADOW ON LAYER 0 -->
+	
+    <!-- Shadow -->
+	<Widget type="WT_LABEL" id="1400" layer="1" pos="0 0" justifyWidget="0.5 0" size="1.6 0" forceAspect="200:154" texBGName="world_select_lighting.webp" />
+	
+	
+	<!-- ALL WIDGETS ON LAYERS 2 AND ABOVE WILL BE SAVE FROM THE SHADOWING -->
+	
+	<!-- Ducky count -->
+	<Widget type="WT_LABEL" id="1003" layer="4" pos=".755 .06" size="0.19 0" forceAspect="114:40" text="450/450" halign="right" textColorRGB="19 179 215" />
+	<Widget type="WT_LABEL" id="1099" layer="3" pos=".806 .06" size="0.35 0" forceAspect="114:40" texBGName="duck_counter_world.webp" />
+	
+	
+    <!-- Footer -->
+	<Widget type="WT_LABEL" id="1008" layer="2" pos="0 0" justifyWidget="0.5 1.0" size="1.2 0" forceAspect="769:349" texBGName="world_select_footer.png" />
+	
+	
+	<!-- Navigation buttons -->
+	<!-- Back-->
+	<Widget type="WT_PUSH_BUTTON" id="0" layer="10" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+	
+	<!-- Collection -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" layer="3" pos="0.5 0.798" size="0.4 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="COLLECTION" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+	
+	<!-- Achievements -->
+	<Widget type="WT_PUSH_BUTTON" id="1006" layer="3" pos="0.5 0.9" size="0.4 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="ACHIEVEMEMENTS" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+    
+	
+	<!-- DEBUG: Reset -->
+	<Widget type="WT_PUSH_BUTTON" id="1007" layer="5" pos="0.15 0.95" size="0.25 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="RESET" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="true"/>
+	
+	<!-- DEBUG: Unlock -->
+	<Widget type="WT_PUSH_BUTTON" id="1002" layer="5" pos="0.85 0.95" size="0.25 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="UNLOCK" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="true"/>
+	
+	
+	
+	<!-- Group information -->
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SCROLLABLE_SET" id="1005" layer="2" pos="0.5 0.365" size="1.0 0.5" enabled="true" />
+	
+	<!-- Carousel Slider -->
+    <Widget type="WT_SLIDER" id="1200" priority="0" layer="6" pos=".5 .6" size="0.6 0" forceAspect="374:43" orientation="portrait_up" texBGName="scroll_set_bar.webp" texHandleName="scroll_set_scrubber.webp" handleSize="0.04375 0" forceHandleAspect="28:31" texStepName="scroll_set_unselected.webp" stepSize="0.0125 0" forceStepAspect="8:8" texLineName="scroll_set_stroke.webp" minSlideVal="0" maxSlideVal="1" slideStep="0.1" />
+	
+	
+	
+    <!-- Example pack (the rest are copied from this template) -->
+    <Widget type="WT_PUSH_BUTTON" id="1" priority="1" layer="4" pos="0 0" size="0.52 0" forceAspect="1" texNormalName="lock_gray_water.webp" numTiles="3 0" tileForceAspect="1" reactOnDown="false"/>
+    <Widget type="WT_LABEL" id="601" parent="1" layer="10" pos="0.01 0.005" size="0.56 0" forceAspect="1" texBGName="world_select_frame.webp" />
+    <Widget type="WT_LABEL" id="701" parent="1" layer="4" pos="0 0" size="0.515 0" forceAspect="1" texBGName="world_select_00.png" />
+	<Widget type="WT_LABEL" id="101" parent="1" layer="6" pos="0.0 -0.23" size="0.55 0.05" text="Pack name" font="outlined" halign="center" textColorRGB="34 124 158" />
+	
+	<!-- Duck counter -->
+	<Widget type="WT_LABEL" id="201" parent="1" layer="6" pos="0 0" posByParentSize="0.35 0.275" size="0.09 0" forceAspect="1" texBGName="ducky_duck_filled.png" />
+	<Widget type="WT_LABEL" id="301" parent="1" layer="6" pos="0 0" posByParentSize="0.675 0.275" size="0.225 0.05" text="X num" halign="left" textColorRGB="34 124 158" />
+	
+	<!-- Lock icon -->
+	<Widget type="WT_LABEL" id="501" parent="1" layer="7" pos="0 0" posByParentSize="0.5 0.585" size="0.13 0" forceAspect="1" texBGName="Lock_button_body.webp" />
+	<Widget type="WT_LABEL" id="401" parent="501" layer="6" pos="0 0" posByParentSize="0.5 0.1" size="0.13 0" forceAspect="1" texBGName="Lock_button_top.webp" />
+	
+	<!-- Unlock now prompt -->
+    <Widget type="WT_PUSH_BUTTON" id="1601" parent="1" priority="0" layer="6" pos="0 0" posByParentSize="0.5 0.85" size="0.25 0" forceAspect="388:126" texNormalName="upsell_level_button.png" reactOnDown="false" text="UNLOCK_NOW" textColorRGB="26 63 79" />
+    <Widget type="WT_LABEL" id="1701" parent="1" layer="12" pos="0 0" posByParentSize="0.895 0.900" size="0.175 0" forceAspect="192:150" texBGName="upsell_level_locksmith_duck.png" />
+    <Widget type="WT_LABEL" id="1801" parent="1701" layer="11" pos="0 0" posByParentSize="0.65 0.5" size="0.195 0" forceAspect="190:188" texBGName="upsell_level_glow.png" />
+	
+
+</Widgets>

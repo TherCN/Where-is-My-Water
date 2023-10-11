@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="leg" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="leg2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_leg_R_1.png" offset="-2.1896858978271494 0.748169555664064"/>
+  </Animation>
+</Sprite>

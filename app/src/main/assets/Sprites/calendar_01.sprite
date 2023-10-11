@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="calendar_01" textureBasePath="/Textures/" atlas="/Textures/calendar_level_icons.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="calendar_01_0.png" offset="0 0"/>
+    <Frame name="calendar_01_1.png" offset="0 1.5500000000000007"/>
+    <Frame name="calendar_01_2.png" offset="0 0"/>
+    <Frame name="calendar_01_3.png" offset="0 0"/>
+    <Frame name="calendar_01_4.png" offset="0.8249999999999993 0"/>
+  </Animation>
+</Sprite>

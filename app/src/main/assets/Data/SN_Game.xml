@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Menu,       0
+ WN_Retry,      1
+ WN_Star1,      2
+ WN_Star2,      3
+ WN_Star3,      4
+ WN_Dig,        5
+ WN_Cam,        6
+ WN_Title,      7
+ WN_Number      8
+ WN_HudGradient 9
+ WN_Swampy      10
+ WN_Countdown   11
+ WN_Collectible			12
+ WN_CollectibleShade	16
+ WN_TitleShade  13
+ 
+ WN_TiltPlaceholder		14
+ WN_TiltText			15
+ 
+ WN_CornerShadeLeft		17
+ WN_CornerShadeRight	18
+ 
+ WN_PromoLabel			30
+ 
+ WN_ChallengeButton		40
+ 
+ WN_ChallengeMystButton	42
+ 
+ WN_PlatinumButton		50
+ 
+ WN_RetryPhantom		100
+ -->
+<Widgets texturePath="/Textures/">
+    
+    <!-- HUD Gradient -->
+	<Widget type="WT_LABEL" id="9" priority="0" layer="0" pos="0.5 0.05" size="1.1 0.1" texBGName="hud_gradient.png" />
+    
+    <!-- "MENU" button -->
+	<Widget type="WT_PUSH_BUTTON" id="0" priority="0" layer="1" pos="0.935 0.0425" size="0.0925 0" forceAspect="28:29" texNormalName="WMW_UI_Assets_2_button_square_pause.png" reactOnDown="false" />
+    
+	<!-- Phantom "RETRY" button (larger, invisible button so it's easier to press) -->
+	<Widget type="WT_PUSH_BUTTON" id="100"  priority="0" layer="1" pos=".825 .0425" size="0.12 0" forceAspect="1" reactOnDown="false"  />
+	
+    <!-- "RETRY" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1"  priority="0" layer="1" pos=".825 .0425" size="0.09 0" forceAspect="1" texNormalName="refresh_button.png" reactOnDown="false"  />
+	
+	
+    <!-- Star labels (3 normally, the remaining for mystery mode) -->
+	<Widget type="WT_LABEL" id="600" priority="0" layer="1" pos="0.09 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="601" priority="0" layer="1" pos="0.18 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="602" priority="0" layer="1" pos="0.27 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="603" priority="0" layer="1" pos="0.36 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="604" priority="0" layer="1" pos="0.45 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="605" priority="0" layer="1" pos="0.54 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="606" priority="0" layer="1" pos="0.63 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="607" priority="0" layer="1" pos="0.72 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="608" priority="0" layer="1" pos="0.81 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="609" priority="0" layer="1" pos="0.90 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="ducky_duck_empty_hud.png" aspectBasis="height" />
+	
+	<Widget type="WT_LABEL" id="12" priority="0" layer="1" pos="0.36 0.0425" size="0.07 0" forceAspect="1" visible="false" />
+	<Widget type="WT_LABEL" id="16" priority="0" layer="1" pos="0.36 0.0425" size="0.07 0" forceAspect="44:44" texBGName="collectible_alert.png" visible="false" />
+    
+    <!-- "finger catcher" for digging events -->
+    <Widget type="WT_FINGER_CATCHER" id="5" priority="5" layer="1" pos="0.5 0.5" size="1 1" />
+    
+    <!-- Camera control -->
+    <Widget type="WT_SLIDER" id="6" priority="0" layer="0" pos=".0525 .55" size="1.2 0.1" orientation="landscape_down" texBGName="slider_bg.png" texHandleName="slider_handle.png" handleSize="0.1 0" forceHandleAspect="1" handleAngle="90" minSlideVal="0" maxSlideVal="1" slideStep="0.0001" />
+    
+    <!-- Level title and number -->
+	<Widget type="WT_LABEL" id ="7" layer="1" pos=".5 .4" size="0.85 0.1" text="Blee Bloo Blop" texBGName="transparent_black.webp" textPadding=".2" paddingH=".125" textColorRGB="255 255 255" visible="false" />
+	<Widget type="WT_LABEL" id ="8" layer="1" pos=".5 .96" size="0.98 0.05" text="Level nan-nan" textColorRGB="255 255 255" halign="left" textPadding=".04" visible="false" />
+	
+	<!-- Corner shades -->
+	<Widget type="WT_LABEL" id ="17" layer="0" pos="0.15 0.925" size="0.3 0.15" texBGName="corner_shade.png" visible="false" />
+	<Widget type="WT_LABEL" id ="18" layer="0" pos="0.85 0.925" size="-0.3 0.15" texBGName="corner_shade.png" visible="false" />
+	
+	<!-- Tilt prompt and text -->
+	<Widget type="WT_LABEL" id ="14" layer="1" pos=".5 .5" size="0 0" visible="false" />
+	<Widget type="WT_LABEL" id ="15" layer="1" pos=".5 .7" size="0.85 0.1" text="TILT_EXPLANATION" texBGName="transparent_black.webp" textPadding=".2" paddingH=".05" textColorRGB="255 255 255" visible="false" />
+    
+	<Widget type="WT_LABEL" id ="30" layer="1" pos=".5 .25" size="0.75 0" texBGName="bonus_promo_TARGET_2012.png" forceAspect="544:327" visible="false" />
+	
+    <!-- Countdown timer -->
+	<Widget type="WT_LABEL" id ="11" layer="1" pos=".5 .95" size="0.95 0.1" text="Timer" textColorRGB="255 255 255" halign="right" visible="false" />
+    
+	<!-- Challenge Available Prompt button -->
+	<Widget type="WT_PUSH_BUTTON" id="40"  priority="0" layer="1" pos=".710 .0425" size="0.0925 0" forceAspect="1" texNormalName="Cranky_ui_HUD_challenge_button.webp" reactOnDown="false" visible="false" />
+    
+    <!-- Mystery Challenge texture reference -->
+	<Widget type="WT_PUSH_BUTTON" id="42"  priority="0" layer="1" pos=".710 .0425" size="0.0925 0" forceAspect="1" texNormalName="MD_ui_mystery_preview_button.webp" reactOnDown="false" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="43"  priority="0" layer="1" pos=".710 .0425" size="0.0925 0" forceAspect="1" texNormalName="Cranky_ui_HUD_challenge_button.webp" reactOnDown="false" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="44"  priority="0" layer="1" pos=".710 .0425" size="0.0925 0" forceAspect="1" texNormalName="Allie_ui_HUD_challenge_button.webp" reactOnDown="false" visible="false" />
+
+	
+	<!-- Platinum duck Prompt button -->
+    <!-- not used anymore
+	<Widget type="WT_PUSH_BUTTON" id="50"  priority="0" layer="1" pos=".5 .0425" size="0.105 0" forceAspect="1" texNormalName="platinum_duck_button.png" reactOnDown="false" />
+    -->
+     
+	<!-- challenge details -->
+	<Widget type="WT_LABEL" id="41" layer="2" pos=".5 .35" size="0.85 0.15" textColorRGB="255 255 255" texBGName="transparent_black.webp" textPadding=".2" paddingH=".05" visible="false" />
+	
+    <!-- Swampy button :D -->
+	<Widget type="WT_PUSH_BUTTON" id="10"  priority="1" layer="1" pos="-.5 -.5" sizeMM="14 14" reactOnDown="true" />
+    
+	
+</Widgets>

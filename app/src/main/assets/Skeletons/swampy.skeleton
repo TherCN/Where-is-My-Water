@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Skeleton name="swampy" animations="/Animations/swampy.ani" curveCollection="/Curves/swampy.bin">
+  <Bone name="ikBoneName284" localPos="0.001505 -0.007080" localAngleRad="0.016213">
+    <Sprite localLayer="6" name="ikNode_284" relativePath="/Sprites/swampy_sw_torso.sprite" localScale="1.000000 -1.000000" localPos="-0.398293 23.462337"/>
+    <Bone name="ikBoneName285" localPos="9.816075 73.610039" localAngleRad="0.237136">
+      <Sprite localLayer="9" name="ikNode_285" relativePath="/Sprites/swampy_BottomLip.sprite" localScale="1.000000 -1.000000" localPos="-13.968788 -7.137897"/>
+      <Bone name="ikBoneName286" localPos="-1.733315 6.562491" localAngleRad="-0.108848">
+        <Sprite localLayer="7" name="ikNode_286" relativePath="/Sprites/swampy_TopLip.sprite" localScale="1.000000 -1.000000" localPos="-23.020283 -9.167650"/>
+        <Bone name="ikBoneName287" localPos="0.033235 -0.028913" localAngleRad="0.000028">
+          <Sprite localLayer="8" name="ikNode_287" relativePath="/Sprites/swampy_sw_eyes.sprite" localScale="1.000000 -1.000000" localPos="2.194078 11.380795"/>
+        </Bone>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName288" localPos="11.785084 41.164642" localAngleRad="-0.024753">
+      <Sprite localLayer="12" name="ikNode_288" relativePath="/Sprites/swampy_sw_arm_L.sprite" localScale="1.000000 -1.000000" localPos="4.313899 -14.055186"/>
+    </Bone>
+    <Bone name="ikBoneName289" localPos="8.958240 3.543808" localAngleRad="-0.009230">
+      <Sprite localLayer="11" name="ikNode_289" relativePath="/Sprites/swampy_sw_leg_L.sprite" localScale="1.000000 -1.000000" localPos="0.469703 -9.113643"/>
+      <Bone name="ikBoneName290" localPos="4.425546 -21.911480" localAngleRad="-0.046817">
+        <Sprite localLayer="10" name="ikNode_290" relativePath="/Sprites/swampy_sw_leg_L_foot.sprite" localScale="1.000000 -1.000000" localPos="-10.556158 3.147833"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName291" localPos="-27.035360 12.683784" localAngleRad="0.074444">
+      <Sprite localLayer="5" name="ikNode_291" relativePath="/Sprites/swampy_sw_leg_R.sprite" localScale="1.000000 -1.000000" localPos="-1.256423 -10.274526"/>
+      <Bone name="ikBoneName292" localPos="-0.912737 -25.308891" localAngleRad="0.020790">
+        <Sprite localLayer="3" name="ikNode_292" relativePath="/Sprites/swampy_sw_leg_R_foot.sprite" localScale="1.000000 -1.000000" localPos="-8.673064 2.832452"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName293" localPos="-5.526684 42.084999" localAngleRad="0.458682">
+      <Sprite localLayer="4" name="ikNode_293" relativePath="/Sprites/swampy_sw_arm_R_hand2.sprite" localScale="1.000000 -1.000000" localPos="-9.896717 -7.724703"/>
+    </Bone>
+    <Bone name="ikBoneName294" localPos="18.742569 -4.769077" localAngleRad="0.116933">
+      <Sprite localLayer="0" name="ikNode_294" relativePath="/Sprites/swampy_sw_tail_a.sprite" localScale="1.000000 -1.000000" localPos="14.409553 2.610375"/>
+      <Bone name="ikBoneName295" localPos="33.278408 17.003860" localAngleRad="-0.011341">
+        <Sprite localLayer="1" name="ikNode_295" relativePath="/Sprites/swampy_sw_tail_b.sprite" localScale="1.000000 -1.000000" localPos="-5.768936 10.156315"/>
+        <Bone name="ikBoneName296" localPos="-3.143649 15.611839" localAngleRad="-0.187036">
+          <Sprite localLayer="2" name="ikNode_296" relativePath="/Sprites/swampy_sw_tail_c.sprite" localScale="1.000000 -1.000000" localPos="10.429909 12.135838"/>
+        </Bone>
+      </Bone>
+    </Bone>
+  </Bone>
+</Skeleton>

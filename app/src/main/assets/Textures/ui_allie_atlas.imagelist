@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ImageList imgSize="256 512" file="/Textures/ui_allie_atlas.webp" textureBasePath="/Textures/">
+  <Image name="allie_owall_button_level.png" offset="0 0" size="70 70" rect="129 41 70 70"/>
+  <Image name="allie_owall_button_main_menu.png" offset="0 0" size="70 70" rect="0 90 70 70"/>
+  <Image name="allie_owall_button_music.png" offset="0 0" size="70 70" rect="122 112 70 70"/>
+  <Image name="allie_owall_button_sound_hit.png" offset="0 0" size="70 70" rect="0 161 70 70"/>
+  <Image name="allie_owall_button_sound.png" offset="0 0" size="70 70" rect="122 183 70 70"/>
+  <Image name="allie_owall_button_skip.png" offset="0 0" size="70 70" rect="0 232 70 70"/>
+  <Image name="allie_owall_button_play.png" offset="0 0" size="70 70" rect="122 254 70 70"/>
+  <Image name="allie_owall_button_music_hit.png" offset="0 0" size="70 70" rect="0 303 70 70"/>
+  <Image name="Allie_Level_Icon_Locked.png" offset="0 0" size="50 52" rect="71 90 50 52"/>
+  <Image name="Allie_Level_Icon_3_Ducks.png" offset="0 0" size="50 52" rect="71 143 50 52"/>
+  <Image name="Allie_Level_Icon_2_Ducks.png" offset="0 0" size="50 52" rect="71 196 50 52"/>
+  <Image name="Allie_Level_Icon_1_Duck.png" offset="0 0" size="50 52" rect="71 249 50 52"/>
+  <Image name="Allie_Level_Icon_0_Ducks.png" offset="0 0" size="50 52" rect="71 302 50 52"/>
+  <Image name="Allie_Challenge_Icon_3.png" offset="0 0" size="50 52" rect="122 325 50 52"/>
+  <Image name="Allie_Challenge_Icon_2.png" offset="0 0" size="50 52" rect="71 355 50 52"/>
+  <Image name="Allie_Challenge_Icon_1.png" offset="0 0" size="50 52" rect="0 374 50 52"/>
+  <Image name="Allie_Play_Icon.png" offset="0 0" size="50 52" rect="122 378 50 52"/>
+  <Image name="Allie_ui_Crossed_out.png" offset="0 0" size="50 52" rect="51 408 50 52"/>
+  <Image name="WMW_ALLIE_UI_Assets_button_sqaure_pause.png" offset="0 0" size="42 44" rect="51 461 42 44"/>
+  <Image name="Allie_Button_W_Shadow.png" offset="0 0" size="128 44" rect="0 0 128 44"/>
+  <Image name="Allie_Button_no_Shadow.png" offset="0 0" size="128 44" rect="0 45 128 44"/>
+  <Image name="Allie_Duck_Counter.png" offset="0 0" size="114 40" rect="129 0 114 40"/>
+  <Image name="Allie_Back_W_Shadow.png" offset="0 0" size="50 40" rect="0 427 50 40"/>
+  <Image name="Allie_Back_NO_Shadow.png" offset="0 0" size="50 40" rect="102 431 50 40"/>
+  <Image name="Allie_LRS_Empty_Duck.png" offset="0 0" size="36 31" rect="0 468 36 31"/>
+  <Image name="Allie_LRS_Duck.png" offset="0 0" size="36 31" rect="153 459 36 31"/>
+  <Image name="Allie_Button_Refresh.png" offset="0 0" size="27 27" rect="94 472 27 27"/>
+  <Image name="Allie_Button_Pause.png" offset="0 0" size="53 27" rect="153 431 53 27"/>
+  <Image name="al_scroll_set_scrubber.png" offset="0 0" size="14 15" rect="51 374 14 15"/>
+</ImageList>

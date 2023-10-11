@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_hub_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="hat" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra03_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="hatwandcut" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra03_1.png" offset="0 12.959999999999996"/>
+    <Frame name="hub_extra03_2.png" offset="-0.6899999999999948 26.339999999999993"/>
+  </Animation>
+  <Animation name="hatexit" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra03_0.png" offset="0 0"/>
+    <Frame name="hub_extra03_3.png" offset="0.18000000000000682 0.6599999999999966" scale="0.6660094257959026 0.6660094257959026"/>
+    <Frame name="hub_extra03_3.png" offset="0.24000000000001193 0.6299999999999982" scale="0.7494950466480715 0.7494950466480715"/>
+    <Frame name="hub_extra03_3.png" offset="0.2100000000000051 0.5699999999999932"/>
+    <Frame name="hub_extra03_3.png" offset="0.18000000000000682 0.6599999999999966" scale="0.560377993652015 0.560377993652015"/>
+    <Frame name="hub_extra03_3.png" offset="0.18000000000000682 0.6899999999999992" scale="0.29657593536597093 0.29657593536597093"/>
+    <Frame name="hub_extra03_3.png" offset="0.15000000000000852 0.7199999999999974" scale="0.20865393863614504 0.20865393863614504"/>
+  </Animation>
+  <Animation name="pourhat" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra03_4.png" offset="0.9900000000000033 0.5400000000000034"/>
+  </Animation>
+</Sprite>

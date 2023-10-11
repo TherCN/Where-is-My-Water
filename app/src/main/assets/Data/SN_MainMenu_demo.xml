@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_PLAY				0
+ 
+ WN_SETTINGS			1
+ 
+ WN_FACEBOOK			2
+ 
+ WN_ACHIEVEMENTS		4
+ 
+ WN_ANIMATION_TEST		5
+ 
+ WN_ACHIEVEMENT_TEST	6
+ 
+ WN_SWAMPY_TAP			7
+ 
+ WN_FULLVERSION			9
+ 
+ WN_Radio				50
+ WN_RadioString			51
+ WN_Shower				52
+ 
+ WN_Version				99
+ 
+ WN_Background			200
+ WN_Logo				201
+ 
+ WN_BonusDucks			1000
+ 
+ WN_ICON_GEARS          203 
+ WN_ICON_MORE_DISNEY    204
+ WN_QuitDemo			99999
+ -->
+<Widgets texturePath="/Textures/">
+    
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="200" layer="0" pos="0.5 0.5" size="1.0 1.0" forceAspect="360:480" aspectBasis="height" texBGName="main_menu.jpg" />
+    
+	<!-- radio -->
+	<Widget type="WT_PUSH_BUTTON" id="50" parent="200" layer="4" pos="0 0" posByParentSize="0.8 0.425" size="0.175 0.1496" forceAspect="418:442" aspectBasis="height" texNormalName="UI_Radio.webp" reactOnDown="true" />
+	<Widget type="WT_LABEL" id="51" parent="50" layer="3" pos="0 0" posByParentSize="0.55 0.21" size="0.085 0.0925" forceAspect="49:80" aspectBasis="height" texBGName="UI_Radio_String.png" />
+	
+	<!-- shower head -->
+	<Widget type="WT_PUSH_BUTTON" id="52" layer="4" pos="0 0" parent="200" posByParentSize="0.1977 0.3184" size="0.16 0" forceAspect="65:46" texNormalName="UI_Shower_Head.webp" reactOnDown="true"/>
+	
+	<!-- logo & phantom button (to detect touches on the logo) -->
+	<Widget type="WT_LABEL" id="201" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.14" size="0.75 0" forceAspect="256:110" texBGName="wmw_logo.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="202" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.14" size="0.45 0" forceAspect="256:110" texBGName="clear.webp" reactOnDown="true" />
+	
+	
+	<!-- "PLAY" -->
+	<Widget type="WT_PUSH_BUTTON" id="0" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.338" size="0.0 0.0954" forceAspect="128:44" aspectBasis="height" texNormalName="button.png" texHilightName="button_highlight.png" text="PLAY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+    <!-- swampy tap region -->
+    <Widget type="WT_PUSH_BUTTON" id="7" layer="6" pos="0.5 0.70" size="0.3 0.3" reactOnDown="true" />
+	
+	<!-- Bonus ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="1000" layer="1" pos="0 0" parent="200" posByParentSize="0.170 0.875" size=".15 0" forceAspect="1" texNormalName="triduck_0.png" visible="false" angleDegrees="0"/>
+	
+	<!-- demo "(x)" -->
+	<Widget type="WT_PUSH_BUTTON" id="99999" layer="1" justifyWidget="0.0 0.0" pos="0 0 5 5" size="0.085 0.0" forceAspect="1" texNormalName="WMW_UI_button_upsell_close.webp" reactOnDown="false" />	
+	
+</Widgets>

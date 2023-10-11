@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="1">
+    <AbsoluteLocation value="3.875385 -14.453312"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="2">
+    <AbsoluteLocation value="3.293879 0.012773"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="3">
+    <AbsoluteLocation value="2.508465 15.116352"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="4">
+    <AbsoluteLocation value="2.826849 -32.052223"/>
+    <Properties>
+      <Property name="Angle" value="91.1225"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="6">
+    <AbsoluteLocation value="2.728353 -38.211113"/>
+    <Properties>
+      <Property name="Angle" value="86.9486"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="8">
+    <AbsoluteLocation value="-2.394971 -42.181812"/>
+    <Properties>
+      <Property name="Angle" value="-11.62"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="9">
+    <AbsoluteLocation value="-5.246135 -41.570717"/>
+    <Properties>
+      <Property name="Angle" value="168.155"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="10">
+    <AbsoluteLocation value="1.093106 -41.810287"/>
+    <Properties>
+      <Property name="Angle" value="79.4131"/>
+      <Property name="Filename" value="/Objects/pipe_connector_90.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="2.744816 -27.748650"/>
+    <Properties>
+      <Property name="Angle" value="-1.17615"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky12">
+    <AbsoluteLocation value="-14.800000 -8.400001"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_mega.hs"/>
+      <Property name="StarType" value="mega"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-17.199997 -34.800003"/>
+  </Room>
+  <Properties>
+    <Property name="HeavyIntro" value="1"/>
+  </Properties>
+</Objects>

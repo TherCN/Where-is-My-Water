@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Obj11">
+    <AbsoluteLocation value="0.137554 5.663289"/>
+    <Properties>
+      <Property name="Angle" value="90.2595"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj6">
+    <AbsoluteLocation value="0.698281 -49.278660"/>
+    <Properties>
+      <Property name="Angle" value="103.152"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout2">
+    <AbsoluteLocation value="0.042053 -45.009262"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Star4">
+    <AbsoluteLocation value="-0.019840 -34.371223"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star5">
+    <AbsoluteLocation value="0.189220 35.768764"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star7">
+    <AbsoluteLocation value="8.084035 28.604523"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj7">
+    <AbsoluteLocation value="8.987719 -48.091427"/>
+    <Properties>
+      <Property name="Angle" value="64.322"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj8">
+    <AbsoluteLocation value="10.174949 -45.687489"/>
+    <Properties>
+      <Property name="Angle" value="68.3203"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="-0.000004 9.536278"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedSpout0" value="Spout11"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/basic_drain.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout11">
+    <AbsoluteLocation value="0.000000 0.875089"/>
+    <Properties>
+      <Property name="Angle" value="-88.6749"/>
+      <Property name="ExpulsionAngleVariation" value="17.5"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="NumberParticles" value="0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Obj12">
+    <AbsoluteLocation value="0.242110 40.849236"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_medium.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky17">
+    <AbsoluteLocation value="-0.800000 -18.400000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky18">
+    <AbsoluteLocation value="20.800001 23.200001"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky19">
+    <AbsoluteLocation value="-21.600000 24.400000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky20">
+    <AbsoluteLocation value="5.175274 35.271099"/>
+    <Properties>
+      <Property name="Angle" value="-0.125946"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="18.800001 -34.800003"/>
+  </Room>
+  <Properties>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

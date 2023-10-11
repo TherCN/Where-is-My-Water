@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="move" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_top_0.png" offset="3.5999999999999996 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="12.588000000000003 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="19.788000000000004 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="25.38 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="29.388 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="31.788000000000004 3.1560000000000046"/>
+    <Frame name="mystery_box_top_1.png" offset="32.580000000000005 3.1560000000000046"/>
+  </Animation>
+  <Animation name="opened" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_top_0.png" offset="3.5999999999999996 3.1560000000000046"/>
+  </Animation>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_top_2.png" offset="0 4.896000000000001"/>
+    <Frame name="mystery_box_top_3.png" offset="0 2.94"/>
+    <Frame name="mystery_box_top_4.png" offset="0 3.215999999999998"/>
+    <Frame name="mystery_box_top_5.png" offset="1.2239999999999986 3.5880000000000005"/>
+    <Frame name="mystery_box_top_6.png" offset="5.076000000000001 3.564000000000002"/>
+    <Frame name="mystery_box_top_7.png" offset="3.4079999999999973 3.1560000000000046"/>
+    <Frame name="mystery_box_top_8.png" offset="3.78 3.1560000000000046"/>
+    <Frame name="mystery_box_top_0.png" offset="3.5999999999999996 3.1560000000000046"/>
+    <Frame name="mystery_box_top_9.png" offset="3.6599999999999997 3.1560000000000046"/>
+  </Animation>
+  <Animation name="CLOSED" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_top_10.png" offset="0 0"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky3">
+    <AbsoluteLocation value="-9.656250 7.968750"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="3.200000 -4.800000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="28.575737 -17.374992"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="65"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

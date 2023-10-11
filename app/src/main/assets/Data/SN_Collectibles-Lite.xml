@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Back				0
+ 
+ WN_CollectibleStart 	1
+ ...
+ WN_CollectibleEnd		...
+ 
+ WN_BonusStart			100
+ ...
+ WN_BonusEnd 			...
+ 
+ WN_BackgroundStart		200
+ ...
+ WN_BackgroundEnd		...
+ 
+ WN_Collectibles_Secret	298
+ ...
+ 
+ WN_PackNameStart		300
+ ...
+ WN_PackNameEnd			...
+ 
+ WN_Group				400
+ WN_ScrollGroup			401
+ 
+ WN_NewLabelStart		500
+ ...
+ 
+ WN_GroupTop			3001
+ WN_GroupBottom			3002
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" priority="0" layer="10" id="0" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" layer="10" pos=".826 .06" size="0.31 0" forceAspect="100:40" texBGName="duck_counter.webp" />
+	<Widget type="WT_LABEL" id ="600" layer="11" pos=".765 .06" size="0.15 0" forceAspect="100:40" text="450/450" halign="right" textColorRGB="19 179 215" />
+	
+	<Widget type="WT_GROUP" id ="400" layer="0" pos="0 0" size="1.0 1.0" />
+	
+	<!-- The 'top' of the screen (maximum y value) -->
+	<Widget type="WT_LABEL" id="2003" layer="10" pos=".5 -0.3" size="0.2 0.2" visible="false"/>
+	
+	
+	<!-- Background -->
+	
+	<!-- Gradient (up top, unaffected by scroll) -->
+	<Widget type="WT_LABEL" layer="9" pos=".5 .075" size="1.0 0" forceAspect="320:100" texBGName="collectible_gradient.png"/>
+	
+	<!-- Wallpaper -->
+	<Widget type="WT_LABEL" id ="299" layer="0" pos=".5 1.2" size="1.0 4.0" numTiles="1.25 0" tileOffset="0.25 0" tileForceAspect="1"  texBGName="collectible_wallpaper.webp" />
+    
+	<!-- Wallpaper tears -->
+	<Widget type="WT_LABEL" id="280" layer="1" pos=".0 .3875" size="0.16 0" forceAspect="49:143" texBGName="collectible_rip_0.png" />
+	<Widget type="WT_LABEL" id="279" layer="1" pos=".965 0.0155" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_1.png" />
+	
+	<!-- Shelves -->
+	<Widget type="WT_LABEL" id="206" layer="2" pos=".54 .2" size="0.95 0" forceAspect="306:290" texBGName="collectible_shelf_top_lite.png" />
+	<Widget type="WT_LABEL" id="207" layer="2" parent="206" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:100" texBGName="collectible_shelf_bottom_lite.png" />
+	
+	
+	<!-- Secret levels -->
+   	<Widget type="WT_PUSH_BUTTON" id="298" layer="10" pos="0.5 -0.35" size="0.16 0" forceAspect="1" texNormalName="sketches_up_down.webp" />    
+   	<Widget type="WT_PUSH_BUTTON" id="296" parent="207" layer="10" pos="0 0" posByParentSize="0.575 0.35" size="0.16 0" forceAspect="1" texNormalName="free_sketch_waterslide.webp" />
+	
+	
+	<!-- Runner -->
+	<Widget type="WT_LABEL" id="281" layer="2" parent="207" parentLineUpY="true" pos="-0.04 0.125" size="1.0 0" forceAspect="320:183" texBGName="collectible_wall_runner.webp" />
+	<Widget type="WT_LABEL" id="282" layer="3" parent="281" pos="-0.275 0.05" size="0.256 0" forceAspect="82:45" texBGName="collectible_swampy.png" />
+	
+	<!-- Shelf text -->
+	<Widget type="WT_LABEL" id="216" layer="3" pos="0 0" parent="206" posByParentSize="0.375 0.20" size="0.5 0.05" text="COLLECTION" textColorRGB="45 25 18" />
+	<Widget type="WT_LABEL" id="217" layer="3" pos="0 0" parent="206" posByParentSize="0.715 0.215" size="0.12 0.1" text="BONUS_LEVELS" textColorRGB="45 25 18" />
+	
+	<Widget type="WT_LABEL" id="300" layer="3" pos="0 0" parent="206" posByParentSize="0.46 0.57" size="0.75 0.03" text="WORLD_1A" textColorRGB="45 25 18" />
+	<Widget type="WT_LABEL" id="301" layer="3" pos="0 0" parent="206" posByParentSize="0.46 0.69" size="0.75 0.03" text="WORLD_1B" textColorRGB="45 25 18" visible="false" />
+	<Widget type="WT_LABEL" id="302" layer="3" pos="0 0" parent="206" posByParentSize="0.46 0.955" size="0.75 0.03" text="WORLD_1A" textColorRGB="45 25 18" />
+	
+	
+    <!-- Collectible layout -->
+    <!-- Shelf 1 -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="01" layer="6" parent="206" pos="0 0" posByParentSize="0.193 0.405" size="0.18 0" forceAspect="1" texNormalName="level_icon_null.png" reactOnDown="false" disabledColorRGB="25 25 25" disabledTextColorRGB="255 255 255" angleDegrees="25" />
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="02" parent="206" pos="0 0" posByParentSize="0.362 0.435" angleDegrees="-55" />
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="03" parent="206" pos="0 0" posByParentSize="0.522 0.405" angleDegrees="0" />
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="100" layer="6" parent="206" pos="0 0" posByParentSize="0.72 0.42" size="0.16 0" forceAspect="43:45" texNormalName="level_icon_null.png" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.525" textOffsetRelative="0 -0.125" textHilightOffsetRelative="0 -0.125" font="outlined"/>
+	
+    
+	<!-- full version prompt -->
+	<Widget type="WT_PUSH_BUTTON" priority="1" id="2000" layer="6" parent="206" pos="0 0" posByParentSize="0.46 0.79" size="0.38 0.0" forceAspect="128:60" texNormalName="WMW_UI_button_purple_2.webp" texHilightName="WMW_UI_button_purple_2_highlight.webp" reactOnDown="false" textColorRGB="111 79 172" textHilightColorRGB="45 102 129" textHilightOffsetRelative="0 0.05f" />
+	
+	<!-- Our 'fake' labels for the FULL VERSION prompt -->
+	<Widget type="WT_LABEL" id="2001" parent="2000" layer="7" pos="0 0" size="0.3 0.04" posByParentSize="0.5 0.333" textColorRGB="111 79 172" text="BUY_FULL_VERSION_TWO_LINE" font="outlined" />
+	<Widget type="WT_LABEL" id="2002" parent="2000" layer="7" pos="0 0" size="0.3 0.04" posByParentSize="0.5 0.666" textColorRGB="111 79 172" text="ALL_LEVELS_CALLOUT" font="outlined" />
+    
+</Widgets>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Game.xml">
+    
+	<!-- "MENU" button -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="MD_pause.png" />
+	
+    <!-- "RETRY" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="MD_refresh.png" />
+    
+</Widgets>

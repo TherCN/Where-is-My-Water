@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="DUCK_EMPTY" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="ducky_cranky_empty.png" />
+	</Animation>
+	<Animation name="DUCK_FULL" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="ducky_cranky_filled.png" />
+	</Animation>
+</Sprite>

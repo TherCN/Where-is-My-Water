@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Next                    0
+ WN_Prev                    1
+ WN_Back                    2
+ WN_ReportAchievements      3
+ WN_AchievementName         4
+ WN_AchievementIcon         5
+ WN_AchievementPreDesc      6
+ WN_AchievementPostDesc     7
+ -->
+<Widgets texturePath="/Textures/">
+    
+    <!-- "BACK" button -->
+	<Widget type="WT_PUSH_BUTTON" id="2" pos="0.125 0.06" size="0.15 0" forceAspect="109:80" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+    <!-- WN_AchievementName -->
+	<Widget type="WT_LABEL" id ="4" layer="1" pos=".5 .15" size="0.95 0.1" text="" textColorRGB="0 0 0" />
+    <!-- Background -->
+	<Widget type="WT_LABEL" id ="501" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="10.5 0" tileForceAspect="1" texBGName="tile_yellow.webp" />
+    
+    <!-- WN_AchievementIcon -->
+	<Widget type="WT_LABEL" id="5"  priority="0" layer="1" pos=".5 .32" size=".35 0" forceAspect="1" texBGName="null" /> 
+    
+    <!-- Next button -->
+    <Widget type="WT_PUSH_BUTTON" id="0" pos=".85 .88" size="0.2 0" forceAspect="2:1" textNT="Next" texNormalName="button.png" texHilightName="button_highlight.png" reactOnDown="false" />
+    
+    <!-- Prev button -->
+    <Widget type="WT_PUSH_BUTTON" id="1" pos="0.15 0.88" size="0.2 0" forceAspect="2:1" textNT="Prev" texNormalName="button.png" texHilightName="button_highlight.png" reactOnDown="false" />
+    
+    <!-- WN_ReportAchievements -->
+	<Widget type="WT_PUSH_BUTTON" id="3"  priority="0" layer="1" pos=".5 .88" size=".3 0" forceAspect="3:1" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Report Achievement" />
+    
+    <Widget type="WT_LABEL" id="6"  priority="5" layer="10" pos=".5 .54" size=".9 .2" font="normal"/>
+
+    <Widget type="WT_LABEL" id="7"  priority="5" layer="10" pos=".5 .74" size=".9 .2" font="normal"/>
+
+</Widgets>

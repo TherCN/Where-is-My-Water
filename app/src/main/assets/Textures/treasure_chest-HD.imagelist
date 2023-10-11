@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImageList imgSize="512 512" file="/Textures/treasure_chest.webp" textureBasePath="/Textures/" drawScale=".5" >
+	
+	<Image name="ChestBody_0.png" offset="0 0" size="198 123" rect="0 81 198 123" isRotated="0" />
+	
+	<Image name="ChestBody_1.png" offset="0 0" size="191 119" rect="200 81 191 119" isRotated="0" />
+	
+	<Image name="ChestLid_0.png" offset="0 0" size="200 67" rect="202 0 200 67" isRotated="0" />
+	
+	<Image name="ChestLid_1.png" offset="0 0" size="192 65" rect="0 206 192 65" isRotated="0" />
+	
+	<Image name="ChestLid_2.png" offset="0 0" size="200 79" rect="0 0 200 79" isRotated="0" />
+	
+	<Image name="ChestLid_3.png" offset="0 0" size="192 111" rect="200 202 192 111" isRotated="0" />
+	
+	<Image name="ChestLid_4.png" offset="0 0" size="186 123" rect="0 273 186 123" isRotated="0" />
+	
+</ImageList>

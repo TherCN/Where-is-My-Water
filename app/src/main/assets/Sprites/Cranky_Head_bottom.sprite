@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_bottom_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="evil" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_bottom_1.png" offset="0.259496 -6.483073"/>
+  </Animation>
+  <Animation name="growl" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_bottom_2.png" offset="-4.614703 -6.803118"/>
+  </Animation>
+</Sprite>

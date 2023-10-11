@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Bomb1">
+    <AbsoluteLocation value="-8.250000 -0.750000"/>
+    <Properties>
+      <Property name="Angle" value="-32.2901"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb2">
+    <AbsoluteLocation value="-27.031250 -39.437500"/>
+    <Properties>
+      <Property name="Angle" value="-37.0501"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky3">
+    <AbsoluteLocation value="-3.187500 17.718750"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="25.750000 -9.625000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="2.000000 -32.000000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb6">
+    <AbsoluteLocation value="-10.468750 -30.968750"/>
+    <Properties>
+      <Property name="Angle" value="11.9249"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb7">
+    <AbsoluteLocation value="-29.250000 16.781250"/>
+    <Properties>
+      <Property name="Angle" value="-6.55914"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb8">
+    <AbsoluteLocation value="-13.625000 18.500000"/>
+    <Properties>
+      <Property name="Angle" value="48.7787"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb9">
+    <AbsoluteLocation value="13.812500 18.437500"/>
+    <Properties>
+      <Property name="Angle" value="38.9113"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb10">
+    <AbsoluteLocation value="30.656250 0.656250"/>
+    <Properties>
+      <Property name="Angle" value="26.1339"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb11">
+    <AbsoluteLocation value="27.906250 -42.718750"/>
+    <Properties>
+      <Property name="Angle" value="53.5623"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb12">
+    <AbsoluteLocation value="-29.968750 0.625000"/>
+    <Properties>
+      <Property name="Angle" value="53.5623"/>
+      <Property name="BlastRadius" value="30"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb13">
+    <AbsoluteLocation value="-29.718750 35.250000"/>
+    <Properties>
+      <Property name="Angle" value="149.301"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb14">
+    <AbsoluteLocation value="11.250000 43.218750"/>
+    <Properties>
+      <Property name="Angle" value="42.3609"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb15">
+    <AbsoluteLocation value="26.687500 52.859375"/>
+    <Properties>
+      <Property name="Angle" value="42.3609"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="40"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

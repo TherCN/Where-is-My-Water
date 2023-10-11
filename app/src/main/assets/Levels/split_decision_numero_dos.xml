@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Star1">
+    <AbsoluteLocation value="20.199450 20.399643"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star2">
+    <AbsoluteLocation value="23.203585 -17.523922"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star3">
+    <AbsoluteLocation value="15.830423 -86.856651"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj5">
+    <AbsoluteLocation value="-18.497093 -89.648483"/>
+    <Properties>
+      <Property name="Angle" value="-98.8307"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout4">
+    <AbsoluteLocation value="-18.088766 -85.121895"/>
+    <Properties>
+      <Property name="Angle" value="-2.66737"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Obj6">
+    <AbsoluteLocation value="-18.401855 -93.857330"/>
+    <Properties>
+      <Property name="Angle" value="-185.563"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj7">
+    <AbsoluteLocation value="-12.543700 -94.268860"/>
+    <Properties>
+      <Property name="Angle" value="4.40668"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible10">
+    <AbsoluteLocation value="27.400002 28.399994"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_01.hs"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Object name="Obj9">
+    <AbsoluteLocation value="-10.457603 -93.841995"/>
+    <Properties>
+      <Property name="Angle" value="20.7365"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky12">
+    <AbsoluteLocation value="-8.703125 -15.765625"/>
+    <Properties>
+      <Property name="Angle" value="0.416832"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky18">
+    <AbsoluteLocation value="-4.346874 -17.046875"/>
+    <Properties>
+      <Property name="Angle" value="0.123541"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky13">
+    <AbsoluteLocation value="-7.103125 -20.565626"/>
+    <Properties>
+      <Property name="Angle" value="0.995798"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky19">
+    <AbsoluteLocation value="-1.071875 -20.384375"/>
+    <Properties>
+      <Property name="Angle" value="0.11535"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky17">
+    <AbsoluteLocation value="-4.159376 -23.859375"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky16">
+    <AbsoluteLocation value="17.443287 -24.270790"/>
+    <Properties>
+      <Property name="Angle" value="-0.034264"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky20">
+    <AbsoluteLocation value="20.400000 -21.200001"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky15">
+    <AbsoluteLocation value="23.031250 -17.781250"/>
+    <Properties>
+      <Property name="Angle" value="-4.84964"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky21">
+    <AbsoluteLocation value="24.800001 -14.400002"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky14">
+    <AbsoluteLocation value="25.200001 -10.400002"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.199999 -83.599998"/>
+  </Room>
+  <Properties>
+    <Property name="ShowTopEdge" value="0"/>
+  </Properties>
+</Objects>

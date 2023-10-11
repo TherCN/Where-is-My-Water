@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_BG,
+ 
+ WN_Display = 100,
+ 
+ WN_OKButton = 200,		
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	 
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id ="0" layer="0" pos="0.5 0.5" size="1.1 1.1"  texBGName="dialogue_vinette.webp" />
+	
+	<!-- Display -->
+	<Widget type="WT_LABEL" id ="100" layer="1" pos=".45 .4" size="0.705 0.0" forceAspect="229:118" textColorRGB="99 180 70" font="normal" texBGName="Frankenweenie_do_not_open_tag.png" angleDegrees="-13" paddingL=".265" paddingR=".115" paddingT=".5" paddingB=".125" valign="top" halign="left"/>
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="200" layer="2" pos=".78 .56" size="0.3 0" forceAspect="128:44" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" text="OK" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05"/>
+    
+</Widgets>

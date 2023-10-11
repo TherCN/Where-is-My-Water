@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Buttons
+ WN_Resume			0
+ WN_Next			1
+ WN_MainMenu		2
+ WN_Collection		3
+ 
+ WN_BuyFull			4
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup-Lite.xml">
+	
+    <!-- Duckies -->
+	<Widget type="WT_LABEL" id="17" texBGName="Ducks_LRS_frankenweenie_shadow.png" visible="false"/>
+	<Widget type="WT_LABEL" id="18" texBGName="Ducks_LRS_frankenweenie_shadow.png" visible="false"/>
+	<Widget type="WT_LABEL" id="19" texBGName="Ducks_LRS_frankenweenie_shadow.png" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="20" texBGName="Ducks2_LRS_frankenweenie_success.png" />
+	<Widget type="WT_LABEL" id="21" texBGName="Ducks2_LRS_frankenweenie_success.png" />
+	<Widget type="WT_LABEL" id="22" texBGName="Ducks2_LRS_frankenweenie_success.png" />
+    
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="99 180 70"/>
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="99 180 70"/>
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="99 180 70"/>
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="99 180 70"/>
+	
+	<!-- Collectibles -->
+	<Widget type="WT_LABEL" id="27" parent="3" pos="-0.185 0.0"/>
+	<Widget type="WT_LABEL" id="29" parent="27" pos="0 0"/>
+	<Widget type="WT_LABEL" id="28" parent="27" pos="0 0.05"/>
+	
+	<!-- Notification Bar -->
+	<Widget type="WT_LABEL" id="26" pos="0.5 0.28" textColorRGB="255 255 255" />
+	
+
+	<!-- full version prompt -->
+	<Widget type="WT_PUSH_BUTTON" id="4" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="99 180 70" />
+	
+	<!-- Our 'fake' labels for the FULL VERSION prompt -->
+	<Widget type="WT_LABEL" id="80" textColorRGB="99 180 70" />
+	<Widget type="WT_LABEL" id="81" textColorRGB="99 180 70" />
+    
+</Widgets>

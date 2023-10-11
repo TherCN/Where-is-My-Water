@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="footL2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_1.png" offset="9.239570 1.049311"/>
+  </Animation>
+  <Animation name="0-ankleuphold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_2.png" offset="-0.528177 0.000000"/>
+  </Animation>
+  <Animation name="0-drag-0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090" repeat="1"/>
+    <Frame name="sw_leg_L_foot_4.png" offset="0.450711 2.683137" repeat="1"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090" repeat="1"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="0-draghold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_4.png" offset="0.450711 2.683137"/>
+  </Animation>
+  <Animation name="footL1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_5.png" offset="7.147990 0.985930"/>
+  </Animation>
+  <Animation name="footL3" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_0.png" offset="18.380547 1.000014" scale="-1 1" angle="NaN"/>
+  </Animation>
+  <Animation name="walk" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_foot_2.png" offset="-0.528177 0.000000"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090"/>
+    <Frame name="sw_leg_L_foot_4.png" offset="0.450711 2.683137" repeat="9"/>
+    <Frame name="sw_leg_L_foot_4.png" offset="0.450711 2.683137"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090" repeat="2"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_leg_L_foot_6.png" offset="-0.183101 0.000000"/>
+    <Frame name="sw_leg_L_foot_7.png" offset="-0.352118 0.000000"/>
+    <Frame name="sw_leg_L_foot_2.png" offset="-0.528177 0.000000" repeat="3"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_leg_L_foot_6.png" offset="-0.183101 0.000000"/>
+    <Frame name="sw_leg_L_foot_7.png" offset="-0.352118 0.000000"/>
+    <Frame name="sw_leg_L_foot_2.png" offset="-0.528177 0.000000"/>
+    <Frame name="sw_leg_L_foot_6.png" offset="-0.183101 0.000000"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090"/>
+    <Frame name="sw_leg_L_foot_4.png" offset="0.450711 2.683137"/>
+    <Frame name="sw_leg_L_foot_3.png" offset="0.176059 1.345090"/>
+    <Frame name="sw_leg_L_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+</Sprite>

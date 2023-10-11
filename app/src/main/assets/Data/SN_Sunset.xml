@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_BG				0
+ WN_CALLOUT			1
+ WN_FULLVERSION		2
+ WN_APPSTORE		3
+ WN_TRAILER			4
+ WN_MAYBELATER		5
+ -->
+<Widgets texturePath="/Textures/">
+	
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.5" size="1.0 1.0" texBGName="dialogue_vinette_dark.png" />
+    
+	<!-- callout text -->
+	<Widget type="WT_LABEL" id="1" layer="1" pos="0.5 0.05" size="0.7 0" forceAspect="176:96" text="THANK_YOU_FOR_PLAYING" textColorRGB="0 0 0" textPadding="0" font="outlined"  />
+    
+	<!-- "maybe later" -->
+	<Widget type="WT_PUSH_BUTTON" id="5" layer="1" justifyWidget="0.0 0.0" pos="0 0 5 5" size="0.085 0.0" forceAspect="1" texNormalName="WMW_UI_button_upsell_close.webp" reactOnDown="false" />
+	
+	<!-- Logo -->
+    <Widget type="WT_LABEL" id="10" layer="2" pos="0.5 0.18" size="0.65 0" forceAspect="256:110" texBGName="wmw_logo.webp" />
+
+        
+	<Widget type="WT_LABEL" id="30" layer="1" pos="0.5 0.62" size="1.0 0.0" forceAspect="1200:1031" texBGName="water_sunset.webp" />
+    <Widget type="WT_LABEL" id="33" parent="30" layer="1" justifyWidgetByParent="0.5 1.01" parentLineUpY="true" size="1.0 0.005" bgBlendColorRGBA="0 0 0 255" texBGName="white.webp" />
+    <Widget type="WT_LABEL" id="31" parent="30" layer="1" justifyWidgetByParent="0.5 1.0" parentLineUpY="true" size="1.0 1.0" bgBlendColorRGBA="239 64 53 255" texBGName="white.webp" />
+	<Widget type="WT_LABEL" id="32" parent="30" layer="1" justifyWidgetByParent="0.5 -1.0" parentLineUpY="true" size="1.0 1.0" bgBlendColorRGBA="117 17 19 255" texBGName="white.webp" />
+</Widgets>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blink" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_top_0.png" offset="0.000000 0.000000"/>
+    <Frame name="Cranky_Head_top_1.png" offset="0.000000 1.103535"/>
+    <Frame name="Cranky_Head_top_2.png" offset="0.000000 2.207069" repeat="1"/>
+    <Frame name="Cranky_Head_top_1.png" offset="0.000000 1.103535"/>
+    <Frame name="Cranky_Head_top_0.png" offset="0.000000 0.000000" repeat="23"/>
+  </Animation>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_top_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="closed" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_top_2.png" offset="0.000000 2.207069"/>
+  </Animation>
+  <Animation name="grinclosed" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_top_3.png" offset="-0.056259 -0.034621"/>
+  </Animation>
+  <Animation name="growl" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Head_top_4.png" offset="-3.955415 -4.409811"/>
+  </Animation>
+</Sprite>

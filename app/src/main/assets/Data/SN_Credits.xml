@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+WN_Background = 0,
+WN_BACK = 1,
+WN_SUPPORT = 2,
+WN_TERMS_OF_USE = 3,
+WN_VERSION = 4,
+WN_PRIVACY_POLICY = 5,
+WN_JellyCar = 99,
+WN_TMobile = 100
+ -->
+<Widgets texturePath="/Textures/">
+    
+    <!-- background tiles -->
+    <Widget type="WT_LABEL" id="0" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5.5 0" tileForceAspect="1:1" texBGName="credits_tile.webp" />
+    
+    
+    <!-- back button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="1" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+    
+    <!-- (C) 201 Disney -->
+	<Widget type="WT_LABEL" id="101" layer="1" pos="0.5 0.11" size="0.85 0.05" text="LEGAL_LANGUAGE" textColorRGB="255 255 255"/>
+	
+	<!-- visit us at disney.go.com/index -->
+	<Widget type="WT_LABEL" layer="1" pos="0.5 0.18" size="0.85 0.04" text="LEGAL_LANGUAGE_2" textColorRGB="255 255 255" />
+    
+    <!-- customer support link -->
+    <Widget type="WT_LABEL" layer="1" pos="0.5 0.22" size="0.85 0.04" text="LEGAL_LANGUAGE_3" textColorRGB="255 255 255" />
+    <Widget type="WT_PUSH_BUTTON" id="2" layer="1" pos="0.5 0.26" size="0.95 0.05" texNormalName="clear.webp" text="LEGAL_LANGUAGE_4" textColorRGB="252 235 45"/> <!--textColorRGB="0 0 255"/>0 70 105" />-->
+    
+    <!-- Line -->
+	<Widget type="WT_LABEL" layer="1" pos="0.5 0.29" size="0.85 0.0025" texBGName="white.png" />
+	
+    <!-- Line -->
+	<Widget type="WT_LABEL" layer="1" pos="0.5 0.31" size="0.85 0.0025" texBGName="white.png" />
+	
+    <!-- version number -->
+    <Widget type="WT_LABEL" layer="1" id="4" pos="0.5 0.34" size="0.85 0.05" text="LEGAL_LANGUAGE_7" textColorRGB="255 255 255" />
+    
+    
+    <!-- developed by feature creep -->
+	<Widget type="WT_LABEL" layer="1" pos="0.246 0.38" size="0.4 0.05" text="DEVELOPED_BY" textColorRGB="255 255 255" />
+    <Widget type="WT_LABEL" layer="1" pos="0.246 0.48" size="0 0.15" forceAspect="155:173" aspectBasis="height" texBGName="credits_creature_feep.webp" />
+    <Widget type="WT_LABEL" layer="1" pos="0.246 0.62" size="0 0.05" forceAspect="310:85" aspectBasis="height" texBGName="credits_twiitch.webp" />
+	
+	<!-- published by disney mobile -->
+	<Widget type="WT_LABEL" layer="1" pos="0.734 0.38" size="0.4 0.05" text="PUBLISHED_BY" textColorRGB="255 255 255" />
+	<Widget type="WT_LABEL" layer="1" pos="0.70 0.48" size="0 0.13" forceAspect="305:155" aspectBasis="height" texBGName="credits_disney_mobile.webp" />
+	
+    <!-- Line -->
+	<Widget type="WT_LABEL" layer="1" pos="0.5 0.76" size="0.85 0.0025" texBGName="white.png" />
+	
+	<!-- other legal text -->
+	<Widget type="WT_LABEL" layer="1" pos="0.5 0.72" size="0.75 0.11" halign="center" valign="top" text="LEGAL_LANGUAGE_8" textColorRGB="255 255 255" textPadding="0.01"/>
+    
+	
+	<!-- JellyCar button -->
+	<Widget type="WT_PUSH_BUTTON" id="99" layer="1" pos="0.9 0.88" size="0.15 0.0" forceAspect="80:39" texNormalName="clear.webp" visible="false" reactOnDown="true" />
+
+	<!-- T-Mobile text (hidden by default) -->
+	<Widget type="WT_LABEL" id="100" layer="1" pos="0.5 0.725" size="0.9 0.05" halign="center" valign="top" text="TMobile" textColorRGB="255 255 255" textPadding="0.01" visible="false" />
+    
+</Widgets>

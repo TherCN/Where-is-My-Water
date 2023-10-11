@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect_Mystery-Lite-Tab.xml">
+	
+	<!-- Pack title -->
+	<Widget type="WT_LABEL" id="101" layer="10" pos="0.0 -0.265" textColorRGB="94 41 37" />
+	
+	
+	<Widget type="WT_LABEL" id="1550" parent="1530" pos="0 0" posByParentSize="0.050 0.075" />
+	<Widget type="WT_LABEL" id="1551" parent="1530" pos="0 0" posByParentSize="0.950 0.060" />
+	<Widget type="WT_LABEL" id="1552" parent="1530" pos="0 0" posByParentSize="0.025 0.925" />
+	<Widget type="WT_LABEL" id="1553" parent="1530" pos="0 0" posByParentSize="0.950 0.975" />
+	
+	<!-- Poster -->
+	<Widget type="WT_LABEL" id="1530" layer="6" pos="0.510 0.550" />
+	
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SCROLLABLE_SET" id="1005" pos="0.5 0.3850" />
+	
+	<!-- Carousel Slider -->
+    <Widget type="WT_SLIDER" id="1200" pos=".51 .65" />
+	
+</Widgets>

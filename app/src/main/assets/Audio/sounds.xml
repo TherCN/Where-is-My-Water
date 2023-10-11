@@ -1,0 +1,1453 @@
+<!--
+ SN_DirtSingleton               0
+ SN_DirtContinuous              1
+    
+ SN_StarGet                     4
+ SN_StarDie                     5
+ SN_StarProgress                6
+ 
+ SN_AlgaeGrow                   8
+ SN_AlgaeDie                    9
+ SN_AlgaeHarden                 10
+ 
+ SN_WaterDrop                   11
+ SN_TubFill                     7
+ 
+ SN_MixContaminated             12
+ SN_MixSludge                   13
+ 
+ SN_HissContaminated            14
+ SN_HissSludge                  15
+ 
+ SN_BombLong                    18
+ SN_BombShort                   19
+ 
+ SN_SpoutWater                  20
+ SN_SpoutContaminated           21
+ SN_SpoutSludge                 22
+ 
+ SN_SpoutWaterOneShot           23
+ SN_SpoutContaminatedOneShot    24
+ SN_SpoutSludgeOneShot          25
+ 
+ SN_CitySound                   26
+ 
+ SN_SpoutDown                   27
+ SN_SpoutUp                     28
+    
+ SN_SwitchDown                  29
+ SN_SwitchUp                    30
+ 
+ SN_InteractiveMotorOn          31
+ 
+ SN_SwampyWin                   32
+ SN_SwampySludge                33
+ SN_SwampyContaminated          34
+ SN_SwampySad                   35
+ SN_SwampySleeping              36
+ 
+ SN_Curtain                     37
+ SN_ShowerLoop                  38
+ 
+ SN_Stinger						39
+ SN_Stinger						40
+ SN_Stinger						41
+
+ SN_InteractiveMotorImpact		42
+ SN_SwitchPower					43
+ 
+ SN_UI_ButtonDown				44
+ SN_UI_ButtonUp					45
+ 
+ SN_CollectibleTouch			46
+ SN_CollectibleUnlock			47
+ 
+ SN_WaterCollision				48
+ SN_ContaminatedCollision		49
+ SN_CludgeCollision				50
+ 
+ SN_InteractiveMotorSlide		51
+ 
+ SN_FluidConvertLever			52
+ SN_FluidConvertSlide			53
+ 
+ SN_Intro_Pack_Base				1000
+ SN_Intro_Pack_End_Base			2000
+ 
+ SN_Swampy_Start                        3000
+ SN_Swampy_Yawn                         3000
+ SN_Swampy_BombReaction                 3001
+ SN_Swampy_WashingBrush                 3002
+ SN_Swampy_Chuckle                      3003
+ SN_Swampy_ContaminatedWater_JumpOut    3004
+ SN_Swampy_ContaminatedWater_Land       3005
+ SN_Swampy_CryA                         3006
+ SN_Swampy_CryB                         3007
+ SN_Swampy_Curtain                      3008
+ SN_Swampy_DanceA                       3009
+ SN_Swampy_DanceB                       3010
+ SN_Swampy_Dizzy                        3011
+ SN_Swampy_Embarrassed                  3012
+ SN_Swampy_GrowlA                       3013
+ SN_Swampy_GrowlB                       3014
+ SN_Swampy_HeadTurn                     3015
+ SN_Swampy_HitPipe                      3016
+ SN_Swampy_Juggle                       3017
+ SN_Swampy_Ooze                         3018
+ SN_Swampy_Sad                          3019
+ SN_Swampy_Scared                       3020
+ SN_Swampy_Washing                      3021
+ SN_Swampy_SimpleJump                   3022
+ SN_Swampy_Sleep                        3023
+ SN_Swampy_Splash                       3024
+ SN_Swampy_Tickle                       3025
+ SN_Swampy_TurnKnob                     3026
+-->
+
+<SoundList>
+    <!-- Dirt -->
+    
+    <!-- Played when finger initially touches dirt -->
+    <Group id="0" name="DIRT_SINGLETON" alwaysInMemory="true" >
+		<Sound filename="/Audio/Dirt/JAWDIG01.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG02.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG03.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG04.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG05.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG06.wav" volume="0.8" />
+		<Sound filename="/Audio/Dirt/JAWDIG07.wav" volume="0.8" />
+    </Group> 
+    <!-- Played when finger drags accross dirt -->
+    <Group id="1" name="DIRT_CONTINUOUS" loop="true" alwaysInMemory="true" >
+		<Sound filename="/Audio/Dirt/JAWDTH01.wav" volume="0.8" />
+    </Group>
+    
+    
+    
+    <!-- Stars/Duckies -->
+    
+
+    <!-- Played when duckies 'hatch' -->
+	<Group id="10" name="STAR_GET" alwaysInMemory="true" >
+		<Sound filename="/Audio/Duckies/JAWDKY01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKY02.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKY03.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKY04.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKY05.wav" volume="1.0" />
+	</Group>
+    
+    
+   
+    <!-- Played when duckies are killed (contaminated water, sludge, bombs, etc.) -->
+	<Group id="11" name="STAR_DIE" alwaysInMemory="true" >
+		<Sound filename="/Audio/Duckies/JAWDKD01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD02.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD03.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD04.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD05.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD06.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD07.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Played as each drop of water hits the ducky -->
+	<Group id="12" name="STAR_PROGRESS" >
+		<Sound filename="/Audio/Duckies/JAWSPG01.wav" volume="1.0" />
+	</Group>    
+    
+    <!-- Mega duck get -->	
+
+
+    <!-- Baby duck get -->	
+	<Group id="14" name="BABYSTAR_GET" >    
+		<Sound filename="/Audio/Duckies/WMWBDKY01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/WMWBDKY02.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/WMWBDKY03.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/WMWBDKY04.wav" volume="1.0" />
+	</Group>
+    <!-- Teleport duck get -->	  
+
+
+    <!-- Mega duck die -->	
+    <!-- this doesn't work...
+	<Group id="16" name="MEGASTAR_DIE" >
+		<Sound filename="/Audio/Duckies/JAWDKD01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWDKD04.wav" volume="1.0" />        
+    </Group>
+	-->
+    <!-- Baby duck die -->	  
+
+ 
+    <!-- Teleport duck die -->	      
+
+   
+    
+    
+    <!-- Algae noises -->
+    
+    <!-- Played when algae is growing from contact with water -->
+	<Group id="30" name="ALGAE_GROW" loop="true">
+		<Sound filename="/Audio/Algae/JAWAGG01.wav" volume="1.0" />
+	</Group>
+    <!-- Played when algae is dying from contact with contaminated water -->
+	<Group id="31" name="ALGAE_DIE" loop="true">
+		<Sound filename="/Audio/Algae/JAWAGD01.wav" volume="0.8" />
+	</Group>
+    <!-- Played when algae is hardening from contact with sludge -->
+	<Group id="32" name="ALGAE_HARDEN" loop="true">
+		<Sound filename="/Audio/Algae/JAWAGH01.wav" volume="1.0" />
+	</Group>
+    
+    
+    
+    <!-- Liquids -->
+    
+    <!-- When water hits the drain to Swampy's room (pitched programmatically) -->
+	<Group id="21" name="WATER_DROP" alwaysInMemory="true" >
+		<Sound filename="/Audio/Liquids/JAWWDP01.wav" volume="1.0" />
+	</Group>
+    <!-- When water hits the drain to Swampy's room in large volumes -->
+    <Group id="20" name="TUB_FILL" loop="true" alwaysInMemory="true" >
+		<Sound filename="/Audio/Liquids/JAWTBF01.wav" volume="1.0" />
+	</Group>
+    
+    
+	<!-- Water and mud mixing -->
+	<Group id="42" name="MIX_MUD" loop="true" >
+		<Sound filename="/Audio/Liquids/MudMix.wav" volume="1.0" />
+	</Group>    
+    
+    <!-- Water and contaminated water mixing -->    
+	<Group id="43" name="MIX_CONTAMINATED" loop="true" >
+		<Sound filename="/Audio/Liquids/JAWWVC01.wav" volume="1.0" />
+	</Group>
+    <!-- Water and sludge mixing -->
+	<Group id="44" name="MIX_SLUDGE" loop="true" >
+		<Sound filename="/Audio/Liquids/Ooze02.wav" volume="1.0" />
+	</Group>
+    
+
+    <!-- Layered behind mud entering Swampy's tub -->
+	<Group id="52" name="HISS_MUD">
+    	<!-- sounds fine without hiss so we'll leave it out to save space -->
+	</Group>
+    
+    <!-- Layered behind contaminated water entering Swampy's tub -->
+	<Group id="53" name="HISS_CONTAMINATED">
+		<Sound filename="/Audio/Liquids/JAWCTM01.wav" volume="1.0" />
+	</Group>
+    <!-- Layered behind sludge entering Swampy's tub -->
+	<Group id="54" name="HISS_SLUDGE">
+		<Sound filename="/Audio/Liquids/JAWOOZ01.wav" volume="1.0" />
+	</Group>
+    
+	
+    <!-- Water colliding with world at high speeds -->
+	<Group id="160" name="WATER_COLLISION">
+		<Sound filename="" volume="0.25" />
+	</Group>
+    <!-- Water colliding with world at high speeds -->
+	<Group id="161" name="CONTAMINATED_COLLISION">
+		<Sound filename="" volume="0.25" />
+	</Group>
+    <!-- Water colliding with world at high speeds -->
+	<Group id="162" name="SLUDGE_COLLISION">
+		<Sound filename="" volume="0.25" />
+	</Group>
+    
+	
+	
+	
+    <!-- Bombs -->
+    
+    <!-- When a bomb is touched by water, starts countdown and then explosion -->
+	<Group id="60" name="BOMB_LONG">
+		<Sound filename="/Audio/Bombs/JAWBMB01.wav" volume="1.0" />
+	</Group>
+    <!-- When a bomb is in proximity to an explosion, the bomb quickly explodes -->
+	<Group id="61" name="BOMB_SHORT">
+		<Sound filename="/Audio/Bombs/JAWBBS01.wav" volume="1.0" />
+	</Group>
+    
+    
+    
+    <!-- Spouts -->
+    
+    <!-- Steam leaving a spout -->
+	<Group id="70" name="SPOUT_STEAM" loop="true" >
+		<Sound filename="/Audio/Spouts/SteamLoop03.wav" volume="0.2" />
+	</Group>
+    <!-- Water leaving a spout -->
+	<Group id="71" name="SPOUT_WATER" loop="true" >
+		<Sound filename="/Audio/Spouts/JAWWSL01.wav" volume="1.0" />
+	</Group>
+    <!-- Mud leaving a spout -->
+	<Group id="72" name="SPOUT_MUD" loop="true" >
+		<Sound filename="/Audio/Spouts/JAWMSL01.wav" volume="1.0" />
+	</Group>    
+    <!-- Contaminated water leaving a spout -->
+	<Group id="73" name="SPOUT_CONTAMINATED" loop="true" >
+		<Sound filename="/Audio/Spouts/JAWCSL01.wav" volume="1.0" />
+	</Group>
+    <!-- Sludge leaving a spout -->
+	<Group id="74" name="SPOUT_SLUDGE" loop="true" >
+		<Sound filename="/Audio/Spouts/JAWOSL01.wav" volume="1.0" />
+	</Group>
+    
+    <!-- The first steam drop leaving a spout -->
+	<Group id="80" name="SPOUT_STEAM_ONESHOT" >
+		<Sound filename="/Audio/Spouts/SteamHit01.wav" volume="0.1" />
+	</Group>
+    <!-- The first water drop leaving a spout -->
+	<Group id="81" name="SPOUT_WATER_ONESHOT" >
+		<Sound filename="/Audio/Spouts/JAWSTW01.wav" volume="0.8" />
+	</Group>
+    <!-- The first mud drop leaving a spout -->
+	<Group id="82" name="SPOUT_MUD_ONESHOT" >
+		<Sound filename="/Audio/Spouts/JAWSTM01.wav" volume="0.8" />
+	</Group>    
+    <!-- The first contaminated water drop leaving a spout -->
+	<Group id="83" name="SPOUT_CONTAMINATED_ONESHOT" >
+		<Sound filename="/Audio/Spouts/JAWSTC01.wav" volume="0.8" />
+	</Group>
+    <!-- The first ooze drop leaving a spout -->
+	<Group id="84" name="SPOUT_SLUDGE_ONESHOT" >
+		<Sound filename="/Audio/Spouts/JAWSTO01.wav" volume="0.8" />
+	</Group>
+    
+    <!-- Touch spout down (press) -->
+	<Group id="90" name="SPOUT_DOWN" >
+		<Sound filename="/Audio/Spouts/JAWVLC01.wav" volume="0.8" />
+	</Group>
+    <!-- Touch spout up (let go) -->
+	<Group id="91" name="SPOUT_UP" >
+		<Sound filename="/Audio/Spouts/JAWVLO01.wav" volume="0.8" />
+	</Group>
+    
+    
+    
+    <!-- Switches -->
+    
+    <!-- A switch pressed -->
+	<Group id="100" name="SWITCH_DOWN">
+		<Sound filename="" volume="1.0" />
+	</Group>
+    
+    <!-- A switch released -->
+	<Group id="101" name="SWITCH_UP">
+		<Sound filename="" volume="1.0" />
+	</Group>
+    
+    <!-- A switch that currently powered (on, with gear spinning) -->
+	<Group id="113" name="SWITCH_POWER" loop="true">
+		<Sound filename="/Audio/Switches/JAWGSN01.wav" volume="0.1" />
+	</Group>
+    
+    
+    <!-- Interactive Objects (gates, motors, etc.) -->
+    
+    <!-- When an interactive object is recieving power (the little gear on it spins) -->
+	<Group id="110" name="INTERACTIVE_MOTOR_ON" loop="true">
+		<Sound filename="/Audio/Objects/JAWGMV01.wav" volume="0.4" />
+	</Group>
+	<!-- An interactive object stops moving (hits the end of its track, impact) -->
+	<Group id="111" name="INTERACTIVE_MOTOR_IMPACT">
+		<Sound filename="/Audio/Objects/JAWGHT01.wav" volume="0.4" />
+	</Group>
+    <!-- An interactive object moving from gravity -->
+	<Group id="112" name="INTERACTIVE_MOTOR_SLIDE">
+		<Sound filename="" volume="1.0" />
+	</Group>
+	
+	<!-- A fluid converter's LEVER is moving -->
+	<Group id="170" name="FLUID_CONVERTER_LEVER" loop="false">
+		<Sound filename="/Audio/Switches/JAWFCL01.wav" volume="0.1" />
+	</Group>
+	
+	<!-- A fluid converter's SLIDING between options -->
+	<Group id="171" name="FLUID_CONVERTER_SLIDE" loop="false">
+		<Sound filename="/Audio/Switches/JAWFCS01.wav" volume="0.5" />
+	</Group>
+    
+	
+	<!-- New material mechanics -->
+	
+	<!-- Liquid interacting with coal -->
+	<Group id="180" name="COAL_LOOP" loop="true">
+		<Sound filename="/Audio/Liquids/WaterVSCoal04.wav" volume="0.1" />
+	</Group>
+	
+	
+	<!-- Main Menu Duckies -->
+    
+    <!-- C -->
+	<Group id="190" name="DUCK_IN_C">
+		<Sound filename="/Audio/Duckies/Duck_C.wav" volume="1.0" />
+	</Group>
+	<Group id="191" name="DUCK_IN_D">
+		<Sound filename="/Audio/Duckies/Duck_D.wav" volume="1.0" />
+	</Group>
+	<Group id="192" name="DUCK_IN_E">
+		<Sound filename="/Audio/Duckies/Duck_E.wav" volume="1.0" />
+	</Group>
+	<Group id="193" name="DUCK_IN_F">
+		<Sound filename="/Audio/Duckies/Duck_F.wav" volume="1.0" />
+	</Group>
+	<Group id="194" name="DUCK_IN_G">
+		<Sound filename="/Audio/Duckies/Duck_G.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Cranky tri-ducks -->
+    <Group id="4005" name="Cranky_TriDuck_1">
+		<Sound filename="/Audio/Duckies/JAWDKY01.wav" volume="1.0" />
+	</Group>
+    <Group id="4006" name="Cranky_TriDuck_2">
+		<Sound filename="/Audio/Duckies/JAWDKY02.wav" volume="1.0" />
+	</Group>
+    <Group id="4007" name="Cranky_TriDuck_3">
+		<Sound filename="/Audio/Duckies/JAWDKY03.wav" volume="1.0" />
+	</Group>
+    <Group id="4008" name="Cranky_TriDuck_4">
+		<Sound filename="/Audio/Duckies/JAWDKY05.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Mystery tri-ducks -->
+    <Group id="4010" name="Mystery_TriDuck_1">
+		<Sound filename="/Audio/Duckies/WMWBDKY01.wav" volume="1.0" />
+	</Group>
+    <Group id="4011" name="Mystery_TriDuck_2">
+		<Sound filename="/Audio/Duckies/WMWBDKY02.wav" volume="1.0" />
+	</Group>
+    <Group id="4012" name="Mystery_TriDuck_3">
+		<Sound filename="/Audio/Duckies/WMWBDKY03.wav" volume="1.0" />
+	</Group>
+    <Group id="4013" name="Mystery_TriDuck_4">
+		<Sound filename="/Audio/Duckies/WMWBDKY04.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Scuba Duck -->
+    <Group id="4020" name="Scuba_Duck">
+        <Sound filename="/Audio/Duckies/ScubaDuck2.wav" volume="1.0" />
+    </Group>
+    
+    <!-- Mystery tri-ducks -->
+    <Group id="4030" name="Allie_TriDuck_1">
+		<Sound filename="/Audio/Duckies/AllieDuck_C.wav" volume="1.0" />
+	</Group>
+    <Group id="4031" name="Allie_TriDuck_2">
+		<Sound filename="/Audio/Duckies/AllieDuck_D.wav" volume="1.0" />
+	</Group>
+    <Group id="4032" name="Allie_TriDuck_3">
+		<Sound filename="/Audio/Duckies/AllieDuck_E.wav" volume="1.0" />
+	</Group>
+    <Group id="4033" name="Allie_TriDuck_4">
+		<Sound filename="/Audio/Duckies/AllieDuck_F.wav" volume="1.0" />
+	</Group>
+    
+	
+	
+	<!-- Water balloons -->
+    
+    <!-- Detach from spout noise -->
+	<Group id="200" name="BALLOON_DETACH">
+		<Sound filename="/Audio/Balloons/balloonrelease04.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/balloonrelease05.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/balloonrelease06.wav" volume="1.0" />
+	</Group>
+	<!-- Stretch noise (adding particles) -->
+	<Group id="201" name="BALLOON_STRETCH_WATER" loop="true">
+		<Sound filename="/Audio/Balloons/balloonfill03.wav" volume="0.5" />
+	</Group>
+	<Group id="202" name="BALLOON_STRETCH_STEAM" loop="true">
+		<Sound filename="/Audio/Balloons/balloonfill04.wav" volume="0.5" />
+	</Group>
+	<!-- Pop noises -->
+	<Group id="203" name="BALLOON_POP">
+		<Sound filename="/Audio/Balloons/BalloonPop_L.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/BalloonPop_M.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/BalloonPop_H.wav" volume="1.0" />
+	</Group>
+	<Group id="204" name="BALLOON_POP_WATER_OVERLAY">
+		<Sound filename="/Audio/Balloons/BalloonWater_L.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/BalloonWater_M.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/BalloonWater_H.wav" volume="1.0" />
+	</Group>
+	<Group id="205" name="BALLOON_POP_STEAM_OVERLAY">
+		<Sound filename="/Audio/Balloons/Steam_L.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/Steam_M.wav" volume="1.0" />
+		<Sound filename="/Audio/Balloons/Steam_H.wav" volume="1.0" />
+	</Group>
+    
+	
+	<!-- Present reveals -->
+    
+    <!-- Detach from spout noise -->
+	<Group id="210" name="SMALL_PRESENT">
+		<Sound filename="/Audio/Theming/OpenLetter.wav" volume="1.0" />
+		<Sound filename="/Audio/Theming/OpenPearl.wav" volume="1.0" />
+		<Sound filename="/Audio/Theming/CandyBox.wav" volume="1.0" />
+	</Group>
+	<Group id="211" name="SMALL_PRESENT_HORN">
+		<Sound filename="/Audio/Theming/Horn01.wav" volume="1.0" />
+	</Group>
+	<Group id="212" name="LARGE_PRESENT">
+		<Sound filename="/Audio/Theming/BigPresent01.wav" volume="1.0" />
+	</Group>
+	
+	
+	<!-- Theming -->
+    
+    <!-- Main menu snow globe effect -->
+	<Group id="220" name="SNOWGLOBE_SPARKLE">
+		<Sound filename="/Audio/Theming/SnowGlobe_Sparkle.mp3" volume="1.0" />
+	</Group>
+	
+	
+	<!-- Radio -->
+    
+    <!-- Main menu snow globe effect -->
+	<Group id="230" name="RADIO_TOUCH">
+		<Sound filename="/Audio/Theming/Radio_Deck.mp3" volume="1.0" />
+		<Sound filename="/Audio/Theming/Radio_Jingle.mp3" volume="1.0" />
+		<Sound filename="/Audio/Theming/Radio_Joy.mp3" volume="1.0" />
+	</Group>
+	
+	
+	<!-- cranky level results sounds -->
+	<Group id="240" name="CRANKY_LRS_SWOOSH">
+		<Sound filename="/Audio/Misc/WallClose01.wav" volume="0.25" />
+	</Group>
+	<Group id="241" name="CRANKY_LRS_SWOOSH">
+		<Sound filename="/Audio/Misc/WallClose02.wav" volume="0.25" />
+	</Group>
+	<Group id="242" name="CRANKY_LRS_IMPACT01">
+		<Sound filename="/Audio/Misc/WallImpact01.wav" volume="1.0" />
+	</Group>
+	<Group id="243" name="CRANKY_LRS_MUSIC" loop="true" isMusic="true">
+		<Sound filename="/Audio/Misc/CRANKY_LRS.mp3" volume="1.0" />
+	</Group>
+	
+	
+	<!-- Fans -->
+	<Group id="250" name="FAN_ON" loop="true">
+		<Sound filename="/Audio/Objects/Fan02b.wav" volume="0.4" />
+	</Group>
+	
+	
+	<!-- Vacuums -->
+	<Group id="260" name="VACUUM_ON" loop="true">
+		<Sound filename="/Audio/Objects/Vac01b.wav" volume="0.2" />
+	</Group>
+	<Group id="261" name="VACUUM_LIQUID_SOUND" loop="true">
+		<Sound filename="/Audio/Objects/WatersuckUp.wav" volume="0.4" />
+	</Group>
+	
+	
+    <!-- Y Switches -->
+	<Group id="270" name="YSWITCH_TOGGLE">
+		<Sound filename="/Audio/Objects/YSwitchL.wav" volume="1.0" />
+		<Sound filename="/Audio/Objects/YSwitchR.wav" volume="1.0" />        
+	</Group>
+    
+    <Group id="271" name="YSWITCH_PLUG_RATTLE" loop="true">
+        <Sound filename="/Audio/Objects/PlugRattle.wav" volume="0.2"/>
+    </Group>
+    
+
+    
+    <!-- Platinum Ducks -->
+    <!-- Megaduck intro -->
+    <Group id="280" name="MEGADUCK_INTRO">
+        <Sound filename="/Audio/Duckies/MegaDuckIntroP1.wav" volume="1.0" />
+        <Sound filename="/Audio/Duckies/MegaDuckIntroP2.wav" volume="1.0" />    
+    </Group>
+    
+    <!-- Babyduck intro -->    
+    <Group id="281" name="BABYDUCK_INTRO">
+        <Sound filename="/Audio/Duckies/BabyDuckIntroP1.wav" volume="1.0" />
+        <Sound filename="/Audio/Duckies/BabyDuckIntroP2.wav" volume="1.0" />    
+    </Group>    
+
+   	<!-- Teleport duck intro -->
+    <Group id="282" name="TDUCK_INTRO">
+        <Sound filename="/Audio/Duckies/TeleportDuckIntroP1.wav" volume="1.0" />
+        <Sound filename="/Audio/Duckies/TeleportDuckIntroP2.wav" volume="1.0" />    
+    </Group>        
+    
+    <!--Teleport duck special sounds -->
+	<Group id="283" name="TDUCK_TELEPORT">
+        <Sound filename="/Audio/Duckies/WMWTDTP01.wav" volume="1.0" />
+        <Sound filename="/Audio/Duckies/WMWTDTP02.wav" volume="1.0" /> 
+        <Sound filename="/Audio/Duckies/WMWTDTP03.wav" volume="1.0" /> 
+        <Sound filename="/Audio/Duckies/WMWTDTP04.wav" volume="1.0" /> 
+    </Group>
+    
+	<Group id="284" name="TDUCK_WARNING">
+        <Sound filename="/Audio/Duckies/WMWTDTW01.wav" volume="0.5" />
+    </Group>   	
+
+	<Group id="285" name="TDUCK_DIGLOOP" loop="true">
+        <Sound filename="/Audio/Duckies/WMWTDD01.wav" volume="0.5" />
+    </Group>   	
+
+	<Group id="286" name="TDUCK_POOF">
+        <Sound filename="/Audio/Duckies/WMWTDPF01.wav" volume="0.5" />
+    </Group>   	
+
+	<Group id="287" name="TDUCK_BURST">
+        <Sound filename="/Audio/Duckies/WMWTDB01.wav" volume="0.6" />
+    </Group>   	
+   
+	<Group id="288" name="MEGADUCK_PROGRESS" >
+		<Sound filename="/Audio/Duckies/MegaDrink1.wav" volume="1.0" />
+	</Group>     
+   
+   
+   	<!-- Mystery jingles (for secret areas!) -->
+   	<Group id="290" name="MYSTERY_JINGLE">
+    	<Sound filename="/Audio/Mystery/mystery_jingle_part1.wav" volume="1.0" />
+    	<Sound filename="/Audio/Mystery/mystery_jingle_part2.wav" volume="1.0" />                
+    	<Sound filename="/Audio/Mystery/mystery_jingle_part3.wav" volume="1.0" />                        
+    </Group>
+	
+	<Group id="295" name="MYSTERY_LRS_MUSIC" loop="true" isMusic="true">
+		<Sound filename="/Audio/Misc/MysteryDuck_LRS.mp3" volume="1.0" />
+	</Group>
+   
+   
+   	<!-- Mud -->
+   	<Group id="300" name="MUD_DRYOUT_BIG">
+    	<Sound filename="/Audio/Liquids/MudDryoutBig.wav" volume="1.0" />
+    </Group>
+    
+    <Group id="301" name="MUD_DRYOUT_SMALL" loop="true">
+    	<Sound filename="/Audio/Liquids/MudDryoutSmall.wav" volume="1.0" />        
+    </Group>    
+
+    <Group id="302" name="DIRTYWALL">
+    	<Sound filename="/Audio/Objects/DirtyWall.wav" volume="1.0" />        
+    </Group>    
+   
+	<!-- Lost levels chest -->
+    <Group id="400" name="MEGADUCK_INTRO">
+        <Sound filename="/Audio/Misc/ChestOpen01.wav" volume="1.0" /> 
+    </Group>
+	
+	<!-- Lost levels chest -->
+    <Group id="410" name="MYSTER_BOX_DRAG" loop="true">
+        <Sound filename="/Audio/Duckies/DANI010.wav" volume="1.0" /> 
+    </Group>
+
+    
+    <!-- Swampy 
+    SN_Swampy_Start                        3000
+    SN_Swampy_Yawn                         3000
+    SN_Swampy_BombReaction                 3001
+    SN_Swampy_WashingBrush                 3002
+    SN_Swampy_Chuckle                      3003
+    SN_Swampy_ContaminatedWater_JumpOut    3004
+    SN_Swampy_ContaminatedWater_Land       3005
+    SN_Swampy_CryA                         3006
+    SN_Swampy_CryB                         3007
+    SN_Swampy_Curtain                      3008
+    SN_Swampy_DanceA                       3009
+    SN_Swampy_DanceB                       3010
+    SN_Swampy_Dizzy                        3011
+    SN_Swampy_Embarrassed                  3012
+    SN_Swampy_GrowlA                       3013
+    SN_Swampy_GrowlB                       3014
+    SN_Swampy_HeadTurn                     3015
+    SN_Swampy_HitPipe                      3016
+    SN_Swampy_Juggle                       3017
+    SN_Swampy_Ooze                         3018
+    SN_Swampy_Sad                          3019
+    SN_Swampy_Scared                       3020
+    SN_Swampy_Washing                      3021
+    SN_Swampy_SimpleJump                   3022
+    SN_Swampy_Sleep                        3023
+    SN_Swampy_Splash                       3024
+    SN_Swampy_Tickle                       3025
+    SN_Swampy_TurnKnob                     3026
+    SN_Swampy_Tap                          3027
+    SN_Sani_01                             3028
+    SN_Sani_02                             3029
+    SN_Sani_03                             3030
+    SN_Sani_04                             3031
+    SN_Sani_05                             3032
+    SN_Sani_06                             3033
+    SN_Sani_07                             3034
+    SN_Sani_08                             3035
+    SN_Sani_09                             3036
+    SN_Sani_10                             3037
+    SN_Sani_11                             3038
+    SN_Sani_12                             3039
+    SN_Sani_13                             3040
+    SN_Sani_14                             3041
+    SN_Sani_15                             3042
+    SN_Sani_16                             3043
+    SN_Sani_17                             3044
+    SN_Sani_18                             3045
+    SN_Sani_19                             3046
+     
+	 -->
+    
+	<Group id="3000" name="SW_YAWN">
+		<Sound filename="/Audio/Swampy/Master/BigYawn01.wav" volume="1.0" />
+	</Group>
+    <Group id="3001" name="SW_BOMB_REACTION">
+		<Sound filename="/Audio/Swampy/Master/Bomb01.wav" volume="1.0" />
+	</Group>
+    <Group id="3002" name="SW_WASHING_BRUSH">
+		<Sound filename="/Audio/Swampy/Master/Brush01.wav" volume="1.0" />
+	</Group>
+    <Group id="3003" name="SW_CHUCKLE">
+		<Sound filename="/Audio/Swampy/Master/Chuckle01.wav" volume="1.0" />
+	</Group>
+    <Group id="3004" name="SW_CONT_WATER_JUMP_OUT">
+		<Sound filename="/Audio/Swampy/Master/ContaminatedJump01.wav" volume="1.0" />
+	</Group>
+    <Group id="3005" name="SW_CONT_WATER_LAND">
+		<Sound filename="/Audio/Swampy/Master/ContaminatedLand01.wav" volume="1.0" />
+	</Group>
+    <Group id="3006" name="SW_CRY_A">
+		<Sound filename="/Audio/Swampy/Master/CryA01.wav" volume="1.0" />
+	</Group>
+    <Group id="3007" name="SW_CRY_B">
+		<Sound filename="/Audio/Swampy/Master/CryB01.wav" volume="1.0" />
+	</Group>
+    <Group id="3008" name="SW_CURTAIN">
+		<Sound filename="/Audio/Swampy/Master/Curtain01.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/Curtain02.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/Curtain03.wav" volume="1.0" />
+	</Group>
+    <Group id="3009" name="SW_DANCE_A">
+		<Sound filename="/Audio/Swampy/Master/Dance01.wav" volume="1.0" />
+	</Group>
+    <Group id="3010" name="SW_DANCE_B">
+		<Sound filename="/Audio/Swampy/Master/Dance02.wav" volume="1.0" />
+	</Group>
+    <Group id="3011" name="SW_DIZZY">
+		<Sound filename="/Audio/Swampy/Master/Dizzy01.wav" volume="1.0" />
+	</Group>
+    <Group id="3012" name="SW_EMBARRASSED">
+		<Sound filename="/Audio/Swampy/Master/Embarassed01.wav" volume="1.0" />
+	</Group>
+    <Group id="3013" name="SW_GROWL_A">
+		<Sound filename="/Audio/Swampy/Master/Growl01.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/BitePipe01.wav" volume="0.8" />
+	</Group>
+    <Group id="3014" name="SW_GROWL_B">
+		<Sound filename="/Audio/Swampy/Master/Growl02.wav" volume="1.0" />
+	</Group>
+    <Group id="3015" name="SW_HEAD_TURN">
+		<Sound filename="/Audio/Swampy/Master/HeadTurn01.wav" volume="1.0" />
+	</Group>
+    <Group id="3016" name="SW_HIT_PIPE">
+		<Sound filename="/Audio/Swampy/Master/HitPipe01.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/HitPipe02.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/HitPipe03.wav" volume="0.6" />
+	</Group>
+    <Group id="3017" name="SW_JUGGLE">
+		<Sound filename="/Audio/Swampy/Master/Juggle01.wav" volume="1.0" />
+	</Group>
+    <Group id="3018" name="SW_OOZE">
+		<Sound filename="/Audio/Swampy/Master/Ooze01.wav" volume="1.0" />
+	</Group>
+    <Group id="3019" name="SW_SAD">
+		<Sound filename="/Audio/Swampy/Master/Sad01.wav" volume="1.0" />
+	</Group>
+    <Group id="3020" name="SW_SCARED">
+		<Sound filename="/Audio/Swampy/Master/Scared01.wav" volume="1.0" />
+	</Group>
+    <Group id="3021" name="SW_WASHING">
+		<Sound filename="/Audio/Swampy/Master/Showering01.wav" volume="1.0" />
+	</Group>
+    <Group id="3022" name="SW_SIMPLE_JUMP">
+		<Sound filename="/Audio/Swampy/Master/SimpleJump01.wav" volume="1.0" />
+	</Group>
+    <Group id="3023" name="SW_SLEEP">
+		<Sound filename="/Audio/Swampy/Master/Sleep01.wav" volume="1.0" />
+	</Group>
+    <Group id="3024" name="SW_SPLASH">
+		<Sound filename="/Audio/Swampy/Master/Splash01.wav" volume="1.0" />
+	</Group>
+    <Group id="3025" name="SW_TICKLE">
+		<Sound filename="/Audio/Swampy/Master/Tickle01.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/legSlap01.wav" volume="0.8" />
+	</Group>
+    <Group id="3026" name="SW_TURN_KNOB">
+		<Sound filename="/Audio/Swampy/Master/TurnNob01.wav" volume="1.0" />
+        <Sound filename="/Audio/Swampy/Master/TurnNob02.wav" volume="1.0" />
+	</Group>
+    <Group id="3027" name="SW_Tap">
+		<Sound filename="/Audio/Swampy/Master/Tap01.wav" volume="1.0" />
+	</Group>
+    <Group id="3028" name="Sani01">
+		<Sound filename="/Audio/Swampy/Master/Sani01.wav" volume="1.0" />
+	</Group>
+    <Group id="3029" name="Sani02">
+		<Sound filename="/Audio/Swampy/Master/Sani02.wav" volume="1.0" />
+	</Group>
+    <Group id="3030" name="Sani03">
+		<Sound filename="/Audio/Swampy/Master/Sani03.wav" volume="1.0" />
+	</Group>
+    <Group id="3031" name="Sani04">
+		<Sound filename="/Audio/Swampy/Master/Sani04.wav" volume="1.0" />
+	</Group>
+    <Group id="3032" name="Sani05">
+		<Sound filename="/Audio/Swampy/Master/Sani05.wav" volume="1.0" />
+	</Group>
+    <Group id="3033" name="Sani06">
+		<Sound filename="/Audio/Swampy/Master/Sani06.wav" volume="1.0" />
+	</Group>
+    <Group id="3034" name="Sani07">
+		<Sound filename="/Audio/Swampy/Master/Sani07.wav" volume="1.0" />
+	</Group>
+    <Group id="3035" name="Sani08">
+		<Sound filename="/Audio/Swampy/Master/Sani08.wav" volume="1.0" />
+	</Group>
+    <Group id="3036" name="Sani09">
+		<Sound filename="/Audio/Swampy/Master/Sani09.wav" volume="1.0" />
+	</Group>
+    <Group id="3037" name="Sani10">
+		<Sound filename="/Audio/Swampy/Master/Sani10.wav" volume="1.0" />
+	</Group>
+    <Group id="3038" name="Sani11">
+		<Sound filename="/Audio/Swampy/Master/Sani11.wav" volume="1.0" />
+	</Group>
+    <Group id="3039" name="Sani12">
+		<Sound filename="/Audio/Swampy/Master/Sani12.wav" volume="1.0" />
+	</Group>
+    <Group id="3040" name="Sani13">
+		<Sound filename="/Audio/Swampy/Master/Sani13.wav" volume="1.0" />
+	</Group>
+    <Group id="3041" name="Sani14">
+		<Sound filename="/Audio/Swampy/Master/Sani14.wav" volume="1.0" />
+	</Group>
+    <Group id="3042" name="Sani15">
+		<Sound filename="/Audio/Swampy/Master/Sani15.wav" volume="1.0" />
+	</Group>
+    <Group id="3043" name="Sani16">
+		<Sound filename="/Audio/Swampy/Master/Sani16.wav" volume="1.0" />
+	</Group>
+    <Group id="3044" name="Sani17">
+		<Sound filename="/Audio/Swampy/Master/Sani17.wav" volume="1.0" />
+	</Group>
+    <Group id="3045" name="Sani18">
+		<Sound filename="/Audio/Swampy/Master/Sani18.wav" volume="1.0" />
+	</Group>
+    <Group id="3046" name="Sani19">
+		<Sound filename="/Audio/Swampy/Master/Sani19.wav" volume="1.0" />
+	</Group>
+    
+    
+    
+    <!-- Mystery 
+     Mani01            3100
+     Mani02            3101
+     Mani03            3102
+     Mani04            3103
+     Mani05            3104
+     Mani06            3105
+     Mani07            3106
+     Mani08            3107
+     Mani09            3108
+     Mani10            3109
+     Mani11            3110
+     -->
+    
+    <Group id="3100" name="Mani01">
+		<Sound filename="/Audio/Mystery/Mani01.wav" volume="1.0" />
+	</Group>
+    <Group id="3101" name="Mani02">
+		<Sound filename="/Audio/Mystery/Mani02.wav" volume="1.0" />
+	</Group>
+    <Group id="3102" name="Mani03">
+		<Sound filename="/Audio/Mystery/Mani03.wav" volume="1.0" />
+	</Group>
+    <Group id="3103" name="Mani04">
+		<Sound filename="/Audio/Mystery/Mani04.wav" volume="1.0" />
+	</Group>
+    <Group id="3104" name="Mani05">
+		<Sound filename="/Audio/Mystery/Mani05.wav" volume="1.0" />
+	</Group>
+    <Group id="3105" name="Mani06">
+		<Sound filename="/Audio/Mystery/Mani06.wav" volume="1.0" />
+	</Group>
+    <Group id="3106" name="Mani07">
+		<Sound filename="/Audio/Mystery/Mani07.wav" volume="1.0" />
+	</Group>
+    <Group id="3107" name="Mani08">
+		<Sound filename="/Audio/Mystery/Mani08.wav" volume="1.0" />
+	</Group>
+    <Group id="3108" name="Mani09">
+		<Sound filename="/Audio/Mystery/Mani09.wav" volume="1.0" />
+	</Group>
+    <Group id="3109" name="Mani10">
+		<Sound filename="/Audio/Mystery/Mani10.wav" volume="1.0" />
+	</Group>
+    <Group id="3110" name="Mani11">
+		<Sound filename="/Audio/Mystery/Mani11.wav" volume="1.0" />
+	</Group>
+    
+     <!-- Cranky
+    SN_Cranky_Start   3300,
+    SN_Cranky_Laugh   3300,
+    SN_Cranky_Growl   3301 -->
+    <Group id="3300" name="CR_LAUGH">
+		<Sound filename="/Audio/Cranky/Laugh01.wav" volume="1.0" />
+	</Group>
+    <Group id="3301" name="CR_GROWL">
+		<Sound filename="/Audio/Cranky/Growl01.wav" volume="1.0" />
+	</Group>
+    <Group id="3302" name="CR_GROWL_FAIL">
+		<Sound filename="/Audio/Cranky/GrowlFail01.wav" volume="1.0" />
+	</Group>
+	<Group id="3303" name="CR_SLAP_FACE">
+		<Sound filename="/Audio/Cranky/SlapFace01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/SlapFace02.wav" volume="0.7" />
+	</Group>
+	<Group id="3304" name="CR_CAN">
+		<Sound filename="/Audio/Cranky/Can01.wav" volume="1.0" />
+	</Group>
+	<Group id="3305" name="CR_STOMACH_GROWL">
+		<Sound filename="/Audio/Cranky/StomachGrowl01.wav" volume="1.0" />
+	</Group>
+	<Group id="3306" name="CR_JUMP">
+		<Sound filename="/Audio/Cranky/Jump01.wav" volume="0.5" />
+	</Group>
+	<Group id="3307" name="CR_YAWN">
+		<Sound filename="/Audio/Cranky/Yawn01.wav" volume="1.0" />
+	</Group>
+	<Group id="3308" name="CR_LICK_CHOPS">
+		<Sound filename="/Audio/Cranky/LicksChops01.wav" volume="0.5" />
+	</Group>
+	<Group id="3309" name="CR_FOLD_ARMS_GROWL">
+		<Sound filename="/Audio/Cranky/FoldArmsGrowl01.wav" volume="1.0" />
+	</Group>
+	<Group id="3310" name="CR_JUMP_BACK_GROSS">
+		<Sound filename="/Audio/Cranky/JumpBackGross01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/JumpBackGross02.wav" volume="1.0" />
+	</Group>
+	<Group id="3311" name="CR_FALLING ASLEEP">
+		<Sound filename="/Audio/Cranky/FallingAsleep01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/FallingAsleep02.wav" volume="1.0" />
+	</Group>
+	<Group id="3312" name="CR_SWAT">
+		<Sound filename="/Audio/Cranky/Swat01.wav" volume="1.0" />
+	</Group>
+	<Group id="3313" name="CR_CHOMP">
+		<Sound filename="/Audio/Cranky/Chomp01.wav" volume="1.0" />
+	</Group>
+	<Group id="3314" name="CR_CHEW">
+		<Sound filename="/Audio/Cranky/Chew01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/Chew02.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/Chew03.wav" volume="1.0" />
+	</Group>
+	<Group id="3315" name="CR_VIG_CHEW">
+		<Sound filename="/Audio/Cranky/VigChew01.wav" volume="0.6" />
+		<Sound filename="/Audio/Cranky/VigChew02.wav" volume="0.6" />
+		<Sound filename="/Audio/Cranky/VigChew03.wav" volume="0.6" />
+	</Group>
+	<Group id="3316" name="CR_SWALLOW">
+		<Sound filename="/Audio/Cranky/Swallow01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/Swallow02.wav" volume="1.0" />
+	</Group>
+	<Group id="3317" name="CR_KICKS">
+		<Sound filename="/Audio/Cranky/Kick01.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/Kick02.wav" volume="1.0" />
+		<Sound filename="/Audio/Cranky/Kick03.wav" volume="1.0" />
+	</Group>
+	<Group id="3318" name="CR_BELCH">
+		<Sound filename="/Audio/Cranky/Belch01.wav" volume="1.0" />
+	</Group>
+	<Group id="3319" name="CR_YELL">
+		<Sound filename="/Audio/Cranky/Yell01.wav" volume="1.0" />
+	</Group>
+    <Group id="3320" name="CR_HEAD_TURN1">
+		<Sound filename="/Audio/Cranky/CANI01.wav" volume="1.0" />
+	</Group>
+    <Group id="3321" name="CR_HEAD_TURN2">
+		<Sound filename="/Audio/Cranky/CANI02.wav" volume="1.0" />
+	</Group>
+    <Group id="3322" name="CR_HEAD_TURN3">
+		<Sound filename="/Audio/Cranky/CANI03.wav" volume="1.0" />
+	</Group>
+    <Group id="3323" name="CR_BUTTON_POINT1">
+		<Sound filename="/Audio/Cranky/CANI04.wav" volume="1.0" />
+	</Group>
+    <Group id="3324" name="CR_BUTTON_POINT2">
+		<Sound filename="/Audio/Cranky/CANI05.wav" volume="1.0" />
+	</Group>
+    <Group id="3325" name="CR_ANGRY">
+		<Sound filename="/Audio/Cranky/CANI06.wav" volume="1.0" />
+	</Group>
+    <Group id="3326" name="CR_LOW_JUMP">
+		<Sound filename="/Audio/Cranky/CANI07.wav" volume="1.0" />
+	</Group>
+    <Group id="3327" name="CR_TAP_MOSS1">
+		<Sound filename="/Audio/Cranky/CANI08.wav" volume="1.0" />
+	</Group>
+    <Group id="3328" name="CR_TAP_MOSS2">
+		<Sound filename="/Audio/Cranky/CANI09.wav" volume="1.0" />
+	</Group>
+    <Group id="3329" name="CR_TAP_MOSS3">
+		<Sound filename="/Audio/Cranky/CANI10.wav" volume="1.0" />
+	</Group>
+    <Group id="3330" name="CR_TAP_MOSS4">
+		<Sound filename="/Audio/Cranky/CANI11.wav" volume="1.0" />
+	</Group>
+    <Group id="3331" name="CR_TAP_PIPE_BREAK1">
+		<Sound filename="/Audio/Cranky/CANI12.wav" volume="1.0" />
+	</Group>
+    <Group id="3332" name="CR_TAP_PIPE_BREAK2">
+		<Sound filename="/Audio/Cranky/CANI13.wav" volume="1.0" />
+	</Group>
+    <Group id="3333" name="CR_TAP_PIPE_BREAK3">
+		<Sound filename="/Audio/Cranky/CANI14.wav" volume="1.0" />
+	</Group>
+    <Group id="3334" name="CR_TAP_PIPE_BREAK4">
+		<Sound filename="/Audio/Cranky/CANI15.wav" volume="1.0" />
+	</Group>
+    <Group id="3335" name="CR_TAP_BURP1">
+		<Sound filename="/Audio/Cranky/CANI16.wav" volume="1.0" />
+	</Group>
+    <Group id="3336" name="CR_TAP_BURP2">
+		<Sound filename="/Audio/Cranky/CANI17.wav" volume="1.0" />
+	</Group>
+    <Group id="3337" name="CR_TAP_BURP3">
+		<Sound filename="/Audio/Cranky/CANI18.wav" volume="1.0" />
+	</Group>
+    <Group id="3338" name="CR_TAP_BURP4">
+		<Sound filename="/Audio/Cranky/CANI19.wav" volume="1.0" />
+	</Group>
+    <Group id="3339" name="CR_TAP_SCRATCH1">
+		<Sound filename="/Audio/Cranky/CANI20.wav" volume="1.0" />
+	</Group>
+    <Group id="3340" name="CR_TAP_SCRATCH2">
+		<Sound filename="/Audio/Cranky/CANI21.wav" volume="1.0" />
+	</Group>
+    <Group id="3341" name="CR_TAP_SCRATCH3">
+		<Sound filename="/Audio/Cranky/CANI22.wav" volume="1.0" />
+	</Group>
+    <Group id="3342" name="CR_TAP_CHUCKLE">
+		<Sound filename="/Audio/Cranky/CANI23.wav" volume="1.0" />
+	</Group>
+    <Group id="3343" name="CR_TAP_PIPEDRIP">
+		<Sound filename="/Audio/Cranky/CANI24.wav" volume="1.0" />
+	</Group>
+    <Group id="3344" name="CR_TAP_BUBBLE">
+		<Sound filename="/Audio/Cranky/Cranky_idle_pop_bubble.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Shower -->
+    
+    <!-- Shower curtain (level results screen) -->
+	<Group id="120" name="SHOWER_CURTAIN">
+		<Sound filename="/Audio/Objects/JAWSHC01.wav" volume="1.0" />
+	</Group>
+    <!-- Sounds playing while Swampy is in the shower (level results screen) -->
+	<Group id="121" name="SHOWER_LOOP" loop="true" isMusic="true">
+		<!--<Sound filename="/Audio/Misc/JAWSHR01.wav" volume="0.4" />-->
+		<Sound filename="/Audio/Misc/JAWSHR02.wav" volume="0.4" />
+		<Sound filename="/Audio/Misc/JAWSHR03.wav" volume="0.4" />
+		<Sound filename="/Audio/Misc/JAWSHR04.wav" volume="0.4" />
+	</Group>
+	
+	<!-- Game win stingers (changes based upon the number of stars gained) -->
+	<Group id="130" name="SWAMPY_STINGER_ONE_STAR">
+		<Sound filename="/Audio/GameWin/JAWPOS01.wav" volume="1.0" />
+	</Group>
+	<Group id="131" name="SWAMPY_STINGER_TWO_STAR">
+		<Sound filename="/Audio/GameWin/JAWPOS02.wav" volume="1.0" />
+	</Group>
+	<Group id="132" name="SWAMPY_STINGER_THREE_STAR">
+		<Sound filename="/Audio/GameWin/JAWPOS03.wav" volume="1.0" />
+	</Group>
+	
+	
+	
+	<!-- Collectibles -->
+    
+    <!-- When the player touches a collectible in level -->
+	<Group id="150" name="COLLECTIBLE_TOUCH">
+		<Sound filename="" volume="1.0" />
+	</Group>
+    <!-- When a collectible is unlocked for the first time  -->
+	<Group id="151" name="COLLECTIBLE_UNLOCK">
+		<Sound filename="" volume="1.0" />
+	</Group>
+    
+    
+	
+	<!-- UI -->
+    
+    <!-- Button press (down) -->
+	<Group id="140" name="UI_BUTTON_DOWN" alwaysInMemory="true" >
+		<Sound filename="/Audio/UI/JAWUID01.wav" volume="1.0" />
+	</Group>
+    <!-- Button release (up) -->
+	<Group id="141" name="UI_BUTTON_UP" alwaysInMemory="true" >
+		<Sound filename="/Audio/UI/JAWUIU01.wav" volume="1.0" />
+	</Group>
+    <!-- Button scroll click -->
+	<Group id="142" name="UI_SCROLL_CLICK" >
+		<Sound filename="/Audio/UI/Age_Gate_Click_Mono.wav" volume="1.0" />
+	</Group>
+
+
+	<!-- LEVEL PACK INTRO CINEMATIC SOUNDTRACKS -->
+	<Group id="1001" name="INTRO_PACK_1" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_1_B.mp3" volume="1.0" />
+	</Group>
+	<Group id="1002" name="INTRO_PACK_2" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_2.mp3" volume="1.0" />
+	</Group>
+	<Group id="1003" name="INTRO_PACK_3" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_3.mp3" volume="1.0" />
+	</Group>
+	<Group id="1004" name="INTRO_PACK_4" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_4.mp3" volume="1.0" />
+	</Group>
+	<Group id="1005" name="INTRO_PACK_5" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_5.mp3" volume="1.0" />
+	</Group>
+	<Group id="1006" name="INTRO_PACK_6" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_6.mp3" volume="1.0" />
+	</Group>
+	<Group id="1007" name="INTRO_PACK_7" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_7.mp3" volume="1.0" />
+	</Group>
+	<Group id="1008" name="INTRO_PACK_8" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_8.mp3" volume="1.0" />
+	</Group>
+	<Group id="1009" name="INTRO_PACK_9" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_9.mp3" volume="1.0" />
+	</Group>
+	<Group id="1010" name="INTRO_PACK_10" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_10.mp3" volume="1.0" />
+	</Group>
+	
+	<!-- END-OF-LEVEL PACK CINEMATIC SOUNDTRACKS -->
+	<Group id="2004" name="INTRO_PACK_4_END" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_4_End.mp3" volume="1.0" />
+	</Group>
+	
+	
+	<!-- CRANKY INTRO CINEMATIC SOUNDTRACKS -->
+	<Group id="1101" name="CRANKY_PACK_1" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_C1.mp3" volume="1.0" />
+	</Group>
+	<Group id="1102" name="CRANKY_PACK_2" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_C2.mp3" volume="1.0" />
+	</Group>
+	<Group id="1103" name="CRANKY_PACK_3" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_C3.mp3" volume="1.0" />
+	</Group>
+	<Group id="1104" name="CRANKY_PACK_4" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_C4.mp3" volume="1.0" />
+	</Group>
+	
+	<!-- CRANKY END-OF-LEVEL PACK SOUNDTRACKS -->
+	<Group id="2104" name="INTRO_PACK_4_END" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_C2_End.mp3" volume="1.0" />
+	</Group>
+	
+	
+    <!-- MYSTERY DUCK INTRO CINEMATIC SOUNDTRACKS -->
+	<Group id="1201" name="MYSTERY_PACK_1" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_M1.mp3" volume="1.0" />
+	</Group>
+    
+	<!-- Allie INTRO CINEMATIC SOUNDTRACKS -->
+    <Group id="1301" name="ALLIE_PACK_1" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_A1.mp3" volume="1.0" />
+	</Group>
+	<Group id="1302" name="ALLIE_PACK_2" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_A2.mp3" volume="1.0" />
+	</Group>
+	<Group id="1303" name="ALLIE_PACK_3" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_A3.mp3" volume="1.0" />
+	</Group>
+	<Group id="1304" name="ALLIE_PACK_4" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_A4.mp3" volume="1.0" />
+	</Group>
+	<Group id="2304" name="ALLIE_PACK_4_END" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/Comic_Panel_A4_End.mp3" volume="1.0" />
+	</Group>
+	
+    <!-- Frankenweenie INTRO CINEMATIC SOUNDTRACKS -->
+    <Group id="1401" name="FRANKEN_PACK_1" isMusic="true">
+		<Sound filename="/Audio/PuppetShows/FW_ComicPanel01.mp3" volume="1.0" />
+	</Group>
+	
+	
+	
+    
+    <!-- Frankenweenie doghouse sound -->
+    <Group id="4000" name="FRANKEN_DOGHOUSE">
+        <!-- Remove those sound files to reduce file size. These are no longer used in game.
+        <Sound filename="/Audio/Theming/doghousse03.wav" volume="1.0" />
+		<Sound filename="/Audio/Theming/doghousse05.wav" volume="1.0" />-->
+    </Group>
+    
+    <Group id="4001" name="FRANKEN_DUCKDIE">
+        <!-- Remove those sound files to reduce file size. These are no longer used in game.
+        <Sound filename="/Audio/Duckies/DeadDuck_FW_1_BG.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/DeadDuck_FW_2_BG.wav" volume="1.0" />
+        <Sound filename="/Audio/Duckies/DeadDuck_FW_3_BG.wav" volume="1.0" />-->
+    </Group>
+    
+    <!-- TV Animation Sound -->
+    <Group id="4002" name="TV_ANIMATION">
+        <!-- Remove those sound files to reduce file size. These are no longer used in game.
+        <Sound filename="/Audio/Misc/TV_Static.wav" />-->
+    </Group>
+    
+    <Group id="4060" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_1.wav" />
+    </Group>
+    <Group id="4061" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_2.wav" />
+    </Group>
+    <Group id="4062" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_3.wav" />
+    </Group>
+    <Group id="4063" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_4.wav" />
+    </Group>
+    <Group id="4064" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_5.wav" />
+    </Group>
+    <Group id="4065" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_6.wav" />
+    </Group>
+    <Group id="4066" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_7.wav" />
+    </Group>
+    <Group id="4067" name="STEAM_NOTE">
+        <Sound filename="/Audio/Liquids/Allie_Scale_Note_8.wav" />
+    </Group>
+    <Group id="4068" name="ALLIE_WIN">
+        <Sound filename="/Audio/GameWin/Allie_Winfare_02.wav" />
+    </Group>
+
+	<Group id="4069" name="ALLIE_LRS_MUSIC" loop="true" isMusic="true">
+		<Sound filename="/Audio/Music/Allie_Song_WheresMyWater_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_Chopsticks_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_BareNeccessities_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_LondonBridge_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_PiratesLife_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_Frere_Jacque_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_Weasel_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_The_Entertainer_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_Beethoven_03.mp3" volume="1.0" />
+		<Sound filename="/Audio/Music/Allie_Song_SmallWorld.mp3" volume="1.0" />
+	</Group>
+    
+    <!-- Played when allie duckies 'hatch' -->
+	<Group id="4070" name="ALLIE_STAR_GET" >
+		<Sound filename="/Audio/Duckies/JAWADKY01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKY02.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKY03.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKY04.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKY05.wav" volume="1.0" />
+	</Group>
+    
+    
+   
+    <!-- Played when allie duckies are killed (contaminated water, sludge, bombs, etc.) -->
+	<Group id="4071" name="ALLIE_STAR_DIE" >
+		<Sound filename="/Audio/Duckies/JAWADKD01.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD02.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD03.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD04.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD05.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD06.wav" volume="1.0" />
+		<Sound filename="/Audio/Duckies/JAWADKD07.wav" volume="1.0" />
+	</Group>
+    
+    
+	 <!-- Played as each drop of water hits the allie ducky -->
+	<Group id="4072" name="ALLIE_STAR_PROGRESS" >
+		<Sound filename="/Audio/Duckies/AllieDuckSteam1.wav" volume="1.0" />
+	</Group>    
+	
+    <!-- Played as each drop of water hits the allie ducky -->
+	<Group id="4073" name="ALLIE_PORTAL_PROGRESS" loop="true">
+		<Sound filename="/Audio/Liquids/PortalSteam1.wav" volume="1.0" />
+	</Group>
+    
+    
+    <!-- Played as each drop of water hits the allie ducky -->
+	<Group id="4074" name="ALLIE_NOTE_DIE">
+		<Sound filename="/Audio/Duckies/WRONG_NOTE.wav" volume="1.0" />
+	</Group>
+    
+    <!-- Played when level is lost with allie -->
+    <Group id="4075" name="ALLIE_LOSE">
+        <Sound filename="/Audio/GameWin/Allie_LoseFare.wav" />
+    </Group>
+    
+	
+	
+	
+	<Group id="4200" name="AL_SFX_1" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1986_Scared.wav" volume="1.0" />
+	</Group>
+	<Group id="4201" name="AL_SFX_2" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1987_Angry.wav" volume="1.0" />
+	</Group>
+	<Group id="4202" name="AL_SFX_3" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1988_Tickled.wav" volume="1.0" />
+	</Group>
+	<Group id="4203" name="AL_SFX_4" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1989_Mad_No_Water.wav" volume="1.0" />
+	</Group>
+	<Group id="4204" name="AL_SFX_5" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1991_Happy_Dance.wav" volume="1.0" />
+	</Group>
+	<Group id="4205" name="AL_SFX_6" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1992_Rockin Out_Alt.wav" volume="1.0" />
+	</Group>
+	<Group id="4206" name="AL_SFX_7" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1993_Stayin_Alive.wav" volume="1.0" />
+	</Group>
+	<Group id="4207" name="AL_SFX_8" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1994_Wipeoff_Dirt.wav" volume="1.0" />
+	</Group>
+	<Group id="4208" name="AL_SFX_9" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1995_Impatient_Alt_2.wav" volume="1.0" />
+	</Group>
+	<Group id="4210" name="AL_SFX_11" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1997_Curious.wav" volume="1.0" />
+	</Group>
+	<Group id="4211" name="AL_SFX_12" >
+		<Sound filename="/Audio/Allie/Allie_Gesture_1998_Idle.wav" volume="1.0" />
+	</Group>
+    <Group id="4212" name="AL_SFX_13" >
+		<Sound filename="/Audio/Allie/Allie_al_idle_maracas_01.wav" volume="1.0" />
+	</Group>
+    <Group id="4213" name="AL_SFX_14" >
+		<Sound filename="/Audio/Allie/Allie_al_idle_window_02.wav" volume="1.0" />
+	</Group>
+    <Group id="4214" name="AL_SFX_15" >
+		<Sound filename="/Audio/Allie/Allie_al_tap_air_guitar_02.wav" volume="1.0" />
+	</Group>
+    <Group id="4215" name="AL_SFX_16" >
+		<Sound filename="/Audio/Allie/Allie_al_tap_clap_02.wav" volume="1.0" />
+	</Group>
+    <Group id="4216" name="AL_SFX_17" >
+		<Sound filename="/Audio/Allie/Allie_al_tap_stretch_02.wav" volume="1.0" />
+	</Group>
+    <Group id="4217" name="AL_SFX_18" >
+		<Sound filename="/Audio/Allie/Allie_al_tap_tuneup_02.wav" volume="1.0" />
+	</Group>
+    <Group id="4218" name="AL_SFX_19" >
+		<Sound filename="/Audio/Allie/Allie_Poison.wav" volume="1.0" />
+	</Group>
+	  
+    <!-- Music -->
+    <Music>
+		<!-- Theme songs -->
+        <Group id="0">
+            <Track filename="/Audio/Music/JAW_Theme_Song.mp3" volume="0.5"/>
+            <!--<Track filename="/Audio/Theming/WMW_Holiday_Theme.mp3" />-->
+        </Group>
+        
+        <Group id="1">
+            <Track filename="/Audio/Music/JAW_SubMenu_Music.mp3" />
+		</Group>
+        
+		<!-- Pack songs -->
+        <Group id="2">
+            <Track filename="/Audio/Music/JAW_LevelPack_Music_1.mp3" />
+            <Track filename="/Audio/Music/JAW_LevelPack_Music_2.mp3" />
+            <Track filename="/Audio/Music/JAW_LevelPack_Music_3.mp3" />
+            <Track filename="/Audio/Music/JAW_LevelPack_Music_4.mp3" />
+			<Track filename="/Audio/Music/JAW_LevelPack_Music_5.mp3" />
+			<Track filename="/Audio/Music/JAW_LevelPack_Music_6.mp3" />
+		</Group>
+        
+		<!-- Bonus songs -->
+        <Group id="3">
+            <Track filename="/Audio/Music/JAW_Bonus_Round_Music_60sec.mp3" />
+            <Track filename="/Audio/Music/JAW_Bonus_Round_SpeedUp_10sec.mp3" />
+        </Group>
+		
+		<!-- Cranky songs -->
+		<Group id="4">
+			<Track filename="/Audio/Music/Cranky_Music_1.mp3" />
+			<Track filename="/Audio/Music/Cranky_Music_2.mp3" />
+			<Track filename="/Audio/Music/Cranky_Music_3.mp3" />
+			<Track filename="/Audio/Music/Cranky_Music_4.mp3" />
+		</Group>
+		
+		<!-- Cranky menu music -->
+		<Group id="5">
+            <Track filename="/Audio/Music/Cranky_Theme_Song.mp3" />
+		</Group>
+        
+        <!-- Sewer ambiance -->
+		<Group id="6">
+            <Track filename="/Audio/Music/sewer_ambiance.mp3" />
+		</Group>
+        
+		<!-- Mystery Duck songs -->
+		<Group id="7">
+			<Track filename="/Audio/Music/MD_MegaDuck.mp3" />
+			<Track filename="/Audio/Music/MD_BabyDuck.mp3" />
+			<Track filename="/Audio/Music/MD_MysteryDuck.mp3" />
+		</Group>  
+		
+		<!-- Mystery Duck menu music -->
+		<Group id="8">
+			<Track filename="/Audio/Music/MysteryDuck_LRS.mp3" volume="0.5"/>
+		</Group>  
+        
+        <!-- Frankenweenie level selection screen music -->
+        <Group id="9">
+            <!-- Remove those sound files to reduce file size. These are no longer used in game.
+            <Track filename="/Audio/Music/Frankenweenie_Theme.mp3" />-->
+        </Group>
+        
+        <!-- Frankenweenie pack songs -->
+        <Group id="10">
+            <!-- Remove those sound files to reduce file size. These are no longer used in game.
+            <Track filename="/Audio/Music/Frankenweenie_LevelPack_1d.mp3" />-->
+        </Group>
+        
+        <!-- Swampy birthday song -->
+        <Group id="11">
+            <!-- Remove those sound files to reduce file size. These are no longer used in game.
+            <Track filename="/Audio/Music/WMW_Birthday_Level.mp3" /> -->
+        </Group>
+        
+        <!-- HUB- Level of the Week menu music -->
+        <Group id="12">
+            <!--<Track filename="/Audio/Music/Hub_LOTW_5.mp3" />-->
+        </Group>
+        
+        <!-- HUB- Upsell Screen menu music -->
+        <Group id="13">
+            <Track filename="/Audio/Music/Hub_UpSale.mp3" />
+        </Group>
+        
+        <!-- Allie Portal Theme -->
+        <Group id="14">
+            <Track filename="/Audio/Music/WMW_Allies_Theme.mp3" />
+        </Group>
+        
+        <!-- Allie Theme Sub -->
+        <Group id="15">
+            <Track filename="/Audio/Music/WMW_Allies_Menu.mp3" />
+        </Group>
+        
+        <!-- Allie Music -->
+        <Group id="16">
+            <Track filename="/Audio/Music/Allie_LevelPack_1.mp3" />
+            <Track filename="/Audio/Music/Allie_LevelPack_2.mp3" />
+        </Group>
+        
+    </Music>
+    
+</SoundList>

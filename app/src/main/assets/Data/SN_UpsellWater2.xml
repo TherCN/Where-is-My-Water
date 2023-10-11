@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ WN_Background          0
+ WN_WaterLogo           1
+ WN_Text                2
+ WN_Swampy              3
+ WN_Download            4
+ WN_Close               5
+ WN_ProgressBar         6
+ WN_DialogBoxBackground 7
+ WN_ProgressGear        8
+ 
+ -->
+<Widgets texturePath="/Textures/">
+    
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.5" size="1.0 1.0" aspectBasis="height" forceAspect="768:1024" texBGName="wmw2_upsell_background.webp" />
+	
+    <!-- Water logo -->
+    <Widget type="WT_LABEL" id="1" layer="2" pos="0 0" justifyWidget="0.5 0.02" size="0.0 0.2" forceAspect="1421:656" aspectBasis="height" texBGName="WMW2_Logo.webp" />
+    
+    <!-- Text -->
+    <Widget type="WT_LABEL" id="2" layer="2" pos="0 0" justifyWidget="1.0 0.6" size="0.45 0.25" text="W2_UPSELL_INTERS" halign="center" textColorRGB="255 255 255"  forceAspect="722:956" texBGName="wmw2_upsell_container.png" paddingL=".08" paddingR=".06" paddingT=".08" paddingB=".08" font="normal" />
+
+    <Widget type="WT_PUSH_BUTTON" id="4" parent="0" layer="3" pos="0 0" posByParentSize="0.5 0.265" size="0.45 0.0" textColorRGB="255 255 255" forceAspect="541:158" text="PLAY_FOR_FREE" texNormalName="wmw2_upsell_button.png" texHilightName="wmw2_upsell_button.png" edgePaddingRelative="0.22 0.09" font="normal" visible="true" />
+    
+    <!-- Close (X) button -->
+    <Widget type="WT_PUSH_BUTTON" id="5" layer="2" pos="0 0 0 5" justifyWidget="0 0" size="0.12 0" forceAspect="149:133" texNormalName="wmw2_upsell_close.png" texHilightName="wmw2_upsell_close.png" />
+    
+    <!-- Characters -->
+    <Widget type="WT_LABEL" id="6" layer="1" pos="0 0" justifyWidget="-0.08 0.75" size="0.58 0.2" forceAspect="844:1138" texBGName="wmw2_upsell_characters.webp" />
+    
+    <!-- Water -->
+    <Widget type="WT_LABEL" id="7" layer="1" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0.06" texBGName="wmw2_upsell_water.webp" numTiles="1.5 1.0" tileForceAspect="326:27"/>
+    
+</Widgets>

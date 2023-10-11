@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="leveleyeMain" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="leveleye_blink" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_eyes_1.png" offset="0.1499999999999968 -0.5437499999999957"/>
+    <Frame name="al_level_eyes_2.png" offset="0.26250000000000107 -0.0562499999999968"/>
+    <Frame name="al_level_eyes_3.png" offset="0.046875 0.4593750000000032"/>
+    <Frame name="al_level_eyes_4.png" offset="-0.16875000000000107 2.662500000000003" repeat="1"/>
+    <Frame name="al_level_eyes_5.png" offset="-1.1156250000000032 1.340625000000001"/>
+    <Frame name="al_level_eyes_6.png" offset="-0.3656250000000032 -0.31874999999999787"/>
+    <Frame name="al_level_eyes_6.png" offset="-0.3656250000000032 -0.31874999999999787"/>
+    <Frame name="al_level_eyes_0.png" offset="0 0" repeat="18"/>
+    <Frame name="al_level_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="levelBlinkdown" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_eyes_1.png" offset="0.1499999999999968 -0.5437499999999957"/>
+    <Frame name="al_level_eyes_2.png" offset="0.26250000000000107 -0.0562499999999968"/>
+    <Frame name="al_level_eyes_3.png" offset="0.046875 0.4593750000000032"/>
+    <Frame name="al_level_eyes_4.png" offset="-0.16875000000000107 2.662500000000003" repeat="1"/>
+    <Frame name="al_level_eyes_7.png" offset="-1.1156250000000032 1.340625000000001"/>
+    <Frame name="al_level_eyes_8.png" offset="-0.3656250000000032 -0.31874999999999787"/>
+    <Frame name="al_level_eyes_9.png" offset="-0.3656250000000032 -0.31874999999999787"/>
+    <Frame name="al_level_eyes_10.png" offset="0 0" repeat="46"/>
+  </Animation>
+</Sprite>

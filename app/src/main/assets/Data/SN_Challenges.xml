@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Back				0
+ -->
+
+<Widgets texturePath="/Textures/">
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" priority="0" layer="10" id="0" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="Cranky_Back_W_Shadow.png" texHilightName="Cranky_Back_NO_Shadow.png" reactOnDown="false" />
+	
+    <!-- Group -->
+	<Widget type="WT_GROUP" id="5000" layer="0" pos="0 0" size="1.0 1.0" />
+	
+	<!-- Background (placed and sized vertically progamatically) -->
+	<Widget type="WT_LABEL" id="10" layer="0" pos=".5 0" size="1.0 1.0" numTiles="1.5 0" tileForceAspect="1" texBGName="cranky_bricks_purple.webp" />
+	
+	<!-- Hidden level button -->
+	<Widget type="WT_PUSH_BUTTON" id="11" layer="10" pos="0.275 -0.325" size="0.125 0" forceAspect="1" texNormalName="mining_laser.webp" />
+	
+	
+	<!-- Template for a checklist -->
+	
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="100" layer="1" pos=".5025 0.175" size="0.9375 0" forceAspect="291:287" texBGName="cranky_challenge_poster_0.webp" visible="false" />
+	
+	<!-- Title -->
+	<Widget type="WT_LABEL" id="200" layer="2" pos="0 0" size="0.825 0.04" parent="100" posByParentSize="0.5 0.05" text="CHALLENGE_TITLE" textColorRGB="68 49 63" visible="false" />
+	
+	<!-- Check items -->
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="300" layer="2" pos="0 0" size="0.6875 0.1" parent="100" posByParentSize="0.385 0.185" text="CHALLENGE_1" textColorRGB="45 25 18" halign="left" visible="false" />
+	<Widget type="WT_LABEL" id="301" layer="2" pos="0 0" size="0.6875 0.1" parent="100" posByParentSize="0.385 0.385" text="CHALLENGE_2" textColorRGB="45 25 18" halign="left" visible="false" />
+	<Widget type="WT_LABEL" id="302" layer="2" pos="0 0" size="0.6875 0.1" parent="100" posByParentSize="0.385 0.585" text="CHALLENGE_3" textColorRGB="45 25 18" halign="left" visible="false" />
+	
+	<Widget type="WT_LABEL" id="400" layer="2" pos="0 0" size="0.4 0.1" parent="100" posByParentSize="0.55 0.825" text="CHALLENGE_DONE" textColorRGB="45 25 18" visible="false" />
+	
+	<!-- Lines -->
+	<Widget type="WT_LABEL" id="500" layer="2" pos="0 0" size="0.71 0.005" parent="100" posByParentSize="0.4 0.085" texBGName="white.png" bgBlendColorRGBA="45 25 18 255" visible="false" />
+	<Widget type="WT_LABEL" id="501" layer="2" pos="0 0" size="0.71 0.005" parent="100" posByParentSize="0.4 0.285" texBGName="white.png" bgBlendColorRGBA="45 25 18 255" visible="false" />
+	<Widget type="WT_LABEL" id="502" layer="2" pos="0 0" size="0.71 0.005" parent="100" posByParentSize="0.4 0.485" texBGName="white.png" bgBlendColorRGBA="45 25 18 255" visible="false" />
+	<Widget type="WT_LABEL" id="503" layer="2" pos="0 0" size="0.71 0.005" parent="100" posByParentSize="0.4 0.685" texBGName="white.png" bgBlendColorRGBA="45 25 18 255" visible="false" />
+	
+	<!-- Levels/buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="600" layer="2" pos="0 0" size="0.16 0" forceAspect="43:45" parent="100" posByParentSize="0.8666 0.185" texNormalName="Cranky_Skull_Icon_1.png" reactOnDown="false" text="1-1" edgePaddingRelative="0.55" textOffsetRelative="0 0.275" textHilightOffsetRelative="0 0.275" font="outlined" textColorRGB="32 95 53" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="601" layer="2" pos="0 0" size="0.16 0" forceAspect="43:45" parent="100" posByParentSize="0.8666 0.385" texNormalName="Cranky_Skull_Icon_2.png" reactOnDown="false" text="1-1" edgePaddingRelative="0.45" textOffsetRelative="0 0.275" textHilightOffsetRelative="0 0.275" font="outlined" textColorRGB="32 95 53" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="602" layer="2" pos="0 0" size="0.16 0" forceAspect="43:45" parent="100" posByParentSize="0.8666 0.585" texNormalName="Cranky_Skull_Icon_3.png" reactOnDown="false" text="1-1" edgePaddingRelative="0.35" textOffsetRelative="0 0.275" textHilightOffsetRelative="0 0.275" font="outlined" textColorRGB="32 95 53" visible="false" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="700" layer="2" pos="0 0" size="0.16 0" forceAspect="43:45" parent="100" posByParentSize="0.8666 0.825" texNormalName="Cranky_Level_Icon_Locked.png" reactOnDown="false" text="1-1" edgePaddingRelative="0.525" textOffsetRelative="0 -0.125" textHilightOffsetRelative="0 -0.125" font="outlined" textColorRGB="32 95 53" visible="false" />
+    
+	<!-- completed mark labels -->
+	<Widget type="WT_LABEL" id="1100" layer="3" pos="0 0" size="0.16 0" forceAspect="100:104" parent="100" posByParentSize="0.8666 0.185" texBGName="Cranky_ui_Crossed_out.png" visible="false" />
+	<Widget type="WT_LABEL" id="1101" layer="3" pos="0 0" size="0.16 0" forceAspect="100:104" parent="100" posByParentSize="0.8666 0.385" texBGName="Cranky_ui_Crossed_out.png" visible="false" />
+	<Widget type="WT_LABEL" id="1102" layer="3" pos="0 0" size="0.16 0" forceAspect="100:104" parent="100" posByParentSize="0.8666 0.585" texBGName="Cranky_ui_Crossed_out.png" visible="false" />
+	
+    <!-- Prepurchase shade/text -->
+	<Widget type="WT_LABEL" id="800" parent="100" layer="5" pos="0 0" size="0.945 0" forceAspect="291:287" texBGName="dialogue_box.webp" visible="false" />
+	<Widget type="WT_LABEL" id="900" parent="800" layer="6" pos="0 0" posByParentSize="0.5 0.333" size="0.7 0.2" text="PURCHASE_CHALLENGES" textColorRGB="255 255 255" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="1000" parent="800" layer="6" pos="0 0" posByParentSize="0.5 0.8" size="0.5 0.1" text="BUY_ALT" forceAspect="128:44" texNormalName="WMW_UI_buy_button_blank.png" texHilightName="WMW_UI_buy_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="59 35 95" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+    
+    <!-- Cranky complete icon -->
+	<Widget type="WT_LABEL" id="1200" layer="4" pos="0 0" size="0.25 0" forceAspect="188:188" parent="100" posByParentSize="0.185 0.815" texBGName="cranky_badge_challenge_locked.webp" visible="false" />
+	
+	
+    
+    <!-- Used for automatically determining the height of the screen -->
+	<Widget type="WT_LABEL" id ="10000" layer="10" pos="0.5 -0.3" size="0.2 0.2" visible="true" />
+	<Widget type="WT_LABEL" id ="10001" layer="10" pos="0.5 3.1" size="0.2 0.2" vivible="true" />
+	
+</Widgets>

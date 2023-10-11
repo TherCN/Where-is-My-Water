@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout2">
+    <AbsoluteLocation value="-4.638260 -45.198441"/>
+    <Properties>
+      <Property name="Angle" value="152.675"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout3">
+    <AbsoluteLocation value="-15.099037 -14.408226"/>
+    <Properties>
+      <Property name="Angle" value="-123.576"/>
+      <Property name="Filename" value="/Objects/touch_spout.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Object4">
+    <AbsoluteLocation value="-23.092644 25.165062"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Spout5">
+    <AbsoluteLocation value="-23.586090 -4.934326"/>
+    <Properties>
+      <Property name="Angle" value="88.2069"/>
+      <Property name="Filename" value="/Objects/touch_spout_steam.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Object6">
+    <AbsoluteLocation value="22.204460 46.382668"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Switch7">
+    <AbsoluteLocation value="-27.928284 33.849480"/>
+    <Properties>
+      <Property name="Angle" value="-47.8198"/>
+      <Property name="Filename" value="/Objects/switch_fan1.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch8">
+    <AbsoluteLocation value="27.237480 -28.421715"/>
+    <Properties>
+      <Property name="Angle" value="46.7011"/>
+      <Property name="Filename" value="/Objects/switch_blue.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="15.600002 -55.600006"/>
+  </Room>
+</Objects>

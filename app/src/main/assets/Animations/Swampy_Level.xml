@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<AnimationList>
+	
+	<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="Idle" probability="7"/>
+			<NextAnimationGroup name="IdleVariation" probability="5" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+	</Groups>
+	
+	<!-- Animations  -->
+	<Animations>
+		
+		<Animation name="IdleBobbing" armatureName="bobbing">
+			<Groups>
+				<Group name="Idle" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleVariationLookRight" armatureName="look_right">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleVariationSleep" armatureName="sleep">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+		</Animation>
+		
+	</Animations>
+	
+</AnimationList>

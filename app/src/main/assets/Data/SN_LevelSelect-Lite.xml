@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_PackName				110
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_LevelSelect.xml">
+	
+    <!-- Pack name -->
+	<Widget type="WT_LABEL" id="110" layer="2" pos=".5 .693" />
+    
+	<Widget type="WT_PUSH_BUTTON" id="200" layer="3" pos="0.8 0.59" />
+	<Widget type="WT_PUSH_BUTTON" id="201" layer="3" pos="0.2 0.59" />
+    
+</Widgets>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Back				0
+ 
+ WN_CollectibleStart 	1
+ ...
+ WN_CollectibleEnd		24
+ 
+ WN_BonusStart			25
+ ...
+ WN_BonusEnd 			32
+ 
+ WN_BackgroundStart		33
+ ...
+ WN_BackgroundEnd		51
+ 
+ WN_PackNameStart		52
+ ...
+ WN_PackNameEnd			59
+ 
+ WN_Group				100
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Collectibles.xml">
+	
+	<!-- Shelf text -->
+	<Widget type="WT_LABEL" id="216" parent="206" pos="-0.132 -0.195" />
+	<Widget type="WT_LABEL" id="217" parent="206" pos="0.2 -0.1825" />
+	
+</Widgets>

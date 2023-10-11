@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object12">
+    <AbsoluteLocation value="5.062500 -41.531250"/>
+    <Properties>
+      <Property name="Angle" value="2.50893"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout1">
+    <AbsoluteLocation value="0.711882 -41.581245"/>
+    <Properties>
+      <Property name="Angle" value="88.4689"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_cranky.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Star2">
+    <AbsoluteLocation value="13.639041 -12.074989"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star4">
+    <AbsoluteLocation value="0.607008 11.300369"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky7">
+    <AbsoluteLocation value="-11.945278 -12.073263"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Object11">
+    <AbsoluteLocation value="6.562500 -41.437500"/>
+    <Properties>
+      <Property name="Angle" value="4.22647"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible9">
+    <AbsoluteLocation value="-17.531250 -4.875000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_cranky_03.hs"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="18.800001 -34.000000"/>
+  </Room>
+</Objects>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureSettings>
+	
+	<!--
+	 -
+	 -		INGAME TEXTURES 
+	 -
+	 -->
+	
+	<!-- Materials -->
+	<Texture name="/Textures/bg_tile_bright"			colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/bg_tile"					colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/dirt"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/rock"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+	<Texture name="/Textures/rock_hilight"				colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/rock_shadow"				colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+	<!-- Particles -->
+	<Texture name="/Textures/new_particle_atlas"		colorspace="rgba4444" />
+	
+	<!-- Portals -->
+	<Texture name="/Textures/room"						colorspace="rgba5551" />
+	<Texture name="/Textures/Cranky_Room"				colorspace="rgba5551" />
+	<Texture name="/Textures/Allie_Room"				colorspace="rgba5551" />
+
+	
+	<Texture name="/Textures/room_overlay"				colorspace="rgba4444" />
+	<Texture name="/Textures/Cranky_Room_Overlay"		colorspace="rgba4444" />
+	<Texture name="/Textures/Allie_Room_Overlay"		colorspace="rgba4444" />
+
+	<!-- Swampy animated curtain (when you tap him) -->
+	<Texture name="/Textures/curtain"					colorspace="rgba5551" />
+	
+	<!-- Level endcaps -->
+	<Texture name="/Textures/Endcap-01"					colorspace="rgb565" />
+	<Texture name="/Textures/level_end_cap"				colorspace="rgb565" />
+	
+	<!-- Mystery Duck star pattern (draws on bricks) -->
+	<Texture name="/Textures/MD_stars_level_tile"		colorspace="rgb565" wrapU="repeat" wrapV="clamp" />
+	
+    <!-- 2.0 Hub -->
+	<Texture name="/Textures/WMW_UI_brick"                  premultiplyAlpha="true"
+    colorspace="rgba4444" wrapU="repeat" wrapV="repeat" />
+    <Texture name="/Textures/WMW_UI_footer"                 wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/WMW_UI_gradiant"               wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/WMW_UI_light"          premultiplyAlpha="true" wrapU="clamp" wrapV="clamp_to_edge"/>
+    <Texture name="/Textures/WMW_UI_settings_water"       wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/WMW_UI_settings_wave"       wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/WMW_UI_water_back"         wrapU="repeat" wrapV="clamp_to_edge" />
+    <Texture name="/Textures/WMW_UI_water_front"        wrapU="repeat" wrapV="clamp_to_edge" />
+    <Texture name="/Textures/WMW_UI_portal"         colorspace="rgba4444" />
+    <Texture name="/Textures/whatson_tv"          colorspace="rgba4444" />
+    
+	<!--
+	 -
+	 -		OBJECTS 
+	 -
+	 -->
+	
+	<!-- Objects -->
+	<Texture name="/Textures/objects"					colorspace="rgba4444" />
+	
+	<!-- Fan BG texture -->
+	<Texture name="/Textures/pattern_wind_zone"			wrapU="repeat" wrapV="repeat" />
+	
+	<!-- Ducky fills -->
+	<Texture name="/Textures/ducky_water_tile"			wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/ducky_dirty_water_tile"	wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/ducky_steam_tile"			wrapU="repeat" wrapV="clamp" />
+	
+	
+	
+	
+	
+	<!--
+	 -
+	 -		CHARACTERS 
+	 -
+	 -->
+	
+	<!-- Swampy -->
+	<Texture name="/Textures/swampy"					colorspace="rgba4444" alphaClip="0.99" clipColor="136 180 32" clipTolerance="10" />
+	<Texture name="/Textures/swampy_level"				colorspace="rgba4444" />
+    <Texture name="/Textures/swampy_props"              colorspace="rgba4444" />
+	
+	<!-- Cranky -->
+	<Texture name="/Textures/cranky"					colorspace="rgba4444" />
+	<Texture name="/Textures/crankyNew"					premultiplyAlpha="true" colorspace="rgba4444" alphaClip="0.5" outlineColor="0 40 15" greyTolerance="10" />
+	<Texture name="/Textures/cranky_level"				colorspace="rgba4444" />
+    <Texture name="/Textures/crankyNew_props"           colorspace="rgba4444" />
+    
+    
+	<!-- Allie -->
+	<Texture name="/Textures/allie"                     premultiplyAlpha="true" colorspace="rgba4444" alphaClip="0.95" clipColor="86 104 86" clipTolerance="10" />
+	<Texture name="/Textures/allie_level"               premultiplyAlpha="true" alphaClip="0.99" clipColor="136 180 32" clipTolerance="10" />
+	<Texture name="/Textures/allie_props"              colorspace="rgba4444" />
+    <Texture name="/Textures/allie_level_props"        colorspace="rgba4444" />
+    
+    <!-- Mystery duck -->
+    <Texture name="/Textures/mystery_duck_hub"          colorspace="rgba4444" />
+    <Texture name="/Textures/mystery_duck_hub_props"    colorspace="rgba4444" />
+	
+	<!-- Converters -->
+	<Texture name="/Textures/Convert_Icon_Standalone_MudWet"	colorspace="rgba4444" />
+	<Texture name="/Textures/Convert_Icon_Standalone_Ooze"		colorspace="rgba4444" />
+	<Texture name="/Textures/Convert_Icon_Standalone_Poison"	colorspace="rgba4444" />
+	<Texture name="/Textures/Convert_Icon_Standalone_Steam"		colorspace="rgba4444" />
+	<Texture name="/Textures/Convert_Icon_Standalone_Water"		colorspace="rgba4444" />
+	
+	
+	<!--
+	 -
+	 -		SCREENS 
+	 -
+	 -->
+	<!-- loading screen -->
+	<Texture name="/Textures/UI_loading"						colorspace="rgb565" />
+	
+	<!-- Main Menu -->
+	<Texture name="/Textures/splash_screen"						colorspace="rgba4444" />
+	<Texture name="/Textures/main_menu"							colorspace="rgb565" />
+	
+	<Texture name="/Textures/UI_Radio"							colorspace="rgba4444" />
+	<Texture name="/Textures/UI_Shower_Head"					colorspace="rgba4444" />
+	
+	<Texture name="/Textures/hd_notification_bg"				colorspace="rgba4444" />
+	
+    <!-- Main Menu -->
+    <Texture name="/Textures/WMW_MainMenu_v2"                   colorspace="rgba4444" />
+	
+	<!-- Hub -->
+	<Texture name="/Textures/hub_jpg_atlas"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/WMW_UI_background"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/WMW_UI_water_light"				wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/WMW_UI_water_dark"					wrapU="repeat" wrapV="clamp" />
+	
+	<Texture name="/Textures/WMW_UI_light"						colorspace="rgb565" />
+	
+	<!-- World Select: Swampy -->
+	<Texture name="/Textures/world_select_atlas"				colorspace="rgb565" />
+	<Texture name="/Textures/world_select_atlas_lite"			colorspace="rgb565" />
+	
+	<Texture name="/Textures/duck_counter_world"				colorspace="rgba4444" />
+    <Texture name="/Textures/lock_gray_water"					wrapU="repeat" wrapV="clamp" />
+	
+	<!-- World Select: Cranky -->
+	<Texture name="/Textures/cranky_bricks_green"				colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+    <Texture name="/Textures/cranky_water_0"					wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/cranky_water_1"					wrapU="repeat" wrapV="clamp" />
+	
+	<!-- World Select: Lost Levels -->
+	<Texture name="/Textures/WMW_LL_background"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/WMW_LL_water_dark_select"			wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/WMW_LL_water_light_select"			wrapU="repeat" wrapV="clamp" />
+	
+	<!-- World Select: Mystery Duck -->
+	<Texture name="/Textures/MD_brick_tile"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/MD_stars_tile"						wrapU="repeat" wrapV="clamp" />
+	
+	
+	<!-- Level Select -->
+	<Texture name="/Textures/duck_counter"						colorspace="rgba4444" />
+	
+	<Texture name="/Textures/tile_yellow"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+    <Texture name="/Textures/tile_green"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+    <Texture name="/Textures/tile_magenta"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+    <Texture name="/Textures/tile_purple"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+	<Texture name="/Textures/WMW_UI_water_light"				wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/WMW_UI_water_dark"					wrapU="repeat" wrapV="clamp" />
+	
+    <Texture name="/Textures/cranky_bricks_purple"				colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+    <Texture name="/Textures/allie_bricks_blue"                 colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+
+	<!-- Level Results Screen: Swampy -->
+	<Texture name="/Textures/shower_curtain_01"					wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_02"					wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_03"					wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_04"					wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_bonus"				wrapU="repeat" wrapV="clamp" />
+	
+	<Texture name="/Textures/shower_curtain_01_WINTER_2011"		wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_02_WINTER_2011"		wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_03_WINTER_2011"		wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_04_WINTER_2011"		wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/shower_curtain_bonus_WINTER_2011"		wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/shower_curtain_VALENTINES_2012"	wrapU="repeat" wrapV="clamp" />
+    <Texture name="/Textures/WMW_UI_LL_summer_curtain"          wrapU="repeat" wrapV="clamp" />
+    
+    <Texture name="/Textures/Photofinish"                       colorspace="rgba4444" />
+	
+	<!-- Level Results Screen: Cranky -->	
+    <Texture name="/Textures/cranky_spotlight"					colorspace="rgb565" />
+	
+	<!-- Level Results Screen: Allie -->
+    <Texture name="/Textures/allie_steam_tile"                  wrapU="repeat" wrapV="repeat" />
+
+	<!-- Level Results Screen: Mystery -->
+	<Texture name="/Textures/pattern_magic_curtain"				wrapU="repeat" wrapV="clamp" />
+	<Texture name="/Textures/mysteryduck_stage_md_stage_1"		colorspace="rgb565" />
+	
+    <Texture name="/Textures/MD_result_spotlight"				colorspace="rgb565" />
+    
+    <!-- Level Results Screen: Frankenweenie -->
+    <Texture name="/Textures/Frankenweenie_shower_curtain1"		wrapU="repeat" wrapV="clamp" />
+	
+	<!-- Collectibles -->
+	<Texture name="/Textures/collectibles"						colorspace="rgba4444" />
+	<Texture name="/Textures/collectible_wallpaper"				colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/collectible_wall_runner"			colorspace="rgb565" />
+	
+	<!-- Achievements -->
+	<Texture name="/Textures/achievements_atlas"				colorspace="rgb565" />
+	<Texture name="/Textures/ach_string_0"						colorspace="rgba4444" />
+	<Texture name="/Textures/ach_string_1"						colorspace="rgba4444" />
+	<Texture name="/Textures/ach_frame"							colorspace="rgba4444" />
+	<Texture name="/Textures/ach_null"							colorspace="rgb565" />
+	
+	<!-- Challenges -->
+    <Texture name="/Textures/cranky_bricks_deep_purple"			colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+    <Texture name="/Textures/cranky_cranky_challenge_poster_0"	colorspace="rgba4444" />
+    <Texture name="/Textures/cranky_cranky_challenge_poster_1"	colorspace="rgba4444" />
+	
+	<!-- Food Pyramid -->
+	<Texture name="/Textures/crankyfood"						colorspace="rgba4444" />
+    
+   <!--  <Texture name="/Textures/collectible_musicsheet_bottom"     wrapV="clamp_to_edge" /> -->
+	
+	<!-- Upsell Screen -->
+	<Texture name="/Textures/upsell_bg"							colorspace="rgb565" />
+	
+	<!-- Settings -->
+	<Texture name="/Textures/hexagon_tiles"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+	<!-- Credits -->
+	<Texture name="/Textures/credits_tile"						colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	<Texture name="/Textures/credits_creature_feep"				colorspace="rgba4444" />
+	<Texture name="/Textures/credits_disney_mobile"				colorspace="rgba4444" />
+    
+    <!-- Water 2 Upsell -->
+    <Texture name="/Textures/wmw2_upsell_water"                 wrapU="repeat" wrapV="clamp" />
+	
+	<!-- Music Collection -->
+	<Texture name="/Textures/alliemusic"						colorspace="rgba4444" />
+	
+	
+
+	
+	
+	<!--
+	 -
+	 -		COMIC PANELS
+	 -
+	 -->
+	
+	<!-- Swampy -->
+	<Texture name="/Textures/intro_pack_01_a"					colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_01_b"					colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_01_c"					colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_01_d"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_02"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_03"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_04"						colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_04_end"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_05"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_06"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_07"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_08"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_09"						colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_10"						colorspace="rgb565" />
+	
+	<!-- Cranky -->
+	<Texture name="/Textures/intro_pack_101_a"					colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_101_b"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_102"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_103"					colorspace="rgb565" />
+	
+	<Texture name="/Textures/intro_pack_104"					colorspace="rgb565" />
+	<Texture name="/Textures/intro_pack_104_end"				colorspace="rgb565" />
+	
+	<!-- Mystery -->
+	<Texture name="/Textures/intro_pack_201"					colorspace="rgb565" />
+	
+	
+	
+	
+	<!--
+	 -
+	 -		COMIC PANELS
+	 -
+	 -->
+	
+	<!-- Fonts -->
+	<Texture name="/Fonts/Bleeker-42_0"							premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/Bleeker-42-outline_0"					colorspace="rgba4444" />
+	
+	<!-- Japanese -->
+	<Texture name="/Fonts/DFHS-GothicW7-21_0"					premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/DFHS-GothicW7-26-outline_0"			colorspace="rgba4444" />
+	
+	<!-- Russian -->
+	<Texture name="/Fonts/DomCasual-42_0"						premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/DomCasual-42-outline_0"				colorspace="rgba4444" />
+	
+	<!-- Korean -->
+	<Texture name="/Fonts/FBGreen-34_0"							premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/FBGreen-34-outline_0"					colorspace="rgba4444" />
+	
+	<!-- Chinese - Traditional -->
+	<Texture name="/Fonts/DFPGirl-26_0"							premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/DFPGirl-26-outline_0"					colorspace="rgba4444" />
+	
+	<!-- Chinese - Simplified -->
+	<Texture name="/Fonts/DFPShaoNv-26_0"						premultiplyAlpha="true" colorspace="rgba4444" />
+	<Texture name="/Fonts/DFPShaoNv-26-outline_0"				colorspace="rgba4444" />
+	
+	
+	
+	
+	<!--
+	 -
+	 -		DEBUG/MISC.
+	 -
+	 -->
+	
+	<!-- debug textures -->
+	<Texture name="/Textures/test_tex"							colorspace="rgb565" wrapU="repeat" wrapV="repeat" />
+	
+</TextureSettings>

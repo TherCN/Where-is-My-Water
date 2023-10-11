@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Skeleton name="cranky_level" animations="/Animations/cranky_level.ani" curveCollection="/Curves/CrankyLevelCurves.bin">
+  <Bone name="ikBoneName712" localPos="0.793158 -0.533447" localAngleRad="-1.378938">
+    <Sprite localLayer="6" name="ikNode_712" relativePath="/Sprites/cranky_bd_torso_LS.sprite" localScale="1.000000 -1.000000" localPos="-17.488867 43.264751"/>
+    <Bone name="ikBoneName713" localPos="-21.096678 45.433174" localAngleRad="1.466423">
+      <Sprite localLayer="9" name="ikNode_713" relativePath="/Sprites/cranky_bd_arm_R_LS.sprite" localScale="1.000000 -1.000000" localPos="-0.275021 -20.333694"/>
+    </Bone>
+    <Bone name="ikBoneName714" localPos="-14.026466 17.882559" localAngleRad="-0.630610">
+      <Sprite localLayer="8" name="ikNode_714" relativePath="/Sprites/cranky_bd_leg_R_LS.sprite" localScale="1.000000 -1.000000" localPos="16.125542 -15.254085"/>
+      <Bone name="ikBoneName715" localPos="22.576513 -35.353428" localAngleRad="-0.231949">
+        <Sprite localLayer="7" name="ikNode_715" relativePath="/Sprites/cranky_bd_foot_R_LS.sprite" localScale="1.000000 -1.000000" localPos="11.099645 -0.657333"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName716" localPos="-2.643705 80.502525" localAngleRad="1.410090">
+      <Sprite localLayer="10" name="ikNode_716" relativePath="/Sprites/cranky_hd__jaw_LS.sprite" localScale="1.000000 -1.000000" localPos="29.351461 -1.764915"/>
+      <Bone name="ikBoneName717" localPos="1.419568 15.646579" localAngleRad="0.061591">
+        <Sprite localLayer="11" name="ikNode_717" relativePath="/Sprites/cranky_hd__skull_LS.sprite" localScale="1.000000 -1.000000" localPos="25.818821 1.472219"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName718" localPos="0.785967 4.790406" localAngleRad="-0.441086">
+      <Sprite localLayer="1" name="ikNode_718" relativePath="/Sprites/cranky_bd_leg_L_LS.sprite" localScale="1.000000 -1.000000" localPos="7.083799 -7.959446"/>
+      <Bone name="ikBoneName719" localPos="15.010959 -23.788969" localAngleRad="-0.181682">
+        <Sprite localLayer="0" name="ikNode_719" relativePath="/Sprites/cranky_bd_foot_L_LS.sprite" localScale="1.000000 -1.000000" localPos="9.654642 -1.223374"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName720" localPos="-3.192897 62.457081" localAngleRad="0.991839">
+      <Sprite localLayer="2" name="ikNode_720" relativePath="/Sprites/cranky_bd_arm_L_LS.sprite" localScale="1.000000 -1.000000" localPos="12.791714 -6.030329"/>
+    </Bone>
+    <Bone name="ikBoneName721" localPos="-6.797758 12.849100" localAngleRad="1.093905">
+      <Sprite localLayer="5" name="ikNode_721" relativePath="/Sprites/cranky_bd_tail_A_LS.sprite" localScale="1.000000 -1.000000" localPos="-48.676270 1.911735"/>
+      <Bone name="ikBoneName722" localPos="-83.619667 -19.723087" localAngleRad="0.197769">
+        <Sprite localLayer="4" name="ikNode_722" relativePath="/Sprites/cranky_bd_tail_B_LS.sprite" localScale="1.000000 -1.000000" localPos="-2.671661 24.769045"/>
+        <Bone name="ikBoneName723" localPos="0.030690 49.761787" localAngleRad="1.229205">
+          <Sprite localLayer="3" name="ikNode_723" relativePath="/Sprites/cranky_bd_tail_C_LS.sprite" localScale="1.000000 -1.000000" localPos="3.192451 -14.387409"/>
+        </Bone>
+      </Bone>
+    </Bone>
+  </Bone>
+</Skeleton>

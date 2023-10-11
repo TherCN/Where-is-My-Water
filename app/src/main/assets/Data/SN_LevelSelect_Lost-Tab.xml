@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_LevelList               0
+ WN_MainMenu				1
+ WN_StarCount				2
+ 
+ WN_Level_1                 10
+ ...
+ WN_Level_25                34
+ 
+ ...
+ WN_EditorToggle            99
+ WN_BACKGROUND              100
+ WN_LevelSelectSwampy		101
+ WN_Water					102
+ 
+ WN_PackName				110
+ 
+ WN_FacebookButton          201
+ 
+ WN_Collectible_Reference	500
+ 
+ WN_TextListChange			700
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_LevelSelect_Lost.xml">
+	
+	<!-- Seaweed reference (code uses size, position, and texture) -->
+	
+	<!-- Background: ids 3030 - 3039 -->
+	<Widget type="WT_LABEL" id="3030" parent="3000" pos="0 0" posByParentSize="0.080 0.39" size="0.12 0" forceAspect="60:216" />
+	<Widget type="WT_LABEL" id="3031" parent="3000" pos="0 0" posByParentSize="0.125 0.49" size="0.07 0" forceAspect="43:128" />
+	<Widget type="WT_LABEL" id="3032" parent="3000" pos="0 0" posByParentSize="0.300 0.59" size="0.12 0" forceAspect="60:216" />
+	<Widget type="WT_LABEL" id="3033" parent="3000" pos="0 0" posByParentSize="0.700 0.465" size="0.07 0" forceAspect="43:128" />
+	<Widget type="WT_LABEL" id="3034" parent="3000" pos="0 0" posByParentSize="0.775 0.44" size="0.12 0" forceAspect="60:216" />
+	<Widget type="WT_LABEL" id="3035" parent="3000" pos="0 0" posByParentSize="0.900 0.365" size="0.12 0" forceAspect="60:216" />
+	
+	<!-- Foreground: ids 3040 - 3049 -->
+	<Widget type="WT_LABEL" id="3040" parent="3001" pos="0 0" posByParentSize="0.100 0.215" size="0.07 0" forceAspect="45:188" />
+	<Widget type="WT_LABEL" id="3041" parent="3001" pos="0 0" posByParentSize="0.200 0.315" size="0.09 0" forceAspect="58:256" />
+	<Widget type="WT_LABEL" id="3042" parent="3001" pos="0 0" posByParentSize="0.750 0.315" size="0.06 0" forceAspect="039:85" />
+	<Widget type="WT_LABEL" id="3043" parent="3001" pos="0 0" posByParentSize="0.825 0.265" size="0.11 0" forceAspect="66:274" />
+	<Widget type="WT_LABEL" id="3044" parent="3001" pos="0 0" posByParentSize="0.925 0.065" size="0.07 0" forceAspect="45:188" />
+	
+	
+</Widgets>

@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="idle belch" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="54"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="2"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233"/>
+    <Frame name="cranky_hd__skull_LS_3.png" offset="-0.649195 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_4.png" offset="-5.959826 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_5.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_6.png" offset="-5.956279 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_4.png" offset="-5.959826 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_3.png" offset="-0.649195 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="3"/>
+  </Animation>
+  <Animation name="mad 0" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="idle 4th wall" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_7.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_8.png" offset="0.000000 0.000000" repeat="40"/>
+    <Frame name="cranky_hd__skull_LS_7.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="10"/>
+  </Animation>
+  <Animation name="cheeks" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_10.png" offset="-0.188018 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_11.png" offset="-0.198661 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_12.png" offset="-0.769811 1.071350"/>
+    <Frame name="cranky_hd__skull_LS_13.png" offset="-1.220345 0.659838"/>
+    <Frame name="cranky_hd__skull_LS_12.png" offset="-0.769811 1.071350"/>
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_10.png" offset="-0.188018 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_11.png" offset="-0.198661 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_12.png" offset="-0.769811 1.071350"/>
+    <Frame name="cranky_hd__skull_LS_13.png" offset="-1.220345 0.659838"/>
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_10.png" offset="-0.188018 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_12.png" offset="-0.769811 1.071350"/>
+    <Frame name="cranky_hd__skull_LS_13.png" offset="-1.220345 0.659838"/>
+    <Frame name="cranky_hd__skull_LS_12.png" offset="-0.769811 1.071350"/>
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_10.png" offset="-0.188018 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_11.png" offset="-0.198661 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_9.png" offset="-0.308634 1.184870"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="head turn" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_15.png" offset="-2.128510 4.186069"/>
+    <Frame name="cranky_hd__skull_LS_16.png" offset="-5.275156 6.495502"/>
+    <Frame name="cranky_hd__skull_LS_17.png" offset="-9.826619 12.320522"/>
+    <Frame name="cranky_hd__skull_LS_18.png" offset="-17.425398 14.920853"/>
+    <Frame name="cranky_hd__skull_LS_19.png" offset="-23.594528 15.020183"/>
+    <Frame name="cranky_hd__skull_LS_20.png" offset="-24.829063 12.316976"/>
+    <Frame name="cranky_hd__skull_LS_21.png" offset="-30.448330 6.293293"/>
+    <Frame name="cranky_hd__skull_LS_22.png" offset="-37.944229 -1.720545"/>
+    <Frame name="cranky_hd__skull_LS_23.png" offset="-39.600918 -6.300388"/>
+    <Frame name="cranky_hd__skull_LS_24.png" offset="-39.384521 -9.234184" repeat="28"/>
+    <Frame name="cranky_hd__skull_LS_24.png" offset="-39.384521 -9.234184"/>
+    <Frame name="cranky_hd__skull_LS_23.png" offset="-39.600918 -6.300388"/>
+    <Frame name="cranky_hd__skull_LS_22.png" offset="-37.944229 -1.720545"/>
+    <Frame name="cranky_hd__skull_LS_21.png" offset="-30.448330 6.293293"/>
+    <Frame name="cranky_hd__skull_LS_20.png" offset="-24.829063 12.316976"/>
+    <Frame name="cranky_hd__skull_LS_19.png" offset="-23.594528 15.020183"/>
+    <Frame name="cranky_hd__skull_LS_18.png" offset="-17.425398 14.920853"/>
+    <Frame name="cranky_hd__skull_LS_17.png" offset="-9.826619 12.320522"/>
+    <Frame name="cranky_hd__skull_LS_16.png" offset="-5.275156 6.495502"/>
+    <Frame name="cranky_hd__skull_LS_15.png" offset="-2.128510 4.186069"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="mad-hap" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_25.png" offset="-0.113521 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_26.png" offset="-0.627910 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_27.png" offset="-0.695313 -0.028380" repeat="6"/>
+    <Frame name="cranky_hd__skull_LS_26.png" offset="-0.627910 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_25.png" offset="-0.113521 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="5"/>
+  </Animation>
+  <Animation name="happy blink" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_27.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_28.png" offset="-0.695313 0.876236"/>
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_28.png" offset="-0.695313 0.876236"/>
+    <Frame name="cranky_hd__skull_LS_27.png" offset="-0.695313 -0.028380" repeat="21"/>
+  </Animation>
+  <Animation name="happy closed" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_14.png" offset="-0.695313 1.780853"/>
+  </Animation>
+  <Animation name="licks chops cyc" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_29.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_30.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_31.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_32.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_33.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_34.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_35.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_36.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_37.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_38.png" offset="-0.695313 1.124563"/>
+    <Frame name="cranky_hd__skull_LS_39.png" offset="0.957829 3.547516"/>
+    <Frame name="cranky_hd__skull_LS_40.png" offset="3.529778 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_41.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_42.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_29.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_30.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_27.png" offset="-0.695313 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_26.png" offset="-0.627910 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_25.png" offset="-0.113521 -0.028380"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="mad closed" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233"/>
+  </Animation>
+  <Animation name="mad blink" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_1.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_0.png" offset="0.000000 0.000000" repeat="11"/>
+    <Frame name="cranky_hd__skull_LS_8.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__skull_LS_7.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_2.png" offset="0.000000 1.809233" repeat="1"/>
+    <Frame name="cranky_hd__skull_LS_7.png" offset="0.000000 0.904617"/>
+    <Frame name="cranky_hd__skull_LS_8.png" offset="0.000000 0.000000" repeat="5"/>
+  </Animation>
+  <Animation name="growl 0" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__skull_LS_43.png" offset="-2.391026 -3.614918"/>
+  </Animation>
+</Sprite>

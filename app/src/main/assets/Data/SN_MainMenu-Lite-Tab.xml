@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_FACEBOOK			2
+ 
+ WN_FULLVERSION			9
+
+ WN_Version				99
+ 
+ WN_Logo				201
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MainMenu-Lite.xml">
+
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="200" size="1.0 1.0" forceAspect="768:1024" aspectBasis="height" />
+	
+	<!-- logo -->
+	<Widget type="WT_LABEL" id="201" pos="0.5 0.11" size="0.65 0" forceAspect="512:221" />
+	
+	<!-- settings gear -->
+	<Widget type="WT_PUSH_BUTTON" id="1" pos=".08 .96 0 -106" size="0.07 0.07" forceAspect="1" />
+	
+	<!-- Social Media -->
+    <Widget type="WT_PUSH_BUTTON" id="2" pos=".81 .96 0 -106" size="0.07 0.07" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="8" pos=".94 .96 0 -106" size="0.07 0.07" forceAspect="1" />  
+	
+</Widgets>

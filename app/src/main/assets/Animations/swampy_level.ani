@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<Animations>
+  <Animation fps="30.000000" forceFPS="true" name="bobbing">
+    <NodeAnimationTrack node="ikBoneName1200" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1200_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1200_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1200_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1201" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1201_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1201_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1201_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1202" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1202_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1202_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1202_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1203" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1203_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1203_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1203_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1204" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1204_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1204_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1204_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1205" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1205_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1205_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1205_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1206" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1206_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1206_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1206_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1207" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1207_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1207_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1207_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1208" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1208_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1208_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1208_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1209" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1209_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1209_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1209_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1210" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1210_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1210_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1210_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1211" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1211_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1211_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1211_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1212" angleRelCurvePath="/Curves/swampy/bobbing/ikBoneName1212_angle.xml" posXRelCurvePath="/Curves/swampy/bobbing/ikBoneName1212_posX.xml" posYRelCurvePath="/Curves/swampy/bobbing/ikBoneName1212_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_1200">
+      <SpriteAnimationEvent time="0.000000" animationName="sw_torso_duck" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1201">
+      <SpriteAnimationEvent time="0.000000" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1202">
+      <SpriteAnimationEvent time="0.000000" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1203">
+      <SpriteAnimationEvent time="0.000000" animationName="2" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="2" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="2" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="2" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="2" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.933333" animationName="2" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="2" playOffset="0.466667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="2" playOffset="0.766667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="2" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1204">
+      <SpriteAnimationEvent time="0.000000" animationName="x" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="x" playOffset="0.966667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.366667" animationName="x" playOffset="1.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.933333" animationName="x" playOffset="1.933333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="x" playOffset="2.333333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.900000" animationName="x" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1205">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 5" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="Layer 5" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="Layer 5" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="Layer 5" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="Layer 5" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="Layer 5" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.933333" animationName="Layer 5" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="Layer 5" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="Layer 5" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="Layer 5" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1206">
+      <SpriteAnimationEvent time="0.000000" animationName="2" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.400000" animationName="1" playOffset="0.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="1" playOffset="0.500000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="1" playOffset="0.666667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="2" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.333333" animationName="1" playOffset="0.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="1" playOffset="0.666667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1207">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="Layer 3" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="Layer 3" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="Layer 3" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="Layer 3" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="Layer 3" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.366667" animationName="Layer 3" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.933333" animationName="Layer 3" playOffset="0.566667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="Layer 3" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.900000" animationName="Layer 3" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1208">
+      <SpriteAnimationEvent time="0.000000" animationName="0" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1209">
+      <SpriteAnimationEvent time="0.000000" animationName="12" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1210">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1211">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1212">
+      <SpriteAnimationEvent time="0.000000" animationName="tail 1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="look_right">
+    <NodeAnimationTrack node="ikBoneName1200" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1200_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1200_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1200_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1201" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1201_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1201_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1201_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1202" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1202_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1202_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1202_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1203" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1203_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1203_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1203_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1204" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1204_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1204_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1204_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1205" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1205_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1205_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1205_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1206" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1206_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1206_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1206_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1207" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1207_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1207_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1207_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1208" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1208_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1208_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1208_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1209" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1209_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1209_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1209_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1210" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1210_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1210_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1210_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1211" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1211_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1211_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1211_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1212" angleRelCurvePath="/Curves/swampy/look_right/ikBoneName1212_angle.xml" posXRelCurvePath="/Curves/swampy/look_right/ikBoneName1212_posX.xml" posYRelCurvePath="/Curves/swampy/look_right/ikBoneName1212_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_1200">
+      <SpriteAnimationEvent time="0.000000" animationName="sw_torso_duck" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1201">
+      <SpriteAnimationEvent time="0.000000" animationName="11" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="11" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="11" playOffset="0.233333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.633333" animationName="11" playOffset="0.800000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="11" playOffset="0.900000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1202">
+      <SpriteAnimationEvent time="0.000000" animationName="11" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="11" playOffset="0.133333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.233333" animationName="11" playOffset="0.233333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.633333" animationName="11" playOffset="0.800000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="11" playOffset="0.900000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1203">
+      <SpriteAnimationEvent time="0.000000" animationName="4" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="4" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="5" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="16" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.366667" animationName="5" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.633333" animationName="6" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="6" playOffset="0.100000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="4" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1204">
+      <SpriteAnimationEvent time="0.000000" animationName="x" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="x" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="x" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="x" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="x" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="x" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="x" playOffset="0.966667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.366667" animationName="x" playOffset="1.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.933333" animationName="x" playOffset="1.933333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="x" playOffset="2.333333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="x" playOffset="2.633333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="x" playOffset="2.733333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="x" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1205">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 5" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="Layer 5" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="Layer 5" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="Layer 5" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="Layer 5" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="Layer 5" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="Layer 5" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.933333" animationName="Layer 5" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="Layer 5" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="Layer 5" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="Layer 5" playOffset="0.800000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.900000" animationName="Layer 5" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1206">
+      <SpriteAnimationEvent time="0.000000" animationName="2" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.400000" animationName="1" playOffset="0.033333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="1" playOffset="0.500000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="1" playOffset="0.666667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="2" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.333333" animationName="1" playOffset="0.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.633333" animationName="1" playOffset="0.666667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.733333" animationName="2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1207">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="Layer 3" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.233333" animationName="Layer 3" playOffset="0.233333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.400000" animationName="Layer 3" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="Layer 3" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.700000" animationName="Layer 3" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.966667" animationName="Layer 3" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.366667" animationName="Layer 3" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.933333" animationName="Layer 3" playOffset="0.566667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.333333" animationName="Layer 3" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.900000" animationName="Layer 3" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1208">
+      <SpriteAnimationEvent time="0.000000" animationName="0" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1209">
+      <SpriteAnimationEvent time="0.000000" animationName="12" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1210">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1211">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1212">
+      <SpriteAnimationEvent time="0.000000" animationName="tail 1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="sleep">
+    <NodeAnimationTrack node="ikBoneName1200" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1200_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1200_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1200_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1201" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1201_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1201_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1201_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1202" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1202_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1202_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1202_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1203" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1203_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1203_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1203_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1204" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1204_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1204_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1204_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1205" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1205_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1205_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1205_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1206" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1206_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1206_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1206_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1207" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1207_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1207_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1207_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1208" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1208_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1208_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1208_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1209" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1209_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1209_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1209_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1210" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1210_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1210_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1210_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1211" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1211_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1211_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1211_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName1212" angleRelCurvePath="/Curves/swampy/sleep/ikBoneName1212_angle.xml" posXRelCurvePath="/Curves/swampy/sleep/ikBoneName1212_posX.xml" posYRelCurvePath="/Curves/swampy/sleep/ikBoneName1212_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_1200">
+      <SpriteAnimationEvent time="0.000000" animationName="sw_torso_duck" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1201">
+      <SpriteAnimationEvent time="0.000000" animationName="1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.133333" animationName="13" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="13" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.833333" animationName="13" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.100000" animationName="13" playOffset="0.966667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.500000" animationName="13" playOffset="1.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.900000" animationName="13" playOffset="1.933333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.300000" animationName="13" playOffset="2.333333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.600000" animationName="13" playOffset="2.633333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.866667" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1202">
+      <SpriteAnimationEvent time="0.000000" animationName="1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.133333" animationName="12" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="12" playOffset="0.400000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.833333" animationName="12" playOffset="0.700000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.100000" animationName="12" playOffset="0.966667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.500000" animationName="12" playOffset="1.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.900000" animationName="12" playOffset="1.933333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.300000" animationName="12" playOffset="2.333333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.600000" animationName="12" playOffset="2.633333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.866667" animationName="12" playOffset="2.900000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.000000" animationName="1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1203">
+      <SpriteAnimationEvent time="0.000000" animationName="2" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.133333" animationName="17" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.533333" animationName="15" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.500000" animationName="17" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.900000" animationName="17" playOffset="0.533333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.300000" animationName="15" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.866667" animationName="2" playOffset="0.133333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.000000" animationName="2" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1204">
+      <SpriteAnimationEvent time="0.000000" animationName="x" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.100000" animationName="x" playOffset="0.966667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.500000" animationName="x" playOffset="1.366667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.900000" animationName="x" playOffset="1.933333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.300000" animationName="x" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1205">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 5" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1206">
+      <SpriteAnimationEvent time="0.000000" animationName="2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1207">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1208">
+      <SpriteAnimationEvent time="0.000000" animationName="0" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1209">
+      <SpriteAnimationEvent time="0.000000" animationName="12" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1210">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 3" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1211">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 2" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_1212">
+      <SpriteAnimationEvent time="0.000000" animationName="tail 1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+</Animations>

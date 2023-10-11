@@ -1,0 +1,10 @@
+pluginManagement {
+  repositories {
+    google()
+    mavenCentral()
+  }
+}
+
+rootProject.name = "Swampy LevelEditor"
+
+include(":app")

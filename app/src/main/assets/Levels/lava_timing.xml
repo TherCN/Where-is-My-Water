@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Obj14">
+    <AbsoluteLocation value="-0.143202 59.615925"/>
+    <Properties>
+      <Property name="Angle" value="88.1387"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj13">
+    <AbsoluteLocation value="-3.076834 59.273872"/>
+    <Properties>
+      <Property name="Angle" value="88.2013"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj12">
+    <AbsoluteLocation value="-6.112853 58.647457"/>
+    <Properties>
+      <Property name="Angle" value="92.2823"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="2">
+    <AbsoluteLocation value="15.806810 -19.152328"/>
+    <Properties>
+      <Property name="Angle" value="90.8187"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="3">
+    <AbsoluteLocation value="-6.100823 54.189949"/>
+    <Properties>
+      <Property name="Angle" value="-75.5006"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="4">
+    <AbsoluteLocation value="-3.370367 54.603119"/>
+    <Properties>
+      <Property name="Angle" value="-81.501"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="5">
+    <AbsoluteLocation value="-0.363507 54.986145"/>
+    <Properties>
+      <Property name="Angle" value="-80.4575"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="6">
+    <AbsoluteLocation value="-30.737110 16.516537"/>
+    <Properties>
+      <Property name="Angle" value="29.8938"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="7">
+    <AbsoluteLocation value="-24.708069 19.749012"/>
+    <Properties>
+      <Property name="Angle" value="25.7528"/>
+      <Property name="Filename" value="/Objects/touch_spout.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="SprinklerSteps" value="5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="8">
+    <AbsoluteLocation value="-25.036737 -11.892456"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="9">
+    <AbsoluteLocation value="18.404778 -0.971460"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="10">
+    <AbsoluteLocation value="25.732428 25.494083"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj11">
+    <AbsoluteLocation value="15.599995 -19.998924"/>
+    <Properties>
+      <Property name="Angle" value="-90.4456"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout11">
+    <AbsoluteLocation value="15.725033 -14.742582"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Obj15">
+    <AbsoluteLocation value="-35.922623 13.263823"/>
+    <Properties>
+      <Property name="Angle" value="34.4342"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible18">
+    <AbsoluteLocation value="-18.750000 8.906250"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_12.hs"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Object name="Obj17">
+    <AbsoluteLocation value="-0.245160 65.841263"/>
+    <Properties>
+      <Property name="Angle" value="93.7778"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj18">
+    <AbsoluteLocation value="-5.860879 64.805687"/>
+    <Properties>
+      <Property name="Angle" value="83.4576"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj19">
+    <AbsoluteLocation value="-2.883849 65.499222"/>
+    <Properties>
+      <Property name="Angle" value="88.2013"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky34">
+    <AbsoluteLocation value="-17.140625 -39.812500"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="TeleportWaitTime" value="5.5"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky33">
+    <AbsoluteLocation value="-4.453125 7.031250"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_teleport.hs"/>
+      <Property name="StarType" value="teleport"/>
+      <Property name="TeleportWaitTime" value="5.5"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout23">
+    <AbsoluteLocation value="1.433245 57.143803"/>
+    <Properties>
+      <Property name="Angle" value="-87.3762"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="platinum"/>
+      <Property name="SprinklerSteps" value="5"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout24">
+    <AbsoluteLocation value="-1.568384 56.732136"/>
+    <Properties>
+      <Property name="Angle" value="-85.1401"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="platinum"/>
+      <Property name="SprinklerSteps" value="5"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout25">
+    <AbsoluteLocation value="-3.957382 55.182709"/>
+    <Properties>
+      <Property name="Angle" value="-78.0794"/>
+      <Property name="ExpulsionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Lava"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="8"/>
+      <Property name="PlatinumType" value="platinum"/>
+      <Property name="SprinklerSteps" value="5"/>
+      <Property name="Timer0" value="1 3"/>
+      <Property name="Timer1" value="0 5"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="15.600002 -34.000000"/>
+  </Room>
+  <Properties>
+    <Property name="HeavyIntro" value="1"/>
+  </Properties>
+</Objects>

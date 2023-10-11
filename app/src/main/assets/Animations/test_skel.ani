@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Animations>
+    <Animation name="Idle" >
+        <NodeAnimationTrack node="rootBone" angleRelCurvePath="/Curves/test_curve_1.xml" posXRelCurvePath="/Curves/test_curve.xml" posYRelCurvePath="/Curves/test_curve.xml" />
+        <NodeAnimationTrack node="bone1" angleRelCurvePath="/Curves/test_curve.xml" />
+    </Animation>    
+</Animations>

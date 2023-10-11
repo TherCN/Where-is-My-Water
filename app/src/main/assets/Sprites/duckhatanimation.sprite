@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="unlock" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckhatanimation_0.png" repeat="1" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+    <Frame name="duckhatanimation_0.png" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+    <Frame name="duckhatanimation_0.png" offset="-3.721647262573242 2.516542434692386" scale="0.8788909035962527 0.8331822302810517" angleDeg="-7.5421295166015625"/>
+    <Frame name="duckhatanimation_0.png" offset="-6.326800346374514 4.55458736419678" scale="0.9113780598368088 0.8328800241764883" angleDeg="-13.040512084960938"/>
+    <Frame name="duckhatanimation_0.png" offset="-7.762292861938476 5.8128585815429705" scale="0.931021456633424 0.8328044726503475" angleDeg="-16.3023681640625"/>
+    <Frame name="duckhatanimation_0.png" offset="-8.311678886413576 6.273633956909181" scale="0.9382744031429435 0.8335599879117558" angleDeg="-17.502044677734375"/>
+    <Frame name="duckhatanimation_0.png" offset="-5.582470893859863 4.306477546691894" scale="0.9163644605621033 0.8140676941674222" angleDeg="-11.301361083984375"/>
+    <Frame name="duckhatanimation_0.png" offset="2.9241514205932617 -0.46077537536620994" scale="0.8526745240253853 0.7574040495618012" angleDeg="6.7623291015625"/>
+    <Frame name="duckhatanimation_0.png" offset="17.562630653381348 -7.531905174255371" scale="0.833484436385615 0.833484436385615" angleDeg="35.741241455078125"/>
+    <Frame name="duckhatanimation_0.png" offset="16.8183012008667 -7.531905174255368" scale="0.833484436385615 0.833484436385615" angleDeg="32.75486755371094"/>
+    <Frame name="duckhatanimation_0.png" offset="14.1599817276001 -7.159740447998045" scale="0.833484436385615 0.833484436385615" angleDeg="21.778488159179688"/>
+    <Frame name="duckhatanimation_0.png" offset="11.023164749145506 -6.025524139404294" scale="0.833484436385615 0.833484436385615" angleDeg="8.045013427734375"/>
+    <Frame name="duckhatanimation_0.png" offset="11.678883552551271 -6.344522476196288" scale="0.833484436385615 0.833484436385615" angleDeg="11.016082763671875"/>
+    <Frame name="duckhatanimation_0.png" offset="11.909271240234379 -6.450855255126951" scale="0.8334088848594742 0.8334088848594742" angleDeg="12.040054321289062"/>
+    <Frame name="duckhatanimation_0.png" offset="9.375006675720217 -3.030484199523925" scale="0.833484436385615 0.833484436385615" angleDeg="3.76788330078125"/>
+    <Frame name="duckhatanimation_0.png" offset="3.5267038345336923 -1.2228269577026352" scale="0.8333333333333334 0.8333333333333334" angleDeg="-7.4957275390625"/>
+    <Frame name="duckhatanimation_0.png" offset="-2.5342645645141624 0.6557188034057623" scale="0.8334088848594742 0.8334088848594742" angleDeg="-17.989761352539062"/>
+    <Frame name="duckhatanimation_0.png" offset="-5.582470893859866 4.271033287048342" scale="0.8213206406769417 0.6619824720459353" angleDeg="-21.793563842773438"/>
+    <Frame name="duckhatanimation_0.png" offset="-10.509222984313967 6.645798683166504" scale="0.8474614687216682 0.6628135388334845"/>
+    <Frame name="duckhatanimation_0.png" offset="-11.48394012451172 4.306477546691896" scale="0.8464037473556966 0.6618313689936537"/>
+    <Frame name="duckhatanimation_0.png" repeat="5" offset="-11.856104850769045 3.5621480941772474" scale="0.8476125717739499 0.6628135388334845" angleDeg="-34.22499084472656"/>
+    <Frame name="duckhatanimation_0.png" offset="-7.655960083007815 3.615314483642579" scale="0.8476125717739499 0.6628135388334845" angleDeg="-24.773422241210938"/>
+    <Frame name="duckhatanimation_0.png" offset="-5.617915153503419 1.3468818664550797" scale="0.8278936234511937 0.7296766394681172" angleDeg="-14.766189575195312"/>
+    <Frame name="duckhatanimation_0.png" offset="-2.9241514205932617 -0.762051582336424" scale="0.8092323964944091 0.7975219099425809"/>
+    <Frame name="duckhatanimation_0.png" offset="0.30127620697021285 -2.481098175048828" scale="0.790420066485343 0.8651405258386219" angleDeg="5.242279052734375"/>
+    <Frame name="duckhatanimation_0.png" offset="0.07088851928711039 -1.3646039962768548" scale="0.8090812934421275 0.8511634935025687"/>
+    <Frame name="duckhatanimation_0.png" offset="0.053166389465329006 -0.6202745437622058" scale="0.8226805681474766 0.8414173466304019" angleDeg="1.2674713134765625"/>
+    <Frame name="duckhatanimation_0.png" offset="-0.017722129821776338 -0.1594991683959946" scale="0.8306890299184043 0.8354487760652766" angleDeg="0.2701416015625"/>
+    <Frame name="duckhatanimation_0.png" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckhatanimation_0.png" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+  </Animation>
+  <Animation name="outro" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckhatanimation_0.png" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+    <Frame name="duckhatanimation_0.png" offset="0 0" scale="0.833484436385615 0.833484436385615"/>
+    <Frame name="duckhatanimation_0.png" offset="0.07088851928711039 -0.33672046661376803" scale="0.8439105469930492 0.8439105469930492"/>
+    <Frame name="duckhatanimation_0.png" offset="0.2835540771484365 -1.346881866455077" scale="0.8751133272892112 0.8751133272892112"/>
+    <Frame name="duckhatanimation_0.png" offset="0.6025524139404307 -3.0836505889892565" scale="0.9271683288002418 0.9271683288002418"/>
+    <Frame name="duckhatanimation_0.png" offset="1.0633277893066406 -5.476138114929199"/>
+    <Frame name="duckhatanimation_0.png" offset="0.42533111572265725 1.1164941787719747" scale="0.7527954064672107 0.7527954064672107"/>
+    <Frame name="duckhatanimation_0.png" offset="-0.2303876876831075 7.726848602294924" scale="0.5055908129344213 0.5055908129344213"/>
+    <Frame name="duckhatanimation_0.png" offset="-0.8683843612670908 14.337203025817875" scale="0.2583862194016319 0.2583862194016319"/>
+  </Animation>
+</Sprite>

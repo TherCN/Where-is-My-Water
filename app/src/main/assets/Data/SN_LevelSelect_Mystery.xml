@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_LevelList               0
+ WN_MainMenu				1
+ WN_StarCount				2
+ 
+ WN_Level_1                 10
+ ...
+ WN_Level_25                34
+ 
+ ...
+ WN_EditorToggle            99
+ WN_BACKGROUND              100
+ WN_LevelSelectSwampy		101
+ WN_Water					102
+ 
+ WN_PackName				110
+
+ WN_FacebookButton          201
+ 
+ WN_Collectible_Reference	500
+ 
+ WN_TextListChange			700
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_LevelSelect.xml">
+	
+	<!-- MODIFICATIONS TO BASE FILE -->
+	
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="MD_back.png" texHilightName="MD_back_highlight.png" />
+	
+    <!-- Star count -->
+	<Widget type="WT_LABEL" id="106" pos=".806 .06" size="0.35 0" forceAspect="114:40" texBGName="MD_duck_counter.png" />
+	<Widget type="WT_LABEL" id="2" textColorRGB="94 41 37" />
+	
+    <!-- Disable secret level button -->
+    <Widget type="WT_PUSH_BUTTON" id="101" visible="false"/>
+    
+    <!-- Pack name -->
+	<Widget type="WT_LABEL" id="110" textColorRGB="94 41 37" />
+    
+    <!-- Social (move these buttons off-screen so they can't be accessed!!) -->
+    <Widget type="WT_PUSH_BUTTON" id="200" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="0 0 0" pos="10.0 10.0" />
+    <Widget type="WT_PUSH_BUTTON" id="201" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="0 0 0" pos="10.0 10.0" />
+    
+    <!-- Level layout -->
+    <Widget type="WT_PUSH_BUTTON" id="10" textColorRGB="94 41 37" />
+    
+	<Widget type="WT_LABEL" id="100" numTiles="1.875 0" tileForceAspect="1" texBGName="MD_brick_tile.webp" />
+	
+	<Widget type="WT_LABEL" id="105" visible="false" />
+	
+    <!-- Hide hadow -->
+	<Widget type="WT_LABEL" id="4000" visible="false" />
+	
+	<!-- Hide animated water -->
+    <Widget type="WT_LABEL" id="103" visible="false" />
+    <Widget type="WT_LABEL" id="102" visible="false" />
+	
+	<!-- Prepurchase shade/text -->
+    <Widget type="WT_PUSH_BUTTON" id="2002" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	
+	
+	
+	
+	<!-- NEW ASSETS -->
+	
+	<!-- Gradients (top and bottom) -->
+	<Widget type="WT_LABEL" id="5000" layer="1" pos="0 0" justifyWidget="0.5 0.0" size="1.0 0.3" texBGName="MD_gradient_top.png" />
+	<Widget type="WT_LABEL" id="5001" layer="1" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0.3" texBGName="MD_gradient.png" />
+	
+	<!-- Lights, ropes -->
+	<Widget type="WT_LABEL" id="5030" layer="2" pos="0 0" justifyWidget="0.5 0.0" size="1.0 0" forceAspect="1344:1398" texBGName="MD_spotlights.png" />
+	<Widget type="WT_LABEL" id="5031" layer="3" pos="0 0" justifyWidget="0.5 0.0" size="1.0 0" forceAspect="1538:600" texBGName="MD_rope.png" />
+	
+	<!-- Desk -->
+	<Widget type="WT_LABEL" id="5010" layer="4" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0" forceAspect="1536:380" texBGName="MD_desk.png" />
+	
+	<!-- All of the knickknacks on the desk -->
+	<Widget type="WT_LABEL" id="5020" parent="5010" layer="5" pos="0 0" posByParentSize="0.125 -0.35" size="0.22 0" forceAspect="338:358" texBGName="MD_sorcerer_hat.png" />
+	<Widget type="WT_LABEL" id="5021" parent="5010" layer="6" pos="0 0" posByParentSize="0.215 -0.09" size="0.13 0" forceAspect="206:226" texBGName="MD_crystal_ball.png" />
+	<Widget type="WT_LABEL" id="5022" parent="5010" layer="6" pos="0 0" posByParentSize="0.875 0.125" size="0.20 0" forceAspect="314:44" texBGName="MD_wand.png" />
+	<Widget type="WT_LABEL" id="5023" parent="5010" layer="5" pos="0 0" posByParentSize="0.835 -0.22" size="0.25 0" forceAspect="386:246" texBGName="MD_cards_lamp.png" />
+	
+	
+	<!-- Prepurchase shade/text -->
+	<Widget type="WT_LABEL" id="2000" parent="22" layer="8" pos="0 0" size="0.935 0.385" texBGName="dialogue_box.webp" visible="false" />
+	<Widget type="WT_LABEL" id="2001" parent="2000" layer="9" pos="0 0" posByParentSize="0.5 0.333" size="0.7 0.2" text="PURCHASE_LEVELS" textColorRGB="255 255 255" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="2002" parent="2000" layer="9" pos="0 0" posByParentSize="0.5 0.8" size="0.5 0.1" text="BUY_ALT" forceAspect="128:44" texNormalName="WMW_UI_buy_button_blank.png" texHilightName="WMW_UI_buy_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="59 35 95" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+	
+	
+</Widgets>

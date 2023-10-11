@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Open" textureBasePath="/Textures/" atlas="/Textures/calendar_level_icons.imagelist" fps="12" playbackMode="ONCE" loopCount="1">
+    <Frame name="world_calendar_promo_0.png" offset="0 0" />
+    <Frame name="world_calendar_promo_1.png" offset="11.673699645996095 4.161875244140623"/>
+    <Frame name="world_calendar_promo_2.png" offset="-11.893958129882813 -2.6464694824218777"/>
+    <Frame name="world_calendar_promo_3.png" offset="-0.42950404357909905 1.7460109863281226"/>
+  </Animation>
+</Sprite>

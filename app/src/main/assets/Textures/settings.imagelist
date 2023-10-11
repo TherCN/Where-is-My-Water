@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ImageList imgSize="256 128" file="/Textures/settings.webp" textureBasePath="/Textures/">
+  <Image name="button_disabled.png" offset="0 0" size="128 44" rect="0 0 128 44"/>
+  <Image name="button_disabled_highlight.png" offset="0 0" size="128 44" rect="0 45 128 44"/>
+  <Image name="button_splash.png" offset="0 0" size="60 44" rect="129 0 60 44"/>
+  <Image name="button_splash_highlight.png" offset="0 0" size="60 44" rect="190 0 60 44"/>
+  <Image name="icon_gears.png" offset="0 0" size="30 30" rect="129 45 30 30"/>
+  <Image name="icon_more_disney.png" offset="0 0" size="30 30" rect="160 45 30 30"/>
+</ImageList>

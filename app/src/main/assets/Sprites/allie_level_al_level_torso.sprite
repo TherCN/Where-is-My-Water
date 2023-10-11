@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="level_breath" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_torso_0.png" offset="0 0"/>
+    <Frame name="al_level_torso_1.png" offset="0 -0.046875"/>
+    <Frame name="al_level_torso_2.png" offset="0 -0.09375"/>
+    <Frame name="al_level_torso_3.png" offset="0 -0.140625"/>
+    <Frame name="al_level_torso_4.png" offset="0 -0.1875"/>
+    <Frame name="al_level_torso_5.png" offset="0 -0.234375"/>
+    <Frame name="al_level_torso_6.png" offset="0 -0.28125"/>
+    <Frame name="al_level_torso_7.png" offset="0 -0.328125"/>
+    <Frame name="al_level_torso_8.png" offset="0 -0.375"/>
+    <Frame name="al_level_torso_9.png" offset="0 -0.421875"/>
+    <Frame name="al_level_torso_10.png" offset="0 -0.46875"/>
+    <Frame name="al_level_torso_11.png" offset="0 -0.515625"/>
+    <Frame name="al_level_torso_12.png" offset="0 -0.5625"/>
+    <Frame name="al_level_torso_13.png" offset="0 -0.609375"/>
+    <Frame name="al_level_torso_14.png" offset="0 -0.65625"/>
+    <Frame name="al_level_torso_15.png" offset="0 -0.703125"/>
+    <Frame name="al_level_torso_16.png" offset="0 -0.75"/>
+    <Frame name="al_level_torso_17.png" offset="0 -0.796875"/>
+    <Frame name="al_level_torso_18.png" offset="0 -0.84375"/>
+    <Frame name="al_level_torso_19.png" offset="0 -0.890625"/>
+    <Frame name="al_level_torso_20.png" offset="0 -0.9375"/>
+    <Frame name="al_level_torso_21.png" offset="0 -0.984375"/>
+    <Frame name="al_level_torso_22.png" offset="0 -1.03125"/>
+    <Frame name="al_level_torso_23.png" offset="0 -1.078125"/>
+    <Frame name="al_level_torso_24.png" offset="0 -1.125"/>
+    <Frame name="al_level_torso_25.png" offset="0 -1.171875"/>
+    <Frame name="al_level_torso_26.png" offset="0 -1.21875"/>
+    <Frame name="al_level_torso_27.png" offset="0 -1.265625"/>
+    <Frame name="al_level_torso_28.png" offset="0 -1.3125"/>
+    <Frame name="al_level_torso_28.png" offset="0 -1.3125"/>
+    <Frame name="al_level_torso_27.png" offset="0 -1.265625"/>
+    <Frame name="al_level_torso_26.png" offset="0 -1.21875"/>
+    <Frame name="al_level_torso_25.png" offset="0 -1.171875"/>
+    <Frame name="al_level_torso_24.png" offset="0 -1.125"/>
+    <Frame name="al_level_torso_23.png" offset="0 -1.078125"/>
+    <Frame name="al_level_torso_22.png" offset="0 -1.03125"/>
+    <Frame name="al_level_torso_21.png" offset="0 -0.984375"/>
+    <Frame name="al_level_torso_20.png" offset="0 -0.9375"/>
+    <Frame name="al_level_torso_19.png" offset="0 -0.890625"/>
+    <Frame name="al_level_torso_18.png" offset="0 -0.84375"/>
+    <Frame name="al_level_torso_17.png" offset="0 -0.796875"/>
+    <Frame name="al_level_torso_16.png" offset="0 -0.75"/>
+    <Frame name="al_level_torso_15.png" offset="0 -0.703125"/>
+    <Frame name="al_level_torso_14.png" offset="0 -0.65625"/>
+    <Frame name="al_level_torso_13.png" offset="0 -0.609375"/>
+    <Frame name="al_level_torso_12.png" offset="0 -0.5625"/>
+    <Frame name="al_level_torso_11.png" offset="0 -0.515625"/>
+    <Frame name="al_level_torso_10.png" offset="0 -0.46875"/>
+    <Frame name="al_level_torso_9.png" offset="0 -0.421875"/>
+    <Frame name="al_level_torso_8.png" offset="0 -0.375"/>
+    <Frame name="al_level_torso_7.png" offset="0 -0.328125"/>
+    <Frame name="al_level_torso_6.png" offset="0 -0.28125"/>
+    <Frame name="al_level_torso_5.png" offset="0 -0.234375"/>
+    <Frame name="al_level_torso_4.png" offset="0 -0.1875"/>
+    <Frame name="al_level_torso_3.png" offset="0 -0.140625"/>
+    <Frame name="al_level_torso_2.png" offset="0 -0.09375"/>
+    <Frame name="al_level_torso_1.png" offset="0 -0.046875"/>
+    <Frame name="al_level_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="level_body" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_torso_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_SOUNDS			0
+ WN_CREDITS			1
+ WN_RESET			2
+ 
+ WN_BACK			3
+ 
+ WN_BACKGROUND		4
+ 
+ WN_DROPBOX_LOGOUT	5
+ 
+ WN_MUSIC			6
+ 
+ WN_LANGUAGE		7
+ 
+ WN_RESTORE_PURCHASES	8
+ 
+ WN_CLOUD_SYNC		9
+
+ WN_UNLOCK_PACKS	10
+ 
+ WN_FACEBOOK_LOGOUT 2000
+ -->
+<Widgets texturePath="/Textures/"> 
+	
+	<!-- Background elements -->
+    <Widget type="WT_LABEL" id="0" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5 0" tileForceAspect="92:166" texBGName="hexagon_tiles.webp" />
+	<Widget type="WT_LABEL" id="1" layer="1" pos=".5 .5" size="1.0 1.0" texBGName="credits_lighting.png" /> 
+	
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="2" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+	
+	<!-- Stack of buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="20" layer="2" pos="0.375 0.18" size="0.0 0.15" forceAspect="100:104" aspectBasis="height" texNormalName="owall_button_music.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="21" layer="2" pos="0.625 0.18" size="0.0 0.15" forceAspect="100:104" aspectBasis="height" texNormalName="owall_button_sound.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="22" layer="2" pos="0.5 0.35" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="LANGUAGE_BUTTON" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="23" layer="2" pos="0.5 0.50" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="PROFILE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="24" layer="2" pos="0.5 0.65" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="CREDITS" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="25" layer="2" pos="0.5 0.80" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="RESTORE_PURCHASES" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	
+	<!-- android specific graphic setting button -->
+	<Widget type="WT_PUSH_BUTTON" id="26" layer="2" pos="0.25 0.925" size="0.45 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="GFX_HIGH" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+    
+	<!-- Marketing mode -->
+	<Widget type="WT_PUSH_BUTTON" id="27" layer="2" pos="0.75 0.925" size="0.45 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="MARKETING_MODE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+	
+    <!-- Duck lock -->
+    <Widget type="WT_PUSH_BUTTON" id="28" layer="2" pos="0.25 0.925" size="0.45 0" forceAspect="128:44" texNormalName="button_disabled.png" texHilightName="button_disabled_highlight.png" text="MARKETING_MODE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHighlighOffsetRelative="0 0.05f" visible="false" />
+   
+
+    <!-- url links ids following the last button -->
+    <!-- terms of use -->
+    <Widget type="WT_PUSH_BUTTON" id="29" 
+	    layer="2" pos="0.5 0.75" size="0.75 0.05" 
+	    texNormalName="clear.webp" 
+	    text="LEGAL_LANGUAGE_6" 
+	    textColorRGB="252 235 45"/> 
+
+    <!-- privacy policy -->
+    <Widget type="WT_PUSH_BUTTON" id="30" 
+	    layer="2" pos="0.5 0.80" size="0.75 0.05" 
+	    texNormalName="clear.webp" 
+	    text="LEGAL_LANGUAGE_6b" 
+	    textColorRGB="252 235 45"/> 
+    <!-- privacy policy -->
+
+</Widgets>

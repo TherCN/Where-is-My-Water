@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Canvas,			0
+ WN_Back,			1
+ WN_Pause,			2		
+ WN_SelectAll,      3
+ WN_ToolbarCOUNT,	4
+ WN_Add,			5
+ WN_Delete,			6
+ WN_Save,			7
+ WN_MoveToTop,		8
+ WN_MoveToBottom,	9
+ WN_Refresh			10
+ WN_Link			11
+ WN_Track			12
+ WN_Paste			13
+ WN_Snap			14
+ WN_Group			15
+ WN_Ghost			16
+ WN_TogglePlatinum	17
+ WN_ObjectEdit		18
+ WN_TogglePType     19
+ WN_Port			20
+ 
+ WN_ObjectName		100
+ -->
+<Widgets texturePath="/Textures/">
+	
+	<!-- MAIN CANVAS -->
+	<Widget type="WT_CANVAS" id="0" priority="5" layer="1" pos="0.5 0.5" size="1 1" />
+	
+    <!-- "BACK" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1"  priority="0" layer="1" pos="0.1 .05" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false"  />
+	
+    <!-- "PAUSE" button -->
+	<Widget type="WT_PUSH_BUTTON" id="2"  priority="0" layer="1" pos=".9 .05" size="0.15 0" forceAspect="1" texNormalName="editor_play.png" reactOnDown="false"  />
+
+	<Widget type="WT_PUSH_BUTTON" id="17"  priority="0" layer="1" pos=".9 .15" size="0.15 0" forceAspect="1" texNormalName="editor_play.png" reactOnDown="false"  />
+
+    
+	<!-- selected object name label -->
+	<Widget type="WT_LABEL" id="1000" layer="1" pos="0.5 0.05" size="0.5 0.03" text="No Selection" textColorRGB="255 255 255" font="normal" /> 
+	
+	<!-- toolbar-style buttons at the bottom of the screen -->
+	<Widget type="WT_PUSH_BUTTON" id="3"  priority="0" layer="1" pos=".11 .95" size=".11 0" forceAspect="1" texNormalName="editor_selectall.png" reactOnDown="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="5"  priority="0" layer="1" parent="3" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_add.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="6"  priority="0" layer="1" parent="5" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_delete.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="8"  priority="0" layer="1" parent="6" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_layer_top.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="9"  priority="0" layer="1" parent="8" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_layer_bottom.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="7"  priority="0" layer="1" parent="9" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_save.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="10"  priority="0" layer="1" parent="7" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_refresh.png" reactOnDown="false" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="11"  priority="0" layer="1" parent="3" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_link.png" reactOnDown="false" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="13"  priority="0" layer="1" parent="5" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_paste.png" reactOnDown="false" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="15"  priority="0" layer="1" parent="6" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_group.png" reactOnDown="false" visible="false" />        
+	<Widget type="WT_PUSH_BUTTON" id="19"  priority="0" layer="1" parent="8" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_ptypeboth.png" reactOnDown="false" visible="false" />    
+	<Widget type="WT_PUSH_BUTTON" id="17"  priority="0" layer="1" parent="9" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_ducksboth.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="16"  priority="0" layer="1" parent="7" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_ghost.png" reactOnDown="false" visible="true" />	
+	<Widget type="WT_PUSH_BUTTON" id="14"  priority="0" layer="1" parent="10" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_snap_off.png" reactOnDown="false" visible="true" />
+
+
+	<Widget type="WT_PUSH_BUTTON" id="20"  priority="0" layer="1" parent="3" parentLineUpY="true" pos="0 -.275 0 0" size=".11 0" forceAspect="1" texNormalName="editor_port.png" reactOnDown="false" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="18"  priority="0" layer="1" parent="5" parentLineUpY="true" pos="0 -.275 0 0" size=".11 0" forceAspect="1" texNormalName="editor_objectedit.png" reactOnDown="false" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="12"  priority="0" layer="1" parent="6" parentLineUpY="true" pos="0 -.275 0 0" size=".11 0" forceAspect="1" texNormalName="editor_track.png" reactOnDown="false" visible="false" />	
+    
+</Widgets>

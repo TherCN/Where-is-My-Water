@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky1">
+    <AbsoluteLocation value="25.808136 0.370411"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky2">
+    <AbsoluteLocation value="25.522339 -42.449043"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky3">
+    <AbsoluteLocation value="-11.463999 -24.834778"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Object10">
+    <AbsoluteLocation value="15.089973 20.510027"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/path_locking_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object11">
+    <AbsoluteLocation value="19.958267 20.494865"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/path_locking_end_right.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Switch10">
+    <AbsoluteLocation value="-26.800001 36.400002"/>
+    <Properties>
+      <Property name="Angle" value="-90"/>
+      <Property name="ConnectedObject0" value="Object13"/>
+      <Property name="Filename" value="/Objects/switch.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch6">
+    <AbsoluteLocation value="-25.968727 -37.238029"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedObject0" value="Object4"/>
+      <Property name="Filename" value="/Objects/switch_blue.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Object12">
+    <AbsoluteLocation value="-14.604168 -11.626755"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/path_locking_end_right.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object14">
+    <AbsoluteLocation value="-19.472462 -11.611593"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/path_locking_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object13">
+    <AbsoluteLocation value="-20.048405 -11.567810"/>
+    <Properties>
+      <Property name="Angle" value="180"/>
+      <Property name="Filename" value="/Objects/wall_16x8.hs"/>
+      <Property name="MotorMoveSpeed" value="20"/>
+      <Property name="PathPos0" value="0"/>
+      <Property name="PathPos1" value="15"/>
+    </Properties>
+  </Object>
+  <Object name="Object4">
+    <AbsoluteLocation value="21.302738 20.536110"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_16x8_blue.hs"/>
+      <Property name="MotorMoveSpeed" value="20"/>
+      <Property name="PathPos0" value="0"/>
+      <Property name="PathPos1" value="-15"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="50"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

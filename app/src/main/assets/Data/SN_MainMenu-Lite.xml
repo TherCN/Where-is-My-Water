@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_FULLVERSION			9
+ 
+ WN_Version				99
+ 
+ WN_Logo				201
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MainMenu.xml">
+	
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="200" size="1.0 1.0" forceAspect="768:1024" aspectBasis="height" />
+	
+	<!-- logo (new texture, move it up) -->
+	<!-- We're also making is SLIGHTLY smaller so there's no cut-off -->
+	<Widget type="WT_LABEL" id="201" pos="0 0" parent="200" posByParentSize="0.5 0.11" size="0.72 0" forceAspect="256:110" texBGName="wmw_logo-Lite.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="202" pos="0 0" parent="200" posByParentSize="0.5 0.11"  />
+    
+	<!-- Main Menu button (Overwrite since this is different from premium)  -->
+    <Widget type="WT_PUSH_BUTTON" id="0" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.265" size="0.0 0.0954" forceAspect="128:44" aspectBasis="height" texNormalName="button.png" texHilightName="button_highlight.png" text="PLAY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <!-- full version prompt -->
+	<Widget type="WT_PUSH_BUTTON" id="9" layer="6" parent="200" posByParentSize="0.5 0.365" size="0.0 0.0954" forceAspect="128:44" aspectBasis="height" texNormalName="WMW_UI_button_purple.webp" texHilightName="WMW_UI_button_purple_highlight.webp" reactOnDown="false" textColorRGB="111 79 172" font="outlined" text="BUY_FULL_VERSION" textHilightColorRGB="45 102 129" edgePaddingRelative="0.2" textHilightOffsetRelative="0 0.05f" />
+	
+	<!-- debug info -->
+	<Widget type="WT_LABEL" id="99" pos="0.5 0.7" />
+	
+	<!-- move up the "settings" gear button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" pos=".08 .96 0 -53" />
+	
+	<!-- Social Media -->
+    <Widget type="WT_PUSH_BUTTON" id="2" pos=".81 .96 0 -53" />
+	<Widget type="WT_PUSH_BUTTON" id="8" pos=".94 .96 0 -53" />
+	
+	<!-- Bonus Duck -->
+	<Widget type="WT_PUSH_BUTTON" id="1000" pos="0 0" layer="3" parent="200" posByParentSize="0.25 0.78" />
+    <Widget type="WT_PUSH_BUTTON" id="1001" pos="0 0" layer="6" parent="200" posByParentSize="0.74 0.64" texNormalName="Ducks_triduck_frankenweenie.png"/>
+	<Widget type="WT_PUSH_BUTTON" id="1002" pos="0 0" layer="6" parent="200" posByParentSize="0.3 0.85" />
+    <Widget type="WT_PUSH_BUTTON" id="1003" pos="0 0" layer="1" parent="200" posByParentSize="0.175 0.79" />
+    <Widget type="WT_PUSH_BUTTON" id="1004" pos="0 0" layer="2" parent="200" posByParentSize="0.225 0.825" />
+    <Widget type="WT_PUSH_BUTTON" id="1005" pos="0 0" layer="2" parent="200" posByParentSize="0.82 0.8" />
+    <Widget type="WT_PUSH_BUTTON" id="1006" pos="0 0" layer="1" parent="200" posByParentSize="0.75 0.79" />
+    <!--<Widget type="WT_PUSH_BUTTON" id="1007" />-->
+    <Widget type="WT_PUSH_BUTTON" id="1008" pos="0 0" parent="200" posByParentSize="0.2 0.64" angleDegrees="5" />
+    
+    
+</Widgets>

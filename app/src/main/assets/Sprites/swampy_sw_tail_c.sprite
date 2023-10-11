@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="tail 1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_c_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="tail 2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_c_1.png" offset="-6.881293426513669 -2.55169301223755"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+</Sprite>

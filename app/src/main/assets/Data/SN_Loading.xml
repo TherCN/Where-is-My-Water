@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_BG				0
+ WN_LOADING_TEXT    1
+ WN_LOGO            2
+ -->
+<Widgets texturePath="/Textures/"> 
+	
+	<!-- Background (Disney Mobile + BG image)-->
+    <Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.5" size="1.0 1.0" forceAspect="384:512" aspectBasis="height" texBGName="UI_loading.webp" />
+    
+    <!-- Progress bar -->
+    <Widget type="WT_PROGRESS_BAR" id="1" layer="1" pos="0.5 0.5" size="0.4 0.0" forceAspect="256:89" texName0="ui_progress_bar_bg.webp" texName1="ui_progress_bar_fg.webp" visible="false"/>
+    
+</Widgets>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Obj13">
+    <AbsoluteLocation value="-22.638285 -46.786324"/>
+    <Properties>
+      <Property name="Angle" value="88.3217"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj12">
+    <AbsoluteLocation value="-26.177454 -46.670471"/>
+    <Properties>
+      <Property name="Angle" value="88.3217"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj11">
+    <AbsoluteLocation value="-29.848288 -46.291286"/>
+    <Properties>
+      <Property name="Angle" value="88.3217"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="0">
+    <AbsoluteLocation value="15.601938 -44.716209"/>
+    <Properties>
+      <Property name="Angle" value="360.148"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="1">
+    <AbsoluteLocation value="-29.563332 -41.886703"/>
+    <Properties>
+      <Property name="Angle" value="86"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="contaminatedwater"/>
+      <Property name="ParticleSpeed" value="60"/>
+      <Property name="Timer0" value="1 3.5"/>
+      <Property name="Timer1" value="0 99999"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="2">
+    <AbsoluteLocation value="-25.963331 -42.186703"/>
+    <Properties>
+      <Property name="Angle" value="86"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="contaminatedwater"/>
+      <Property name="ParticleSpeed" value="60"/>
+      <Property name="Timer0" value="1 3.5"/>
+      <Property name="Timer1" value="0 99999"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="3">
+    <AbsoluteLocation value="-22.463331 -42.386703"/>
+    <Properties>
+      <Property name="Angle" value="86"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="contaminatedwater"/>
+      <Property name="ParticleSpeed" value="60"/>
+      <Property name="Timer0" value="1 3.5"/>
+      <Property name="Timer1" value="0 99999"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="4">
+    <AbsoluteLocation value="19.150364 -44.429096"/>
+    <Properties>
+      <Property name="Angle" value="240.833"/>
+      <Property name="Filename" value="/Objects/pipe_bend_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="5">
+    <AbsoluteLocation value="12.046563 -43.882950"/>
+    <Properties>
+      <Property name="Angle" value="139.634"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="8">
+    <AbsoluteLocation value="20.291302 -42.100006"/>
+    <Properties>
+      <Property name="Angle" value="-11.0808"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_cranky.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Star9">
+    <AbsoluteLocation value="24.504757 -18.416786"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star10">
+    <AbsoluteLocation value="-2.935650 -14.106104"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star11">
+    <AbsoluteLocation value="-2.404345 30.536316"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb16">
+    <AbsoluteLocation value="-1.312500 10.875000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb17">
+    <AbsoluteLocation value="22.950001 -3.150002"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb18">
+    <AbsoluteLocation value="-8.427505 -21.087664"/>
+    <Properties>
+      <Property name="Angle" value="46.9514"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb19">
+    <AbsoluteLocation value="15.276070 -24.119751"/>
+    <Properties>
+      <Property name="Angle" value="-38.4759"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb20">
+    <AbsoluteLocation value="32.607208 -27.504990"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb21">
+    <AbsoluteLocation value="-10.171509 -5.451216"/>
+    <Properties>
+      <Property name="Angle" value="7.11914"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="2.800001 -34.000000"/>
+  </Room>
+</Objects>

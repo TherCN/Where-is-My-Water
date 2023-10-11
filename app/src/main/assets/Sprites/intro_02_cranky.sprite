@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="IDLE" textureBasePath="/Textures/" atlas="/Textures/intro_02_sprites.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="intro_02_cranky1.png" />
+	</Animation>
+	<Animation name="BITE" textureBasePath="/Textures/" atlas="/Textures/intro_02_sprites.imagelist" fps="8.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="intro_02_cranky2.png" />
+	</Animation>
+</Sprite>

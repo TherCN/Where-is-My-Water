@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Resume			0
+ WN_LevelSelect		1
+ WN_MainMenu		2
+ WN_SkipLevel		3
+ 
+ WN_LevelName		4
+ WN_Shade			5
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MenuOverlay.xml">
+	
+    <!--
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+     -->
+    
+    <Widget type="WT_LABEL" id="200" bgBlendColorRGBA="180 100 0 180"/>
+    
+    <Widget type="WT_LABEL" id="201" bgBlendColorRGBA="180 100 0 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="202" bgBlendColorRGBA="180 100 0 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="4" textColorRGB="131 70 47"/>
+    
+     <!-- Resume -->
+    <Widget type="WT_PUSH_BUTTON" id="0" texNormalName="allie_owall_button_play.png" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="1" texNormalName="allie_owall_button_level.png" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="allie_owall_button_main_menu.png" />
+    
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="allie_owall_button_skip.png" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="40" texNormalName="allie_owall_button_sound.png " texOffName="allie_owall_button_sound_hit.png"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="allie_owall_button_music.png" texOffName="allie_owall_button_music_hit.png"/>
+	
+</Widgets>

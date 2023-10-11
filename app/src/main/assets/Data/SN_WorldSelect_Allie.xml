@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+	<!-- Navigation buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Allie_Back_W_Shadow.png" texHilightName="Allie_Back_NO_Shadow.png" />
+	
+	<!-- Reset, unlock buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1007" layer="5" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="1002" layer="5" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	
+	<!-- Collection, Achievement buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" visible="false"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1006" visible="false"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1009" visible="false"/>
+	
+	<!-- Challenges buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1102" layer="3" pos="0.5 0.75" size="0.4 0" forceAspect="128:44" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" text="CHALLENGES" font="outlined" reactOnDown="false" textColorRGB="131 70 47" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1103" layer="5" pos="0.5 0.852" size="0.4 0" forceAspect="128:44" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" text="MUSIC_GROUPS" font="outlined" reactOnDown="false" textColorRGB="131 70 47" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+    
+    <Widget type="WT_PUSH_BUTTON" id="1104" layer="5" pos="0.8 0.852" size="0.2 0" forceAspect="128:44" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" text="DEBUG BUY" font="outlined" reactOnDown="false" textColorRGB="131 70 47" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+   
+   
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" id="1003" textColorRGB="41 37 100" />
+	<Widget type="WT_LABEL" id="1099" texBGName="Allie_Duck_Counter.png" />
+	
+    <!-- Example pack (the rest are copied from this template) -->
+	<Widget type="WT_LABEL" id="101" textColorRGB="131 70 47" />
+	<Widget type="WT_LABEL" id="201" texBGName="ducky_allie_filled.png" />
+    
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1001" layer="0" pos=".5 .5" size="2.0 2.0" numTiles="3.0 3.0" tileForceAspect="1" tileOffset="0.25 0" texBGName="allie_bricks_blue.webp" />
+	
+	<!-- Allie Spotlight -->
+	<Widget type="WT_LABEL" id="1400" layer="1" pos="0 0" justifyWidget="0.5 0.5" size="1.0 1.0" texBGName="ui_allie_lighting.png" />
+	
+	<!-- Allie Music Sheet -->
+	<Widget type="WT_LABEL" id="1008" pos="0.5 0.84" size="1.0 0" forceAspect="1342:733" texBGName="allie_music_sheet.webp"  />
+	
+	
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SCROLLABLE_SET" id="1005" pos="0.5 0.4" size="1.0 0.7" />
+	
+    <!-- Carousel Slider -->
+    <Widget type="WT_SLIDER" id="1200" pos=".5 .67" size="0.24 0" forceAspect="299:86" texBGName="scroll_set_mini_bar.webp" texHandleName="al_scroll_set_scrubber.png" slideStep="0.04"/>
+	
+	
+</Widgets>

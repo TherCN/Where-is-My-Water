@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="squash" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4950732154846198 -0.40872605133056716" repeat="1"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.2391002616882325 -0.40872605133056716" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4950732154846198 -0.40872605133056716" repeat="1"/>
+    <Frame name="sw_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="squashhold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_1.png" offset="-2.2391002616882325 -0.40872605133056716"/>
+  </Animation>
+</Sprite>

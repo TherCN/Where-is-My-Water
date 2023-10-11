@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="0-footlift-0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_foot_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="sw_leg_R_foot_1.png" offset="-0.119491 0.000000" repeat="1"/>
+    <Frame name="sw_leg_R_foot_2.png" offset="-0.182750 0.000000" repeat="1"/>
+    <Frame name="sw_leg_R_foot_3.png" offset="-0.182750 0.000000" repeat="1"/>
+    <Frame name="sw_leg_R_foot_1.png" offset="-0.119491 0.000000"/>
+    <Frame name="sw_leg_R_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="0-footdraghold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_foot_4.png" offset="0.674770 1.686926"/>
+  </Animation>
+  <Animation name="0-footlifthold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_foot_3.png" offset="-0.182750 0.000000"/>
+  </Animation>
+  <Animation name="0-footdrag-0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_foot_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="sw_leg_R_foot_5.png" offset="0.231952 0.836434" repeat="1"/>
+    <Frame name="sw_leg_R_foot_4.png" offset="0.674770 1.686926" repeat="1"/>
+    <Frame name="sw_leg_R_foot_5.png" offset="0.231952 0.836434" repeat="1"/>
+    <Frame name="sw_leg_R_foot_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+</Sprite>

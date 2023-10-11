@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_PackName				110
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_LevelSelect.xml">
+    
+    <!-- Star count -->
+	<Widget type="WT_LABEL" id="106" pos=".806 .06" size="0.35 0" forceAspect="114:40" texBGName="Frankenweenie_UI_duck_counter.png" />
+	<Widget type="WT_LABEL" id="2" textColorRGB="99 180 70" />
+	
+    <!-- Pack name -->
+	<Widget type="WT_LABEL" id="110" layer="2" pos=".5 .693" textColorRGB="99 180 70"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="200" layer="3" pos="0.83 0.45" size="0.25 0" forceAspect="128:44" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" />
+	<Widget type="WT_PUSH_BUTTON" id="201" layer="3" pos="0.17 0.45" size="0.25 0" forceAspect="128:44" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" />
+    
+    <!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="10" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="Frankenweenie_UI_back_button.png" texHilightName="Frankenweenie_UI_back_button_highlight.png" reactOnDown="false" />
+    
+    <!-- Trailer button -->
+    <Widget type="WT_LABEL" id="6001" layer="10" pos=".5 .5" size="0.28 0" forceAspect="378:420" texBGName="Frankenweenie_UI_sparky_icon.png"/>
+    <Widget type="WT_PUSH_BUTTON" id="6000" layer="11" pos="0.5 0.61" size="0.25 0" forceAspect="294:101" text="WATCH_YOUTUBE" halign="right" font="outlined"  textColorRGB="0 0 0" paddingL=".1" paddingR=".1" texNormalName="Frankenweenie_UI_small_button.png"/>
+    
+    
+    <Widget type="WT_PUSH_BUTTON" id="10" textColorRGB="99 180 70" />
+    
+</Widgets>

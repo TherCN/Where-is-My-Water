@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Obj23">
+    <AbsoluteLocation value="-14.200005 -94.000015"/>
+    <Properties>
+      <Property name="Angle" value="-92.9731"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Star2">
+    <AbsoluteLocation value="16.645739 -29.569057"/>
+    <Properties>
+      <Property name="Angle" value="-0.208778"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb5">
+    <AbsoluteLocation value="-17.656250 -25.768757"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb6">
+    <AbsoluteLocation value="-6.800001 -0.400012"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb7">
+    <AbsoluteLocation value="18.399998 13.399990"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb8">
+    <AbsoluteLocation value="-16.681250 23.718739"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb9">
+    <AbsoluteLocation value="-3.400000 43.599987"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb10">
+    <AbsoluteLocation value="21.006248 38.906239"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb11">
+    <AbsoluteLocation value="-22.199999 60.399990"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="15"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Spout18">
+    <AbsoluteLocation value="-14.000000 -90.800003"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Obj20">
+    <AbsoluteLocation value="7.803524 -94.933327"/>
+    <Properties>
+      <Property name="Angle" value="-127.323"/>
+      <Property name="Filename" value="/Objects/pipe_bend_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj21">
+    <AbsoluteLocation value="10.377775 -92.135223"/>
+    <Properties>
+      <Property name="Angle" value="53.6651"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Obj22">
+    <AbsoluteLocation value="10.489702 -92.135223"/>
+    <Properties>
+      <Property name="Angle" value="50.8245"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Star19">
+    <AbsoluteLocation value="25.710075 26.346016"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star20">
+    <AbsoluteLocation value="-18.260372 0.767464"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj24">
+    <AbsoluteLocation value="5.599998 -95.000008"/>
+    <Properties>
+      <Property name="Angle" value="-181.053"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb26">
+    <AbsoluteLocation value="19.287498 60.781239"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="15"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Obj22">
+    <AbsoluteLocation value="-29.531250 79.312500"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Obj23">
+    <AbsoluteLocation value="-15.406250 73.906250"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Obj24">
+    <AbsoluteLocation value="-1.093750 77.875000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Obj25">
+    <AbsoluteLocation value="10.593750 77.812500"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Obj26">
+    <AbsoluteLocation value="24.718750 82.531250"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb28">
+    <AbsoluteLocation value="18.289577 -37.875275"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb29">
+    <AbsoluteLocation value="24.634525 -12.228470"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="20"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb28">
+    <AbsoluteLocation value="-29.771559 -45.080921"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="9"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb29">
+    <AbsoluteLocation value="-25.600983 -62.393547"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="9"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb28">
+    <AbsoluteLocation value="-31.241844 -74.704620"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb29">
+    <AbsoluteLocation value="-31.674419 -91.115837"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible30">
+    <AbsoluteLocation value="2.100002 22.500011"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_31.hs"/>
+      <Property name="PlatinumType" value="normal"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky34">
+    <AbsoluteLocation value="-17.850445 45.560127"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky36">
+    <AbsoluteLocation value="8.933277 45.570755"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky37">
+    <AbsoluteLocation value="-7.045261 27.038055"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky39">
+    <AbsoluteLocation value="6.617924 15.181702"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky41">
+    <AbsoluteLocation value="-24.168709 5.752312"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky42">
+    <AbsoluteLocation value="-13.626484 -5.845116"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky43">
+    <AbsoluteLocation value="-2.682652 -23.337128"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky44">
+    <AbsoluteLocation value="13.156017 -20.809433"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky45">
+    <AbsoluteLocation value="23.698261 -29.030228"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky47">
+    <AbsoluteLocation value="-21.262241 -54.488785"/>
+    <Properties>
+      <Property name="Angle" value="1.33358"/>
+      <Property name="Filename" value="/Objects/star_baby.hs"/>
+      <Property name="StarType" value="baby"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="19.600002 -82.000008"/>
+  </Room>
+  <Properties>
+    <Property name="ReversePan" value="1"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

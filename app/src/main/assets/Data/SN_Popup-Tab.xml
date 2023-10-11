@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ Buttons
+ WN_Resume			0
+ WN_Next			1
+ WN_MainMenu		2
+ WN_Collection		3
+ 
+ WN_BuyFull			4
+ 
+ Congrats Text
+ WN_Map_Text		5
+ 
+ Debug Text
+ WN_Time_Text       6
+ WN_Star_Text       7
+ 
+ Scoring
+ WN_Score_Text_0	8
+ WN_Score_Text_1	9
+ WN_Score_Text_2	10
+ WN_Score_Text_3	11
+ 
+ WN_Score_Number_0	12
+ WN_Score_Number_1	13
+ WN_Score_Number_2	14
+ WN_Score_Number_3	15
+ 
+ WN_Score_Line		16
+ 
+ Duckies
+ WN_Ducky_Empty_0	17 
+ WN_Ducky_Empty_1	18 
+ WN_Ducky_Empty_2	19 
+ 
+ WN_Ducky_Full_0	20 
+ WN_Ducky_Full_1	21 
+ WN_Ducky_Full_2	22 
+ 
+ Background Elements
+ WN_Background		23
+ WN_Pole			24
+ WN_Curtain			25
+ 
+ WN_HighScore		26
+ 
+ WN_Collectible		27
+ WN_CollectibleText	28
+ WN_CollectibleBurst29
+ 
+ WN_Ducky_Starburst	30 
+ WN_Ducky_Starburst	31 
+ WN_Ducky_Starburst	32 
+ 
+ WN_Bathtub			33
+ 
+ 
+ WN_ChallengeResult			40
+ WN_ChallengeDescription	41
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup.xml">
+	
+	<!-- screenshot placeholder -->
+	<Widget type="WT_LABEL" id="1001" pos="0.0 -0.42" size="0.73 0.047" />
+    <Widget type="WT_LABEL" id="1002" pos="0.0 -0.42" size="0.9 0.13" />
+    <Widget type="WT_LABEL" id="1003" layer="11" size="0.84 0.0" forceAspect="3:4" />
+    <Widget type="WT_LABEL" id="1004" layer="13" pos ="0.4 -0.42" size="0.23 0" forceAspect="1" />
+
+    <Widget type="WT_LABEL" id="1100" layer="2" pos="0.18 0.27" />
+    
+    <Widget type="WT_LABEL" id="1055" pos="-0.32 0.42" size="0.0 0.12" forceAspect="336:145" aspectBasis="height"/>
+</Widgets>

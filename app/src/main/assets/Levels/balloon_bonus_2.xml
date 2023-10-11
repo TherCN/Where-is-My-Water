@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky2">
+    <AbsoluteLocation value="4.474583 -39.155853"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky3">
+    <AbsoluteLocation value="5.200947 -17.823441"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="26.280319 -10.352196"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Object7">
+    <AbsoluteLocation value="-8.500000 6.500004"/>
+    <Properties>
+      <Property name="Angle" value="44.9182"/>
+      <Property name="Filename" value="/Objects/jagged_medium.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object8">
+    <AbsoluteLocation value="-8.199997 -12.600002"/>
+    <Properties>
+      <Property name="Angle" value="44.9182"/>
+      <Property name="Filename" value="/Objects/jagged_medium.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object9">
+    <AbsoluteLocation value="-7.846818 7.173739"/>
+    <Properties>
+      <Property name="Angle" value="127.087"/>
+      <Property name="Filename" value="/Objects/jagged_overlay.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object10">
+    <AbsoluteLocation value="-10.985386 6.559685"/>
+    <Properties>
+      <Property name="Angle" value="183.654"/>
+      <Property name="Filename" value="/Objects/jagged_overlay.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object11">
+    <AbsoluteLocation value="25.800003 6.799995"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/jagged_large.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object12">
+    <AbsoluteLocation value="24.801567 7.299828"/>
+    <Properties>
+      <Property name="Angle" value="182.854"/>
+      <Property name="Filename" value="/Objects/jagged_overlay.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object14">
+    <AbsoluteLocation value="29.505640 8.357331"/>
+    <Properties>
+      <Property name="Angle" value="-451.497"/>
+      <Property name="Filename" value="/Objects/jagged_overlay_flipped.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object16">
+    <AbsoluteLocation value="16.900002 -28.599995"/>
+    <Properties>
+      <Property name="Angle" value="44.9182"/>
+      <Property name="Filename" value="/Objects/jagged_medium.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object15">
+    <AbsoluteLocation value="-10.240282 5.880280"/>
+    <Properties>
+      <Property name="Angle" value="-4.2717"/>
+      <Property name="Filename" value="/Objects/jagged_small.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object17">
+    <AbsoluteLocation value="12.127196 -26.999924"/>
+    <Properties>
+      <Property name="Angle" value="-42.706"/>
+      <Property name="Filename" value="/Objects/jagged_overlay.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object18">
+    <AbsoluteLocation value="15.397556 -29.171623"/>
+    <Properties>
+      <Property name="Angle" value="179.843"/>
+      <Property name="Filename" value="/Objects/jagged_overlay.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object19">
+    <AbsoluteLocation value="-4.715378 -14.107544"/>
+    <Properties>
+      <Property name="Angle" value="46.4397"/>
+      <Property name="Filename" value="/Objects/jagged_large.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object20">
+    <AbsoluteLocation value="28.642275 6.264870"/>
+    <Properties>
+      <Property name="Angle" value="44.9182"/>
+      <Property name="Filename" value="/Objects/jagged_medium.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object21">
+    <AbsoluteLocation value="-15.147778 -9.606537"/>
+    <Properties>
+      <Property name="Angle" value="-90.2147"/>
+      <Property name="Filename" value="/Objects/jagged_large.hs"/>
+    </Properties>
+  </Object>
+  <Object name="WaterBalloon5">
+    <AbsoluteLocation value="-27.102598 34.273582"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/balloon.hs"/>
+      <Property name="InitialParticles" value="water 25 steam 0"/>
+      <Property name="Type" value="waterballoon"/>
+    </Properties>
+  </Object>
+  <Object name="WaterBalloon1">
+    <AbsoluteLocation value="-0.375000 34.875008"/>
+    <Properties>
+      <Property name="Angle" value="0.00494559"/>
+      <Property name="Filename" value="/Objects/balloon.hs"/>
+      <Property name="InitialParticles" value="water 40 steam 0"/>
+      <Property name="Type" value="waterballoon"/>
+    </Properties>
+  </Object>
+  <Object name="WaterBalloon6">
+    <AbsoluteLocation value="26.357143 33.233231"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/balloon.hs"/>
+      <Property name="InitialParticles" value="water 10 steam 0"/>
+      <Property name="Type" value="waterballoon"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="105"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

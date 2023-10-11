@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0_Rfoot" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_foot_R_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="01-bend_Rfoot" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_foot_R_1.png" offset="0.13695659637451277 -0.348616790771484" repeat="1"/>
+    <Frame name="al_foot_R_2.png" offset="0.42954568862915077 -0.890217876434326" repeat="1"/>
+    <Frame name="al_foot_R_3.png" offset="0.7594865798950206 -1.2699611663818353" repeat="3"/>
+    <Frame name="al_foot_R_2.png" offset="0.42954568862915077 -0.890217876434326" repeat="1"/>
+    <Frame name="al_foot_R_1.png" offset="0.13695659637451277 -0.348616790771484" repeat="1"/>
+  </Animation>
+</Sprite>

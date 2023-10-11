@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object13">
+    <AbsoluteLocation value="-2.727981 7.428031"/>
+    <Properties>
+      <Property name="Angle" value="-181.596"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object12">
+    <AbsoluteLocation value="5.412500 -50.987499"/>
+    <Properties>
+      <Property name="Angle" value="90"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout2">
+    <AbsoluteLocation value="-0.462676 6.815669"/>
+    <Properties>
+      <Property name="Angle" value="-90.4161"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_allie.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb3">
+    <AbsoluteLocation value="7.650566 0.097733"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="BlastRadius" value="10"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="1.600000 -28.000000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="-20.400000 34.400002"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="28.000000 -8.000000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Fan7">
+    <AbsoluteLocation value="-26.837694 -26.361004"/>
+    <Properties>
+      <Property name="Angle" value="-51.349"/>
+      <Property name="Filename" value="/Objects/fan_8x8_w_cable.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumForce" value="70"/>
+      <Property name="VacuumFriction" value="0.2"/>
+      <Property name="VacuumMaxD" value="35"/>
+      <Property name="VacuumMaxForce" value="70"/>
+    </Properties>
+  </Object>
+  <Object name="Spout8">
+    <AbsoluteLocation value="5.387340 -44.894539"/>
+    <Properties>
+      <Property name="Angle" value="92.6537"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="steam"/>
+      <Property name="ParticleSpeed" value="30"/>
+      <Property name="ParticlesPerSecond" value="10"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Switch9">
+    <AbsoluteLocation value="21.437138 -22.896206"/>
+    <Properties>
+      <Property name="Angle" value="-211.971"/>
+      <Property name="ConnectedObject0" value="Fan7"/>
+      <Property name="Filename" value="/Objects/switch.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Fan10">
+    <AbsoluteLocation value="22.110558 8.081017"/>
+    <Properties>
+      <Property name="Angle" value="91.0656"/>
+      <Property name="Filename" value="/Objects/fan_16x8_gear3.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumFriction" value="0.2"/>
+      <Property name="VacuumMaxD" value="35"/>
+      <Property name="VacuumMaxForce" value="40"/>
+    </Properties>
+  </Object>
+  <Object name="Switch11">
+    <AbsoluteLocation value="27.562500 29.250000"/>
+    <Properties>
+      <Property name="Angle" value="106.031"/>
+      <Property name="ConnectedObject0" value="Fan10"/>
+      <Property name="Filename" value="/Objects/switch_fan3.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Object15">
+    <AbsoluteLocation value="-3.456827 9.789379"/>
+    <Properties>
+      <Property name="Angle" value="-87.1011"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object16">
+    <AbsoluteLocation value="-4.310167 12.039191"/>
+    <Properties>
+      <Property name="Angle" value="5.45077"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object17">
+    <AbsoluteLocation value="-6.187500 12.281250"/>
+    <Properties>
+      <Property name="Angle" value="-160.784"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible17">
+    <AbsoluteLocation value="-7.359375 22.968750"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_allie_13.hs"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-17.999998 5.999997"/>
+  </Room>
+</Objects>

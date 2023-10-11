@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="330" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_0.png" offset="0 0"/>
+    <Frame name="TopLip_1.png" offset="1.0865237236022949 0.6467974395751944"/>
+    <Frame name="TopLip_2.png" offset="2.201086769104002 0.5905541839599613"/>
+    <Frame name="TopLip_3.png" offset="3.3086399841308585 0.534310928344726"/>
+    <Frame name="TopLip_4.png" offset="48.00331909179687 1.3779597625732416"/>
+    <Frame name="TopLip_5.png" offset="49.398275356292714 1.3920205764770515"/>
+    <Frame name="TopLip_6.png" offset="50.807251281738274 1.406081390380859" repeat="34"/>
+    <Frame name="TopLip_7.png" offset="49.41229501724243 1.3920205764770515"/>
+    <Frame name="TopLip_8.png" offset="48.00331909179687 1.3779597625732416"/>
+    <Frame name="TopLip_9.png" offset="3.3086399841308585 0.534310928344726"/>
+    <Frame name="TopLip_10.png" offset="2.201086769104002 0.5905541839599613"/>
+    <Frame name="TopLip_11.png" offset="1.1145630455017073 0.6467974395751944"/>
+    <Frame name="TopLip_12.png" offset="0 0.7030406951904296" repeat="2"/>
+  </Animation>
+  <Animation name="10" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_0.png" offset="0 0" repeat="37"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106" repeat="12"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_0.png" offset="0 0" repeat="24"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106" repeat="16"/>
+    <Frame name="TopLip_16.png" offset="-1.0024057579040575 0.06327366256714106"/>
+    <Frame name="TopLip_15.png" offset="-0.7220125389099168 -0.04921284866333127"/>
+    <Frame name="TopLip_14.png" offset="-0.29441287994385085 0.21794261550903277"/>
+    <Frame name="TopLip_13.png" offset="-0.1752457618713379 -0.2882466850280757"/>
+    <Frame name="TopLip_0.png" offset="0 0" repeat="16"/>
+  </Animation>
+  <Animation name="8" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_17.png" offset="8.888465042114257 -13.48432053375244"/>
+  </Animation>
+  <Animation name="9b" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_0.png" offset="0 0"/>
+    <Frame name="TopLip_18.png" offset="-0.3154423713684082 0.06327366256713907"/>
+    <Frame name="TopLip_19.png" offset="-1.163631858825685 1.3849901695251454" repeat="1"/>
+    <Frame name="TopLip_19.png" offset="-1.163631858825685 1.3849901695251454" repeat="22"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_20.png" offset="-2.5866274452209455 0.7030406951904296"/>
+  </Animation>
+</Sprite>

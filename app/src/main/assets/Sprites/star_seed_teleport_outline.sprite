@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_outline_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="IDLE" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_outline_0.png" offset="0 -1.4654943925052066e-15"/>
+  </Animation>
+  <Animation name="disappear" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_outline_1.png" offset="-0.015468750000000586 -0.030937499999999705"/>
+    <Frame name="star_seed_teleport_outline_2.png" offset="0.06187499999999941 -0.7734374999999984"/>
+    <Frame name="star_seed_teleport_outline_3.png" offset="-0.11859375000000058 -1.356093749999999"/>
+    <Frame name="star_seed_teleport_outline_4.png" offset="0.9796874999999999 -3.4340624999999996"/>
+    <Frame name="star_seed_teleport_outline_5.png" offset="0.9693750000000005 -5.290312499999998"/>
+    <Frame name="star_seed_teleport_outline_6.png" offset="0.9693750000000005 -8.492343749999998"/>
+    <Frame name="star_seed_teleport_outline_7.png" offset="0.9693750000000005 -8.492343749999998"/>
+    <Frame name="star_seed_teleport_outline_8.png" offset="0.9745312500000003 -8.4871875"/>
+    <Frame name="star_seed_teleport_outline_9.png" offset="0.9693750000000005 -8.482031249999999"/>
+    <Frame name="star_seed_teleport_outline_10.png" offset="0.9796874999999999 -7.93546875"/>
+    <Frame name="star_seed_teleport_outline_11.png" offset="1.0518749999999988 -6.249375000000001"/>
+    <Frame name="star_seed_teleport_outline_12.png" offset="1.1704687499999997 -3.4546875"/>
+  </Animation>
+  <Animation name="appear" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_outline_13.png" offset="0 0"/>
+    <Frame name="star_seed_teleport_outline_14.png" offset="-0.005156250000000439 0"/>
+    <Frame name="star_seed_teleport_outline_15.png" offset="0.005156249999999706 0.015468750000000586"/>
+    <Frame name="star_seed_teleport_outline_16.png" offset="0 0.005156249999999706"/>
+    <Frame name="star_seed_teleport_outline_17.png" offset="-0.005156250000001172 0.010312499999997948"/>
+    <Frame name="star_seed_teleport_outline_18.png" offset="-0.005156249999999706 0.010312500000000878"/>
+    <Frame name="star_seed_teleport_outline_0.png" offset="0 -1.4654943925052066e-15"/>
+    <Frame name="star_seed_teleport_outline_0.png" offset="0 -1.4654943925052066e-15"/>
+  </Animation>
+</Sprite>

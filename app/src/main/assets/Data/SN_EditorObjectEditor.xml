@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+WN_Canvas,			0
+WN_Back,			1
+WN_AddShape,		2
+WN_RemoveShape,		3
+WN_NextShape,		4
+WN_AddPoint,		5
+WN_RemovePoint,		6
+WN_SelectAll,		7
+WN_Snap,			8
+WN_RotationLock		9
+WN_Save				10
+-->
+<Widgets texturePath="/Textures/">
+
+	<!-- MAIN CANVAS -->
+	<Widget type="WT_CANVAS" id="0" priority="5" layer="1" pos="0.5 0.5" size="1 1" />
+	
+    <!-- "BACK" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1"  priority="0" layer="1" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false"  />
+	
+	<!-- toolbar buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="2"  priority="0" layer="1" pos=".11 .95" size=".11 0" forceAspect="1" texNormalName="editor_addshape.png" reactOnDown="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="3"  priority="0" layer="1" parent="2" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_removeshape.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="4"  priority="0" layer="1" parent="3" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_nextshape.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="5"  priority="0" layer="1" parent="4" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_addpoint.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="6"  priority="0" layer="1" parent="5" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_removepoint.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="7"  priority="0" layer="1" parent="6" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_selectall.png" reactOnDown="false" />
+	<Widget type="WT_PUSH_BUTTON" id="8"  priority="0" layer="1" parent="7" pos=".13 0" size=".11 0" forceAspect="1" texNormalName="editor_snap_off.png" reactOnDown="false" />
+	
+	
+	<Widget type="WT_PUSH_BUTTON" id="10"  priority="0" layer="1" parent="2" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_save.png" reactOnDown="false" />
+
+	<Widget type="WT_PUSH_BUTTON" id="9"  priority="0" layer="1" parent="8" parentLineUpY="true" pos="0 -.175 0 0" size=".11 0" forceAspect="1" texNormalName="editor_rotationlock_off.png" reactOnDown="false" />
+
+</Widgets>

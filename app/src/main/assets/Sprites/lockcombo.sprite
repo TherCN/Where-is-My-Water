@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="lockcombo_0.png" offset="-7.797737121582031 -0.017722129821781372" scale="0.8748779296875 1.1246337890625" angleDeg="4.2115936279296875"/>
+    <Frame name="lockcombo_0.png" offset="-3.455815315246582 -0.035444259643562744" scale="0.9442291259765625 1.05523681640625" angleDeg="1.780303955078125"/>
+    <Frame name="lockcombo_0.png" offset="-0.8683843612670858 -0.017722129821781372" scale="0.986083984375 1.013824462890625" angleDeg="0.3033599853515625"/>
+    <Frame name="lockcombo_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="lockcombo_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

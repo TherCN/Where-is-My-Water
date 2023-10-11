@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Skeleton name="testSkel" animations="/Animations/test_skel.ani">
+    <Bone name="rootBone" localPos="0 0" localScale="1 1" localAngleDeg="75" >
+        <Sprite name="rootSprite" relativePath="/Sprites/bomb.sprite" localScale=".08 .08" />
+        <Bone name="bone1" localPos="10 0" >
+            <Sprite name="sprite1" relativePath="/Sprites/drain.sprite" localScale=".08 .08" />
+        </Bone>
+    </Bone>
+</Skeleton>

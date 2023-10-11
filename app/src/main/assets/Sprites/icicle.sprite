@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="ICICLE_IDLE" textureBasePath="/Textures/" atlas="/Textures/icicle.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Icicle_2_Frame00.png" />
+	</Animation>
+	<Animation name="ICICLE_SHINE" textureBasePath="/Textures/" atlas="/Textures/icicle.imagelist" fps="25.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Icicle_2_Frame00.png" />
+		<Frame name="Icicle_2_Frame01.png" />
+		<Frame name="Icicle_2_Frame02.png" />
+		<Frame name="Icicle_2_Frame03.png" />
+		<Frame name="Icicle_2_Frame04.png" />
+		<Frame name="Icicle_2_Frame05.png" />
+		<Frame name="Icicle_2_Frame06.png" />
+		<Frame name="Icicle_2_Frame07.png" />
+		<Frame name="Icicle_2_Frame08.png" />
+		<Frame name="Icicle_2_Frame09.png" />
+		<Frame name="Icicle_2_Frame10.png" />
+		<Frame name="Icicle_2_Frame11.png" />
+	</Animation>
+</Sprite>

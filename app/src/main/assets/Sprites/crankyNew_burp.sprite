@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="debris_fly" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="burp_0.png" offset="-4.052811840057375 -9.05701319694519"/>
+    <Frame name="burp_1.png" offset="-8.901135818481446 -22.37646643257141"/>
+    <Frame name="burp_2.png" offset="4.3591915149688685 -41.67838595199585"/>
+    <Frame name="burp_3.png" offset="-0.4891324634552014 -68.72579865646362"/>
+    <Frame name="burp_4.png" offset="10.863040754318236 -75.28339871597291"/>
+    <Frame name="burp_5.png" offset="-9.207515493392947 -79.72321646118164"/>
+  </Animation>
+  <Animation name="debris_stll" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="burp_6.png" offset="0 0"/>
+  </Animation>
+</Sprite>

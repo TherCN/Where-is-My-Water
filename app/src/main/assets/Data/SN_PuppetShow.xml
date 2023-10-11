@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Canvas,			0
+ WN_Retry			1
+ WN_Title			2
+ WN_SkipPrompt		3
+-->
+<Widgets texturePath="/Textures/">
+
+	<!-- MAIN CANVAS -->
+	<Widget type="WT_CANVAS" id="0" priority="5" pos="0.5 0.5" size="1 1" />
+	
+    <!-- "RETRY" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="1" pos=".75 .035" size="0.11 0" forceAspect="1" texNormalName="refresh_button.png" reactOnDown="false" visible="false"  />
+
+	<!-- Title lable -->
+	<Widget type="WT_LABEL" id="2" layer="1" pos="0.5 0.15" size="0.95 0.075" text="TITLE" textColorRGB="255 255 255" halign="center" visible="false" />
+
+	<!-- SKIP PROMPT -->
+	<Widget type="WT_LABEL" id="3" layer="1" pos=".5 .95" size="0.95 0.075" text="CINEMATIC_SKIP_PROMPT" paddingV=".2" paddingH=".05" texBGName="transparent_black.webp" textColorRGB="255 255 255" halign="center" visible="false" />
+    
+</Widgets>

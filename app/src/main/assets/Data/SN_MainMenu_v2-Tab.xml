@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+    WN_BACKGROUND = 0
+    WN_Back = 1
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MainMenu_v2.xml">
+    
+    <!-- Settings -->
+    <Widget type="WT_PUSH_BUTTON" id="2" layer="10" size="0.08 0" forceAspect="200:210" />
+
+    <!-- Burstly Icon Widget -->
+    <Widget type="WT_PUSH_BUTTON" id="6000" layer="100" size="0.08 0" forceAspect="200:210"/>
+    
+    <!-- Facebook -->
+    <Widget type="WT_PUSH_BUTTON" id="4" layer="10" size="0.08 0" forceAspect="1" />
+    
+    <!-- Cranky's moss -->
+    <Widget type="WT_PUSH_BUTTON" id="164" pos="0.12 0.5"/>
+    
+    <!-- UI for Promotion subscreen -->
+    <!-- Lost Levels -->
+    <Widget type="WT_LABEL" id="1008" pos="0 0.12"/>
+    
+    <!-- Perry demo -->
+    <Widget type="WT_LABEL" id="1004" pos="0.23 0.47"/>
+    
+    <!-- youtube -->
+    <Widget type="WT_LABEL" id="1001" pos="-0.23 0.61"/>
+    <Widget type="WT_LABEL" id="1002" pos="-0.23 0.61"/>
+    <Widget type="WT_PUSH_BUTTON" id="1003" pos="-0.23 0.71"/>
+    
+    <!-- store REMOVED-->
+    <!--
+    <Widget type="WT_LABEL" id="1018" pos="0.23 0.61"/>
+    <Widget type="WT_LABEL" id="1019" pos="0.23 0.61"/>
+    <Widget type="WT_PUSH_BUTTON" id="1020" pos="0.23 0.71"/>
+    -->
+     
+    <!-- UI for Level of the week -->
+    <!-- Logo -->
+    <Widget type="WT_LABEL" id="3000" pos="0.0 0.06" size="0.68 0.1" textScale="1.1" paddingH=".1"/>
+    <!-- portal, banner and play button -->
+    <Widget type="WT_LABEL" id="3101" pos="-0.3 0.18" size="0.25 0" forceAspect="340:340"/>
+    <Widget type="WT_LABEL" id="3201" pos="0.02 0.18" size="0.74 0" forceAspect="1074:274"/>
+    <Widget type="WT_LABEL" id="3301" pos="0.02 0.15" size="0.4 0.07" textPadding="0.1"/>
+    <Widget type="WT_LABEL" id="3401" pos="0.02 0.21" size="0.4 0.07" textPadding="0.04"/>
+    <Widget type="WT_PUSH_BUTTON" id="3501" pos="0.3 0.18" size="0.14 0" forceAspect="1"/>
+    
+    <!-- Floating Duck -->
+    <Widget type="WT_LABEL" id="2022" pos="0 1.3"/>
+    
+</Widgets>

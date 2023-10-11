@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Widgets texturePath="/Textures/">
+       
+	<Widget type="WT_LABEL" id="0" layer="1" pos="0 0" size="0.95 0.18" forceAspect="320:50" aspectBasis="width" texBGName="hd_notification_bg.webp" paddingH=".125" font="normal" />
+	
+	<Widget type="WT_LABEL" id="1" layer="2" pos=".12 0.005" size="0.5 0.045" font="normal" paddingL="0.05" paddingR="0.05"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="2" layer="3" pos="-.29 .005" size="0.3 0.065" texNormalName="button.png" texHilightName="button_highlight.png" text="DOWNLOAD" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.3"  textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="3" parent="0" posByParentSize=".9515 .30" layer="4" size="0.0 0.061" forceAspect="35:35" aspectBasis="height" texNormalName="hd_notification_close.webp" reactOnDown="false" textColorRGB="34 124 158" textHilightOffsetRelative="0 0.05f"/>
+	
+	<!-- for downloading progress -->
+	<Widget type="WT_PROGRESS_BAR" id="4" layer="5" pos=".23 0.005" size="0.35 0.0" forceAspect="128:44" texName0="ui_progress_bar_bg.webp" texName1="ui_progress_bar_fg.webp" visible="false"/>
+	<Widget type="WT_LABEL" id="5" layer="5" pos="-.18 .005" size="0.45 0.08" text="DOWNLOADING" font="normal" visible="false" />
+	
+</Widgets>

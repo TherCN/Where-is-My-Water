@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- IDs
+ 
+ Background:
+ WN_Background			10
+ WN_ScreenShade			11
+ 
+ Progress Indicator:
+ WN_ProgressGear		50
+ WN_ProgressLabel		51
+ WN_ProgressCancel		52
+ 
+ 
+ Results:
+ WN_ResultHeader		60
+ WN_ResultBody			61
+ WN_ResultOK			62
+ 
+ 
+ Buttons:
+ WN_ButtonCancel		70
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	
+	<!-- BACKGROUND -->
+	
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id="10" layer="1" pos="0.5 0.5" size="0.8 0.7" forceAspect="256:256" texBGName="dialogue_box.webp" />
+	<Widget type="WT_LABEL" id="11" layer="0" pos="0.5 0.5" size="1.1 1.1" texBGName="dialogue_vinette_dark.webp" />
+	
+	<!-- PROGRESS INDICATORS -->
+	
+	<!-- progress indicator -->
+	<Widget type="WT_LABEL" id="50" layer="2" parent="10" pos="0 0" posByParentSize="0.5 0.5" size="0.1 0" forceAspect="1" texBGName="BUSY_INDICATOR.webp" />
+	<Widget type="WT_LABEL" id="51" layer="2" parent="10" pos="0 0" posByParentSize="0.5 0.25" size="0.7 0.075" text="PROCESSING" />
+	<Widget type="WT_PUSH_BUTTON" id="52" layer="5" parent="10" pos="0 0" posByParentSize="0.5 0.75" text="CANCEL" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" />
+	
+	
+	
+	
+	<!-- RESULTS -->
+	
+	<!-- result indicators -->
+	<Widget type="WT_LABEL" id="60" layer="2" parent="10" pos="0 0" posByParentSize="0.5 0.35" size="0.7 0.075" text="RESULT_HEADER" visible="false" />
+	<Widget type="WT_LABEL" id="61" layer="2" parent="10" pos="0 0" posByParentSize="0.5 0.50" size="0.7 0.05" text="RESULT_BODY" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="62" layer="5" parent="10" pos="0 0" posByParentSize="0.5 0.75" text="OK" visible="false" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" />
+    
+</Widgets>

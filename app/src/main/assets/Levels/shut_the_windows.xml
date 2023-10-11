@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky1">
+    <AbsoluteLocation value="-0.161245 8.558994"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky2">
+    <AbsoluteLocation value="-0.027676 20.844246"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky3">
+    <AbsoluteLocation value="-0.058508 -9.393509"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Switch10">
+    <AbsoluteLocation value="-28.970966 31.813526"/>
+    <Properties>
+      <Property name="Angle" value="-90.4392"/>
+      <Property name="ConnectedObject0" value="Object16"/>
+      <Property name="Filename" value="/Objects/switch.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch6">
+    <AbsoluteLocation value="-25.691811 -42.722286"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedObject0" value="Object17"/>
+      <Property name="Filename" value="/Objects/switch_blue.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Spout12">
+    <AbsoluteLocation value="-14.087074 33.048603"/>
+    <Properties>
+      <Property name="Angle" value="-141.242"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="ParticlesPerSecond" value="20"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout13">
+    <AbsoluteLocation value="14.019917 33.840805"/>
+    <Properties>
+      <Property name="Angle" value="-41.1836"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="ParticlesPerSecond" value="20"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout14">
+    <AbsoluteLocation value="-12.377865 -36.249218"/>
+    <Properties>
+      <Property name="Angle" value="-226.551"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="ParticlesPerSecond" value="20"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout15">
+    <AbsoluteLocation value="12.508339 -37.978321"/>
+    <Properties>
+      <Property name="Angle" value="-312.676"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="ParticlesPerSecond" value="20"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Object16">
+    <AbsoluteLocation value="0.413361 -3.209343"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="27 0"/>
+    </Properties>
+  </Object>
+  <Object name="Object17">
+    <AbsoluteLocation value="0.521626 3.016068"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8_blue.hs"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="27 0"/>
+    </Properties>
+  </Object>
+  <Object name="Object18">
+    <AbsoluteLocation value="0.428291 13.901981"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8_brown.hs"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="27 0"/>
+    </Properties>
+  </Object>
+  <Object name="Object19">
+    <AbsoluteLocation value="0.077976 27.558083"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8_green.hs"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="27 0"/>
+    </Properties>
+  </Object>
+  <Object name="Switch21">
+    <AbsoluteLocation value="26.248344 -42.340755"/>
+    <Properties>
+      <Property name="Angle" value="0.360678"/>
+      <Property name="ConnectedObject0" value="Object18"/>
+      <Property name="Filename" value="/Objects/switch_brown.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch22">
+    <AbsoluteLocation value="29.207668 32.444420"/>
+    <Properties>
+      <Property name="Angle" value="89.0008"/>
+      <Property name="ConnectedObject0" value="Object19"/>
+      <Property name="Filename" value="/Objects/switch_fan2.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Object21">
+    <AbsoluteLocation value="-27.876923 -4.935844"/>
+    <Properties>
+      <Property name="Angle" value="-269.488"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Object name="Object23">
+    <AbsoluteLocation value="28.903534 -6.209534"/>
+    <Properties>
+      <Property name="Angle" value="-450.263"/>
+      <Property name="Filename" value="/Objects/icicle_large.hs"/>
+      <Property name="Type" value="icyhot"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="50"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

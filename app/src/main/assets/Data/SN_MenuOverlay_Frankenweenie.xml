@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Resume			0
+ WN_LevelSelect		1
+ WN_MainMenu		2
+ WN_SkipLevel		3
+ 
+ WN_LevelName		4
+ WN_Shade			5
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MenuOverlay-Lite.xml">
+	<Widget type="WT_PUSH_BUTTON" id="40" texNormalName="Frankenweenie_UI_button_music_on" />
+    <Widget type="WT_PUSH_BUTTON" id="41" texNormalName="Frankenweenie_UI_button_sfx_on" />
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Frankenweenie_UI_button.png" texHilightName="Frankenweenie_UI_button_highlight.png" textColorRGB="32 95 53" />
+	
+</Widgets>

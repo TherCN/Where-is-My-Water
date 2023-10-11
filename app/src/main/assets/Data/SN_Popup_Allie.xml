@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup.xml">
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="5" pos=".285 .129" size="0.373 0.055"/>
+	
+	<!-- Duckies -->
+	<Widget type="WT_LABEL" id="17" texBGName="Allie_LRS_Empty_Duck.png" pos="0.150 0.195" forceAspect="156:135"/>
+	<Widget type="WT_LABEL" id="18" texBGName="Allie_LRS_Empty_Duck.png" pos="0.288 0.195" forceAspect="156:135"/>
+	<Widget type="WT_LABEL" id="19" texBGName="Allie_LRS_Empty_Duck.png" pos="0.428 0.195" forceAspect="156:135"/>
+	
+	<Widget type="WT_LABEL" id="20" texBGName="Allie_LRS_Duck.png" pos="0.150 0.195" forceAspect="156:135"/>
+	<Widget type="WT_LABEL" id="21" texBGName="Allie_LRS_Duck.png" pos="0.288 0.195" forceAspect="156:135"/>
+	<Widget type="WT_LABEL" id="22" texBGName="Allie_LRS_Duck.png" pos="0.428 0.195" forceAspect="156:135"/>
+	
+	
+	<!-- Scoring -->
+	<Widget type="WT_LABEL" id="8" pos="0.665 0.13.2" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="9" pos="0.665 0.16.5" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="10" pos="0.665 0.16.5" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="11" pos="0.665 0.21" textColorRGB="0 0 0" />
+	
+	<Widget type="WT_LABEL" id="12" pos="0.715 0.13.2" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="13" pos="0.715 0.16.5" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="14" pos="0.715 0.16.5" textColorRGB="0 0 0" />
+	<Widget type="WT_LABEL" id="15" pos="0.715 0.21" textColorRGB="0 0 0" />
+	
+	<!-- Notification Bar -->
+	<Widget type="WT_LABEL" id="26" pos="0.5 0.40" textColorRGB="0 0 0" />
+	
+	<!-- Addition line - make white black-->
+	<Widget type="WT_LABEL" id="16" pos="0.715 0.18" bgBlendColorRGBA="0 0 0 255" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47" text="MUSIC_GROUPS" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="500" pos="0.61 0.26" text="FACEBOOK_LIKE" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="0 0 0" visible="false" />
+	<Widget type="WT_LABEL" id="501" pos="0.82 0.26" textColorRGB="255 255 255" visible="false" />
+	
+	<!-- add tiling allie background here
+	<Widget type="WT_LABEL" id="73" layer="1" pos="1.5 0.5" size="0 1.0" forceAspect="768:1024" aspectBasis="height" numTiles="2 2.6666" texBGName="allie_bricks_green.webp" />
+	-->
+	 <!-- Background -->
+	<Widget type="WT_LABEL" id="300" layer="0" pos="0.5 0.5" size="1.0 1.0" numTiles="2 0" tileForceAspect="1:1" texBGName="allie_bricks_blue.webp" visible="true"/>
+	<Widget type="WT_LABEL" id="302" layer="2" pos="0.5 0.2" size="1.0 0.0" forceAspect="2:1" texBGName="allie_results_frame.webp" visible="false"/>
+	<Widget type="WT_LABEL" id="301" layer="1" pos="0.5 0.5" size="1.0 1.0" numTiles="2 0" tileForceAspect="1:1" texBGName="allie_steam_tile.webp" bgBlendColorRGBA="255 255 255 196" visible="true"/>
+
+
+    <!-- Ducky counter -->
+	<Widget type="WT_LABEL" id="1100" layer="3" textColorRGB="131 70 47" />
+	<Widget type="WT_LABEL" id="1101" layer="3" texBGName="Allie_Duck_Counter.png"/>
+    
+	<!-- Photo finish -->
+    <Widget type="WT_PUSH_BUTTON" id="1110" texNormalName="Allie_Button_W_Shadow.png" texHilightName="Allie_Button_no_Shadow.png" textColorRGB="131 70 47"/>
+	
+</Widgets>

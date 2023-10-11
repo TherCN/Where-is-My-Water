@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup_Mystery.xml">
+	
+	<!-- screenshot placeholder -->
+	<Widget type="WT_LABEL" id="1001" pos="0.0 -0.42" size="0.73 0.047" />
+    <Widget type="WT_LABEL" id="1002" pos="0.0 -0.42" size="0.9 0.13" />
+    <Widget type="WT_LABEL" id="1003" layer="11" size="0.84 0.0" forceAspect="3:4" />
+    <Widget type="WT_LABEL" id="1004" layer="13" pos ="0.4 -0.42" size="0.23 0" forceAspect="1" />
+    
+    <Widget type="WT_LABEL" id="1055" pos="-0.32 0.42" size="0.0 0.12" forceAspect="336:145" aspectBasis="height"/>
+</Widgets>

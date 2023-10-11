@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="squash" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634" repeat="1"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236489 -0.406634" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634" repeat="1"/>
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="stretch" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.757181 -1.044630" repeat="1"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.729137 -1.675614" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.757181 -1.044630" repeat="1"/>
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="stretchhold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_3.png" offset="-0.729137 -1.675614"/>
+  </Animation>
+  <Animation name="squashhold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_1.png" offset="-2.236489 -0.406634"/>
+  </Animation>
+  <Animation name="walk" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0.000000 0.000000" repeat="8"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634" repeat="2"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236489 -0.406634" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.757181 -1.044630"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.729137 -1.675614"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236489 -0.406634" repeat="6"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.757181 -1.044630" repeat="1"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.729137 -1.675614" repeat="2"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.493330 -0.406634"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236489 -0.406634"/>
+  </Animation>
+</Sprite>

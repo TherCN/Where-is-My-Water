@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Emitter name="mysterypoof" maxParticles="50" active="0">
+	<EmitterZones>
+	</EmitterZones>
+	<Textures>
+		<Texture path="/Textures/magic_puff.png" />
+	</Textures>
+	<Particles number="1" >
+		<Size min="25 -25" max="35 -35" />      
+		<Directions>
+			<Direction min="0" max="0" />
+		</Directions>        
+		<GrowToSize min="0 -0" />
+        <Apex start="0.1" />
+        <SizeSlerp start="1" end="1" />        
+		<Speed min=".15" />
+		<ScreenSpeed min="1.8" />
+		<ParticlesPerSecond min="9999999" />
+		<LifeTime min="0.75" max="1.0" />
+		<FadeTime min="0" />
+        <Angle min="0" max="359" />        
+	</Particles>
+</Emitter>

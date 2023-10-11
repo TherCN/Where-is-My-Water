@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout12">
+    <AbsoluteLocation value="-28.631828 -36.034332"/>
+    <Properties>
+      <Property name="Angle" value="-90.3585"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="-22.957569 -26.965271"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="-21.555092 -44.801754"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="-5.624080 -13.173492"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout3">
+    <AbsoluteLocation value="31.317852 36.970917"/>
+    <Properties>
+      <Property name="Angle" value="-93.3603"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="18"/>
+      <Property name="Timer0" value="0 3"/>
+      <Property name="Timer1" value="1 99999999"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout9">
+    <AbsoluteLocation value="-0.938934 8.051304"/>
+    <Properties>
+      <Property name="Angle" value="46.9694"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="mud"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleDryness" value="0.85"/>
+      <Property name="ParticleSpeed" value="15"/>
+      <Property name="ParticlesPerSecond" value="10"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout14">
+    <AbsoluteLocation value="-10.505695 2.311150"/>
+    <Properties>
+      <Property name="Angle" value="158.658"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="mud"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleDryness" value="0.85"/>
+      <Property name="ParticleSpeed" value="15"/>
+      <Property name="ParticlesPerSecond" value="10"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout15">
+    <AbsoluteLocation value="-6.093758 7.001301"/>
+    <Properties>
+      <Property name="Angle" value="-614.702"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="mud"/>
+      <Property name="OffsetVariation" value="1"/>
+      <Property name="ParticleDryness" value="0.85"/>
+      <Property name="ParticleSpeed" value="15"/>
+      <Property name="ParticlesPerSecond" value="10"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="17.200003 -34.800003"/>
+  </Room>
+</Objects>

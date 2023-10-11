@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Hub.xml" >
+    
+	<!-- BACKGROUND ELEMENTS -->
+	
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1000" layer="0" pos="0 -0.05" justifyWidget="0.5 0.0" size="0.95 0.85" forceAspect="640:812" aspectBasis="width" texBGName="WMW_UI_background.webp" />
+	
+	<!-- Frame -->
+	<Widget type="WT_LABEL" id="1030" pos="0 0" justifyWidget="0.5 -0.05" size="0.0 0.25" forceAspect="768:215" aspectBasis="height" texBGName="WMW_UI_archway_top.png" />
+	<Widget type="WT_LABEL" id="1031" parent="1030" layer="19" pos="0 0" parentLineUpY="true" size="0.0 0.8" forceAspect="132:809" aspectBasis="height" texBGName="WMW_UI_archway_left.png" />
+	<Widget type="WT_LABEL" id="1032" parent="1030" layer="19" pos="0 0" parentLineUpY="true" size="0.0 0.8" forceAspect="132:809" aspectBasis="height" texBGName="WMW_UI_archway_right.png" />
+	
+	
+	<!-- Group 'Top' (the top part of the screen) -->
+	<Widget type="WT_LABEL" id="102" parent="2000" layer="10" pos="0 0" posByParentSize="0.5 -0.55" size="0.2 0.2" />
+	
+	
+</Widgets>

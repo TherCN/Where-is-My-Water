@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_1.png" offset="0.035015411376953125 0.007003082275392218"/>
+    <Frame name="sw_arm_L_2.png" offset="0.0560246582031258 0.007003082275392218"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_4.png" offset="0.3291448669433606 0.014006164550784435"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_6.png" offset="0.7003082275390625 0"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_1.png" offset="0.035015411376953125 0.007003082275392218"/>
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_7.png" offset="0.035015411376953125 0.014006164550784435"/>
+    <Frame name="sw_arm_L_8.png" offset="0.09804315185546915 0.028012329101564887"/>
+    <Frame name="sw_arm_L_9.png" offset="0.1680739746093754 0.02100924682617267"/>
+    <Frame name="sw_arm_L_10.png" offset="0.2240986328124992 0"/>
+    <Frame name="sw_arm_L_11.png" offset="0.04201849365234335 0.04201849365234534"/>
+    <Frame name="sw_arm_L_12.png" offset="-0.13305856323242227 0.09104006958007892"/>
+    <Frame name="sw_arm_L_10.png" offset="0.2240986328124992 0"/>
+    <Frame name="sw_arm_L_8.png" offset="0.09804315185546915 0.028012329101564887"/>
+  </Animation>
+  <Animation name="6" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_12.png" offset="-0.13305856323242227 0.09104006958007892"/>
+  </Animation>
+  <Animation name="16" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_13.png" offset="6.120693908691407 3.0603469543457025"/>
+  </Animation>
+  <Animation name="7" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_6.png" offset="0.7003082275390625 0"/>
+  </Animation>
+  <Animation name="8" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_14.png" offset="-0.43419110107421793 3.3474733276367195"/>
+  </Animation>
+  <Animation name="12" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_15.png" offset="1.869822967529296 -3.7186366882324196"/>
+    <Frame name="sw_arm_L_16.png" offset="5.784545959472656 -1.0644685058593741"/>
+    <Frame name="sw_arm_L_13.png" offset="6.120693908691407 3.0603469543457025"/>
+    <Frame name="sw_arm_L_17.png" offset="5.644484313964844 10.084438476562504"/>
+    <Frame name="sw_arm_L_18.png" offset="6.288767883300782 20.94621908569336" repeat="11"/>
+    <Frame name="sw_arm_L_17.png" offset="5.644484313964844 10.084438476562504"/>
+    <Frame name="sw_arm_L_13.png" offset="6.120693908691407 3.0603469543457025"/>
+    <Frame name="sw_arm_L_16.png" offset="5.784545959472656 -1.0644685058593741"/>
+    <Frame name="sw_arm_L_15.png" offset="1.869822967529296 -3.7186366882324196"/>
+  </Animation>
+  <Animation name="17" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_16.png" offset="5.784545959472656 -1.0644685058593741"/>
+  </Animation>
+  <Animation name="15" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_15.png" offset="1.869822967529296 -3.7186366882324196"/>
+  </Animation>
+  <Animation name="3" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_19.png" offset="0.47620959472656327 -1.0294530944824212"/>
+    <Frame name="sw_arm_L_20.png" offset="0.8753852844238301 -2.016887695312497"/>
+    <Frame name="sw_arm_L_21.png" offset="1.057465423583984 -2.8852698974609368"/>
+    <Frame name="sw_arm_L_22.png" offset="1.2115332336425768 -3.767658264160155"/>
+    <Frame name="sw_arm_L_23.png" offset="1.3585979614257817 -4.643043548583983"/>
+    <Frame name="sw_arm_L_24.png" offset="1.5616873474121102 -5.525431915283201"/>
+    <Frame name="sw_arm_L_23.png" offset="1.3585979614257817 -4.643043548583983"/>
+    <Frame name="sw_arm_L_22.png" offset="1.2115332336425768 -3.767658264160155"/>
+    <Frame name="sw_arm_L_20.png" offset="0.8753852844238301 -2.016887695312497"/>
+  </Animation>
+  <Animation name="18" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_25.png" offset="6.645925079345705 9.377127166748048" repeat="14"/>
+  </Animation>
+  <Animation name="11" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_18.png" offset="6.288767883300782 20.94621908569336"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="14" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_26.png" offset="0.7003082275390625 0" repeat="6"/>
+    <Frame name="sw_arm_L_27.png" offset="0.7003082275390625 0"/>
+    <Frame name="sw_arm_L_26.png" offset="0.7003082275390625 0" repeat="6"/>
+  </Animation>
+  <Animation name="10" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_28.png" offset="0.9244068603515617 -2.8152390747070304"/>
+  </Animation>
+  <Animation name="4" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_22.png" offset="1.2115332336425768 -3.767658264160155"/>
+  </Animation>
+  <Animation name="19" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_2.png" offset="0.0560246582031258 0.007003082275392218"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_4.png" offset="0.3291448669433606 0.014006164550784435"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_6.png" offset="0.7003082275390625 0"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_1.png" offset="0.035015411376953125 0.007003082275392218"/>
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_1.png" offset="0.035015411376953125 0.007003082275392218"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_6.png" offset="0.7003082275390625 0"/>
+    <Frame name="sw_arm_L_5.png" offset="0.5322342529296871 -0.02100924682617267"/>
+    <Frame name="sw_arm_L_4.png" offset="0.3291448669433606 0.014006164550784435"/>
+    <Frame name="sw_arm_L_3.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_2.png" offset="0.0560246582031258 0.007003082275392218" repeat="2"/>
+    <Frame name="sw_arm_L_7.png" offset="0.035015411376953125 0.014006164550784435"/>
+    <Frame name="sw_arm_L_8.png" offset="0.09804315185546915 0.028012329101564887"/>
+    <Frame name="sw_arm_L_9.png" offset="0.1680739746093754 0.02100924682617267"/>
+    <Frame name="sw_arm_L_10.png" offset="0.2240986328124992 0"/>
+    <Frame name="sw_arm_L_11.png" offset="0.04201849365234335 0.04201849365234534"/>
+    <Frame name="sw_arm_L_12.png" offset="-0.13305856323242227 0.09104006958007892"/>
+    <Frame name="sw_arm_L_10.png" offset="0.2240986328124992 0"/>
+    <Frame name="sw_arm_L_8.png" offset="0.09804315185546915 0.028012329101564887" repeat="4"/>
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_1.png" offset="0.035015411376953125 0.007003082275392218"/>
+  </Animation>
+  <Animation name="5" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_0.png" offset="0 0"/>
+    <Frame name="sw_arm_L_29.png" offset="0.0560246582031258 0.007003082275392218"/>
+    <Frame name="sw_arm_L_30.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_31.png" offset="0.4271880187988297 0"/>
+    <Frame name="sw_arm_L_32.png" offset="0.7003082275390625 0"/>
+    <Frame name="sw_arm_L_31.png" offset="0.4271880187988297 0"/>
+    <Frame name="sw_arm_L_30.png" offset="0.15406781005859493 0.014006164550784435"/>
+    <Frame name="sw_arm_L_29.png" offset="0.0560246582031258 0.007003082275392218"/>
+  </Animation>
+</Sprite>

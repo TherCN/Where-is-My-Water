@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="11" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="TopLip_LS_1.png" offset="1.061853 0.607692"/>
+    <Frame name="TopLip_LS_2.png" offset="1.706904 0.577805"/>
+    <Frame name="TopLip_LS_3.png" offset="3.830609 5.369603"/>
+    <Frame name="TopLip_LS_4.png" offset="9.675762 1.534172"/>
+    <Frame name="TopLip_LS_5.png" offset="12.424671 0.876670"/>
+    <Frame name="TopLip_LS_6.png" offset="14.945332 -0.019924" repeat="18"/>
+    <Frame name="TopLip_LS_5.png" offset="12.424671 0.876670"/>
+    <Frame name="TopLip_LS_4.png" offset="9.675762 1.534172"/>
+    <Frame name="TopLip_LS_3.png" offset="3.830609 5.369603"/>
+    <Frame name="TopLip_LS_2.png" offset="1.706904 0.577805"/>
+    <Frame name="TopLip_LS_1.png" offset="1.061853 0.607692"/>
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000" repeat="9"/>
+  </Animation>
+  <Animation name="12" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130" repeat="14"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000" repeat="28"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130" repeat="15"/>
+    <Frame name="TopLip_LS_10.png" offset="-1.419112 0.229130"/>
+    <Frame name="TopLip_LS_9.png" offset="-1.022157 0.069735"/>
+    <Frame name="TopLip_LS_8.png" offset="-0.416802 0.448297"/>
+    <Frame name="TopLip_LS_7.png" offset="-0.248096 -0.268978"/>
+    <Frame name="TopLip_LS_0.png" offset="0.000000 0.000000" repeat="29"/>
+  </Animation>
+</Sprite>

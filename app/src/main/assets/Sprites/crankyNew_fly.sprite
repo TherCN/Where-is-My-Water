@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="flies" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="fly_0.png" offset="7.2885 18.721124999999997"/>
+    <Frame name="fly_1.png" offset="4.525750000000001 13.313875"/>
+    <Frame name="fly_2.png" offset="2.542374999999999 3.606624999999998"/>
+    <Frame name="fly_3.png" offset="0 0"/>
+    <Frame name="fly_4.png" offset="-0.4407499999999963 1.1986250000000005"/>
+    <Frame name="fly_5.png" offset="9.7825 -6.643500000000001"/>
+    <Frame name="fly_6.png" offset="-33.964625 -1.3921250000000018"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="backofhat" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="extra02_0.png" offset="13.752 -10.212"/>
+    <Frame name="extra02_1.png" offset="15.911999999999999 -10.62"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_blank_frame.png" offset="0 0"/>
+  </Animation>
+</Sprite>

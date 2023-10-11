@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout12">
+    <AbsoluteLocation value="26.988625 -21.663097"/>
+    <Properties>
+      <Property name="Angle" value="59.1998"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="-11.241058 25.989182"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="18.371254 16.265945"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="19.181473 -20.189426"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Object6">
+    <AbsoluteLocation value="-17.490746 -3.286419"/>
+    <Properties>
+      <Property name="Angle" value="-45"/>
+      <Property name="Filename" value="/Objects/dirtywall_large.hs"/>
+      <Property name="Health" value="1"/>
+      <Property name="Type" value="dirtywall"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-14.799998 -30.800003"/>
+  </Room>
+</Objects>

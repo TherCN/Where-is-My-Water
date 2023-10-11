@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Layer 1" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="3" offset="0 0"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="2" offset="-0.012000000000002727 -0.011999999999999317" scale="0.8099699183498066 0.8099699183498066"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="9" offset="0 -0.023999999999998634" scale="0.7422432316287065 0.7422432316287065"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="12" offset="0 -0.011999999999999317" scale="0.8511173184357542 0.8511173184357542"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="13" offset="-0.012000000000002727 -0.036000000000001364" scale="0.7963902019767941 0.7963902019767941"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="12" offset="0 -0.011999999999999317" scale="0.8511173184357542 0.8511173184357542"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="2" offset="0 -0.011999999999999317" scale="0.8511173184357542 0.8511173184357542"/>
+    <Frame name="DUCKSHADOWANIM_0.png" repeat="2" offset="0.012000000000002727 -0.011999999999999317" scale="0.8709926944563816 0.8709926944563816"/>
+    <Frame name="DUCKSHADOWANIM_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

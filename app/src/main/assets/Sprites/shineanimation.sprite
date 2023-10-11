@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="shine" textureBasePath="/Textures/" atlas="/Textures/ui_atlas.imagelist" fps="20" playbackMode="ONCE" loopCount="-1">
+    <Frame name="shineanimation_0.png" offset="0 0" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="15.275 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="28.574999999999996 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="41.87499999999999 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="55.175000000000004 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="68.475 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_1.png" offset="81.775 1.7125000000000021" alphaPercent="0.59"/>
+    <Frame name="shineanimation_0.png" offset="101.925 3.3249999999999993" scale="-1 -1"  alphaPercent="0.59"/>
+  </Animation>
+</Sprite>

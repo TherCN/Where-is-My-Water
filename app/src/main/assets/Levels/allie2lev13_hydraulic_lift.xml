@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object31">
+    <AbsoluteLocation value="-8.025007 9.507689"/>
+    <Properties>
+      <Property name="Angle" value="-90.3649"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object24">
+    <AbsoluteLocation value="-19.534554 36.587906"/>
+    <Properties>
+      <Property name="Angle" value="96.2154"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object23">
+    <AbsoluteLocation value="-9.395555 24.733559"/>
+    <Properties>
+      <Property name="Angle" value="-69.7676"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object20">
+    <AbsoluteLocation value="-6.585392 18.726620"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object18">
+    <AbsoluteLocation value="7.054321 22.079714"/>
+    <Properties>
+      <Property name="Angle" value="89.1265"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object17">
+    <AbsoluteLocation value="8.686008 30.444267"/>
+    <Properties>
+      <Property name="Angle" value="77.854"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object14">
+    <AbsoluteLocation value="8.228844 34.743992"/>
+    <Properties>
+      <Property name="Angle" value="129.468"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object11">
+    <AbsoluteLocation value="25.417961 -40.138447"/>
+    <Properties>
+      <Property name="Angle" value="84.5987"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout2">
+    <AbsoluteLocation value="-20.043140 33.558037"/>
+    <Properties>
+      <Property name="Angle" value="-177.764"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_allie.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout4">
+    <AbsoluteLocation value="25.680737 -34.515045"/>
+    <Properties>
+      <Property name="Angle" value="98.8512"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Steam"/>
+      <Property name="ParticleSpeed" value="20"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky7">
+    <AbsoluteLocation value="11.063213 11.246078"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky8">
+    <AbsoluteLocation value="16.891850 23.429462"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky9">
+    <AbsoluteLocation value="-8.640533 34.607101"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_steam_allie.hs"/>
+      <Property name="StarType" value="allie"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="10.423191 37.121212"/>
+    <Properties>
+      <Property name="Angle" value="-56.1459"/>
+      <Property name="ConnectedSpout0" value="Spout5"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/basic_drain.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="FluidConverter11">
+    <AbsoluteLocation value="7.771679 26.240854"/>
+    <Properties>
+      <Property name="Angle" value="-11.8911"/>
+      <Property name="Filename" value="/Objects/converter_static_murky.hs"/>
+      <Property name="FluidType" value="contaminatedwater"/>
+      <Property name="Type" value="fluidconverter"/>
+    </Properties>
+  </Object>
+  <Object name="Object12">
+    <AbsoluteLocation value="25.577839 -49.441479"/>
+    <Properties>
+      <Property name="Angle" value="97.1451"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object15">
+    <AbsoluteLocation value="6.395357 19.911880"/>
+    <Properties>
+      <Property name="Angle" value="-88.9247"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object16">
+    <AbsoluteLocation value="8.918989 32.228401"/>
+    <Properties>
+      <Property name="Angle" value="-52.5225"/>
+      <Property name="Filename" value="/Objects/pipe_bend_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object19">
+    <AbsoluteLocation value="4.959564 19.102064"/>
+    <Properties>
+      <Property name="Angle" value="-175.57"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object21">
+    <AbsoluteLocation value="-8.545593 22.282463"/>
+    <Properties>
+      <Property name="Angle" value="-73.6772"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object22">
+    <AbsoluteLocation value="-8.029360 15.148996"/>
+    <Properties>
+      <Property name="Angle" value="-271.187"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object25">
+    <AbsoluteLocation value="-17.707493 37.194126"/>
+    <Properties>
+      <Property name="Angle" value="-3.66268"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object26">
+    <AbsoluteLocation value="-15.534554 36.231758"/>
+    <Properties>
+      <Property name="Angle" value="-10.2437"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object28">
+    <AbsoluteLocation value="-15.036409 34.612858"/>
+    <Properties>
+      <Property name="Angle" value="-233.821"/>
+      <Property name="Filename" value="/Objects/pipe_bend_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object29">
+    <AbsoluteLocation value="-12.964983 31.129032"/>
+    <Properties>
+      <Property name="Angle" value="-54.6154"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object30">
+    <AbsoluteLocation value="-10.532117 27.274363"/>
+    <Properties>
+      <Property name="Angle" value="-63.6511"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object32">
+    <AbsoluteLocation value="-7.572828 0.273199"/>
+    <Properties>
+      <Property name="Angle" value="-84.5245"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object33">
+    <AbsoluteLocation value="-7.353294 -8.903131"/>
+    <Properties>
+      <Property name="Angle" value="-92.5966"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object34">
+    <AbsoluteLocation value="-6.874945 -14.007088"/>
+    <Properties>
+      <Property name="Angle" value="-181.211"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object35">
+    <AbsoluteLocation value="-4.139441 -14.538626"/>
+    <Properties>
+      <Property name="Angle" value="5.64736"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object36">
+    <AbsoluteLocation value="-2.831249 -14.858734"/>
+    <Properties>
+      <Property name="Angle" value="0.193546"/>
+      <Property name="Filename" value="/Objects/pipe_bend_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object37">
+    <AbsoluteLocation value="-2.033072 -16.422216"/>
+    <Properties>
+      <Property name="Angle" value="-70.4391"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object38">
+    <AbsoluteLocation value="-1.494570 -17.810564"/>
+    <Properties>
+      <Property name="Angle" value="30.8763"/>
+      <Property name="Filename" value="/Objects/pipe_spout_base.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object39">
+    <AbsoluteLocation value="-19.988310 21.315676"/>
+    <Properties>
+      <Property name="Angle" value="0.502067"/>
+      <Property name="Filename" value="/Objects/path_vertical_locking_end_top.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object40">
+    <AbsoluteLocation value="-20.065212 -37.269226"/>
+    <Properties>
+      <Property name="Angle" value="-0.158508"/>
+      <Property name="Filename" value="/Objects/path_vertical_locking_end_bottom.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object41">
+    <AbsoluteLocation value="-20.055811 -32.443432"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object42">
+    <AbsoluteLocation value="-20.046412 -27.556240"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object43">
+    <AbsoluteLocation value="-20.037014 -22.669048"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object44">
+    <AbsoluteLocation value="-20.027615 -17.781858"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object45">
+    <AbsoluteLocation value="-20.018217 -12.894669"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object46">
+    <AbsoluteLocation value="-20.008820 -8.007475"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object47">
+    <AbsoluteLocation value="-19.999420 -3.120285"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object48">
+    <AbsoluteLocation value="-19.990023 1.766907"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object49">
+    <AbsoluteLocation value="-19.980623 6.654099"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object50">
+    <AbsoluteLocation value="-19.971226 11.541286"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object51">
+    <AbsoluteLocation value="-19.961828 16.428482"/>
+    <Properties>
+      <Property name="Angle" value="89.8898"/>
+      <Property name="Filename" value="/Objects/path_locking_mid.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout5">
+    <AbsoluteLocation value="-9.326019 18.652035"/>
+    <Properties>
+      <Property name="Angle" value="189.086"/>
+      <Property name="ConnectedConverter" value="FluidConverter11"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="NumberParticles" value="0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Object3">
+    <AbsoluteLocation value="-20.017263 -38.345032"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="MotorMoveSpeed" value="0.8"/>
+      <Property name="MotorOn" value="1"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="0 78"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="6.800001 -29.200005"/>
+  </Room>
+</Objects>

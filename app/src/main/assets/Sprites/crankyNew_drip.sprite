@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="drip" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="drip_0.png" offset="-1.0427499999999998 11.4165"/>
+    <Frame name="drip_0.png" offset="-2.33275 22.7685"/>
+    <Frame name="drip_0.png" offset="-3.6227500000000004 34.13125"/>
+    <Frame name="drip_0.png" offset="-4.91275 45.494"/>
+    <Frame name="drip_0.png" offset="-6.20275 56.85675"/>
+    <Frame name="drip_0.png" offset="-7.49275 68.20875"/>
+    <Frame name="drip_0.png" offset="-8.78275 79.5715"/>
+    <Frame name="drip_1.png" offset="-7.675499999999999 80.3025"/>
+    <Frame name="drip_2.png" offset="-5.740500000000002 82.52775"/>
+    <Frame name="drip_3.png" offset="-8.997749999999996 85.037875"/>
+    <Frame name="drip_4.png" offset="-12.190500000000002 92.52525"/>
+  </Animation>
+  <Animation name="drop" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="drip_5.png" offset="0 0"/>
+  </Animation>
+</Sprite>

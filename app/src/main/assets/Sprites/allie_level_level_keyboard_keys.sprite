@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="keys_h" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_0.png" offset="0 0.016278934478759995"/>
+  </Animation>
+  <Animation name="keys_g" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_1.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+    <Frame name="level_keyboard_keys_1.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+    <Frame name="level_keyboard_keys_1.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+    <Frame name="level_keyboard_keys_1.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+    <Frame name="level_keyboard_keys_1.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+  </Animation>
+  <Animation name="keys_f" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_2.png" repeat="1" offset="-0.008139467239381734 0.016278934478759995"/>
+    <Frame name="level_keyboard_keys_2.png" repeat="1" offset="-0.008139467239381734 0.016278934478759995"/>
+    <Frame name="level_keyboard_keys_2.png" repeat="1" offset="-0.008139467239381734 0.016278934478759995"/>
+  </Animation>
+  <Animation name="keys_e" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_3.png" offset="-0.008139467239381734 0.15464987754821707"/>
+  </Animation>
+  <Animation name="keys_d" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_4.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+    <Frame name="level_keyboard_keys_4.png" repeat="1" offset="-0.008139467239381734 0.00813946723937942"/>
+  </Animation>
+  <Animation name="keys_c" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_5.png" offset="0.008139467239377108 0.00813946723937942"/>
+  </Animation>
+  <Animation name="keys_b" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_6.png" offset="0.008139467239377108 0.00813946723937942"/>
+  </Animation>
+  <Animation name="keys_a" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_7.png" repeat="11" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="1" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="4" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="3" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="2" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="6" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="4" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="1" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="3" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="3" offset="0 0"/>
+    <Frame name="level_keyboard_keys_7.png" repeat="21" offset="0 0"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/allie_level_props.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="level_keyboard_keys_7.png" offset="0 0"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_0.png" offset="0 0"/>
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_2.png" offset="-0.14720643997192143 1.244225383758544"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="1"/>
+    <Frame name="sw_eyes_2.png" offset="-0.14720643997192143 1.244225383758544"/>
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_0.png" offset="0 0" repeat="29"/>
+  </Animation>
+  <Animation name="4" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_2.png" offset="-0.14720643997192143 1.244225383758544"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="1"/>
+    <Frame name="sw_eyes_4.png" offset="0 0"/>
+    <Frame name="sw_eyes_5.png" offset="0 0" repeat="41"/>
+  </Animation>
+  <Animation name="5" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_5.png" offset="0 0"/>
+  </Animation>
+  <Animation name="6" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_5.png" offset="0 0"/>
+    <Frame name="sw_eyes_4.png" offset="0 0"/>
+    <Frame name="sw_eyes_6.png" offset="0 0"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="1"/>
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_0.png" offset="0 0" repeat="6"/>
+  </Animation>
+  <Animation name="19" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_0.png" offset="0 0"/>
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_2.png" offset="-0.14720643997192143 1.244225383758544"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+    <Frame name="sw_eyes_3.png" offset="-0.7360321998596151 2.6079526405334463" scale="-1 1"/>
+    <Frame name="sw_eyes_7.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_8.png" offset="-0.8622091484069792 -4.323155994415282" repeat="15" scale="-1 1"/>
+    <Frame name="sw_eyes_7.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_9.png" offset="-0.848189487457273 1.244225383758544"/>
+    <Frame name="sw_eyes_3.png" offset="-0.7360321998596151 2.6079526405334463" scale="-1 1"/>
+    <Frame name="sw_eyes_9.png" offset="-0.848189487457273 1.244225383758544"/>
+    <Frame name="sw_eyes_7.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_8.png" offset="-0.8622091484069792 -4.323155994415282" repeat="13" scale="-1 1"/>
+    <Frame name="sw_eyes_7.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_3.png" offset="-0.7360321998596151 2.6079526405334463" scale="-1 1"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="1"/>
+    <Frame name="sw_eyes_1.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_0.png" offset="0 0" repeat="2"/>
+  </Animation>
+  <Animation name="3" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+  </Animation>
+  <Animation name="7" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_10.png" offset="1.6893691444396988 -1.792528095245361"/>
+  </Animation>
+  <Animation name="32" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+    <Frame name="sw_eyes_11.png" offset="-0.2803932189941406 2.4040965042114246"/>
+    <Frame name="sw_eyes_12.png" offset="-0.23833423614501792 2.200240367889403"/>
+    <Frame name="sw_eyes_13.png" offset="-0.014019660949706234 1.785498573303221"/>
+    <Frame name="sw_eyes_14.png" offset="0.1892654228210441 1.4199634323120107"/>
+    <Frame name="sw_eyes_15.png" offset="0.3785308456420922 1.089575901031494"/>
+    <Frame name="sw_eyes_16.png" offset="0.5187274551391625 0.7732474136352538"/>
+    <Frame name="sw_eyes_17.png" offset="0.6869633865356453 0.52018462371826"/>
+    <Frame name="sw_eyes_18.png" offset="0.8131403350830093 0.3163284873962402"/>
+    <Frame name="sw_eyes_19.png" offset="0.9252976226806632 0.09138378524779953"/>
+    <Frame name="sw_eyes_20.png" offset="1.0234352493286147 -0.06326569747924644"/>
+    <Frame name="sw_eyes_21.png" offset="1.100543384552001 -0.18276757049560705"/>
+    <Frame name="sw_eyes_22.png" offset="1.163631858825685 -0.3092989654540999"/>
+    <Frame name="sw_eyes_23.png" offset="1.2337301635742202 -0.42177131652832023"/>
+    <Frame name="sw_eyes_24.png" offset="1.212700672149659 -0.37959418487548663"/>
+    <Frame name="sw_eyes_25.png" offset="1.1776515197753914 -0.337417053222657"/>
+    <Frame name="sw_eyes_22.png" offset="1.163631858825685 -0.3092989654540999"/>
+    <Frame name="sw_eyes_26.png" offset="1.1355925369262687 -0.260092311859134"/>
+    <Frame name="sw_eyes_21.png" offset="1.100543384552001 -0.18276757049560705"/>
+    <Frame name="sw_eyes_27.png" offset="1.0865237236022949 -0.14059043884277342"/>
+    <Frame name="sw_eyes_20.png" offset="1.0234352493286147 -0.06326569747924644"/>
+    <Frame name="sw_eyes_28.png" offset="0.981376266479492 0.014059043884276543"/>
+    <Frame name="sw_eyes_19.png" offset="0.9252976226806632 0.09138378524779953"/>
+    <Frame name="sw_eyes_29.png" offset="0.8832386398315445 0.18979709243774331"/>
+    <Frame name="sw_eyes_18.png" offset="0.8131403350830093 0.3163284873962402"/>
+    <Frame name="sw_eyes_30.png" offset="0.7500518608093253 0.4077122726440397"/>
+    <Frame name="sw_eyes_17.png" offset="0.6869633865356453 0.52018462371826"/>
+    <Frame name="sw_eyes_31.png" offset="0.609855251312255 0.6607750625610335"/>
+    <Frame name="sw_eyes_16.png" offset="0.5187274551391625 0.7732474136352538"/>
+    <Frame name="sw_eyes_32.png" offset="0.4556389808654785 0.9278968963623038"/>
+    <Frame name="sw_eyes_15.png" offset="0.3785308456420922 1.089575901031494"/>
+    <Frame name="sw_eyes_33.png" offset="0.2733833885192895 1.244225383758544"/>
+    <Frame name="sw_eyes_14.png" offset="0.1892654228210441 1.4199634323120107"/>
+    <Frame name="sw_eyes_34.png" offset="0.0981376266479516 1.5957014808654775"/>
+    <Frame name="sw_eyes_13.png" offset="-0.014019660949706234 1.785498573303221"/>
+    <Frame name="sw_eyes_35.png" offset="-0.10514745712280273 1.9682661437988278"/>
+    <Frame name="sw_eyes_12.png" offset="-0.23833423614501792 2.200240367889403"/>
+    <Frame name="sw_eyes_11.png" offset="-0.2803932189941406 2.4040965042114246"/>
+    <Frame name="sw_eyes_36.png" offset="-0.25936372756957926 2.6079526405334463"/>
+  </Animation>
+  <Animation name="21" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_37.png" offset="0.10514745712280671 0.7029521942138631"/>
+    <Frame name="sw_eyes_37.png" offset="0.5327471160888687 -0.7943359794616706" scale="0.9971997699270426 1.0993895913432954"/>
+    <Frame name="sw_eyes_37.png" offset="0.9603467750549347 -2.2705355873107913" scale="0.9945660400205855 1.199056641166911"/>
+    <Frame name="sw_eyes_37.png" offset="1.4370152473449747 -3.739705673217776" repeat="21" scale="0.9919777192504465 1.2988227833049268"/>
+    <Frame name="sw_eyes_37.png" offset="1.4370152473449747 -3.739705673217776" scale="0.9919777192504465 1.2988227833049268"/>
+    <Frame name="sw_eyes_37.png" offset="0.9603467750549347 -2.2705355873107913" scale="0.9945660400205855 1.199056641166911"/>
+    <Frame name="sw_eyes_37.png" offset="0.5327471160888687 -0.7943359794616706" scale="0.9971997699270426 1.0993895913432954"/>
+    <Frame name="sw_eyes_37.png" offset="0.10514745712280671 0.7029521942138631" repeat="11"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="18" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_38.png" offset="0 0"/>
+    <Frame name="sw_eyes_39.png" offset="0 0"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="1"/>
+    <Frame name="sw_eyes_39.png" offset="0 0"/>
+    <Frame name="sw_eyes_38.png" offset="0 0" repeat="34"/>
+  </Animation>
+  <Animation name="22" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_40.png" offset="0 0.8716607208251936"/>
+  </Animation>
+  <Animation name="23" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_41.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+    <Frame name="sw_eyes_42.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+    <Frame name="sw_eyes_43.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+    <Frame name="sw_eyes_44.png" offset="-3.0562860870361304 -1.792528095245361" repeat="1"/>
+    <Frame name="sw_eyes_43.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+    <Frame name="sw_eyes_42.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+    <Frame name="sw_eyes_41.png" offset="-3.2735908317565907 -1.1528415985107445" repeat="7"/>
+  </Animation>
+  <Animation name="26" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_41.png" offset="-3.2735908317565907 -1.1528415985107445"/>
+  </Animation>
+  <Animation name="33" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_45.png" offset="-3.070305747985836 -1.1528415985107445"/>
+    <Frame name="sw_eyes_46.png" offset="-3.070305747985836 -1.2512549057006843"/>
+    <Frame name="sw_eyes_47.png" offset="-3.070305747985836 -1.349668212890624"/>
+    <Frame name="sw_eyes_48.png" offset="-2.8880501556396476 -1.455111042022704"/>
+    <Frame name="sw_eyes_49.png" offset="-2.614666767120358 -1.5535243492126478" repeat="1"/>
+    <Frame name="sw_eyes_50.png" offset="-1.9136837196350065 -2.158063236236571"/>
+    <Frame name="sw_eyes_49.png" offset="-2.614666767120358 -1.5535243492126478"/>
+    <Frame name="sw_eyes_47.png" offset="-3.070305747985836 -1.349668212890624"/>
+    <Frame name="sw_eyes_45.png" offset="-3.070305747985836 -1.1528415985107445"/>
+  </Animation>
+  <Animation name="25" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_51.png" offset="-0.5117176246643034 8.442455852508546"/>
+    <Frame name="sw_eyes_52.png" offset="0.11916711807251294 7.493470390319825"/>
+    <Frame name="sw_eyes_53.png" offset="0.546766777038579 6.8256658058166515"/>
+    <Frame name="sw_eyes_54.png" offset="0.9603467750549307 5.97509365081787"/>
+    <Frame name="sw_eyes_53.png" offset="0.546766777038579 6.8256658058166515"/>
+    <Frame name="sw_eyes_52.png" offset="0.11916711807251294 7.493470390319825"/>
+    <Frame name="sw_eyes_55.png" offset="-0.20328508377075033 7.985536926269532"/>
+    <Frame name="sw_eyes_56.png" offset="-0.4205898284912069 8.301865413665771"/>
+    <Frame name="sw_eyes_51.png" offset="-0.5117176246643034 8.442455852508546"/>
+  </Animation>
+  <Animation name="14" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_57.png" offset="0.9603467750549307 0.9841330718994139"/>
+  </Animation>
+  <Animation name="9" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+  </Animation>
+  <Animation name="34" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_58.png" offset="-6.315857257843015 -1.996384231567385" repeat="8"/>
+    <Frame name="sw_eyes_59.png" offset="-6.315857257843015 -1.996384231567385"/>
+    <Frame name="sw_eyes_60.png" offset="-6.315857257843015 -1.996384231567385" repeat="1"/>
+    <Frame name="sw_eyes_59.png" offset="-6.315857257843015 -1.996384231567385"/>
+    <Frame name="sw_eyes_58.png" offset="-6.315857257843015 -1.996384231567385" repeat="21"/>
+  </Animation>
+  <Animation name="35" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_61.png" offset="-0.8622091484069792 -4.323155994415282" scale="-1 1"/>
+    <Frame name="sw_eyes_62.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_63.png" offset="-0.848189487457273 1.244225383758544" scale="-1 1"/>
+    <Frame name="sw_eyes_64.png" offset="-0.7360321998596151 2.6079526405334463" repeat="1" scale="-1 1"/>
+    <Frame name="sw_eyes_63.png" offset="-0.848189487457273 1.244225383758544" scale="-1 1"/>
+    <Frame name="sw_eyes_62.png" offset="-0.9252976226806632 -1.504317695617678" scale="-1 1"/>
+    <Frame name="sw_eyes_61.png" offset="-0.8622091484069792 -4.323155994415282" repeat="3" scale="-1 1"/>
+  </Animation>
+  <Animation name="38" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_61.png" offset="-0.8622091484069792 -4.323155994415282" scale="-1 1"/>
+  </Animation>
+  <Animation name="13" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_65.png" offset="0.9603467750549307 1.6167900466918943"/>
+  </Animation>
+  <Animation name="8" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_66.png" offset="1.6893691444396988 -1.792528095245361"/>
+  </Animation>
+  <Animation name="17" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_67.png" offset="0 -0.04217713165283363"/>
+  </Animation>
+  <Animation name="31" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_40.png" offset="0 0.8716607208251936"/>
+  </Animation>
+  <Animation name="30" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_40.png" offset="0 0.8716607208251936" repeat="4"/>
+    <Frame name="sw_eyes_68.png" offset="0.26637355804443436 -0.20385613632202385"/>
+    <Frame name="sw_eyes_69.png" offset="0.6308847427368164 -1.0825463790893577"/>
+    <Frame name="sw_eyes_70.png" offset="0.8832386398315445 -2.467362201690675"/>
+    <Frame name="sw_eyes_71.png" offset="1.0444647407531762 -3.9787094192504893" repeat="3"/>
+    <Frame name="sw_eyes_70.png" offset="0.8832386398315445 -2.467362201690675"/>
+    <Frame name="sw_eyes_69.png" offset="0.6308847427368164 -1.0825463790893577"/>
+    <Frame name="sw_eyes_68.png" offset="0.26637355804443436 -0.20385613632202385"/>
+    <Frame name="sw_eyes_40.png" offset="0 0.8716607208251936" repeat="5"/>
+  </Animation>
+  <Animation name="37" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+    <Frame name="sw_eyes_72.png" offset="-3.2665810012817356 0.8013655014038069"/>
+    <Frame name="sw_eyes_73.png" offset="-4.528350486755366 -0.8646311988830573"/>
+    <Frame name="sw_eyes_74.png" offset="-6.470073528289792 -2.6852773818969755"/>
+    <Frame name="sw_eyes_75.png" offset="-8.222531147003172 -3.8732665901184093" repeat="2"/>
+  </Animation>
+  <Animation name="36" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_67.png" offset="0 -0.04217713165283363"/>
+    <Frame name="sw_eyes_39.png" offset="0 0"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463" repeat="6"/>
+    <Frame name="sw_eyes_39.png" offset="0 0"/>
+    <Frame name="sw_eyes_67.png" offset="0 -0.04217713165283363"/>
+  </Animation>
+  <Animation name="15" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_76.png" offset="0.3575013542175309 -0.035147609710693355"/>
+    <Frame name="sw_eyes_77.png" offset="0.4976979637146012 0.021088565826416814"/>
+    <Frame name="sw_eyes_78.png" offset="0.6028454208374039 0.06326569747924644"/>
+    <Frame name="sw_eyes_79.png" offset="0.6028454208374039 0.06326569747924644"/>
+    <Frame name="sw_eyes_77.png" offset="0.4976979637146012 0.021088565826416814"/>
+    <Frame name="sw_eyes_76.png" offset="0.3575013542175309 -0.035147609710693355" repeat="52"/>
+  </Animation>
+  <Animation name="10" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_10.png" offset="1.6893691444396988 -1.792528095245361"/>
+    <Frame name="sw_eyes_80.png" offset="1.6893691444396988 -1.792528095245361"/>
+    <Frame name="sw_eyes_81.png" offset="1.6893691444396988 -1.792528095245361"/>
+    <Frame name="sw_eyes_66.png" offset="1.6893691444396988 -1.792528095245361" repeat="1"/>
+    <Frame name="sw_eyes_80.png" offset="1.6893691444396988 -1.792528095245361"/>
+    <Frame name="sw_eyes_10.png" offset="1.6893691444396988 -1.792528095245361" repeat="51"/>
+  </Animation>
+  <Animation name="40_portal_main" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_82.png" offset="0 0"/>
+    <Frame name="sw_eyes_83.png" offset="-0.07009830474853515 0.6467160186767569"/>
+    <Frame name="sw_eyes_84.png" offset="-0.14720643997192143 1.244225383758544"/>
+    <Frame name="sw_eyes_3.png" offset="-0.25936372756957926 2.6079526405334463"/>
+  </Animation>
+  <Animation name="43_portal_look_down" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_85.png" offset="0 0"/>
+  </Animation>
+  <Animation name="39_portal_look_up" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_86.png" offset="1.6893691444396988 -1.792528095245361"/>
+  </Animation>
+  <Animation name="41_head" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_87.png" offset="9.19689758300781 22.19923029327392" angleDeg="-38.1978759765625"/>
+  </Animation>
+  <Animation name="42_ portal_look_up" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_88.png" offset="-0.8622091484069792 -4.323155994415282"/>
+  </Animation>
+  <Animation name="44_singlookup" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_eyes_89.png" offset="0 0"/>
+  </Animation>
+</Sprite>

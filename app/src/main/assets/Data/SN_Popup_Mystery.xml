@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup.xml">
+	
+	<!-- Move up all of the top text -->
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="5" pos=".253 .053" />
+	
+	<!-- Duckies -->
+	<Widget type="WT_LABEL" id="17" pos="0.256 0.14" size="0.110 0" forceAspect="170:220" texBGName="ducky_teleport_result_empty.png" />
+	<Widget type="WT_LABEL" id="18" pos="-1.0 0.14" />	<!-- offscreen -->
+	<Widget type="WT_LABEL" id="19" pos="-1.0 0.14" />	<!-- offscreen -->
+	
+	<Widget type="WT_LABEL" id="20" parent="17" pos="0 0" texBGName="ducky_teleport_result_filled.png" />
+	<Widget type="WT_LABEL" id="21" parent="18" pos="0 0" />
+	<Widget type="WT_LABEL" id="22" parent="19" pos="0 0" />
+	
+	<!-- Hide all scoring (move it offscreen) -->
+	<Widget type="WT_LABEL" id="8" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="9" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="10" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="11" pos="-1.0 0.0" />
+	
+	<Widget type="WT_LABEL" id="12" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="13" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="14" pos="-1.0 0.0" />
+	<Widget type="WT_LABEL" id="15" pos="-1.0 0.0" />
+	
+	<!-- Hid the addition line -->
+	<Widget type="WT_LABEL" id="16" pos="-1.0 0.0" />
+	
+	<!-- Notification Bar -->
+	<Widget type="WT_LABEL" id="26" pos="0.5 0.215" textColorRGB="255 255 255" />
+	
+	
+	
+	<!-- Duck counter information -->
+	<Widget type="WT_LABEL" id="270" layer="2" pos="0.744 0.13" size="0.35 0" forceAspect="114:40" texBGName="MD_duck_counter.png" visible="false"/>
+	<Widget type="WT_LABEL" id="271" parent="270" layer="3" pos="0 0" posByParentSize="0.35 0.48" size="0.18 0" forceAspect="90:40" textNT="244" textColorRGB="94 41 37" halign="right" visible="false"/>
+	<Widget type="WT_LABEL" id="272" parent="271" layer="4" pos="0 0" posByParentSize="0.8 0.5" size="0.075 0" forceAspect="1" textNT="+1" font="outlined" textColorRGB="94 41 37" visible="false"/>
+	
+	<!-- Placeholder mystery duck (for when mini/mega ducks turn into mystery duck) -->
+	<Widget type="WT_LABEL" id="280" parent="17" layer="3" pos="0 0" size="0.110 0" forceAspect="170:220" texBGName="ducky_teleport_result_filled.png" visible="false" />
+	
+	
+	
+	<!-- Colorize buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	
+	<!-- Facebook LIKE button, text (colored, moved up) -->
+	<Widget type="WT_PUSH_BUTTON" id="500" pos="0.65 0.22" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" />
+	<Widget type="WT_LABEL" id="501" pos="0.855 0.22" />
+	
+	
+	<!-- New bottom stage pieces -->
+	<Widget type="WT_LABEL" id="200" layer="0" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0.0" forceAspect="769:114" texBGName="mysteryduck_stage_md_stage_1.webp" visible="false"/>
+	<Widget type="WT_LABEL" id="201" layer="1" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0.0" forceAspect="769:114" texBGName="mysteryduck_stage_md_stage_2.webp" visible="false"/>
+	
+	
+	
+	
+	
+	<!-- Reference buttons for Star textures -->
+	<Widget type="WT_LABEL" id="210" pos="0 -0.025" size="0.136 0" forceAspect="206:220" texBGName="ducky_mega_result_empty.png" visible="false" />
+	<Widget type="WT_LABEL" id="211" pos="0 0" texBGName="ducky_mega_result_filled.png" visible="false" />
+	
+	<Widget type="WT_LABEL" id="220" pos="0 0" size="0.05 0" forceAspect="74:76" texBGName="ducky_baby_result_empty.png" visible="false" />
+	<Widget type="WT_LABEL" id="221" pos="0 0" texBGName="ducky_baby_result_filled.png" visible="false" />
+	
+	<!-- Placement for the mini-ducks -->
+	<Widget type="WT_LABEL" id="230" pos="0.118 0.11" visible="false" />
+	<Widget type="WT_LABEL" id="231" pos="0.187 0.11" visible="false" />
+	<Widget type="WT_LABEL" id="232" pos="0.257 0.11" visible="false" />
+	<Widget type="WT_LABEL" id="233" pos="0.326 0.11" visible="false" />
+	<Widget type="WT_LABEL" id="234" pos="0.396 0.11" visible="false" />
+	
+	<Widget type="WT_LABEL" id="235" pos="0.118 0.15" visible="false" />
+	<Widget type="WT_LABEL" id="236" pos="0.187 0.15" visible="false" />
+	<Widget type="WT_LABEL" id="237" pos="0.257 0.15" visible="false" />
+	<Widget type="WT_LABEL" id="238" pos="0.326 0.15" visible="false" />
+	<Widget type="WT_LABEL" id="239" pos="0.396 0.15" visible="false" />
+	
+    <!-- Photo finish -->
+    <Widget type="WT_PUSH_BUTTON" id="1110" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37"/>
+	
+</Widgets>

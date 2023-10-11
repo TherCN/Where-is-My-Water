@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Widgets texturePath="/Textures/">
+    
+    <Widget type="WT_LABEL" id="0" layer="0" pos="0 -0.005" size="0.62 0.345" forceAspect="320:110" aspectBasis="width" texBGName="iap_md_frame.png" paddingH=".125" font="normal" />
+	
+	<Widget type="WT_LABEL" id="1" layer="1" pos="-.20 -0.005" size="0.24 0.24" forceAspect="1" texBGName="iap_md_portal.png" paddingH=".125"/>
+    
+    <Widget type="WT_LABEL" id="2" layer="3" pos=".08 -.0345" size="0.33 0.065" text="TRY_NOW" font="normal" textColorRGB="255 255 255"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="3" layer="4" pos=".07 .0315" size="0.055 0.075" forceAspect="128:44" aspectBasis="height" texNormalName="iap_md_button.png" texHilightName="iap_md_button_depressed.png" text="TRY_NOW" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4"  textHilightOffsetRelative="0 0.08f"/>
+    
+</Widgets>

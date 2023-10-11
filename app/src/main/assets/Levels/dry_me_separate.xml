@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout2">
+    <AbsoluteLocation value="-19.658386 -34.090504"/>
+    <Properties>
+      <Property name="Angle" value="-90"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="18.800001 -33.200005"/>
+  </Room>
+  <Properties>
+    <Property name="WaterTurnsIntoMud" value="0"/>
+  </Properties>
+</Objects>

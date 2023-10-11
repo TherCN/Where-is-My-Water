@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Emitter name="waterdrips" maxParticles="100" active="0">
+	<!--<EmitterZones>-->
+    <!--<EmitterZone position="160 240" radius="10" />-->
+	<!--</EmitterZone>-->
+	<!--<Textures>-->
+    <!--<Texture path="/Textures/blah.png" />-->
+	<!--</Textures>-->
+	<Textures>
+		<Texture path="/Textures/part_water_drop.webp" />
+	</Textures>
+	<Gravity force="0 -20" />
+	<Particles number="10" >
+		<Size min="5 -5" max="10 -10" />
+		<Directions>
+			<Direction min="180" max="180" />
+		</Directions>
+		<Speed min="4.25" max="4.35" />
+		<ScreenSpeed min="10" max="10" />
+		<ParticlesPerSecond min="30" max="80" />
+		<Mass min="1.0" max="1.0" />
+		<Angle min="0" max="0" />
+		<LifeTime min="0.1" max="0.3" />
+		<FadeTime min=".2" max=".2" />
+	</Particles>
+</Emitter>

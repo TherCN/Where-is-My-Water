@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ImageList imgSize="1024 1024" drawScale="0.500000" file="/Textures/ui_mystery_atlas.webp" textureBasePath="/Textures/">
+  <Image name="MD_preview_megaduck_burst.png" offset="0 0" size="189 189" rect="375 0 189 189"/>
+  <Image name="MD_preview_mysteryduck_burst.png" offset="0 0" size="156 156" rect="0 222 156 156"/>
+  <Image name="md_owall_button_sound_hit.png" offset="0 0" size="140 140" rect="795 0 140 140"/>
+  <Image name="md_owall_button_sound.png" offset="0 0" size="140 140" rect="565 81 140 140"/>
+  <Image name="md_owall_button_skip.png" offset="0 0" size="140 140" rect="361 190 140 140"/>
+  <Image name="md_owall_button_play.png" offset="0 0" size="140 140" rect="157 321 140 140"/>
+  <Image name="md_owall_button_music_hit.png" offset="0 0" size="140 140" rect="0 379 140 140"/>
+  <Image name="md_owall_button_music.png" offset="0 0" size="140 140" rect="792 141 140 140"/>
+  <Image name="md_owall_button_main_menu.png" offset="0 0" size="140 140" rect="792 282 140 140"/>
+  <Image name="md_owall_button_level.png" offset="0 0" size="140 140" rect="502 222 140 140"/>
+  <Image name="MD_preview_mysteryduck.png" offset="0 0" size="128 116" rect="336 331 128 116"/>
+  <Image name="MD_preview_megaduck.png" offset="0 0" size="128 116" rect="643 303 128 116"/>
+  <Image name="MD_preview_duckling.png" offset="0 0" size="128 116" rect="465 363 128 116"/>
+  <Image name="ducky_teleport_result_filled.png" offset="0 0" size="85 110" rect="706 81 85 110"/>
+  <Image name="ducky_teleport_result_empty.png" offset="0 0" size="85 110" rect="706 192 85 110"/>
+  <Image name="ducky_mega_result_filled.png" offset="0 0" size="103 110" rect="257 44 103 110"/>
+  <Image name="ducky_mega_result_empty.png" offset="0 0" size="103 110" rect="257 155 103 110"/>
+  <Image name="MD_level_icon_1.png" offset="0 0" size="100 104" rect="298 448 100 104"/>
+  <Image name="MD_level_icon_0.png" offset="0 0" size="100 104" rect="141 462 100 104"/>
+  <Image name="MD_preview_duckling_burst.png" offset="0 0" size="98 98" rect="157 222 98 98"/>
+  <Image name="MD_button_highlight.png" offset="0 0" size="256 88" rect="0 44 256 88"/>
+  <Image name="MD_button.png" offset="0 0" size="256 88" rect="0 133 256 88"/>
+  <Image name="MD_pause.png" offset="0 0" size="84 88" rect="695 420 84 88"/>
+  <Image name="MD_duck_counter.png" offset="0 0" size="229 80" rect="565 0 229 80"/>
+  <Image name="MD_back_highlight.png" offset="0 0" size="100 80" rect="0 520 100 80"/>
+  <Image name="MD_back.png" offset="0 0" size="100 80" rect="594 420 100 80"/>
+  <Image name="MD_preview_button.png" offset="0 0" size="204 71" rect="399 501 204 71"/>
+  <Image name="MD_touch.png" offset="0 0" size="70 70" rect="604 501 70 70"/>
+  <Image name="MD_refresh.png" offset="0 0" size="54 54" rect="256 266 54 54"/>
+  <Image name="MD_scroll_set_bar.png" offset="0 0" size="374 43" rect="0 0 374 43"/>
+  <Image name="ducky_baby_result_filled.png" offset="0 0" size="37 38" rect="298 321 37 38"/>
+  <Image name="ducky_baby_result_empty.png" offset="0 0" size="37 38" rect="311 266 37 38"/>
+  <Image name="MD_scroll_set_scrubber.png" offset="0 0" size="28 30" rect="502 190 28 30"/>
+  <Image name="MD_scroll_set_unselected.png" offset="0 0" size="8 8" rect="361 44 8 8"/>
+  <Image name="MD_scroll_set_stroke.png" offset="0 0" size="1 2" rect="370 44 1 2"/>
+</ImageList>

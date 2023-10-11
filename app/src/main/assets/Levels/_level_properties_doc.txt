@@ -1,0 +1,170 @@
+================================================================================================
+================================================================================================
+Quick and dirty list of properties and values you can use when editing Water levels
+================================================================================================
+================================================================================================
+
+
+
+================================================================================================
+BASIC INTERACTIVE OBJECT SETTINGS
+================================================================================================
+
+>> "Interactive" (0 or 1)
+	When enabled, this object can receive touch events from the player's finger(s).  Usually you
+	don't need to change this in a level, it's authored already for you in the object file.
+	
+>> "VelDamping" (float, default 0.99)
+	Changes how much "drag" this object has when it falls due to gravity.  lower numbers mean more drag.
+	generally you'll want to leave this alone.
+	
+>> "OmegaDamping" (float, default 0.99(
+	Changes how much an object's "spin" dampens over time.  similar to VelDamping.
+
+>> "Draggable" (0 or 1)
+	When enabled, this lets the object be dragged around by the player's finger.
+	
+>> "GravityScale" (float, default 0)
+	Set this to 1.0 if you want the object to fall because of gravity.  Default is to NOT fall at 
+	all (static).
+≠
+>> "Parent" (string)
+	Set this to the name of another object in the scene to make this object a "child" of the other object.
+	This will cause this object to be "locked" to it's parent, and move along with it whenever the parent moves.
+	
+
+///// PIN CONSTRAINT
+
+>> "PinOffset" (Vector2 in GRID SPACES from the center of the object)
+	Sets where on the object it will be "pinned" to the world, making a hinge.
+	If this property exists, the pin will be created.
+
+>> "PinMinAngle" (float)
+	Set this to the minimum angle (relative to the start at the beginning of the level)
+	that you want the hinge to rotate.  if it's unset, there is no limit at all.
+
+>> "PinMaxAngle" (float)
+	Same as min, but for max (other side).
+
+
+///// PATH CONSTRAINT
+
+>> "PathPosX" (replace "X" with numbers, starting from 0 and counting up, such as
+				"PathPos0", "PathPos1", etc)
+	Defines points in the path that will constrain the object.  position values are represented
+	in GRID UNIT space, by default RELATIVE to the object's position (as in the object's position is 0,0).
+	If you want to define a path in WORLD space, use "PathIsGlobal" setting below)
+
+>> "PathIsClosed" (0 or 1)
+	When enabled, the path will become a closed loop, automatically connecting the last and first points.
+
+>> "PathIsGlobal" (0 or 1)
+	Enable to signify that the path is in GLOBAL GRID spaces, not relative to the object's center 
+	(which is the default).
+	
+
+////// MOTORS (MOVEMENT)
+
+Motors allow objects to move along their path contraint.  Objects can optionally pause at vertices along 
+the path.
+
+>> "MotorMoveSpeed" or "MotorMoveSpeedX" (float, default 1.0)
+	Sets how fast the object will move along the path.  "MotorMoveSpeed" by itself sets the speed for the 
+	entire path	at once… "MotorMoveSpeedX" (replace "X" with a number starting with 0) sets the speed for 
+	a specific section of the path, with the first section being 0, and counting up from there.
+
+>> "MotorWaitTime" or "MotorWaitTimeX" (float, default 0.0)
+	Sets how long the object should pause at vertices in the path.  "MotorWaitTime" by itself sets the 
+	same value for each	vertice, the numbered versions set the wait time for that specific section of the path.
+
+>> "MotorTurnSpeed" or "MotorTurnSpeedX" (float, default 0.0)
+	Sets how fast the object should spin (in DEGREES/SECOND) as it moves along the path.  Again, the 
+	version with no number sets a global value for all sections, and the numbered versions set values 
+	for that specific section of path.
+
+>> "MotorWaitTurn" or "MotorWaitTurnX" (float, default 0.0)
+	Sets how many DEGREES the object should turn during the "wait" at each vertex in the path.  globals 
+	and specific settings follow same convention as above settings.
+	
+>> "MotorOn" (0 or 1, default 0)i
+	Set to 1 to have the object animating from the beginning of the level… otherwise it will only animate 
+	if connected to a switch.
+	
+>> "MotorPingPong" (0 or 1, default 0)
+	Set to 1 to cause the object to "ping pong" back and forth along the path, reversing its direction 
+	when it reaches the end of the path.
+
+================================================================================================
+SPOUT SETTINGS
+================================================================================================
+
+>> "SpoutType" (string, default "OpenSpout")
+	Possible values (NORMALLY YOU DON'T NEED TO SET THIS YOURSELF, IT'S SET FOR YOU AUTOMATICALLY):
+		"OpenSpout" - spout that creates fluid normally
+		"TouchSpout" - spout that creates fluid when touched by the player's finger
+		"Drain" - acts as a drain
+		"DrainSpout" - acts as both a drain and a spout (?!?)
+
+>> "FluidType" (string, default "Water")
+	Sets what type of fluid this spout will create.  Possible values are:
+	"Water"
+	"ContaminatedWater"
+	"Lava" (ooze)
+
+>> "ExpulsionAngle" (float, default 0.0)
+	Sets the angle that the fluid will shoot out of the spout.  NORMALLY you don't need to adjust this.
+
+>> "ExpulsionAngleVariation" (float in DEGREES, default 0.0f)
+	Sets how much variation (in DEGREES) that the spout will have in the angle that fluid shoots out at.
+
+>> "ParticleSpeed" (float)
+	How fast should the particles shoot out?
+
+>> "OffsetToMouth" (Vector2 in GRID UNITS)
+	Sets where the fluid will be created, relative to the center of the object.  You shouldn't need to change
+	this in a level, it's set in the object file.
+	
+>> "OffsetVariation" (float)
+	Sets how much variation in the spawn point for fluid there can be.  larger numbers mean a larger area at
+	which the fluid can be spawned.
+
+>> "NumberParticles" (integer)
+	How many particles this spout should create.  set to -1 for infinite.
+
+>> "TimerX" (2 numbers, integer and float --  first # 1 or 0, second number is float)
+	Sets a timer on the spout (starting with "Timer0" and counting up.  Each timer sets the spout to either 
+	ON (1) or OFF (0), and sets how long that status should remain.  Commands loop once the last timer has
+	expired.  For example, to make a spout that shoots fluid for 3 seconds, then stops for 2 seconds, and then 
+	repeats, you would have this:
+		<Property name="Timer0" value="1 3.0" />
+		<Property name="Timer1" value="0 2.0" />
+
+>> "ParticlesPerSecond" (float)
+	Sets how frequently particles are created.
+
+>> "Limit" (int)
+	Sets the maximum number of particles that this DRAIN will allow to pass through.
+	
+
+================================================================================================
+BOMB SETTINGS
+================================================================================================
+
+>> "BlastRadius" (float in GRID CELL units)
+	How big is the blast radius?
+
+>> "BlastPower" (float, default 4000)
+	How powerful is the explosion (how forcefully will fluids be pushed away from the bomb
+	when it explodes?
+
+================================================================================================
+SWITCH SETTINGS
+================================================================================================
+
+>> "SwitchType" (string, default "Flip")
+	Sets switch type:
+	"Flip" -> standard switch, water touches it and it is now ON for good.
+	"Momentary" -> temporary switch, only ON WHILE water is touching it.. water stops touching, it turns OFF.
+
+
+

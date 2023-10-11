@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="levelrightarm" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_right_arm_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="rightamrplay" textureBasePath="/Textures/" atlas="/Textures/allie_level.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_level_right_arm_0.png" offset="0 0"/>
+    <Frame name="al_level_right_arm_1.png" offset="-7.3031250000000005 -3.09375" repeat="1"/>
+    <Frame name="al_level_right_arm_2.png" offset="-3.9375 -3.09375" repeat="3"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999"/>
+    <Frame name="al_level_right_arm_4.png" offset="-0.9656249999999984 -2.362499999999999"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_7.png" offset="-2.2499999999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="2"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_7.png" offset="-2.2499999999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_7.png" offset="-2.2499999999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_5.png" offset="5.118750000000002 -4.40625" repeat="1"/>
+    <Frame name="al_level_right_arm_6.png" offset="6.403125000000001 -4.40625" repeat="2"/>
+    <Frame name="al_level_right_arm_3.png" offset="-1.2656249999999973 -2.362499999999999" repeat="1"/>
+    <Frame name="al_level_right_arm_2.png" offset="-3.9375 -3.09375" repeat="1"/>
+    <Frame name="al_level_right_arm_1.png" offset="-7.3031250000000005 -3.09375" repeat="1"/>
+    <Frame name="al_level_right_arm_0.png" offset="0 0" repeat="15"/>
+  </Animation>
+</Sprite>

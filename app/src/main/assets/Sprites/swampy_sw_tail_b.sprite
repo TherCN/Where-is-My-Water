@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="tail 1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_b_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="tail 2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_b_1.png" offset="-0.4460907211303715 0.011343612670901015"/>
+  </Animation>
+  <Animation name="tail 3" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_b_2.png" offset="-1.308028724670409 0.015124816894532538"/>
+  </Animation>
+  <Animation name="tail 5" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_b_3.png" offset="2.4837424049377437 0.030249633789065075"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="tail 6" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_tail_b_4.png" offset="0 -0.7411160278320299"/>
+  </Animation>
+</Sprite>

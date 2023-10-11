@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="01-idle" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="24-headturn" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_1.png" offset="-2.3180005722045927 2.8814924240112303"/>
+    <Frame name="hd__jaw_2.png" offset="-15.438396076202395 7.32539407348633"/>
+    <Frame name="hd__jaw_3.png" offset="-30.127604122161863 -0.9733041076660149"/>
+    <Frame name="hd__jaw_4.png" offset="-35.48077671432495 -2.4172519779205324"/>
+    <Frame name="hd__jaw_5.png" offset="-35.48077671432495 -5.634918518066405" repeat="36"/>
+    <Frame name="hd__jaw_5.png" offset="-35.48077671432495 -5.634918518066405"/>
+    <Frame name="hd__jaw_4.png" offset="-35.48077671432495 -2.4172519779205324"/>
+    <Frame name="hd__jaw_3.png" offset="-30.127604122161863 -0.9733041076660149" repeat="1"/>
+    <Frame name="hd__jaw_2.png" offset="-15.438396076202395 7.32539407348633"/>
+    <Frame name="hd__jaw_1.png" offset="-2.3180005722045927 2.8814924240112303"/>
+    <Frame name="hd__jaw_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="13-snore" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="3"/>
+    <Frame name="hd__jaw_6.png" offset="-0.21771276092529152 0"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_7.png" offset="0.10565472221374365 0"/>
+    <Frame name="hd__jaw_8.png" offset="0.24012436866760253 0.7235747642517097"/>
+    <Frame name="hd__jaw_9.png" offset="-0.009604974746702646 0"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="3"/>
+  </Animation>
+  <Animation name="05-growl" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_10.png" offset="-3.58905889701843 -5.042611742019649"/>
+  </Animation>
+  <Animation name="12-yell" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_11.png" offset="7.690383113861086 -17.426625848770144"/>
+  </Animation>
+  <Animation name="18-yodel" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_12.png" offset="7.690383113861086 -15.265506530761721"/>
+    <Frame name="hd__jaw_13.png" offset="7.690383113861086 -16.145962549209596"/>
+    <Frame name="hd__jaw_14.png" offset="7.690383113861086 -17.37539931678772"/>
+    <Frame name="hd__jaw_15.png" offset="7.690383113861086 -17.426625848770144"/>
+    <Frame name="hd__jaw_11.png" offset="7.690383113861086 -17.426625848770144" repeat="2"/>
+    <Frame name="hd__jaw_15.png" offset="7.690383113861086 -17.426625848770144"/>
+    <Frame name="hd__jaw_14.png" offset="7.690383113861086 -17.37539931678772"/>
+    <Frame name="hd__jaw_13.png" offset="7.690383113861086 -16.145962549209596"/>
+    <Frame name="hd__jaw_12.png" offset="7.690383113861086 -15.265506530761721" repeat="14"/>
+  </Animation>
+  <Animation name="11-yell" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_16.png" offset="0.19209949493408202 -7.024438198089599"/>
+  </Animation>
+  <Animation name="02-tap foot" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="3"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="24"/>
+  </Animation>
+  <Animation name="03-smile" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485"/>
+  </Animation>
+  <Animation name="10-smile" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_18.png" offset="1.0341356143951401 -3.2048599071502655"/>
+  </Animation>
+  <Animation name="04-smile tongue" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="3"/>
+    <Frame name="hd__jaw_19.png" offset="0.19209949493408202 -4.7992857151031485" repeat="1"/>
+    <Frame name="hd__jaw_20.png" offset="0.19209949493408202 -4.7992857151031485" repeat="1"/>
+    <Frame name="hd__jaw_21.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_22.png" offset="0.19209949493408202 -4.7032359676361075"/>
+    <Frame name="hd__jaw_23.png" offset="0.19209949493408202 -2.7406194610595676"/>
+    <Frame name="hd__jaw_22.png" offset="0.19209949493408202 -4.7032359676361075" repeat="1"/>
+    <Frame name="hd__jaw_21.png" offset="0.19209949493408202 -4.7992857151031485" repeat="1"/>
+    <Frame name="hd__jaw_20.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_19.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_20.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_21.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_22.png" offset="0.19209949493408202 -4.7032359676361075"/>
+    <Frame name="hd__jaw_23.png" offset="0.19209949493408202 -2.7406194610595676"/>
+    <Frame name="hd__jaw_22.png" offset="0.19209949493408202 -4.7032359676361075"/>
+    <Frame name="hd__jaw_21.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_20.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_19.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="2"/>
+  </Animation>
+  <Animation name="19-yodel2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_12.png" offset="7.690383113861086 -15.265506530761721"/>
+  </Animation>
+  <Animation name="16-gnaw2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_24.png" offset="6.3456866493225075 -5.670136758804318"/>
+    <Frame name="hd__jaw_25.png" offset="6.3456866493225075 -5.670136758804318"/>
+  </Animation>
+  <Animation name="15-gnaw" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_26.png" offset="-7.28377251625061 -3.7587467842102043"/>
+  </Animation>
+  <Animation name="25-snap 1234" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="6"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="5"/>
+    <Frame name="hd__jaw_13.png" offset="7.690383113861086 -16.145962549209596" repeat="1"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="8"/>
+  </Animation>
+  <Animation name="26-MASTICATE" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="2"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="6"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="3"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="3"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="4"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="5"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="3"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="3"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="5"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="6"/>
+  </Animation>
+  <Animation name="27-Layer 2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="3"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="2"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_30.png" offset="5.449222339630125 -12.307174308776855"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="4"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="3"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_30.png" offset="5.449222339630125 -12.307174308776855"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="4"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794" repeat="3"/>
+    <Frame name="hd__jaw_29.png" offset="1.5816191749572783 -5.718161632537839" repeat="1"/>
+    <Frame name="hd__jaw_30.png" offset="5.449222339630125 -12.307174308776855"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="5"/>
+    <Frame name="hd__jaw_30.png" offset="5.449222339630125 -12.307174308776855"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="1"/>
+    <Frame name="hd__jaw_30.png" offset="5.449222339630125 -12.307174308776855" repeat="2"/>
+    <Frame name="hd__jaw_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="21-swallow" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_31.png" offset="1.005320690155025 -6.838742019653317"/>
+    <Frame name="hd__jaw_32.png" offset="3.5122190990448012 -2.625359764099121"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="4"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="23"/>
+    <Frame name="hd__jaw_0.png" offset="0 0"/>
+    <Frame name="hd__jaw_31.png" offset="1.005320690155025 -6.838742019653317" repeat="1"/>
+    <Frame name="hd__jaw_32.png" offset="3.5122190990448012 -2.625359764099121" repeat="1"/>
+    <Frame name="hd__jaw_28.png" offset="2.218749166488646 -4.908142095565794"/>
+    <Frame name="hd__jaw_27.png" offset="-2.641368055343628 -5.349970933914185" repeat="1"/>
+  </Animation>
+  <Animation name="28-Layer 3" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_36.png" offset="-3.534630706787105 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_36.png" offset="-3.534630706787105 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="30_ohno" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_36.png" offset="-3.534630706787105 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_36.png" offset="-3.534630706787105 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_36.png" offset="-3.534630706787105 0" repeat="1"/>
+    <Frame name="hd__jaw_35.png" offset="-2.868685791015629 0" repeat="1"/>
+    <Frame name="hd__jaw_34.png" offset="-1.7673153533935562 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="1"/>
+    <Frame name="hd__jaw_33.png" offset="-0.659541599273686 0"/>
+  </Animation>
+  <Animation name="29-Layer 5" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="4"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="1"/>
+    <Frame name="hd__jaw_12.png" offset="7.690383113861086 -15.265506530761721" repeat="17"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485" repeat="1"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="9"/>
+  </Animation>
+  <Animation name="23-shakehead2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="5"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="2"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_37.png" offset="5.8046064052581805 0.16008291244506836" repeat="15"/>
+    <Frame name="hd__jaw_17.png" offset="0.19209949493408202 -4.7992857151031485"/>
+    <Frame name="hd__jaw_0.png" offset="0 0" repeat="8"/>
+  </Animation>
+</Sprite>

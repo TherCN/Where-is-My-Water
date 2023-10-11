@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<Animations>
+  <Animation fps="24.000000" forceFPS="true" name="idle01_breath">
+    <NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName10_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName11" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName11_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName11_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName11_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName12" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName12_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName12_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName12_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName13" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName13_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName13_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName13_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName14" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName14_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName14_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName14_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName2" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName2_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName2_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName2_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName28" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName28_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName28_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName28_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName3" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName3_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName3_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName3_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName4" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName4_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName4_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName4_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName5" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName5_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName5_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName5_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName6" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName6_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName6_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName6_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName7" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName7_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName7_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName7_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName8_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/allie_level/idle01_breath/ikBoneName9_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_10">
+      <SpriteAnimationEvent time="0.000000" animationName="leveleyeMain" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.208333" animationName="leveleye_blink" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.666667" animationName="leveleyeMain" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="3.708333" animationName="leveleyeMain" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.500000" animationName="leveleyeMain" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_11">
+      <SpriteAnimationEvent time="0.000000" animationName="bow" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_12">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_13">
+      <SpriteAnimationEvent time="0.000000" animationName="leveltailb" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_14">
+      <SpriteAnimationEvent time="0.000000" animationName="leveltailc" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_2">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_28">
+      <SpriteAnimationEvent time="0.000000" animationName="levelrightfoot" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_3">
+      <SpriteAnimationEvent time="0.000000" animationName="level_breath" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.208333" animationName="level_breath" playOffset="1.166667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.666667" animationName="level_breath" playOffset="1.625000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.458333" animationName="level_breath" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.708333" animationName="level_breath" playOffset="1.166667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.125000" animationName="level_breath" playOffset="1.583333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.500000" animationName="level_breath" playOffset="1.958333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.958333" animationName="level_breath" playOffset="2.375000" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_4">
+      <SpriteAnimationEvent time="0.000000" animationName="levelrightleg" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_5">
+      <SpriteAnimationEvent time="0.000000" animationName="leg" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_6">
+      <SpriteAnimationEvent time="0.000000" animationName="levelrightarm" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="4.958333" animationName="levelrightarm" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_7">
+      <SpriteAnimationEvent time="0.000000" animationName="leftarm" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_8">
+      <SpriteAnimationEvent time="0.000000" animationName="bottomlip" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_9">
+      <SpriteAnimationEvent time="0.000000" animationName="toplip" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="24.000000" forceFPS="true" name="idle02_play_a">
+    <NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName10_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName11" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName11_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName11_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName11_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName12" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName12_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName12_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName12_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName13" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName13_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName13_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName13_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName14" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName14_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName14_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName14_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName2" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName2_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName2_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName2_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName28" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName28_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName28_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName28_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName3" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName3_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName3_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName3_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName4" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName4_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName4_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName4_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName5" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName5_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName5_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName5_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName6" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName6_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName6_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName6_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName7" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName7_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName7_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName7_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName8_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/allie_level/idle02_play_a/ikBoneName9_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_10">
+      <SpriteAnimationEvent time="0.000000" animationName="leveleye_blink" playOffset="1.125000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.166667" animationName="levelBlinkdown" playOffset="0.125000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.291667" animationName="levelBlinkdown" playOffset="0.208333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.583333" animationName="levelBlinkdown" playOffset="0.333333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.750000" animationName="leveleyeMain" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.958333" animationName="leveleyeMain" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="3.708333" animationName="leveleyeMain" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.083333" animationName="leveleyeMain" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_11">
+      <SpriteAnimationEvent time="0.000000" animationName="bow" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_12">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_13">
+      <SpriteAnimationEvent time="0.000000" animationName="leveltailb" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_14">
+      <SpriteAnimationEvent time="0.000000" animationName="leveltailc" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_2">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_28">
+      <SpriteAnimationEvent time="0.000000" animationName="levelrightfoot" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="Layer 1" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_3">
+      <SpriteAnimationEvent time="0.000000" animationName="level_body" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.166667" animationName="level_breath" playOffset="0.125000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.291667" animationName="level_breath" playOffset="0.250000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.583333" animationName="level_breath" playOffset="0.541667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.208333" animationName="level_breath" playOffset="1.166667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.458333" animationName="level_body" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.750000" animationName="level_breath" playOffset="0.166667" loops="true" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.958333" animationName="level_breath" playOffset="0.375000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.125000" animationName="level_breath" playOffset="0.541667" loops="true" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.291667" animationName="level_breath" playOffset="0.708333" loops="true" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.708333" animationName="level_breath" playOffset="1.125000" loops="true" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.083333" animationName="level_breath" playOffset="1.500000" loops="true" singleFrame="false"/>
+      <SpriteAnimationEvent time="4.958333" animationName="level_body" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_4">
+      <SpriteAnimationEvent time="0.000000" animationName="levelrightleg" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_5">
+      <SpriteAnimationEvent time="0.000000" animationName="leg" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_6">
+      <SpriteAnimationEvent time="0.000000" animationName="rightamrplay" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.166667" animationName="rightamrplay" playOffset="0.166667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.291667" animationName="rightamrplay" playOffset="0.291667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="0.583333" animationName="rightamrplay" playOffset="0.583333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.208333" animationName="rightamrplay" playOffset="1.208333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.458333" animationName="rightamrplay" playOffset="2.458333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.750000" animationName="rightamrplay" playOffset="2.750000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="2.958333" animationName="rightamrplay" playOffset="2.958333" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.125000" animationName="rightamrplay" playOffset="3.125000" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.291667" animationName="rightamrplay" playOffset="3.291667" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="3.708333" animationName="levelrightarm" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="4.958333" animationName="rightamrplay" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_7">
+      <SpriteAnimationEvent time="0.000000" animationName="leftarm" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_8">
+      <SpriteAnimationEvent time="0.000000" animationName="bottomlip" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_9">
+      <SpriteAnimationEvent time="0.000000" animationName="toplip" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="4.958333" animationName="toplip" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+  </Animation>
+</Animations>

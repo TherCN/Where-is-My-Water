@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object13">
+    <AbsoluteLocation value="-5.990458 -43.535408"/>
+    <Properties>
+      <Property name="Angle" value="-133.718"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout3">
+    <AbsoluteLocation value="-3.552108 -42.307198"/>
+    <Properties>
+      <Property name="Angle" value="-41.3356"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_cranky.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky13">
+    <AbsoluteLocation value="25.595371 -11.995745"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky14">
+    <AbsoluteLocation value="-26.316639 -13.556690"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky15">
+    <AbsoluteLocation value="4.000000 4.400000"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Object7">
+    <AbsoluteLocation value="-8.304144 -42.428562"/>
+    <Properties>
+      <Property name="Angle" value="-214.792"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout8">
+    <AbsoluteLocation value="-25.186272 106.669411"/>
+    <Properties>
+      <Property name="Angle" value="-88.5557"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="lava"/>
+      <Property name="OffsetVariation" value="15"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Timer0" value="0 15.0"/>
+      <Property name="Timer1" value="1 9999.0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout9">
+    <AbsoluteLocation value="-12.737572 106.799316"/>
+    <Properties>
+      <Property name="Angle" value="-88.5557"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="lava"/>
+      <Property name="OffsetVariation" value="15"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Timer0" value="0 24.0"/>
+      <Property name="Timer1" value="1 9999.0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="0.460037 106.435577"/>
+    <Properties>
+      <Property name="Angle" value="-88.5557"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="lava"/>
+      <Property name="OffsetVariation" value="15"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Timer0" value="0 25.0"/>
+      <Property name="Timer1" value="1 9999.0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout11">
+    <AbsoluteLocation value="13.871521 106.499634"/>
+    <Properties>
+      <Property name="Angle" value="-88.5557"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="lava"/>
+      <Property name="OffsetVariation" value="15"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Timer0" value="0 9.0"/>
+      <Property name="Timer1" value="1 9999.0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout12">
+    <AbsoluteLocation value="28.554863 106.560417"/>
+    <Properties>
+      <Property name="Angle" value="-88.5557"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="lava"/>
+      <Property name="OffsetVariation" value="15"/>
+      <Property name="ParticlesPerSecond" value="2"/>
+      <Property name="Timer0" value="0 1.0"/>
+      <Property name="Timer1" value="1 9999.0"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Collectible14">
+    <AbsoluteLocation value="-26.437500 -3.937500"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/z_collectible_cranky_22.hs"/>
+      <Property name="Type" value="collectible"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-19.599998 -34.000000"/>
+  </Room>
+</Objects>

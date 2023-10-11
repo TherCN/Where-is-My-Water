@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Animations>
+  <Animation fps="30.000000" forceFPS="true" name="drive">
+    <NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/drive/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/drive/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/drive/ikBoneName10_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/drive/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/drive/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/drive/ikBoneName8_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/drive/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/drive/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/drive/ikBoneName9_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_10">
+      <SpriteAnimationEvent time="0.000000" animationName="bind" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_8">
+      <SpriteAnimationEvent time="0.000000" animationName="bind" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_9">
+      <SpriteAnimationEvent time="0.000000" animationName="bind" loops="true" singleFrame="false"/>
+    </SpriteAnimationTrack>
+  </Animation>
+</Animations>

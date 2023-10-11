@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+	<!-- Collection, Achievement buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" visible="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="1006" visible="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="1009" visible="false"/>
+	
+    <!-- Example pack (the rest are copied from this template) -->
+	<Widget type="WT_LABEL" id="101" textColorRGB="32 95 53" />
+    
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1001" layer="0" pos="0 0" justifyWidget="0.5 0" size="0 1.0" numTiles="1 1" tileOffset="0 0" forceAspect="384:441" aspectBasis="height" texBGName="WMW_LL_background.webp" />
+	
+	<!-- Hide the shadow (background is pre-rendered) -->
+	<Widget type="WT_LABEL" id="1400" visible="false" />
+	
+	
+	<!-- Hide footer -->
+	<Widget type="WT_LABEL" id="1008" visible="false" />
+	
+	
+	<!-- Place the map and duck -->
+	<Widget type="WT_LABEL" id="1300" layer="4" parent="1001" pos="0 0" posByParentSize="0.700 0.68" size="0.3 0.253" forceAspect="191:226" aspectBasis="height" texBGName="WMW_LL_map.png" />
+	<Widget type="WT_LABEL" id="1301" layer="4" parent="1001" pos="0 0" posByParentSize="0.300 0.69" size="0.27 0.22375" forceAspect="179:216" aspectBasis="height" texBGName="WMW_LL_pirate_duck.png" />
+	
+	
+	<!-- Animated water -->
+    <Widget type="WT_LABEL" id="1120" layer="3" pos="0.5 1.16" size="1.0 0.61" numTiles="1.5 0" tileForceAspect="512:586" texBGName="WMW_LL_water_dark_select.webp" />
+    <Widget type="WT_LABEL" id="1121" layer="4" pos="0.5 1.19" size="1.0 0.54" numTiles="1.5 0" tileForceAspect="512:516" texBGName="WMW_LL_water_light_select.webp"/>
+    
+	
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SLIDER" id="1200" pos=".5 .63" size="0.24 0" forceAspect="299:86" texBGName="scroll_set_mini_bar.webp" slideStep="0.04"/>
+	
+    <Widget type="WT_SLIDER" id="1200" visible="false" />
+	
+</Widgets>

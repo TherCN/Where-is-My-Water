@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_PLAY				0
+ 
+ WN_SETTINGS			1
+ 
+ WN_FACEBOOK			2
+ 
+ WN_Radio				50
+ WN_RadioString			51
+ WN_Shower				52
+ 
+ WN_Background			200
+ WN_Logo				201
+ 
+ WN_BonusDucks			1000
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MainMenu.xml">
+    
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="200" size="1.0 1.0" forceAspect="768:1024" aspectBasis="height" />
+	
+	<!-- logo -->
+	<Widget type="WT_LABEL" id="201" pos="0.5 0.14" size="0.65 0" forceAspect="512:221" />
+	
+	<!-- settings gear -->
+	<Widget type="WT_PUSH_BUTTON" id="1" size="0.07 0.07" forceAspect="1" />
+
+	<!-- Social Media -->
+    <Widget type="WT_PUSH_BUTTON" id="2" size="0.07 0.07" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="8" size="0.07 0.07" forceAspect="1" />
+	
+</Widgets>

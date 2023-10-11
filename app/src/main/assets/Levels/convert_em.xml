@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky12">
+    <AbsoluteLocation value="23.355839 -38.494072"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky13">
+    <AbsoluteLocation value="-16.384787 5.546684"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky14">
+    <AbsoluteLocation value="18.925270 22.485424"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb7">
+    <AbsoluteLocation value="-25.926035 -22.759857"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb9">
+    <AbsoluteLocation value="2.726089 5.713783"/>
+    <Properties>
+      <Property name="Angle" value="5.76397"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb6">
+    <AbsoluteLocation value="27.257339 -16.661217"/>
+    <Properties>
+      <Property name="Angle" value="5.76397"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb8">
+    <AbsoluteLocation value="19.069839 30.620033"/>
+    <Properties>
+      <Property name="Angle" value="5.76397"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb10">
+    <AbsoluteLocation value="26.851089 13.182533"/>
+    <Properties>
+      <Property name="Angle" value="5.76397"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb11">
+    <AbsoluteLocation value="-12.423861 -12.079628"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb12">
+    <AbsoluteLocation value="-28.004019 6.719193"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb13">
+    <AbsoluteLocation value="-26.820345 32.759987"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb14">
+    <AbsoluteLocation value="31.494482 -36.149582"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb15">
+    <AbsoluteLocation value="-16.427515 -41.377892"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb16">
+    <AbsoluteLocation value="-0.491693 41.793831"/>
+    <Properties>
+      <Property name="Angle" value="8.60612"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="105"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

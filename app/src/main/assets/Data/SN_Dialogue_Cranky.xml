@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Buttons
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_Image			4
+ 
+ WN_ButtonLeft		10
+ WN_ButtonRight		11
+ WN_ButtonCenter	12
+ WN_ButtonFacebook  14
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Dialogue.xml">
+	
+	<!-- Darker vinette texture -->
+	<Widget type="WT_LABEL" id="1" texBGName="dialogue_vinette_dark.webp" />
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="2" textColorRGB="32 95 53" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="10" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="11" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="12" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+    
+</Widgets>

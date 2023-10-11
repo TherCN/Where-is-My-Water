@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="IDLE" textureBasePath="/Textures/" atlas="/Textures/tilt_prompt.imagelist" fps="6.0" playbackMode="PINGPONG" loopCount="-1">
+		<Frame name="TILT_ICON_0000_RIGHT_2.png" />
+		<Frame name="TILT_ICON_0000_RIGHT_2.png" />
+		<Frame name="TILT_ICON_0001_RIGHT_1.png" />
+		<Frame name="TILT_ICON_0002_STILL.png" />
+		<Frame name="TILT_ICON_0003_LEFT1.png" />
+		<Frame name="TILT_ICON_0004_LEFT2.png" />
+		<Frame name="TILT_ICON_0004_LEFT2.png" />
+	</Animation>
+</Sprite>

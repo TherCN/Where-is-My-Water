@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	 
+	<!-- Level shade -->
+	<Widget type="WT_LABEL" id="20" layer="0" pos="0.5 0.85" size="1.0 0.3" numTiles="5 0" tileForceAspect="92:166" texBGName="hexagon_tiles.webp" />
+	<Widget type="WT_LABEL" id="21" parent="20" layer="0" pos="0 0" size="1.0 -0.1" posByParentSize="0.5 0" texBGName="hud_gradient.png" />
+	<Widget type="WT_LABEL" id="22" parent="20" layer="0" pos="0 0" size="1.0 -0.1" posByParentSize="0.5 0" texBGName="hud_gradient.png" />
+    
+	<!-- Progress bar and text -->
+	<Widget type="WT_PROGRESS_BAR" id="0" layer="1" pos="0.5 0.8" size="0.4 0.0" forceAspect="128:44" texName0="ui_progress_bar_bg.webp" texName1="ui_progress_bar_fg.webp" />
+	<Widget type="WT_LABEL" id="1" layer="1" pos="0.5 0.90" size="0.8 0.05" text="FRAMERATE_CHECK_0" font="outlined" textColorRGB="34 124 158" />
+	
+	<!-- Framerate -->
+	<Widget type="WT_LABEL" id="2" layer="1" pos="0.1 0.9" size="0.05 0.05" text="00" font="outlined" textColorRGB="255 255 255" visible="false" />
+	
+	
+</Widgets>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Layer 2" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_leg_L_LS_0.png" offset="0.000000 0.000000" repeat="6"/>
+    <Frame name="cranky_bd_leg_L_LS_0.png" offset="0.000000 0.000000" repeat="16"/>
+    <Frame name="cranky_bd_leg_L_LS_0.png" offset="0.000000 0.000000" repeat="6"/>
+    <Frame name="cranky_bd_leg_L_LS_0.png" offset="0.000000 0.000000" repeat="17"/>
+    <Frame name="cranky_bd_leg_L_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+</Sprite>

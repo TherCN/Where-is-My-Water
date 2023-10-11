@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Labels
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_PromoImage		4
+ 
+ 
+ Progress Indicator
+ WN_ProgressGear	20
+ WN_ProgressLabel	21
+ WN_ProgressCancel	22
+ 
+ Results
+ WN_ResultHeader	30
+ WN_ResultBody		31
+ WN_ResultOK		32
+ 
+ Button
+ WN_ButtonBuy		40
+ WN_ButtonCancel	41
+ WN_ButtonDebugBuy	42
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_InAppPurchase.xml">
+	
+    <Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.58" size="0.8 0.9" forceAspect="256:370" texBGName="dialogue_box.webp" />
+    
+	<!-- Images (move offscreen) -->
+    <Widget type="WT_LABEL" id="7" pos="-2.0 0" />
+
+	<!-- LOGOS -->
+	<Widget type="WT_LABEL" id="5" layer="1" pos="0 0" justifyWidget="0.5 0.05" size="0.4 0" forceAspect="648:266" texBGName="WMW_UI_IAP_upsell_logo_generic.webp" />
+	
+	<Widget type="WT_LABEL" id="6" pos="0 0.5" justifyWidget="0.5 0.0" size=".7 .15" texBGName="WMW_UI_IAP_upsell_gift_generic.webp" />
+    
+    
+	<Widget type="WT_LABEL" id="2" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.05" size="0.7 0.3" text="bundlesale_header" textColorRGB="0 0 0" font="outlined" />
+	<Widget type="WT_LABEL" id="3" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.95" size="0.75 0.35" text="megabundle02_DESC" textColorRGB="255 255 255" halign="center" valign="top"/>
+	
+	<!-- progress indicator -->
+	<Widget type="WT_LABEL" id="21" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="22" texNormalName="WMW_IAP_upsell_cancel.webp" texHilightName="WMW_IAP_upsell_cancel.webp" forceAspect="836:374" font="outlined" reactOnDown="false" textColorRGB="94 41 37" />
+	
+	<!-- result indicators -->
+	<Widget type="WT_LABEL" id="30" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="32" texNormalName="WMW_IAP_upsell_button.webp" texHilightName="WMW_IAP_upsell_button.webp" font="outlined" reactOnDown="false" textColorRGB="94 41 37"/>
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="40" parent="3" layer="3" pos="0 0.17" posByParentSize="0.5 0.74" size=".33 0" forceAspect="128:44" texNormalName="WMW_IAP_upsell_button.webp" texHilightName="WMW_IAP_upsell_button.webp" font="outlined" reactOnDown="false" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="MD_upsell_x.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="42" pos="0 0.25" texNormalName="WMW_IAP_upsell_button.webp" texHilightName="WMW_IAP_upsell_button.webp" font="outlined" reactOnDown="false" textColorRGB="94 41 37" />
+
+</Widgets>

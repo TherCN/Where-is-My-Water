@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="arm_idle" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Front Arm_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="arm_bent" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Front Arm_1.png" offset="2.605778 -12.763972"/>
+  </Animation>
+  <Animation name="arm_fist" textureBasePath="/Textures/" atlas="/Textures/cranky.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Cranky_Front Arm_2.png" offset="13.997374 -28.090294"/>
+  </Animation>
+</Sprite>

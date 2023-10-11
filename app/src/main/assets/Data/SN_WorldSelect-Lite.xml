@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_COLLECTIBLE     504
+ WN_ACHIEVEMENTS	506
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+    <!-- Buy full button -->
+    <Widget type="WT_PUSH_BUTTON" id="2002" layer="3" pos="0.5 0.65" size="0.55 0" forceAspect="128:40" texNormalName="button.png" texHilightName="button_highlight.png" text="BUY_FULL_VERSION" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+    
+	<!-- Navigation buttons -->
+    <!-- collectibles button -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" pos="0.3 0.78" size="0.18 0" forceAspect="50:50" texNormalName="UI_achievements_button.png" texHilightName="UI_achievements_button.png" reactOnDown="false" textHilightOffsetRelative="0 0.05f"/>
+    <!-- achievements -->
+	<Widget type="WT_PUSH_BUTTON" id="1006" pos="0.7 0.78" size="0.18 0" forceAspect="50:50" texNormalName="UI_collectibles_button.png" texHilightName="UI_collectibles_button.png" reactOnDown="false"  textHilightOffsetRelative="0 0.05f"/>
+	
+	<!-- Unlock buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1007" pos="0.15 0.8"/>
+	<Widget type="WT_PUSH_BUTTON" id="1002" pos="0.85 0.8"/>
+	
+    <Widget type="WT_SLIDER" id="1200" visible="false" />
+	
+</Widgets>

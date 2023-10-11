@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Emitter name="tears" maxParticles="100" active="0">
+	<!--<EmitterZones>-->
+		<!--<EmitterZone position="160 240" radius="10" />-->
+	<!--</EmitterZone>-->
+	<Textures>
+		<Texture path="/Textures/gift_particle_yellow_01.png" />
+		<Texture path="/Textures/gift_particle_yellow_02.png" />
+		<Texture path="/Textures/ember_0.png" />
+	</Textures>
+	<Gravity force="0 -25" />
+	<Particles number="50" >
+		<Size min="5 -10" max="10 -5" />
+		<!--<GrowToSize min="40 -40" max="40 -40" />-->
+		<Directions>
+			<Direction min="20" max="40" />
+			<Direction min="120" max="140" />
+		</Directions>
+		<Speed min=".3" max=".4" />
+		<ScreenSpeed min=".5" max=".5" />
+		<ParticlesPerSecond min="15" max="15" />
+		<Mass min="1.0" max="1.0" />
+		<Angle min="0" max="0" />
+		<LifeTime min="1.25" max="1.25" />
+		<FadeTime min="1.25" max="1.25" />
+	</Particles>
+</Emitter>

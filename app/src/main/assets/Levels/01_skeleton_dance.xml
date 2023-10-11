@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object32">
+    <AbsoluteLocation value="-9.130199 -46.329586"/>
+    <Properties>
+      <Property name="Angle" value="-180.38"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object21">
+    <AbsoluteLocation value="18.609375 48.046875"/>
+    <Properties>
+      <Property name="Angle" value="235.692"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="2.231426 -33.060654"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_frankenweenie_ducks.hs"/>
+      <Property name="Parent" value="Object33"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="-14.664185 12.023647"/>
+    <Properties>
+      <Property name="Angle" value="-1.00717"/>
+      <Property name="Filename" value="/Objects/star_frankenweenie_ducks.hs"/>
+      <Property name="Parent" value="Object33"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="5.542072 4.128063"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_frankenweenie_ducks.hs"/>
+      <Property name="Parent" value="Object33"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="RightCalf">
+    <AbsoluteLocation value="-4.200829 -32.142670"/>
+    <Properties>
+      <Property name="Angle" value="782.7"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="1"/>
+      <Property name="MotorTurnSpeed" value="10"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-1 0"/>
+    </Properties>
+  </Object>
+  <Object name="Switch23">
+    <AbsoluteLocation value="-27.787807 -32.395805"/>
+    <Properties>
+      <Property name="Angle" value="-8.08791"/>
+      <Property name="ConnectedObject0" value="LeftCalf"/>
+      <Property name="ConnectedObject1" value="LeftFoot"/>
+      <Property name="ConnectedObject10" value="RightThigh"/>
+      <Property name="ConnectedObject11" value="RightUpperArm"/>
+      <Property name="ConnectedObject2" value="LeftLowerArm"/>
+      <Property name="ConnectedObject3" value="LeftThigh"/>
+      <Property name="ConnectedObject4" value="LeftUpperArm"/>
+      <Property name="ConnectedObject5" value="LowerBack"/>
+      <Property name="ConnectedObject6" value="Neck"/>
+      <Property name="ConnectedObject7" value="RightCalf"/>
+      <Property name="ConnectedObject8" value="RightFoot"/>
+      <Property name="ConnectedObject9" value="RightLowerArm"/>
+      <Property name="Filename" value="/Objects/switch_frankenweenie.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Spout27">
+    <AbsoluteLocation value="-10.684055 -43.345093"/>
+    <Properties>
+      <Property name="Angle" value="26.1719"/>
+      <Property name="ConnectedSpout0" value="Spout28"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/basic_drain.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout28">
+    <AbsoluteLocation value="15.444672 43.258022"/>
+    <Properties>
+      <Property name="Angle" value="-113.586"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="NumberParticles" value="0"/>
+      <Property name="ParticleSpeed" value="40"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="RightLowerArm">
+    <AbsoluteLocation value="13.656464 17.447971"/>
+    <Properties>
+      <Property name="Angle" value="942.262"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="30"/>
+      <Property name="MotorTurnSpeed0" value="-85"/>
+      <Property name="MotorTurnSpeed1" value="-40"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="MotorWaitTime1" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-7 -20"/>
+      <Property name="PathPos2" value="-6 -28"/>
+    </Properties>
+  </Object>
+  <Object name="LeftLowerArm">
+    <AbsoluteLocation value="-19.565685 -12.642487"/>
+    <Properties>
+      <Property name="Angle" value="810.305"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="30"/>
+      <Property name="MotorTurnSpeed0" value="-85"/>
+      <Property name="MotorTurnSpeed1" value="-150"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="MotorWaitTime1" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-7 20"/>
+      <Property name="PathPos2" value="-7 40"/>
+    </Properties>
+  </Object>
+  <Object name="Neck">
+    <AbsoluteLocation value="-8.305496 5.141075"/>
+    <Properties>
+      <Property name="Angle" value="809.973"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+    </Properties>
+  </Object>
+  <Object name="LowerBack">
+    <AbsoluteLocation value="-8.414497 -7.612885"/>
+    <Properties>
+      <Property name="Angle" value="809.973"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+    </Properties>
+  </Object>
+  <Object name="RightThigh">
+    <AbsoluteLocation value="-2.445454 -19.523201"/>
+    <Properties>
+      <Property name="Angle" value="824.627"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="1.5"/>
+      <Property name="MotorTurnSpeed" value="-10"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-1 -2"/>
+    </Properties>
+  </Object>
+  <Object name="LeftCalf">
+    <AbsoluteLocation value="-14.656307 -32.289364"/>
+    <Properties>
+      <Property name="Angle" value="814.375"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="8"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-2 12"/>
+    </Properties>
+  </Object>
+  <Object name="RightFoot">
+    <AbsoluteLocation value="1.650887 -38.501640"/>
+    <Properties>
+      <Property name="Angle" value="900.811"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+    </Properties>
+  </Object>
+  <Object name="LeftFoot">
+    <AbsoluteLocation value="-21.836796 -38.575001"/>
+    <Properties>
+      <Property name="Angle" value="1080.93"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="10"/>
+      <Property name="MotorTurnSpeed" value="60"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="8 8"/>
+    </Properties>
+  </Object>
+  <Object name="LeftThigh">
+    <AbsoluteLocation value="-13.817638 -19.827904"/>
+    <Properties>
+      <Property name="Angle" value="771.413"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="10"/>
+      <Property name="MotorTurnSpeed" value="-60"/>
+      <Property name="MotorWaitTime0" value="0.5"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-1.5 12"/>
+    </Properties>
+  </Object>
+  <Object name="LeftUpperArm">
+    <AbsoluteLocation value="-19.120831 0.332722"/>
+    <Properties>
+      <Property name="Angle" value="771.413"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="10"/>
+      <Property name="MotorTurnSpeed" value="-70"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-1.5 12"/>
+    </Properties>
+  </Object>
+  <Object name="RightUpperArm">
+    <AbsoluteLocation value="3.599009 9.948620"/>
+    <Properties>
+      <Property name="Angle" value="926.82"/>
+      <Property name="Filename" value="/Objects/wall_16x8_frankenweenie.hs"/>
+      <Property name="MotorMoveSpeed" value="10"/>
+      <Property name="MotorTurnSpeed" value="-60"/>
+      <Property name="MotorWaitTime0" value="0"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="-3 -12"/>
+    </Properties>
+  </Object>
+  <Object name="Object25">
+    <AbsoluteLocation value="28.265625 -17.296875"/>
+    <Properties>
+      <Property name="Angle" value="2.47498"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_1.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object27">
+    <AbsoluteLocation value="25.640625 -16.078125"/>
+    <Properties>
+      <Property name="Angle" value="-176.495"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout3">
+    <AbsoluteLocation value="24.084538 -13.958542"/>
+    <Properties>
+      <Property name="Angle" value="381.723"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+      <Property name="particlespersecond" value="3"/>
+    </Properties>
+  </Object>
+  <Object name="Object28">
+    <AbsoluteLocation value="27.967598 -21.373627"/>
+    <Properties>
+      <Property name="Angle" value="-108.915"/>
+      <Property name="Filename" value="/Objects/pipe_straight.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object26">
+    <AbsoluteLocation value="27.608444 -21.983200"/>
+    <Properties>
+      <Property name="Angle" value="-123.722"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object29">
+    <AbsoluteLocation value="24.926796 54.829983"/>
+    <Properties>
+      <Property name="Angle" value="218.653"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object30">
+    <AbsoluteLocation value="41.880859 61.490829"/>
+    <Properties>
+      <Property name="Angle" value="186.011"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object31">
+    <AbsoluteLocation value="32.829506 59.303322"/>
+    <Properties>
+      <Property name="Angle" value="201.106"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object33">
+    <AbsoluteLocation value="-6.261585 -47.008179"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object34">
+    <AbsoluteLocation value="-3.329432 -46.339645"/>
+    <Properties>
+      <Property name="Angle" value="-90.2916"/>
+      <Property name="Filename" value="/Objects/pipe_elbow_2.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object35">
+    <AbsoluteLocation value="-2.459906 -43.799732"/>
+    <Properties>
+      <Property name="Angle" value="81.2945"/>
+      <Property name="Filename" value="/Objects/pipe_into_wall_1.hs"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="18.800001 -34.000000"/>
+  </Room>
+</Objects>

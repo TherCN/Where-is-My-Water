@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_LevelList               0
+ WN_MainMenu				1
+ WN_StarCount				2
+ 
+ WN_Level_1                 10
+ ...
+ WN_Level_25                34
+ 
+ ...
+ WN_EditorToggle            99
+ WN_BACKGROUND              100
+ WN_LevelSelectSwampy		101
+ WN_Water					102
+ 
+ WN_PackName				110
+
+ WN_FacebookButton          201
+ 
+ WN_Collectible_Reference	500
+ 
+ WN_TextListChange			700
+ -->
+<Widgets texturePath="/Textures/">
+	
+	<!-- ALL WIDGETS ON LAYER 0 WILL GET A SHADOW APPLIED -->
+	
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="100" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5 0" tileForceAspect="1" texBGName="tile_yellow.webp" />
+	
+	
+	<!-- LAYER 1 WILL APPLY A SHADOW ON LAYER 0 -->
+	
+    <!-- Shadow -->
+	<Widget type="WT_LABEL" id="4000" layer="1" pos="0.5 0.5" size="1.0 1.0" texBGName="tile_yellow_lighting.webp" />
+	
+	
+	<!-- ALL WIDGETS ON LAYERS 2 AND ABOVE WILL BE SAVE FROM THE SHADOWING -->
+	
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="10" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+    <!-- Star count -->
+	<Widget type="WT_LABEL" id="106" layer="10" pos=".826 .06" size="0.31 0" forceAspect="100:40" texBGName="duck_counter.webp" />
+	<Widget type="WT_LABEL" id="2" layer="11" pos=".765 .06" size="0.15 0" forceAspect="100:40" text="450/450" halign="right" textColorRGB="19 179 215" />
+	
+	<!-- Swampy -->
+    <Widget type="WT_PUSH_BUTTON" id="101" layer="3" pos="0.5 0.8" size=".75 0" forceAspect="128:40" reactOnDown="false"/>
+	
+    <!-- Pack name -->
+	<Widget type="WT_LABEL" id="110" layer="3" pos=".5 .693" size="0.95 0.075" text="" font="outlined" textPadding=".2" paddingH=".05" halign="center" textColorRGB="34 124 158" />
+	
+	<!-- Tub -->
+	<Widget type="WT_LABEL" id="105" layer="2" pos="0.5 0.875" size="1.25 0" forceAspect="352:136" texBGName="UI_Tub.webp" />
+	
+	<!-- Layers of water -->
+    <Widget type="WT_LABEL" id="103" layer="3" pos="0.5 0.95" size="1.0 0.25" numTiles="1.25 0" tileForceAspect="512:396" tileOffset="0.0 0" texBGName="WMW_UI_water_dark.webp" />
+    <Widget type="WT_LABEL" id="102" layer="4" pos="0.5 0.95" size="1.0 0.15" numTiles="1.25 0" tileForceAspect="512:247" tileOffset="0.25 0" texBGName="WMW_UI_water_light.webp" />
+    
+	
+    <!-- Social -->
+    <Widget type="WT_PUSH_BUTTON" id="201" layer="12" pos="0.2 0.95" size="0.3 0.0" forceAspect="128:44"  texNormalName="button.png" texHilightName="button_highlight.png" text="FACEBOOK_BUTTON" reactOnDown="false" textColorRGB="0 0 0" font="outlined" visible="false" edgePaddingRelative=".35" />
+    <!-- Social Share -->
+    <!-- <Widget type="WT_PUSH_BUTTON" id="202" layer="5" pos="0.8 0.95" size="0.2 0" forceAspect="200:110" texNormalName="WMW_UI_play_button_blank.png" texHilightName="WMW_UI_play_button_blank_highlight.png" text="SOCIAL_SHARE" reactOnDown="false" visible="false" textColorRGB="255 255 255" /> -->
+	
+	
+	
+    <!-- Level layout -->
+	<!-- The first button's properties will copy to the rest of the buttons -->
+    <Widget type="WT_PUSH_BUTTON" id="10" layer="3" pos="0.125 0.2" size="0.156 0" forceAspect="43:45" texNormalName="level_icon_null.png" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.525" textOffsetRelative="0 -0.125" textHilightOffsetRelative="0 -0.125" font="outlined"/>
+    <Widget type="WT_PUSH_BUTTON" id="11" parent="10" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="12" parent="11" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="13" parent="12" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="14" parent="13" pos="0.188 0" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="15" parent="10" pos="0 0.130" />
+    <Widget type="WT_PUSH_BUTTON" id="16" parent="15" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="17" parent="16" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="18" parent="17" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="19" parent="18" pos="0.188 0" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="20" parent="15" pos="0 0.130" />
+    <Widget type="WT_PUSH_BUTTON" id="21" parent="20" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="22" parent="21" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="23" parent="22" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="24" parent="23" pos="0.188 0" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="25" parent="20" pos="0 0.130" />
+    <Widget type="WT_PUSH_BUTTON" id="26" parent="25" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="27" parent="26" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="28" parent="27" pos="0.188 0" />
+    <Widget type="WT_PUSH_BUTTON" id="29" parent="28" pos="0.188 0" />
+    
+	<!-- Special extra bonus level -->
+    <Widget type="WT_PUSH_BUTTON" id="30" parent="25" pos="0 0.130" visible="false" />
+	
+    <!-- Collectible badge reference -->
+	<Widget type="WT_LABEL" id="500" layer="4" pos="-0.07 -0.03" size="0.09 0" forceAspect="1" visible="false"/>
+		
+	
+	
+	<!-- DEBUG WIDGETS!! -->
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="99999" layer="10" pos=".3 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock 1" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false" />
+    <!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="999999" layer="10" pos=".7 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock All" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false" />
+	
+	<!-- Folder list (for debug) -->
+	<Widget type="WT_LABEL" id="2500" layer="11" pos=".6 .06" size="0.6 0.075" textPadding=".2" paddingH=".05" texBGName="transparent_black.webp" textColorRGB="255 255 255" visible="false"/>
+	
+	<!-- Icon list for displaying pictures of levels -->
+	<Widget type="WT_ICON_LIST" id="0" priority="0" layer="10" pos=".5 .5" iconSize="0.3 0" forceIconAspect="1:1" iconsPerRow="3" listHeight="0.8" edgePadding="4" iconPadding="3" />
+	
+	<!-- Group for holding all of the level text buttons -->
+	<Widget type="WT_GROUP" id="701" priority="0" layer="10" pos=".5 .5" size="0.9 0.8" visisble="false" />
+	
+	<!-- Play/Edit toggle -->
+    <Widget type="WT_TOGGLE" id="99" layer="21" pos="0.25 0.95" size="0.2 0" forceAspect="2:1" texOnName="toggle_on.png" texOffName="toggle_off.png" textOn="PLAY" textOff="EDIT" textScale=".4" align="leftright" startOn="false" textColorRGB="255 255 255" visible="false" />
+	
+	<!-- Text/Image toggle -->
+	<Widget type="WT_PUSH_BUTTON" id="700" priority="0" layer="21" pos="0.85 0.95" size="0.25 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="TEXT" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.3" textHilightOffsetRelative="0 0.05f" visible="false" enabled="false" />
+	
+	<!-- The shade over the bottom area (to prevent you from pressing a level accidentally) -->
+	<Widget type="WT_PUSH_BUTTON" id="702" priority="1" layer="20" pos="0.5 0.95" size="1.0 0.1" texNormalName="transparent_black.webp" texHilightName="transparent_black.webp" visible="false"/>
+	
+</Widgets>

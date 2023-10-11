@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Back				0
+ 
+ WN_Button_Start		1
+ ...
+ WN_Button_End			100
+ 
+ WN_Pin_Start			101
+ ...
+ WN_Pin_End				200
+ 
+ WN_Frame_Start			201
+ ...
+ WN_Frame_End			300
+ 
+ WN_Text_Start			301
+ ...
+ WN_Text_End			400
+ 
+ WN_Wallpaper_Start		800
+ ...
+ WN_Wallpaper_End		806
+ 
+ WN_WallpaperTear_Start	820
+ ...
+ WN_WallpaperTear_End	827
+ 
+ WN_GameCircle          900
+ 
+ WN_Group				1000
+ WN_ScrollGroup			1001
+ 
+ -->
+<Widgets texturePath="/Textures/">
+	
+	<Widget type="WT_PUSH_BUTTON" priority="0" layer="10" id="0" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+    <!-- Game Circle button -->
+	<Widget type="WT_PUSH_BUTTON" priority="0" layer="10" id="900" pos="0.9 0.06" size="0.11 0" forceAspect="1" texNormalName="ui_game_circle.png" texHilightName="ui_game_circle.png" reactOnDown="false" />
+	
+	<Widget type="WT_GROUP" id ="1000" layer="0" pos=".5 1.5" size="1.0 3.4" />
+	<!--<Widget type="WT_SCROLLABLE_GROUP" id ="101" layer="0" pos=".5 .5" size="1.0 1.0" />-->
+	
+	<!-- Reference buttons (made up up a pin, frame, and finally button) -->
+    <Widget type="WT_PUSH_BUTTON" id="1" priority="1" layer="3" pos="0.175 0.025" size="0.23 0" forceAspect="1" texNormalName="ach_null.webp" angleDegrees="0"/>
+	<Widget type="WT_LABEL" id="201" layer="4" parent="1" pos="0 0 1 1" size="0.278 0" forceAspect="1" texBGName="ach_frame.webp" />
+	<Widget type="WT_LABEL" id="101" layer="2" parent="1" pos="0 0" posByParentSize="0.5 -0.2" size="0.115 0" forceAspect="37:24" texBGName="ach_string_1.webp" />
+	<Widget type="WT_LABEL" id="301" layer="5" parent="1" pos="0 0" posByParentSize="0.5 1.5" size="0.3 0" forceAspect="4:2" text="Achievement Name!" valign="top" textColorRGB="255 255 255" />
+	
+	<!-- Alternate reference buttons (made up up a pin, frame, and finally button) -->
+    <Widget type="WT_PUSH_BUTTON" id="100" priority="1" layer="3" pos="0.8 0.025" size="0.23 0" forceAspect="1" texNormalName="ach_null.webp" angleDegrees="5" visible="false"/>
+	<Widget type="WT_LABEL" id="300" layer="4" parent="100" pos="0 0 1 1" size="0.278 0" forceAspect="1" texBGName="ach_frame.webp" angleDegrees="5" visible="false"/>
+	<Widget type="WT_LABEL" id="200" layer="2" parent="100" pos="0 0" posByParentSize="0.55 -0.2" size="0.115 0" forceAspect="37:24" texBGName="ach_string_0.webp" visible="false"/>
+	<Widget type="WT_LABEL" id="400" layer="5" parent="100" pos="0 0" posByParentSize="0.5 1.5" size="0.3 0" forceAspect="4:2" text="Achievement Name!" valign="top" textColorRGB="255 255 255" visible="false"/>
+	
+	<!-- Gradient (up top, unaffected by scroll) -->
+	<Widget type="WT_LABEL" layer="9" pos=".5 .075" size="1.0 0" forceAspect="320:101" texBGName="collectible_gradient.png"/>
+	
+	<!-- Wallpaper -->
+	<Widget type="WT_LABEL" id ="800" layer="0" pos="0.5 1.55" size="1.0 8.0" numTiles="1.25 0" tileOffset="0.25 0" tileForceAspect="1"  texBGName="collectible_wallpaper.webp" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="801" layer="10" pos="0.85 -0.35" size="0.16 0" forceAspect="1" texNormalName="swampy_planet.webp" />
+	
+	<!-- Runner (this gets repositioned by the screen) -->
+	<Widget type="WT_LABEL" id="802" layer="1" parent="800" parentLineUpY="true" pos="0 -0.915 0 0" size="1.0 0" forceAspect="320:183" texBGName="collectible_wall_runner.webp" />
+	
+	<!-- Secret, heart shaped level (this gets repositioned by the screen) -->
+	<Widget type="WT_PUSH_BUTTON" id="803" layer="10" pos="0 0" size="0.13 0" forceAspect="1" texNormalName="sketches_mia.webp" />
+	
+	
+	<!-- Wallpaper tears -->
+	<Widget type="WT_LABEL" id="820" layer="1" pos=".0 .3875" size="0.16 0" forceAspect="49:143" texBGName="collectible_rip_0.png" />
+	<Widget type="WT_LABEL" id="821" layer="1" pos=".965 0.0155" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_1.png" />
+	<Widget type="WT_LABEL" id="822" layer="1" pos=".05 3.55" size="0.1 0" forceAspect="36:84" texBGName="collectible_rip_2.png" />
+	<Widget type="WT_LABEL" id="823" layer="1" pos=".99 0.975" size="0.1 0" forceAspect="30:80" texBGName="collectible_rip_3.png" />
+	<Widget type="WT_LABEL" id="824" layer="1" pos=".059 1.66" size="0.23 0" forceAspect="73:122" texBGName="collectible_rip_4.png" />
+	<Widget type="WT_LABEL" id="825" layer="1" pos=".95 2.35" size="0.1 0" forceAspect="37:56" texBGName="collectible_rip_5.png" />
+	<Widget type="WT_LABEL" id="826" layer="1" pos=".25 2.85" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_1.png" />
+	<Widget type="WT_LABEL" id="827" layer="1" pos="1.0 3.25" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_0.png" />
+	
+	
+	<Widget type="WT_LABEL" id ="1002" layer="10" pos=".5 -0.2" size="0.2 0.2" visible="true"/>
+	<Widget type="WT_LABEL" id ="1003" parent="808" layer="10" pos="0 -0.725" size="0.2 0.2" vivible="true"/>
+    
+</Widgets>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Emitter name="tears" maxParticles="100" active="0">
+	<!--<EmitterZones>-->
+		<!--<EmitterZone position="160 240" radius="10" />-->
+	<!--</EmitterZone>-->
+	<!--<Textures>-->
+		<!--<Texture path="/Textures/blah.png" />-->
+	<!--</Textures>-->
+	<Textures>
+		<Texture path="/Textures/tear_0.png" />
+		<Texture path="/Textures/tear_1.png" />
+	</Textures>
+	<Gravity force="0 -25" />
+	<Particles number="50" >
+		<Size min="10 -10" max="10 -10" />
+		<GrowToSize min="10 -10" max="10 -10" />
+		<Directions>
+			<Direction min="0" max="20" />
+			<Direction min="160" max="180" />
+		</Directions>
+		<Speed min=".25" max=".35" />
+		<ScreenSpeed min="1" max="3" />
+		<ParticlesPerSecond min="10" max="20" />
+		<Mass min="0.25" max="0.5" />
+		<Angle min="0" max="0" />
+		<LifeTime min=".7" max=".7" />
+		<FadeTime min=".2" max=".2" />
+	</Particles>
+</Emitter>

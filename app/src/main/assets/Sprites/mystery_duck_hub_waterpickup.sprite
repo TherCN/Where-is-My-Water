@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="pour" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="waterpickup_0.png" offset="0 0" scale="0.9275887448338335 0.5285928602539078"/>
+    <Frame name="waterpickup_0.png" offset="-1.2359999999999944 36.348" scale="1.07806396484375 1.891815185546875"/>
+    <Frame name="waterpickup_1.png" offset="0.15599999999999453 88.728" scale="1 0.6690897210764896"/>
+    <Frame name="waterpickup_1.png" offset="11.58 138.336" scale="1 1.49456787109375"/>
+    <Frame name="waterpickup_2.png" offset="26.58 152.51999999999998" scale="1 1.2147216796875"/>
+    <Frame name="waterpickup_3.png" offset="25.355999999999995 158.16" scale="1 1.17535400390625"/>
+    <Frame name="waterpickup_2.png" offset="28.5 161.256" scale="1 0.9422043010752689"/>
+    <Frame name="waterpickup_3.png" offset="30.15599999999999 165.87599999999998" scale="1 0.9260139170171886"/>
+    <Frame name="waterpickup_2.png" offset="34.26 169.416" scale="1 0.8670485378353934"/>
+    <Frame name="waterpickup_3.png" offset="34.955999999999996 171.79199999999997" scale="1 0.8731759879524329"/>
+    <Frame name="waterpickup_2.png" offset="36.18 172.764" scale="1 0.8383830770776807"/>
+    <Frame name="waterpickup_3.png" offset="33.54 173.508" scale="1 0.8623877031728722"/>
+    <Frame name="waterpickup_2.png" offset="34.763999999999974 173.16" scale="1 0.8379057381167722"/>
+    <Frame name="waterpickup_3.png" offset="32.916 174.66" scale="1 0.87346159837981"/>
+    <Frame name="waterpickup_2.png" offset="35.55599999999999 173.304" scale="1 0.845241684252839"/>
+    <Frame name="waterpickup_3.png" offset="34.5 174.68399999999997" scale="1 0.8732538817053539"/>
+    <Frame name="waterpickup_2.png" offset="34.763999999999974 174.23999999999998" scale="1 0.8525776303889057"/>
+    <Frame name="waterpickup_3.png" offset="34.5 174.156" scale="1 0.8699304149140572"/>
+    <Frame name="waterpickup_2.png" offset="35.723999999999975 174.456" scale="1 0.8377047532911265"/>
+    <Frame name="waterpickup_3.png" offset="34.5 174.06" scale="1 0.8508074985719478"/>
+    <Frame name="waterpickup_2.png" offset="35.723999999999975 174.79199999999997" scale="1 0.8232338458446388"/>
+    <Frame name="waterpickup_3.png" offset="34.5 176.29199999999997" scale="1 0.8508074985719478"/>
+    <Frame name="waterpickup_2.png" offset="35.723999999999975 177" scale="1 0.8232338458446388"/>
+    <Frame name="waterpickup_3.png" offset="34.5 178.5" scale="1 0.8508074985719478"/>
+    <Frame name="waterpickup_2.png" offset="35.723999999999975 179.208" scale="1 0.8232338458446388"/>
+    <Frame name="waterpickup_3.png" offset="34.5 180.73199999999997" scale="1 0.8508074985719478"/>
+    <Frame name="waterpickup_2.png" offset="35.723999999999975 181.44" scale="1 0.8232338458446388"/>
+    <Frame name="waterpickup_3.png" offset="34.5 182.94" scale="1 0.8508074985719478"/>
+    <Frame name="waterpickup_4.png" offset="29.567999999999984 183.096" scale="0.6785107880896177 3.230283911671924"/>
+    <Frame name="waterpickup_4.png" offset="27.335999999999995 231.744" scale="0.8991593158570422 1.8541009463722398"/>
+    <Frame name="waterpickup_4.png" offset="30.011999999999986 267.9" scale="-1 1"/>
+  </Animation>
+  <Animation name="drop" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="waterpickup_5.png" offset="11.315999999999994 54.516" scale="0.9999660233759173 0.9999660233759173" angleDeg="-52.49652099609375"/>
+    <Frame name="waterpickup_5.png" offset="-3.78 73.884" scale="0.4490966796875 0.4490966796875" angleDeg="-25.2000732421875"/>
+    <Frame name="waterpickup_5.png" offset="-13.24800000000001 101.916" scale="0.4490966796875 0.4490966796875" angleDeg="-13.516693115234375"/>
+    <Frame name="waterpickup_5.png" offset="-19.271999999999988 134.68800000000002" scale="0.9999660233759173 0.9999660233759173" angleDeg="-5.55682373046875"/>
+    <Frame name="waterpickup_5.png" offset="-23.160000000000025 175.18800000000002" scale="0.4490966796875 0.4490966796875" angleDeg="0.176605224609375"/>
+    <Frame name="waterpickup_5.png" offset="-23.244000000000003 187.23600000000002" scale="0.895351997825496 0.895351997825496" angleDeg="0.0454559326171875"/>
+    <Frame name="waterpickup_5.png" offset="-23.376000000000023 199.30799999999996" scale="0.7907039956509921 0.7907039956509921" angleDeg="0.0437164306640625"/>
+    <Frame name="waterpickup_5.png" offset="-23.46 211.368" scale="0.6861239467246535 0.6861239467246535" angleDeg="0.044586181640625"/>
+    <Frame name="waterpickup_5.png" offset="-23.58 223.44" scale="0.5815099211742322 0.5815099211742322" angleDeg="0.176605224609375"/>
+  </Animation>
+</Sprite>

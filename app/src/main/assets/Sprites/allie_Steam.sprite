@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="steamfx" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Steam_0.png" repeat="1" offset="-192.4625 36.856249999999996"/>
+    <Frame name="Steam_1.png" repeat="1" offset="-202.10000000000002 8.29375"/>
+    <Frame name="Steam_2.png" repeat="1" offset="-205.8375 19.599999999999998"/>
+    <Frame name="Steam_3.png" repeat="1" offset="-208.28750000000002 32.699999999999996"/>
+    <Frame name="Steam_4.png" repeat="1" offset="-208.7125 39.95625"/>
+    <Frame name="Steam_5.png" repeat="1" offset="-212.025 45.349999999999994"/>
+    <Frame name="Steam_6.png" repeat="1" offset="-210.03750000000002 48.25"/>
+    <Frame name="Steam_7.png" repeat="1" offset="-207.46875 53.8375"/>
+    <Frame name="Steam_8.png" repeat="1" offset="-204.875 56.59375"/>
+    <Frame name="Steam_9.png" repeat="1" offset="-199.3125 58.93125"/>
+    <Frame name="Steam_10.png" repeat="1" offset="-212.74375 55.575"/>
+    <Frame name="Steam_11.png" repeat="1" offset="-213.76875 56.68125"/>
+    <Frame name="Steam_12.png" repeat="1" offset="-213.20625 48.39375"/>
+    <Frame name="Steam_13.png" offset="-213.88750000000002 52.175"/>
+    <Frame name="Steam_14.png" offset="-195.24375 61.0625"/>
+  </Animation>
+  <Animation name="Idle" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="Steam_15.png" offset="0 0"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Object15">
+    <AbsoluteLocation value="-0.031250 -41.875000"/>
+    <Properties>
+      <Property name="Angle" value="88.0415"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object14">
+    <AbsoluteLocation value="-5.156250 -45.187500"/>
+    <Properties>
+      <Property name="Angle" value="-9.50561"/>
+      <Property name="Filename" value="/Objects/pipe_straight_short.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky11">
+    <AbsoluteLocation value="14.343750 30.468750"/>
+    <Properties>
+      <Property name="Angle" value="-0.317135"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky12">
+    <AbsoluteLocation value="13.093750 -3.062500"/>
+    <Properties>
+      <Property name="Angle" value="-0.317135"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky13">
+    <AbsoluteLocation value="-16.093750 -16.250000"/>
+    <Properties>
+      <Property name="Angle" value="-0.317135"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout9">
+    <AbsoluteLocation value="0.187500 -38.718750"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe_cranky.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Fan11">
+    <AbsoluteLocation value="-23.250000 -9.468750"/>
+    <Properties>
+      <Property name="Angle" value="-83.4833"/>
+      <Property name="Filename" value="/Objects/fan_24x8.hs"/>
+      <Property name="Type" value="fan"/>
+    </Properties>
+  </Object>
+  <Object name="Fan10">
+    <AbsoluteLocation value="14.000000 -25.200001"/>
+    <Properties>
+      <Property name="Angle" value="2.86138"/>
+      <Property name="Filename" value="/Objects/fan_16x8_gear3.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumMaxD" value="60"/>
+    </Properties>
+  </Object>
+  <Object name="Switch10">
+    <AbsoluteLocation value="28.500000 20.156250"/>
+    <Properties>
+      <Property name="Angle" value="-47.7053"/>
+      <Property name="ConnectedObject0" value="Fan10"/>
+      <Property name="Filename" value="/Objects/switch_momentary_blue.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch11">
+    <AbsoluteLocation value="-3.375000 20.250000"/>
+    <Properties>
+      <Property name="Angle" value="-45"/>
+      <Property name="ConnectedObject0" value="Fan11"/>
+      <Property name="Filename" value="/Objects/switch_momentary.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Object12">
+    <AbsoluteLocation value="-1.406250 -44.718750"/>
+    <Properties>
+      <Property name="Angle" value="82.4004"/>
+      <Property name="Filename" value="/Objects/pipe_connector_90.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Object13">
+    <AbsoluteLocation value="-7.500000 -44.343750"/>
+    <Properties>
+      <Property name="Angle" value="153.961"/>
+      <Property name="Filename" value="/Objects/pipe_connector_end.hs"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-17.199997 -34.000000"/>
+  </Room>
+</Objects>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Labels
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_PromoImage		4
+ 
+ 
+ Progress Indicator
+ WN_ProgressGear	20
+ WN_ProgressLabel	21
+ WN_ProgressCancel	22
+ 
+ Results
+ WN_ResultHeader	30
+ WN_ResultBody		31
+ WN_ResultOK		32
+ 
+ Button
+ WN_ButtonBuy		40
+ WN_ButtonCancel	41
+ WN_ButtonDebugBuy	42
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_InAppPurchase.xml">
+	
+	<!-- Images (move offscreen) -->
+    <Widget type="WT_LABEL" id="7" pos="-2.0 0" />
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="2" textColorRGB="32 95 53" />
+	
+	<!-- progress indicator -->
+	<Widget type="WT_LABEL" id="21" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="22" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	
+	<!-- result indicators -->
+	<Widget type="WT_LABEL" id="30" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="32" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="40" font="outlined" textColorRGB="27 77 44" />
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="upsell_cranky_close.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="42" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+
+</Widgets>

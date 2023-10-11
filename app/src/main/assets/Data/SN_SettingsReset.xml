@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+<Widgets texturePath="/Textures/"> 
+	
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5 0" tileForceAspect="1:1" texBGName="credits_tile.webp" />
+	<Widget type="WT_LABEL" id="1" layer="1" pos=".5 .5" size="1.0 1.0" texBGName="credits_lighting.png" />
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="2" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="20" layer="2" pos="0.5 .25" size="0.85 0.2" text="RESET_DUCK_DIRECTIONS" textColorRGB="255 255 255" />
+	<Widget type="WT_LABEL" id="21" layer="2" pos="0.5 .45" size="0.85 0.1" text="RESET_DUCK_ORDER" textColorRGB="255 255 255" />
+	
+	<!-- Ducky buttons -->
+    <Widget type="WT_PUSH_BUTTON" id="30" layer="2" priority="0" pos="0.225 .7" size=".30 0" forceAspect="1" texNormalName="triduck_0.png" reactOnDown="false" />
+    <Widget type="WT_PUSH_BUTTON" id="31" layer="2" priority="1" pos="0.500 .7" size=".30 0" forceAspect="1" texNormalName="triduck_1.png" reactOnDown="false" />
+    <Widget type="WT_PUSH_BUTTON" id="32" layer="2" priority="0" pos="0.775 .7" size=".30 0" forceAspect="1" texNormalName="triduck_2.png" reactOnDown="false" />
+	
+</Widgets>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+    WN_BACKGROUND = 0
+    WN_Back = 1
+ -->
+<Widgets texturePath="/Textures/">
+    <!-- ********** generic UI for the whole screen ********** -->
+    <!-- Background -->
+	<Widget type="WT_LABEL" id ="0" layer="0" pos="0.5 0.4" size="12.0 0.8" numTiles="30 0" tileForceAspect="1" texBGName="WMW_UI_brick.webp" />
+    <!-- Back button -->
+    <Widget type="WT_PUSH_BUTTON" id="1" layer="10" pos="-0.41 0.05" size="0.15 0" forceAspect="200:160" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false"/>
+    <!-- Settings -->
+    <Widget type="WT_PUSH_BUTTON" id="2" layer="10" pos="-0.44 0.96" size="0.1 0" forceAspect="200:210" texNormalName="WMW_UI_setting_button.png" texHilightName="WMW_UI_setting_button_highlight.png" reactOnDown="false"/>
+     <!-- Facebook -->
+    <Widget type="WT_PUSH_BUTTON" id="4" layer="10" pos="0.44 0.96" size="0.1 0.1" forceAspect="1" texNormalName="f_logo.webp" texHilightName="f_logo.webp" reactOnDown="false" />
+    <!--  Light -->
+    <Widget type="WT_LABEL" id="6" layer="12" pos="0 0.4" size="1 0.8" texBGName="WMW_UI_light.webp" visible="false"/>
+    
+    <!--
+    <Widget type="WT_PUSH_BUTTON" id="8" layer="8" pos="-0.35 0.71" size="0.18 0" forceAspect="180:210" texNormalName="WMW_UI_youtube_link_back.png" visible="false"/>
+    <Widget type="WT_PUSH_BUTTON" id="9" layer="10" pos="-0.35 0.71" size="0.18 0" forceAspect="180:210" texNormalName="WMW_UI_youtube_link_front.png" visible="false"/>
+    -->
+    
+    <!-- Posters -->
+    <!--<Widget type="WT_LABEL" id="10" layer="8" pos="0.52 0.45" size="0.20 0.55" forceAspect="200:450" texBGName="WMW_UI_low_posters.webp"/>-->
+    
+    <!-- Notification -->
+    <Widget type="WT_PUSH_BUTTON" id="9" layer="8" pos="-0.35 0.20" size="0.10 0.40" forceAspect="1"/>
+
+    <!-- Notification -->
+    <Widget type="WT_PUSH_BUTTON" id="11" layer="8" pos="-0.35 0.20" size="0.10 0.40" forceAspect="1" texNormalName="WMW_UI_low_notification.png"/>
+
+	<!-- SALE -->
+    <Widget type="WT_LABEL" id ="13" layer="9" justifyWidget="0.0 0.0" pos=".25 0" size=".23 0" forceAspect="268:354" paddingB=".04" paddingH=".063" valign="bottom" visible="false" texBGName="WMW_IAP_mainmenu_sign.png" text="SALE" textColorRGB="203 56 36"/>
+	<Widget type="WT_LABEL" id ="14" layer="11" parent="13" posByParentSize="0.49 .7" size=".3 0" forceAspect="352:292" visible="false" texBGName="WMW_IAP_mainmenu_lights.png" />
+   	
+	<!-- SALE -->
+	<Widget type="WT_PUSH_BUTTON" id="12" parent="13" layer="10" posByParentSize="0.5 0.59" size="0.2 0" forceAspect="246:110" texNormalName="WMW_IAP_mainmenu_button.png" texHilightName="WMW_IAP_mainmenu_button.png" font="normal" textColorRGB="255 255 255" reactOnDown="false" text="SALE" paddingT="0.1" paddingB="0.1" visible="false"/>
+	
+	<!-- Chest -->
+    <!--
+    <Widget type="WT_PUSH_BUTTON" id="17" layer="8" pos="-0.35 0.765" size="0.18 0" forceAspect="332:155" texNormalName="Chest_Bottom_0.png" />
+    <Widget type="WT_PUSH_BUTTON" id="18" parent="17" layer="10" pos="0 0" posByParentSize="0.5 -0.1" size="0.145 0" forceAspect="262:73" />
+    -->
+    <!-- Chest Notification -->
+    <!--
+    <Widget type="WT_PUSH_BUTTON" id="19" layer="9" pos="-0.345 0.692" size="0.14 0" forceAspect="200:85" texNormalName="WMW_UI_lost_alert.png" text="NEW" textColorRGB="255 255 255" paddingV=".0" paddingH=".0" visible="false"/>
+	-->
+    <!-- gradiant -->
+    <Widget type="WT_LABEL" id ="2004" layer="1" pos="0.5 0.57" size="10.0 0.4" tileForceAspect="2:594" texBGName="WMW_UI_gradiant.webp" />
+    <!-- footer -->
+    <Widget type="WT_LABEL" id ="2001" layer="2" pos="0.5 0.86" size="12.0 0.2"  numTiles="13.5 1" texBGName="WMW_UI_footer.webp" />
+    <!-- water -->
+    <Widget type="WT_LABEL" id ="2002" layer="3" pos="0.5 1.42"  size="10.0 1.15" tileForceAspect="512:256" numTiles="20.5 0" texBGName="WMW_UI_water_back.webp" />
+    <Widget type="WT_LABEL" id ="2003" layer="4" pos="0.5 1.45"  size="10.0 1.1" tileForceAspect="512:256" numTiles="20.5 0" texBGName="WMW_UI_water_front.webp" />
+    
+    <!-- Group information -->
+    <Widget type="WT_SCROLLABLE_CAMERA" id="16" layer="2" pos="0.5 0.37" size="1.0 0.74" enabled="true" />
+    
+    <!-- ********** UI for storyline subscreen ********** -->
+    <!-- logo -->
+	<Widget type="WT_LABEL" id="101" layer="8" pos="0.0 0.05" size="0.45 0" forceAspect="656:248" texBGName="WMW_UI_swampy_logo.webp" />
+    
+    <!-- Hub Animation tap area -->
+    <Widget type="WT_PUSH_BUTTON" id="151" layer="6" pos="0 0.5" size="0.3 0.3" reactOnDown="false" />
+    
+    <!-- Portal -->
+    <Widget type="WT_LABEL" id="201" layer="7" pos="0.0 0.4" size="0.75 0" forceAspect="1002:1022" />
+    <Widget type="WT_LABEL" id="701" layer="6" pos="0.0 0.4" size="0.7 0" forceAspect="924:924" />
+
+    <!-- play button and buy button. Play button without text is generated from this template and overwritten by the code. -->
+    <Widget type="WT_PUSH_BUTTON" id="1016" layer="8" pos="0.0 0.63" size="0.18 0" forceAspect="1" texNormalName="WMW_UI_play_button.png" texHilightName="WMW_UI_play_button_highlight.png" font="outlined" reactOnDown="false" />
+    <Widget type="WT_PUSH_BUTTON" id="301" layer="8" pos="-0.15 0.6" size="0.23 0" forceAspect="262:118" texNormalName="WMW_UI_play_button_blank.png" texHilightName="WMW_UI_play_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" text="TRY" edgePaddingRelative="0.42"  textHilightOffsetRelative="0 0.05f"/>
+    <Widget type="WT_PUSH_BUTTON" id="401" layer="8" pos="0.15 0.6" size="0.23 0" forceAspect="262:118" texNormalName="WMW_UI_buy_button_blank.png" texHilightName="WMW_UI_buy_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="59 35 95" text="BUY_ALT" edgePaddingRelative="0.42" textHilightOffsetRelative="0 0.05f"/>
+    
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" id="601" layer="4" pos="-0.05 .75" size="0.19 0" forceAspect="114:40" text="450/450" halign="right" textColorRGB="19 179 215" />
+	<Widget type="WT_LABEL" id="501" layer="3" pos="0 .75" size="0.35 0" forceAspect="114:40" texBGName="WMW_UI_swampy_duck_counter.png" />
+    
+    <!-- ********** Interactable objects for storyline subscreen ********** -->
+	<!-- Swampy's shower head -->
+	<Widget type="WT_PUSH_BUTTON" id="900" layer="6" pos="-0.18 0.2299" size="0.13 0" forceAspect="65:46" texNormalName="" reactOnDown="false" visible="false"/>
+
+    <!-- Swampy's radio -->
+	<Widget type="WT_PUSH_BUTTON" id="901" layer="6" pos="0.15 0.28" size="0 0.13" forceAspect="418:442" aspectBasis="height" texNormalName="UI_Radio.webp" reactOnDown="false" visible="false"/>
+	<Widget type="WT_LABEL" id="902" layer="6" pos="0.15 0.25" size="0.01 0.08" forceAspect="49:80" aspectBasis="height" texBGName="UI_Radio_String.png" visible="false"/>
+
+    <!-- Cranky's moss -->
+    <Widget type="WT_PUSH_BUTTON" id="164" layer="6" pos="0.24 0.5" size="0.13 0" forceAspect="1" texNormalName="" reactOnDown="false" visible="false"/>
+    
+    <!-- Cranky's pipe -->
+    <Widget type="WT_PUSH_BUTTON" id="163" layer="6" pos="0.16 0.28" size="0.13 0" forceAspect="1" texNormalName="" reactOnDown="false" visible="false"/>
+    
+    <!-- Allie's organ -->
+    <Widget type="WT_PUSH_BUTTON" id="172" layer="8" pos="0.19 0.4" size="0.3 0" forceAspect="2:3" texNormalName="" reactOnDown="false" visible="false"/>
+    
+    <!-- Allie's window -->
+    <Widget type="WT_PUSH_BUTTON" id="173" layer="8" pos="0.5 0.05" size="0.25 0" forceAspect="3:2" texNormalName="" reactOnDown="false" visible="false"/>
+    
+    
+    <!-- ********** UI for Promotion subscreen ********** -->
+    <!-- Lost levels -->
+    <Widget type="WT_PUSH_BUTTON" id="1021" layer="8" pos="0.0 0.08" size="0.14 0" forceAspect="200:85" texNormalName="WMW_UI_lost_alert.png" text="NEW" textColorRGB="255 255 255" paddingV=".03" paddingH=".01" visible="false"/>
+    <Widget type="WT_LABEL" id="1008" layer="8" pos="0.0 0.13" size="0.3 0" forceAspect="438:92" texBGName="WMW_UI_banner.png" text="LP_LOST_LEVELS" textColorRGB="255 255 255" paddingV=".12" paddingH=".06"/>
+    <Widget type="WT_LABEL" id="1009" layer="7" pos="0.0 0.40" size="0.75 0" forceAspect="412:412" texBGName="WMW_UI_portal_small.png"/>
+    <Widget type="WT_LABEL" id="1010" layer="6" pos="0.0 0.40" size="0.75 0" forceAspect="475:475" texBGName="WMW_UI_lost_level_picture.png"/>
+    <Widget type="WT_PUSH_BUTTON" id="1011" layer="8" pos="0 0.6" size="0.18 0" forceAspect="1" texNormalName="WMW_UI_play_button_small.png" texHilightName="WMW_UI_play_button_small_highlight.png" reactOnDown="false" />
+    
+    <!-- store button DISABLED -->
+    <!--
+    <Widget type="WT_LABEL" id="1017" layer="8" pos="0.23 0.47" size="0.3 0" forceAspect="438:92" texBGName="WMW_UI_banner.png" text="SHOP_TITLE" textColorRGB="255 255 255" paddingV=".1" paddingH=".06" />
+    <Widget type="WT_LABEL" id="1018" layer="7" pos="0.23 0.6" size="0.3 0" forceAspect="456:472" texBGName="WMW_UI_portal_small.png"/>
+    <Widget type="WT_LABEL" id="1019" layer="6" pos="0.23 0.6" size="0.3 0" forceAspect="412:412" texBGName="WMW_UI_shop_picture.png"/>
+    <Widget type="WT_PUSH_BUTTON" id="1020" layer="8" pos="0.23 0.7" size="0.18 0" forceAspect="262:118" texNormalName="WMW_UI_buy_button_blank.png" texHilightName="WMW_UI_buy_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="59 35 95" text="STORE" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" /> -->
+
+    <!-- UI ********** for Level of the week ********** -->
+    <!-- Logo -->
+    <!--
+    <Widget type="WT_LABEL" id="3000" layer="6" pos="0.0 0.06" size="0.64 0.1" text="LEVEL_OF_THE_WEEK" textColorRGB="255 255 255" />
+     -->
+    
+    <!-- portal, banner and play button -->
+    <!--
+    <Widget type="WT_LABEL" id="3101" layer="7" pos="-0.32 0.18" size="0.27 0" forceAspect="340:340" texBGName="WMW_UI_portal_small.png"/>
+    <Widget type="WT_LABEL" id="3201" layer="6" pos="0 0.18" size="0.84 " forceAspect="1074:274" texBGName="WMW_UI_banner.png"/>
+    <Widget type="WT_LABEL" id="3301" layer="7" pos="0.01 0.15" size="0.42 0.08" text="LOW_TITLE" textColorRGB="255 255 255" textPadding=".1"/>
+    <Widget type="WT_LABEL" id="3401" layer="7" pos="0.01 0.22" size="0.42 0.08" text="LOW_TIMER" textColorRGB="235 204 46" paddingH=".04"/>
+    <Widget type="WT_PUSH_BUTTON" id="3501" layer=" 7" pos="0.31 0.18" size="0.17 0" forceAspect="1" texNormalName="level_icon_3.png" texHilightName="level_icon_3.png" font="outlined" reactOnDown="false"/>
+     -->
+    
+    <!-- *********** Tri-duck reference ************** -->
+     <!-- Swampy ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="801" layer="3" pos="0.4 0.83" size=".13 0" forceAspect="1" texNormalName="triduck_0.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="802" layer="4" pos="0.32 0.88" size=".13 0" forceAspect="1" texNormalName="triduck_1.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="803" layer="3" pos="0.22 0.83" size=".13 0" forceAspect="1" texNormalName="triduck_2.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="804" layer="4" pos="0.14 0.88" size=".13 0" forceAspect="1" texNormalName="triduck_3.png" visible="false" angleDegrees="5"/>
+    <Widget type="WT_PUSH_BUTTON" id="805" layer="4" pos="-0.04 0.88" size=".13 0" forceAspect="1" texNormalName="triduck_4.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="806" layer="3" pos="0.04 0.83" size=".13 0" forceAspect="1" texNormalName="triduck_5.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="807" layer="3" pos="-0.14 0.83" size=".13 0" forceAspect="1" texNormalName="triduck_6.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="808" layer="3" pos="-0.32 0.83" size=".13 0" forceAspect="1" texNormalName="triduck_7.png" visible="false" angleDegrees="-5"/>
+    <Widget type="WT_PUSH_BUTTON" id="809" layer="4" pos="-0.22 0.88" size=".13 0" forceAspect="1" texNormalName="triduck_8.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="810" layer="4" pos="-0.4 0.88" size=".13 0" forceAspect="1" texNormalName="Ducks_triduck_9.png" visible="false" angleDegrees="0"/>
+    
+    <!-- Cranky ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="826" layer="4" pos="-0.08 0.88" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_cranky_triduck_0.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="827" layer="3" pos="-0.2 0.83" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_cranky_triduck_1.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="828" layer="3" pos="0.2 0.83" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_cranky_triduck_2.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="829" layer="4" pos="0.08 0.88" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_cranky_triduck_3.png" visible="false" angleDegrees="5"/>
+    
+    <!-- Mystery ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="851" layer="3" pos="0.4 0.817" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_0.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="852" layer="4" pos="0.32 0.875" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_1.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="853" layer="3" pos="0.22 0.817" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_2.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="854" layer="4" pos="0.14 0.875" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_3.png" visible="false" angleDegrees="5"/>
+    <Widget type="WT_PUSH_BUTTON" id="855" layer="4" pos="-0.04 0.875" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_4.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="856" layer="3" pos="0.04 0.817" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_5.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="857" layer="3" pos="-0.14 0.817" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_6.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="858" layer="3" pos="-0.32 0.817" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_7.png" visible="false" angleDegrees="-5"/>
+    <Widget type="WT_PUSH_BUTTON" id="859" layer="4" pos="-0.22 0.875" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_8.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="860" layer="4" pos="-0.4 0.875" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_mystery_triduck_9.png" visible="false" angleDegrees="0"/>
+    
+    <!-- Allie ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="876" layer="4" pos="-0.08 0.88" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_allie_triduck_0.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="877" layer="3" pos="-0.2 0.83" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_allie_triduck_1.png" visible="false" angleDegrees="0"/>
+    <!-- When second series is ready change these -->
+    <Widget type="WT_PUSH_BUTTON" id="878" layer="3" pos="0.2 0.83" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_allie_triduck_2.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="879" layer="4" pos="0.08 0.88" size=".14 0" forceAspect="1" texNormalName="WMW_ducks_allie_triduck_3.png" visible="false" angleDegrees="5"/>
+    
+    
+    <!-- *********** Settings Background ************** -->
+    <!-- water underground -->
+    <Widget type="WT_LABEL" id ="2004" layer="6" pos="0 1.61" size="1.0 0.7" texBGName="WMW_UI_settings_water.webp" />
+    <Widget type="WT_LABEL" id ="2005" layer="5" pos="0 1.2" size="1.0 0.019" tileForceAspect="512:32" numTiles="2 0" texBGName="WMW_UI_settings_wave.webp" />
+    
+    <!-- Bottom ground pieces   -->
+	<Widget type="WT_LABEL" id="2020" layer="8" pos="0 1.86" size="1.0 0" forceAspect="640:216" texBGName="WMW_LL_rock_back.png" />
+	<Widget type="WT_LABEL" id="2021" layer="10" pos="0 1.94" size="1.0 0" forceAspect="640:116" texBGName="WMW_LL_rock_front.png" />
+    
+    <!-- Floating Duck -->
+    <Widget type="WT_PUSH_BUTTON" id="2022" layer="6" pos="0 1.4" size="0.15 0" forceAspect="1" texNormalName="WMW_UI_scuba_duck.png" reactOnDown="false"/>
+    
+    <!-- seaweed Background -->
+	<Widget type="WT_LABEL" id="2006" layer="7" parent="2020" pos="0 0" posByParentSize="0.080 0.375" size="0.15 0" forceAspect="60:216" texBGName="WMW_LL_seaweed3.png" visible="false"/>
+	<Widget type="WT_LABEL" id="2007" layer="7" parent="2020" pos="0 0" posByParentSize="0.125 0.475" size="0.10 0" forceAspect="43:128" texBGName="WMW_LL_seaweed1.png" visible="false"/>
+	<Widget type="WT_LABEL" id="2008" layer="7" parent="2020" pos="0 0" posByParentSize="0.300 0.575" size="0.15 0" forceAspect="60:216" texBGName="WMW_LL_seaweed3.png" visible="false"/>
+	<Widget type="WT_LABEL" id="2009" layer="7" parent="2020" pos="0 0" posByParentSize="0.700 0.450" size="0.10 0" forceAspect="43:128" texBGName="WMW_LL_seaweed2.png" visible="false"/>
+	<Widget type="WT_LABEL" id="2010" layer="7" parent="2020" pos="0 0" posByParentSize="0.775 0.425" size="0.15 0" forceAspect="60:216" texBGName="WMW_LL_seaweed4.png" visible="false"/>
+	<Widget type="WT_LABEL" id="2011" layer="7" parent="2020" pos="0 0" posByParentSize="0.900 0.350" size="0.15 0" forceAspect="60:216" texBGName="WMW_LL_seaweed3.png" visible="false"/>
+    
+    <!-- Foreground: ids 3040 - 3049 -->
+	<Widget type="WT_LABEL" id="2012" layer="9" parent="2021" pos="0 0" posByParentSize="0.100 0.280" size="0.10 0" forceAspect="45:188" texBGName="WMW_LL_seaweed6.png" visible="false" />
+	<Widget type="WT_LABEL" id="2013" layer="9" parent="2021" pos="0 0" posByParentSize="0.200 0.350" size="0.12 0" forceAspect="58:256" texBGName="WMW_LL_seaweed7.png" visible="false" />
+	<Widget type="WT_LABEL" id="2014" layer="9" parent="2021" pos="0 0" posByParentSize="0.750 0.350" size="0.09 0" forceAspect="039:85" texBGName="WMW_LL_seaweed8.png" visible="false" />
+	<Widget type="WT_LABEL" id="2015" layer="9" parent="2021" pos="0 0" posByParentSize="0.825 0.280" size="0.14 0" forceAspect="66:274" texBGName="WMW_LL_seaweed5.png" visible="false" />
+	<Widget type="WT_LABEL" id="2016" layer="9" parent="2021" pos="0 0" posByParentSize="0.925 0.290" size="0.10 0" forceAspect="45:188" texBGName="WMW_LL_seaweed6.png" visible="false" />
+    
+    <!-- *********** Loading Background ************** -->
+    <!-- Background (Disney Mobile + BG image)-->
+    <Widget type="WT_LABEL" id="4000" layer="0" pos="0.4 -0.5" size="1.0 1.0" forceAspect="384:512" aspectBasis="height" />
+
+    <!-- Presents Text -->
+    <Widget type="WT_LABEL" id="4001" layer="1" pos="0.4 -0.6" size="0.9 0.05" text="PRESENTS" font="outlined" />
+    
+    <!-- Logo -->
+    <Widget type="WT_LABEL" id="4002" layer="1" pos="0.4 -0.35" size="0.75 0.0" forceAspect="256:110" texBGName="wmw_logo.webp" />
+    
+    <!-- Burstly Icon Widget -->
+    <Widget type="WT_PUSH_BUTTON" id="6000" layer="100" pos="-0.22 0.96" size="0.1 0" forceAspect="200:210" enabled="false" />
+    
+    <!-- Burstly reward -->
+    <Widget type="WT_PUSH_BUTTON" id="6001" layer="100" pos="0.04 0.10" size="0.2 0.0" forceAspect="300:400" enabled="false" />
+
+    
+    <!-- Animation Test -->
+    <Widget type="WT_PUSH_BUTTON" id="99999" layer="6" pos="1.8 0.05" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Animations" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" />
+    
+</Widgets>

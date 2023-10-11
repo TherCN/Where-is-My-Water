@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<AnimationList>
+
+	<!-- Scene Names -->
+	<Scenes>
+		<Scene name="MainMenu" />
+		<Scene name="GeneralLevel" />
+		<Scene name="FirstLevel" />
+		<Scene name="LevelResults" />
+	</Scenes>
+	
+	<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="IdleVariation" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Touch" >						<!-- 4 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Win" />						<!-- 8 -->
+		<Group name="LoseSludge" />					<!-- 16 -->
+		<Group name="LoseContaminatedWater" />		<!-- 32 -->
+		<Group name="LoseNoMoreFluid" />			<!-- 64 -->
+		<Group name="BombStart" />					<!-- 128 -->
+		<Group name="BombExplodes" >				<!-- 256 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Miscellaneous" />				<!-- 512 -->
+	</Groups>
+
+	<!-- Animations  -->
+	<Animations>
+		<Animation name="IdleBreatheDeep" armatureName="402_brth">
+			<Groups>
+				<Group name="Idle" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="8.0" >
+					<AnimationAction animation="IdleVariation"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleHeadturn" armatureName="002_hdtrn">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3015" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleBangPipes" armatureName="003_pipe">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3016" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="1.566667" >
+					<SoundAction sound="3016" soundSpecific="1" />
+				</Event>					
+				<Event type="marker" time="1.833333" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.266667"  >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.666667" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="3.1" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleSleep" armatureName="004_slp">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3023" />
+				</Event>
+				<Event type="marker" time=".53333" >
+					<EmitterAction emitterIndex="1" active="1" numParticles="4" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleYawn" armatureName="005_ywn">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3000" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleGnaw" armatureName="401_gnaw">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3013" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.466667" >
+					<SoundAction sound="3013" soundSpecific="1" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleTurnNob" armatureName="006_nob">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3026" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3026" soundSpecific="1" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleTapFoot" armatureName="007_tap">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3027" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleSad" armatureName="008_sad">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3019" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleJugglingDuckies" armatureName="202_jgl">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3017" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleDance" armatureName="009_dnc">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3009" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleEvil" armatureName="403_evil" >
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3003" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchTickled" armatureName="101_tckl">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3025" soundSpecific="0"/>
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3025" soundSpecific="1"/>
+				</Event>
+				<Event type="marker" time="0.9" >
+					<SoundAction sound="3025" soundSpecific="1"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchEmbarrassed" armatureName="102_embr">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3012" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchGrowl" armatureName="103_grwl">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3014" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchDizzy" armatureName="105_dzzy">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3011" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchSpooked" armatureName="106_spkd">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.333333" >
+					<SoundAction sound="3020" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchPullCurtain" armatureName="104_crtn">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3008" soundSpecific="0"/>
+					<PropAction propName="curtainSprite" visible="1" />
+					<PropAction propName="curtainSprite" animationName="blank" />
+				</Event>
+				<Event type="marker" time="1.13333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+					<PropAction propName="curtainSprite" animationName="curtain" />
+				</Event>
+				<Event type="marker" time="1.76667" >
+					<SoundAction sound="3008" soundSpecific="2"/>
+				</Event>
+				<Event type="marker" time="2.53333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+					<PropAction propName="curtainSprite" animationName="curtainOut" />
+				</Event>
+				<Event type="marker" time="2.66667" >
+					<PropAction propName="curtainSprite" animationName="blank" />
+				</Event>	
+				<Event type="finished">
+					<PropAction propName="curtainSprite" visible="0" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinWashing" armatureName="201_wash">
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3021" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinDancing" armatureName="203_dnc">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.266667" >
+					<SoundAction sound="3010" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinSplashing" armatureName="204_splsh">
+			<Groups>
+				<Group name="Win" />			
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3024" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinWashWithBrush" armatureName="205_brsh">
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.266667" >
+					<SoundAction sound="3002" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinJump" armatureName="206_jmp">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3022" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseSludgeGross" armatureName="301_grss">
+			<Groups>
+				<Group name="LoseSludge" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.2" >
+					<SoundAction sound="3018" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseContaminatedWaterJumpOut" armatureName="303_jmpB">
+			<Groups>
+				<Group name="LoseContaminatedWater" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3004" />
+				</Event>
+				<Event type="finished" >
+					<AnimationAction animation="LoseContaminatedWaterJumpDown" isSpecific="1" crossFade="0"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseContaminatedWaterJumpDown" armatureName="303_jmpD">
+			<Events>
+				<Event type="marker" time="0.233333" >
+					<SoundAction sound="3005" />
+				</Event>
+			</Events>
+		</Animation>
+	
+		<Animation name="LoseCrying1" armatureName="304_cryA">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3006" />
+				</Event>
+				<Event type="marker" time=".63333" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="25" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseCrying2" armatureName="305_cryB">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.166667" >
+					<SoundAction sound="3007" />
+				</Event>
+				<Event type="marker" time=".63333" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="25" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="BombExplodesStart" armatureName="306_bmb">
+			<Groups>
+				<Group name="BombStart" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="BombExplodesReaction" armatureName="306_bmb3">
+			<Groups>
+				<Group name="BombExplodes" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3001" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="Walk" armatureName="walk">
+			<Groups>
+				<Group name="Miscellaneous" />
+			</Groups>
+		</Animation>
+		
+	</Animations>
+	
+	<Props>
+		<Prop name="curtainSprite" sprite="/Sprites/curtain.sprite" relativePos="90.524 56.2" relativeScale=
+		"1.288889 1.288889" relativeLayer="100" type="skeleton" visible="false"/>	
+	</Props>
+	
+	<Emitters>
+		<Emitter path="/Emitters/SwampyTears.emitter" baseNode="ikBoneName287" >
+			<EmitterZone position="-8 8" radius="16" />
+		</Emitter>
+		<Emitter path="/Emitters/SleepZs.emitter" baseNode="ikBoneName287" >
+			<EmitterZone position="30 30" radius="1" />
+		</Emitter>
+	</Emitters>
+
+</AnimationList>

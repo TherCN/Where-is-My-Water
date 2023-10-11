@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0_blip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_1.png" offset="-0.22494506835937642 -0.012496948242186789"/>
+  </Animation>
+  <Animation name="fail_water" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_3.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_4.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_5.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_6.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_7.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_3.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_4.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_8.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_9.png" offset="3.755332946777345 4.405174255371094"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="01-steam_a_blip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_1.png" offset="0.012496948242186789 0" repeat="2"/>
+    <Frame name="al_BottomLip_1.png" offset="0.012496948242186789 0"/>
+    <Frame name="al_BottomLip_10.png" offset="1.2996826171874971 2.3931655883789036" repeat="3"/>
+    <Frame name="al_BottomLip_10.png" offset="1.2996826171874971 2.3931655883789036" repeat="50"/>
+    <Frame name="al_BottomLip_11.png" offset="1.61835479736328 2.493141174316405" repeat="4"/>
+    <Frame name="al_BottomLip_11.png" offset="1.61835479736328 2.493141174316405" repeat="64"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0" repeat="8"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="04_headturn2_blip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0"/>
+    <Frame name="al_BottomLip_9.png" offset="3.755332946777345 4.405174255371094"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_8.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_12.png" offset="-2.399414062500002 0" repeat="12"/>
+    <Frame name="al_BottomLip_12.png" offset="-2.399414062500002 0"/>
+    <Frame name="al_BottomLip_8.png" offset="-3.8365631103515647 0.124969482421875"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_2.png" offset="-1.9182815551757841 4.723846435546873"/>
+    <Frame name="al_BottomLip_9.png" offset="3.755332946777345 4.405174255371094"/>
+    <Frame name="al_BottomLip_0.png" offset="0 0" repeat="8"/>
+    <Frame name="al_topLip_3.png" offset="-9.96006774902344 -2.0307540893554688"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Star3">
+    <AbsoluteLocation value="12.785208 -18.400604"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star4">
+    <AbsoluteLocation value="-11.740080 -40.073502"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj2">
+    <AbsoluteLocation value="16.811131 -22.326370"/>
+    <Properties>
+      <Property name="Angle" value="-64.3643"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="MotorOn" value="1"/>
+      <Property name="MotorTurnSpeed" value="-60"/>
+      <Property name="PathIsClosed" value="1"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="0 -0.2"/>
+      <Property name="PathPos2" value="0 0"/>
+    </Properties>
+  </Object>
+  <Object name="Obj1">
+    <AbsoluteLocation value="-13.318960 -35.043537"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="MotorOn" value="1"/>
+      <Property name="MotorTurnSpeed" value="-60"/>
+      <Property name="PathIsClosed" value="1"/>
+      <Property name="PathPos0" value="0 0"/>
+      <Property name="PathPos1" value="0 -0.2"/>
+      <Property name="PathPos2" value="0 0"/>
+    </Properties>
+  </Object>
+  <Object name="Star2">
+    <AbsoluteLocation value="15.622349 25.296932"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Obj6">
+    <AbsoluteLocation value="-13.320486 -35.037437"/>
+    <Properties>
+      <Property name="Angle" value="-90.1603"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="Parent" value="Obj1"/>
+    </Properties>
+  </Object>
+  <Object name="Obj7">
+    <AbsoluteLocation value="16.706665 -22.344427"/>
+    <Properties>
+      <Property name="Angle" value="-153.545"/>
+      <Property name="Filename" value="/Objects/wall_24x8.hs"/>
+      <Property name="Parent" value="Obj2"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="38.080276 -64.675072"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="45"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

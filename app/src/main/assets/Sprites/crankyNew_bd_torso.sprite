@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="22-breathes" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_1.png" offset="0.05482276916503319 0.0225740814208999"/>
+    <Frame name="bd_torso_2.png" offset="0.1225450134277329 0.06127250671387011"/>
+    <Frame name="bd_torso_3.png" offset="0.20961647033691405 0.10319580078125146"/>
+    <Frame name="bd_torso_4.png" offset="0.3128122711181582 0.158018569946292"/>
+    <Frame name="bd_torso_5.png" offset="0.4321324157714799 0.22251594543457323"/>
+    <Frame name="bd_torso_6.png" offset="0.5643520355224609 0.30313766479492477"/>
+    <Frame name="bd_torso_7.png" offset="0.6965716552734345 0.38698425292968747"/>
+    <Frame name="bd_torso_8.png" offset="0.8158917999267563 0.4643811035156279"/>
+    <Frame name="bd_torso_9.png" offset="0.9190876007080078 0.5385530853271498"/>
+    <Frame name="bd_torso_10.png" offset="1.0029341888427705 0.6030504608154311"/>
+    <Frame name="bd_torso_11.png" offset="1.0738813018798812 0.6610980987548828"/>
+    <Frame name="bd_torso_12.png" offset="1.1287040710449219 0.7030213928222714" repeat="11"/>
+    <Frame name="bd_torso_12.png" offset="1.1287040710449219 0.7030213928222714"/>
+    <Frame name="bd_torso_11.png" offset="1.0738813018798812 0.6610980987548828"/>
+    <Frame name="bd_torso_10.png" offset="1.0029341888427705 0.6030504608154311"/>
+    <Frame name="bd_torso_9.png" offset="0.9190876007080078 0.5385530853271498"/>
+    <Frame name="bd_torso_8.png" offset="0.8158917999267563 0.4643811035156279"/>
+    <Frame name="bd_torso_7.png" offset="0.6965716552734345 0.38698425292968747"/>
+    <Frame name="bd_torso_6.png" offset="0.5643520355224609 0.30313766479492477"/>
+    <Frame name="bd_torso_5.png" offset="0.4321324157714799 0.22251594543457323"/>
+    <Frame name="bd_torso_4.png" offset="0.3128122711181582 0.158018569946292"/>
+    <Frame name="bd_torso_3.png" offset="0.20961647033691405 0.10319580078125146"/>
+    <Frame name="bd_torso_2.png" offset="0.1225450134277329 0.06127250671387011"/>
+    <Frame name="bd_torso_1.png" offset="0.05482276916503319 0.0225740814208999"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="12"/>
+  </Animation>
+  <Animation name="23-headturn" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="36"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="01" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="24-Layer 3x" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="bd_torso_16.png" offset="-4.45999351501465 3.3474137878418024"/>
+    <Frame name="bd_torso_17.png" offset="-3.6666757965087977 -0.15156883239745506" repeat="1"/>
+    <Frame name="bd_torso_17.png" offset="-3.6666757965087977 -0.15156883239745506" repeat="2"/>
+    <Frame name="bd_torso_16.png" offset="-4.45999351501465 3.3474137878418024" repeat="2"/>
+    <Frame name="bd_torso_18.png" offset="0.42245780944823924 1.6672571563720717"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="09-stretch" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447" repeat="11"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="9"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_22.png" offset="2.7895114898681563 -0.5417779541015609"/>
+    <Frame name="bd_torso_23.png" offset="1.3125215911865176 0.299912796020521"/>
+    <Frame name="bd_torso_18.png" offset="0.42245780944823924 1.6672571563720717" repeat="6"/>
+    <Frame name="bd_torso_18.png" offset="0.42245780944823924 1.6672571563720717" repeat="8"/>
+  </Animation>
+  <Animation name="08-rumble" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_24.png" offset="2.212259979248044 3.9762631988525445"/>
+    <Frame name="bd_torso_25.png" offset="0.003224868774411129 3.9214404296875043"/>
+    <Frame name="bd_torso_26.png" offset="-1.9349212646484373 3.9214404296875043"/>
+    <Frame name="bd_torso_27.png" offset="-0.7965425872802748 3.9214404296875043"/>
+    <Frame name="bd_torso_28.png" offset="1.8639741516113264 3.9214404296875043"/>
+    <Frame name="bd_torso_24.png" offset="2.212259979248044 3.9762631988525445"/>
+    <Frame name="bd_torso_25.png" offset="0.003224868774411129 3.9214404296875043"/>
+    <Frame name="bd_torso_26.png" offset="-1.9349212646484373 3.9214404296875043"/>
+    <Frame name="bd_torso_27.png" offset="-0.7965425872802748 3.9214404296875043"/>
+    <Frame name="bd_torso_28.png" offset="1.8639741516113264 3.9214404296875043"/>
+    <Frame name="bd_torso_24.png" offset="2.212259979248044 3.9762631988525445"/>
+    <Frame name="bd_torso_25.png" offset="0.003224868774411129 3.9214404296875043"/>
+    <Frame name="bd_torso_26.png" offset="-1.9349212646484373 3.9214404296875043"/>
+    <Frame name="bd_torso_27.png" offset="-0.7965425872802748 3.9214404296875043"/>
+    <Frame name="bd_torso_28.png" offset="1.8639741516113264 3.9214404296875043"/>
+    <Frame name="bd_torso_24.png" offset="2.212259979248044 3.9762631988525445"/>
+    <Frame name="bd_torso_25.png" offset="0.003224868774411129 3.9214404296875043"/>
+    <Frame name="bd_torso_26.png" offset="-1.9349212646484373 3.9214404296875043"/>
+    <Frame name="bd_torso_27.png" offset="-0.7965425872802748 3.9214404296875043"/>
+    <Frame name="bd_torso_28.png" offset="1.8639741516113264 3.9214404296875043" repeat="1"/>
+    <Frame name="bd_torso_29.png" offset="1.7059555816650345 3.9214404296875043"/>
+    <Frame name="bd_torso_30.png" offset="1.551161880493161 3.9214404296875043"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="13-swallow" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447" repeat="9"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_31.png" offset="0.16769317626952537 -0.2160662078857363"/>
+    <Frame name="bd_torso_32.png" offset="1.8478498077392562 -0.35151069641112104"/>
+    <Frame name="bd_torso_33.png" offset="4.405170745849606 2.983003616333015"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="8"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_34.png" offset="3.215194168090814 -1.689831237792957"/>
+    <Frame name="bd_torso_31.png" offset="0.16769317626952537 -0.2160662078857363"/>
+    <Frame name="bd_torso_32.png" offset="1.8478498077392562 -0.35151069641112104"/>
+    <Frame name="bd_torso_33.png" offset="4.405170745849606 2.983003616333015"/>
+    <Frame name="bd_torso_35.png" offset="6.997965240478508 4.469668121337902"/>
+    <Frame name="bd_torso_33.png" offset="4.405170745849606 2.983003616333015"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+  </Animation>
+  <Animation name="16-belly laugh" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="4"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="6"/>
+  </Animation>
+  <Animation name="07-squash" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="8"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="6"/>
+  </Animation>
+  <Animation name="20-squash23" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="5"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0" repeat="1"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0" repeat="1"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="15-snore2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="9"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0" repeat="1"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0" repeat="1"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0" repeat="1"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0" repeat="1"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="7"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0"/>
+    <Frame name="bd_torso_39.png" offset="0.4740557098388613 0" repeat="1"/>
+    <Frame name="bd_torso_38.png" offset="-0.0902963256835996 0" repeat="1"/>
+    <Frame name="bd_torso_37.png" offset="-0.0451481628417998 0" repeat="1"/>
+    <Frame name="bd_torso_36.png" offset="-0.1354444885253921 0" repeat="1"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="13"/>
+  </Animation>
+  <Animation name="03-gnaw 2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_16.png" offset="-4.45999351501465 3.3474137878418024"/>
+  </Animation>
+  <Animation name="02-gnaw" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_17.png" offset="-3.6666757965087977 -0.15156883239745506"/>
+  </Animation>
+  <Animation name="17-shmack" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="12"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+  </Animation>
+  <Animation name="18-shmack H" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+  </Animation>
+  <Animation name="19-gobble" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="16"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="06-turn" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_40.png" offset="-0.574026641845709 1.77690269470216"/>
+    <Frame name="bd_torso_41.png" offset="0.5353282165527314 2.8153104400634823"/>
+    <Frame name="bd_torso_42.png" offset="1.2480242156982362 4.031085968017578"/>
+    <Frame name="bd_torso_43.png" offset="1.9639450836181596 5.401655197143569" repeat="15"/>
+    <Frame name="bd_torso_43.png" offset="1.9639450836181596 5.401655197143569"/>
+    <Frame name="bd_torso_42.png" offset="1.2480242156982362 4.031085968017578"/>
+    <Frame name="bd_torso_41.png" offset="0.5353282165527314 2.8153104400634823"/>
+    <Frame name="bd_torso_40.png" offset="-0.574026641845709 1.77690269470216"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="25-Layer 2x" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="5"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="3"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="2"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="4"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="2"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="2"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="4"/>
+  </Animation>
+  <Animation name="26-wineatvig" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="2"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447" repeat="1"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="2"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447" repeat="1"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="3"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447" repeat="2"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="2"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043" repeat="3"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="14-swallow" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+  </Animation>
+  <Animation name="04-extra tap" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+  </Animation>
+  <Animation name="10-kick 1" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_44.png" offset="-5.201713333129888 6.7722244262695455"/>
+  </Animation>
+  <Animation name="11-kick" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_44.png" offset="-5.201713333129888 6.7722244262695455"/>
+    <Frame name="bd_torso_45.png" offset="1.5124634552001908 3.5570302581787163"/>
+    <Frame name="bd_torso_46.png" offset="5.508075866699217 -0.941661682128893" repeat="5"/>
+  </Animation>
+  <Animation name="27-yell" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="9"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727" repeat="1"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_15.png" offset="1.4028179168701171 3.9214404296875043"/>
+    <Frame name="bd_torso_14.png" offset="0.9287622070312485 2.615368576049816"/>
+    <Frame name="bd_torso_13.png" offset="0.4611562347412094 1.3092967224121064"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="7"/>
+    <Frame name="bd_torso_21.png" offset="3.247442855834955 -0.9997093200683447"/>
+    <Frame name="bd_torso_20.png" offset="2.9604295349121075 -0.7965425872802748"/>
+    <Frame name="bd_torso_19.png" offset="1.467315292358391 -0.4095583343505727"/>
+    <Frame name="bd_torso_0.png" offset="0 0" repeat="2"/>
+    <Frame name="bd_torso_40.png" offset="-0.574026641845709 1.77690269470216"/>
+    <Frame name="bd_torso_41.png" offset="0.5353282165527314 2.8153104400634823"/>
+    <Frame name="bd_torso_42.png" offset="1.2480242156982362 4.031085968017578"/>
+    <Frame name="bd_torso_43.png" offset="1.9639450836181596 5.401655197143569"/>
+  </Animation>
+</Sprite>

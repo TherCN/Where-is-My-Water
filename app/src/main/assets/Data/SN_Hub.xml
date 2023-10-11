@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ -->
+<Widgets texturePath="/Textures/">
+    
+	<!-- BACKGROUND ELEMENTS -->
+	
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1000" layer="0" pos="0 0" justifyWidget="0.5 0.0" size="0 0.85" forceAspect="640:812" aspectBasis="height" texBGName="WMW_UI_background.webp" />
+	
+	<!-- Layers of water -->
+	<Widget type="WT_LABEL" id="1020" layer="3" pos="0 0.05" justifyWidget="0.5 1.0" size="1.0 0.25" numTiles="1.25 0" tileForceAspect="512:396" tileOffset="0.0 0" texBGName="WMW_UI_water_dark.webp" />
+	<Widget type="WT_LABEL" id="1021" layer="4" pos="0 0.05" justifyWidget="0.5 1.0" size="1.0 0.15" numTiles="1.25 0" tileForceAspect="512:247" tileOffset="0.25 0" texBGName="WMW_UI_water_light.webp" />
+	
+	<!-- Frame -->
+	<Widget type="WT_LABEL" id="1030" layer="19" pos="0 0" justifyWidget="0.5 0.0" size="0.0 0.23" forceAspect="768:215" aspectBasis="height" texBGName="WMW_UI_archway_top.png" />
+	<Widget type="WT_LABEL" id="1031" parent="1030" layer="19" pos="0 0" parentLineUpY="true" size="0.0 0.77" forceAspect="132:809" aspectBasis="height" texBGName="WMW_UI_archway_left.png" />
+	<Widget type="WT_LABEL" id="1032" parent="1030" layer="19" pos="0 0" parentLineUpY="true" size="0.0 0.77" forceAspect="132:809" aspectBasis="height" texBGName="WMW_UI_archway_right.png" />
+	
+	
+	
+	<!-- HUD -->
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="0" layer="20" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+
+	
+	<!-- DEBUG: Purchase All -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="20" pos="0 0 10 -10" justifyWidget="0.0 1.0" size="0.3 0" forceAspect="192:66" texNormalName="WMW_UI_button.png" texHilightName="WMW_UI_button_highlight.png" textNT="DBG:Purchase" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false" />
+	
+	
+	
+	
+	<!-- BUTTON TEMPLATE -->
+	
+	<!-- Background (MainTexture in DB) -->
+	<Widget type="WT_PUSH_BUTTON" id="2000" layer="6" pos=".5 .5" size="0.675 0" forceAspect="400:210" texNormalName="UI_redesign_Swampy_Placeholder1.jpg" />
+	
+	<!-- Text frame (Used for positioning the text below) -->
+	<Widget type="WT_LABEL" id="2100" parent="2000" layer="7" pos="0 0" posByParentSize=".68 .47" size="0.33 0" forceAspect="190:120" />
+	
+	
+	
+	<!-- Text 1, not wrapped (TextLine1 in DB) -->
+	<Widget type="WT_LABEL" id="2200" parent="2100" layer="8" pos="0 0" posByParentSize=".50 .16" size="0.31 0.035" font="normal" text="LINE_1" />
+	
+	<!-- Text 2, wrapped (TextLine2 in DB) -->
+	<Widget type="WT_LABEL" id="2300" parent="2100" layer="8" pos="0 0" posByParentSize=".50 .505" size="0.31 0.05" font="normal" text="LINE_2" />
+	
+	
+	<!-- # Ducks (DuckSQL1/DuckSQL2 in DB) -->
+	<Widget type="WT_LABEL" id="2400" parent="2100" layer="8" pos="0 0" posByParentSize=".225 .875" size="0.100 0.035" font="normal" text="22/22" />
+	
+	<!-- Duck Image (DuckCharacter in DB) -->
+	<Widget type="WT_LABEL" id="2500" parent="2400" layer="8" pos="0 0" parentLineUpX="true" size="0 0.035" forceAspect="1" aspectBasis="height" font="normal" text="*" textColorRGB="255 255 255" />
+	
+	
+	<!-- # Items (ItemSQL1/ItemSQL2 in DB) -->
+	<Widget type="WT_LABEL" id="2600" parent="2100" layer="8" pos="0 0" posByParentSize=".700 .875" size="0.100 0.035" font="normal" text="22/22" />
+	
+	<!-- Item Image (ItemCharacter in DB) -->
+	<Widget type="WT_LABEL" id="2700" parent="2600" layer="8" pos="0 0" parentLineUpX="true" size="0 0.035" forceAspect="1" aspectBasis="height" font="normal" text="+" textColorRGB="255 255 255" />
+
+
+	<!-- availability shade -->
+	<Widget type="WT_LABEL" id="3400" parent="2000" layer="9" pos="0 0" posByParentSize="0.5 0.5" size="0.675 0" forceAspect="400:210" texBGName="dialogue_vinette_dark.webp" XXtext="HUB_TRY_SWAMPY" textColorRGB="200 200 200 200" bgBlendColorRGBA="0 0 0 200" textPadding="0.1" />
+
+	
+	<!-- Frame (FrameTexture in DB) -->
+	<Widget type="WT_LABEL" id="2800" parent="2000" layer="10" pos="0 0" size="0.725 0" forceAspect="428:247" texBGName="WMW_UI_pipeframe_swampy.png" />
+	
+	
+	
+	<!-- Title (TitleTexture in DB) -->
+	<Widget type="WT_LABEL" id="2900" parent="2000" layer="11" pos="0 0" posByParentSize=".5 -0.05" size="0.55 0" forceAspect="4:1" texBGName="WMW__UI_swampy_logo.png" />
+	
+	<!-- Button (TextButton in DB) -->
+	<Widget type="WT_PUSH_BUTTON" id="3000" parent="2000" layer="11" pos="0 0" posByParentSize=".5 1.0" size="0.3 0" forceAspect="192:66" texNormalName="WMW_UI_button.png" texHilightName="WMW_UI_button_highlight.png" text="PLAY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" />
+	
+	<!-- Try button (Play) -->
+	<Widget type="WT_PUSH_BUTTON" id="3100" parent="2000" layer="11" pos="0 0" posByParentSize=".3 1.0" size="0.225 0" forceAspect="142:66" texNormalName="button.png" texHilightName="button_highlight.png" text="PLAY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.325" textHilightOffsetRelative="0 0.05" />
+	
+	<!-- Buy Button -->
+	<Widget type="WT_PUSH_BUTTON" id="3200" parent="2000" layer="11" pos="0 0" posByParentSize=".7 1.0" size="0.225 0" forceAspect="142:66" texNormalName="WMW_UI_buy_button.png" texHilightName="WMW_UI_buy_button_highlight.png" text="BUY" font="outlined" reactOnDown="false" textColorRGB="136 99 204" edgePaddingRelative="0.55" textOffsetRelative="0.125 0.0" textHilightOffsetRelative="0.125 0.05" />
+	
+	<!-- Alert button -->
+	<Widget type="WT_PUSH_BUTTON" id="3300" parent="2000" layer="11" pos="0 0" posByParentSize="1.015 -0.03 " size="0.07 0" forceAspect="45:48" texNormalName="UI_button_notification.png" texHilightName="UI_button_notification_highlight.png" reactOnDown="false" />
+	
+	
+	<!-- GROUP INFORMATION -->
+	
+	<!-- Main group (this gets auto-sized in the code) -->
+	<Widget type="WT_GROUP" id="100" pos="0 0" size="1.0 0.35" />
+	
+	<!-- Group 'Top' (the top part of the screen) -->
+	<Widget type="WT_LABEL" id="102" parent="2000" layer="10" pos="0 0" posByParentSize="0.5 -0.8" size="0.2 0.2" />
+    
+    <!-- Secret Level -->
+    <Widget type="WT_PUSH_BUTTON" id="3600" layer="4" pos="0.5 0.9" size="0.2 0" forceAspect="1" texNormalName="WMW_perry_duck.png" priority="10"/>
+	
+	
+</Widgets>

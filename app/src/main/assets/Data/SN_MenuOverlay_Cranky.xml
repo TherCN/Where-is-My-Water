@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Resume			0
+ WN_LevelSelect		1
+ WN_MainMenu		2
+ WN_SkipLevel		3
+ 
+ WN_LevelName		4
+ WN_Shade			5
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_MenuOverlay.xml">
+	
+    <!--
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+     -->
+    
+    <!-- Pause Menu Backgrounds -->
+    <Widget type="WT_LABEL" id="200" layer="1" justifyWidget="1.0 0.0" size="0 0.85" forceAspect="100:720" aspectBasis="height" texBGName="pause_menu_background.webp" bgBlendColorRGBA="10 139 0 180"/>
+    
+    <Widget type="WT_LABEL" id="201" layer="1" justifyWidget="1.0 0.0" size="0 0.695" forceAspect="256:1508" aspectBasis="height" texBGName="pause_menu_background_med.webp" bgBlendColorRGBA="10 139 0 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="202" layer="1" justifyWidget="1.0 0.0" size="0 0.529" forceAspect="256:1148" aspectBasis="height" texBGName="pause_menu_background_sml.webp" bgBlendColorRGBA="10 139 0 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="4" textColorRGB="32 95 53"/>
+    
+    <!-- Resume -->
+    <Widget type="WT_PUSH_BUTTON" id="0" texNormalName="cranky_owall_button_play.png" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="1" texNormalName="cranky_owall_button_level.png" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="cranky_owall_button_main_menu.png" />
+    
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="cranky_owall_button_skip.png" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="40" texNormalName="cranky_owall_button_sound.png" texOffName="cranky_owall_button_sound_hit.png"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="cranky_owall_button_music.png" texOffName="cranky_owall_button_music_hit.png"/>
+	
+</Widgets>

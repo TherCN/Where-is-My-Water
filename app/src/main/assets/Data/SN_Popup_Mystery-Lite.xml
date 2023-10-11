@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup_Mystery.xml">
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" pos="0.253 0.65" />
+	<Widget type="WT_PUSH_BUTTON" id="1" pos="0.747 0.65" />
+	<Widget type="WT_PUSH_BUTTON" id="2" pos="0.5 0.766" />
+	<Widget type="WT_PUSH_BUTTON" id="3" pos="0.747 0.766" />
+	
+	<!-- Collectibles -->
+	<Widget type="WT_LABEL" id="27" parent="3" pos="-0.185 0.0"/>
+	<Widget type="WT_LABEL" id="29" parent="27" pos="0 0"/>
+	<Widget type="WT_LABEL" id="28" parent="27" pos="0 0.05"/>
+	
+	<!-- full version prompt -->
+	<Widget type="WT_PUSH_BUTTON" id="4" layer="3" pos="0.5 0.325" size="0.38 0.0" forceAspect="128:60" texNormalName="WMW_UI_button_purple_2.webp" texHilightName="WMW_UI_button_purple_2_highlight.webp" reactOnDown="false" textColorRGB="111 79 172" textHilightColorRGB="45 102 129" textHilightOffsetRelative="0 0.05f" visible="false" />
+	
+	<!-- Our 'fake' labels for the FULL VERSION prompt -->
+	<Widget type="WT_LABEL" id="80" parent="4" layer="4" pos="0 0" size="0.3 0.04" posByParentSize="0.5 0.333" text="BUY_FULL_VERSION_TWO_LINE" font="outlined" textColorRGB="111 79 172" visible="false" />
+	<Widget type="WT_LABEL" id="81" parent="4" layer="4" pos="0 0" size="0.3 0.04" posByParentSize="0.5 0.666" text="ALL_LEVELS_CALLOUT" font="outlined" textColorRGB="111 79 172" visible="false" />
+	
+</Widgets>

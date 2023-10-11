@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Layer 1" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="showeranimation_0.png" repeat="1" offset="0 0"/>
+    <Frame name="showeranimation_1.png" repeat="1" offset="-0.18125 0.5365000000000065"/>
+    <Frame name="showeranimation_2.png" repeat="1" offset="1.508000000000005 6.829500000000003"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Canvas,			0
+ WN_Back,			1
+ WN_Pause,			2		
+ WN_SelectAll,      3
+ WN_ToolbarCOUNT,	4
+ WN_Add,			5
+ WN_Delete,			6
+ WN_Save,			7
+ WN_MoveToTop,		8
+ WN_MoveToBottom,	9
+ WN_Refresh			10
+ WN_Link			11
+ WN_Track			12
+ WN_Paste			13
+ WN_Snap			14
+ WN_Group			15
+ WN_Ghost			16
+ WN_TogglePlatinum	17
+ WN_ObjectEdit		18
+ WN_TogglePType     19
+ WN_Port			20
+ 
+ WN_ObjectName		100
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Editor.xml">
+	
+	<!-- toolbar-style buttons at the bottom of the screen -->
+	<Widget type="WT_PUSH_BUTTON" id="3" pos=".075 .965" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="5" parent="3" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="6" parent="5" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="8" parent="6" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="9" parent="8" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="7" parent="9" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="10" parent="7" pos=".065 0" size=".055 0" forceAspect="1" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="11" parent="10" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="13" parent="11" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="15" parent="13" pos=".065 0" size=".055 0" forceAspect="1" />        
+	<Widget type="WT_PUSH_BUTTON" id="19" parent="15" pos=".065 0" size=".055 0" forceAspect="1" />    
+	<Widget type="WT_PUSH_BUTTON" id="17" parent="19" pos=".065 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="16" parent="17" pos=".065 0" size=".055 0" forceAspect="1" />	
+	<Widget type="WT_PUSH_BUTTON" id="14" parent="16" pos=".065 0" size=".055 0" forceAspect="1" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="20" parent="3" parentLineUpY="true" pos="0 -.0875 0 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="18" parent="5" parentLineUpY="true" pos="0 -.0875 0 0" size=".055 0" forceAspect="1" />
+	<Widget type="WT_PUSH_BUTTON" id="12" parent="6" parentLineUpY="true" pos="0 -.0875 0 0" size=".055 0" forceAspect="1" />	
+    
+</Widgets>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_arm_R_hand2_1.png" offset="0.000000 0.042330"/>
+    <Frame name="sw_arm_R_hand2_2.png" offset="0.000000 0.119936"/>
+    <Frame name="sw_arm_R_hand2_3.png" offset="0.000000 0.345699"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_5.png" offset="0.000000 0.797224"/>
+    <Frame name="sw_arm_R_hand2_6.png" offset="0.000000 1.022986"/>
+    <Frame name="sw_arm_R_hand2_5.png" offset="0.000000 0.797224"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_3.png" offset="0.000000 0.345699"/>
+  </Animation>
+  <Animation name="2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_arm_R_hand2_7.png" offset="0.181350 0.261038"/>
+    <Frame name="sw_arm_R_hand2_8.png" offset="0.495224 -0.126991"/>
+    <Frame name="sw_arm_R_hand2_9.png" offset="0.753298 -0.529131"/>
+    <Frame name="sw_arm_R_hand2_10.png" offset="0.948598 -0.472690"/>
+    <Frame name="sw_arm_R_hand2_11.png" offset="1.269447 -0.246928"/>
+    <Frame name="sw_arm_R_hand2_12.png" offset="1.715846 -0.204597"/>
+    <Frame name="sw_arm_R_hand2_11.png" offset="1.269447 -0.246928"/>
+    <Frame name="sw_arm_R_hand2_10.png" offset="0.948598 -0.472690"/>
+    <Frame name="sw_arm_R_hand2_8.png" offset="0.495224 -0.126991"/>
+  </Animation>
+  <Animation name="9" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="10" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_13.png" offset="-4.498864 -6.469505"/>
+  </Animation>
+  <Animation name="12" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_14.png" offset="2.322669 0.945380"/>
+  </Animation>
+  <Animation name="11" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.278999 -4.783342"/>
+  </Animation>
+  <Animation name="13" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_15.png" offset="1.687946 1.107647"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="15" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_16.png" offset="0.788173 1.403960"/>
+  </Animation>
+  <Animation name="14" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_17.png" offset="4.980138 -0.966546"/>
+  </Animation>
+  <Animation name="5" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_18.png" offset="1.792571 -0.345699"/>
+  </Animation>
+  <Animation name="18" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_19.png" offset="-0.362699 -16.579430"/>
+  </Animation>
+  <Animation name="19" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_20.png" offset="15.505388 -16.642927"/>
+  </Animation>
+  <Animation name="21" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_21.png" offset="-2.392419 -13.510471"/>
+  </Animation>
+  <Animation name="17" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_22.png" offset="3.013193 16.113794"/>
+  </Animation>
+  <Animation name="16" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_23.png" offset="-14.696290 -34.210068"/>
+  </Animation>
+  <Animation name="20" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_24.png" offset="2.078545 0.507966"/>
+  </Animation>
+  <Animation name="22" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_R_hand2_2.png" offset="0.000000 0.119936"/>
+    <Frame name="sw_arm_R_hand2_3.png" offset="0.000000 0.345699"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_5.png" offset="0.000000 0.797224"/>
+    <Frame name="sw_arm_R_hand2_6.png" offset="0.000000 1.022986" repeat="6"/>
+    <Frame name="sw_arm_R_hand2_2.png" offset="0.000000 0.119936"/>
+    <Frame name="sw_arm_R_hand2_3.png" offset="0.000000 0.345699"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_5.png" offset="0.000000 0.797224"/>
+    <Frame name="sw_arm_R_hand2_6.png" offset="0.000000 1.022986"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_arm_R_hand2_8.png" offset="0.495224 -0.126991"/>
+    <Frame name="sw_arm_R_hand2_10.png" offset="0.948598 -0.472690"/>
+    <Frame name="sw_arm_R_hand2_12.png" offset="1.715846 -0.204597" repeat="1"/>
+    <Frame name="sw_arm_R_hand2_11.png" offset="1.269447 -0.246928"/>
+    <Frame name="sw_arm_R_hand2_10.png" offset="0.948598 -0.472690"/>
+    <Frame name="sw_arm_R_hand2_8.png" offset="0.495224 -0.126991" repeat="1"/>
+    <Frame name="sw_arm_R_hand2_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_arm_R_hand2_1.png" offset="0.000000 0.042330"/>
+    <Frame name="sw_arm_R_hand2_2.png" offset="0.000000 0.119936"/>
+    <Frame name="sw_arm_R_hand2_3.png" offset="0.000000 0.345699"/>
+    <Frame name="sw_arm_R_hand2_4.png" offset="0.000000 0.578516"/>
+    <Frame name="sw_arm_R_hand2_5.png" offset="0.000000 0.797224"/>
+    <Frame name="sw_arm_R_hand2_6.png" offset="0.000000 1.022986"/>
+  </Animation>
+</Sprite>

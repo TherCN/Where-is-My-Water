@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<AnimationList>
+	
+	<!-- Scene Names -->
+	<Scenes>
+		<Scene name="BelowSwampy" />
+	</Scenes>
+	
+	<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="Idle" probability="10"/>
+			<NextAnimationGroup name="IdleVariation" probability="5" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+	</Groups>
+
+	<!-- Animations  -->
+	<Animations>
+		<Animation name="IdleBreatheDeep" armatureName="idle">
+			<Groups>
+				<Group name="Idle" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleFrustratedStrong" armatureName="growl">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.2" >
+					<SoundAction sound="3301" />
+				</Event>
+			</Events>
+		</Animation>
+
+		<Animation name="TouchChuckle" armatureName="evil laugh">
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.166667" >
+					<SoundAction sound="3300" />
+				</Event>
+			</Events>
+		</Animation>
+	</Animations>
+
+</AnimationList>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Cam,        6
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Game.xml">
+    
+    <!-- Camera control -->
+    <Widget type="WT_SLIDER" id="6" pos=".03 .55" size="1.0 0.07" handleSize="0.07 0" forceHandleAspect="1" />
+    
+</Widgets>

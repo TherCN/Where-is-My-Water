@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Keys_win2" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="org_key_win_0.png" repeat="16" offset="0 0"/>
+    <Frame name="org_key_win_1.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_2.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_3.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_4.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_1.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_2.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_3.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_5.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_1.png" offset="0 0"/>
+    <Frame name="org_key_win_3.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_5.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_1.png" offset="0 0"/>
+    <Frame name="org_key_win_3.png" repeat="3" offset="0 0"/>
+    <Frame name="org_key_win_0.png" repeat="4" offset="0 0"/>
+    <Frame name="org_key_win_5.png" repeat="1" offset="0 0"/>
+    <Frame name="org_key_win_5.png" offset="0 0"/>
+  </Animation>
+  <Animation name="Idle" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="org_key_win_5.png" offset="0 0"/>
+  </Animation>
+</Sprite>

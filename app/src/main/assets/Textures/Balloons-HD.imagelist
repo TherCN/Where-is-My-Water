@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ImageList imgSize="256 1024" file="/Textures/Balloons.webp" textureBasePath="/Textures/">
+  <Image name="Balloon_Mud_Fill_Icon.png" offset="0 0" size="128 128" rect="1 1 128 128"/>
+  <Image name="Balloon_Poison_Fill_Icon.png" offset="0 0" size="128 128" rect="1 130 128 128"/>
+  <Image name="Balloon_Steam_Fill_Icon.png" offset="0 0" size="128 128" rect="1 259 128 128"/>
+  <Image name="Balloon_Texture.png" offset="0 0" size="128 128" rect="1 388 128 128"/>
+  <Image name="Balloon_nozzle.png" offset="0 0" size="64 80" rect="130 388 64 80"/>
+  <Image name="Balloon_nozzle_on-pipe.png" offset="0 0" size="50 64" rect="195 388 50 64"/>
+</ImageList>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Labels
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_PromoImage		4
+ 
+ 
+ Progress Indicator
+ WN_ProgressGear	20
+ WN_ProgressLabel	21
+ WN_ProgressCancel	22
+ 
+ Results
+ WN_ResultHeader	30
+ WN_ResultBody		31
+ WN_ResultOK		32
+ 
+ Button
+ WN_ButtonBuyProduct1		40
+ WN_ButtonCancel            41
+ WN_ButtonDebugBuy          42
+ WN_ButtonBuyProduct2       43
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_InAppPurchase.xml">
+    
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="3" parent="0" pos="0 0" posByParentSize="0.5 0.315" size="0.75 0.295" />
+
+	
+    <Widget type="WT_LABEL" id="8" layer="1" parent="0" pos="0 0" posByParentSize="0.25 0.69" size="0.35 0.04" text="UnlockOne" textColorRGB="255 255 255" halign="center"/>
+	<Widget type="WT_LABEL" id="9" layer="1" parent="0" pos="0 0" posByParentSize="0.75 0.69" size="0.35 0.04" text="UnlockAll" textColorRGB="255 255 255" halign="center"/>
+	
+	<!-- Bottom/top images-->
+	<Widget type="WT_LABEL" id="5" pos="0 0" justifyWidget="0.5 0.01" size="0.65 0.18" forceAspect="406:118" texBGName="upsell_logo.webp" />
+	<Widget type="WT_LABEL" id="6" pos="0 0" justifyWidget="0.55 0.95" size="0 0.25" forceAspect="1282:1022" aspectBasis="height" texBGName="upsell_locksmith_duck.webp" />
+    <Widget type="WT_LABEL" id="7" pos="0 0" layer="1" justifyWidget="0.225 0.95" size="0 0.125" forceAspect="426:554" aspectBasis="height" texBGName="upsell_lock.webp" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="40" parent="0" pos="0 0" posByParentSize="0.25 0.8" size="0.35 0" forceAspect="128:44" texNormalName="upsell_unlock_one_button.webp" texHilightName="upsell_unlock_one_button.webp" textColorRGB="44 60 60" edgePaddingRelative="0.5" />
+    <Widget type="WT_PUSH_BUTTON" id="43" parent="0" pos="0 0" posByParentSize="0.75 0.8" size="0.35 0" forceAspect="128:44" texNormalName="upsell_unlock_all_button.webp" texHilightName="upsell_unlock_all_button.webp" textColorRGB="111 79 172" edgePaddingRelative="0.5" />
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="upsell_xbutton.webp" />
+    
+</Widgets>

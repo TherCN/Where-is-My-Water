@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Canvas						0
+ WN_Back,                       1
+-->
+<Widgets texturePath="/Textures/">
+
+	<!-- MAIN CANVAS -->
+	<Widget type="WT_CANVAS" id="0" priority="5" layer="1" pos="0.5 0.5" size="1 1" />
+	
+    <!-- "BACK" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1"  priority="0" layer="1" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false"  />
+	
+</Widgets>

@@ -1,0 +1,189 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="01-idle" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="24-headturn" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_1.png" offset="-2.318001 2.881492"/>
+    <Frame name="cranky_hd__jaw_2.png" offset="-15.438396 7.325394"/>
+    <Frame name="cranky_hd__jaw_3.png" offset="-30.127605 -0.973304"/>
+    <Frame name="cranky_hd__jaw_4.png" offset="-35.480778 -2.417252"/>
+    <Frame name="cranky_hd__jaw_5.png" offset="-35.480778 -5.634919" repeat="36"/>
+    <Frame name="cranky_hd__jaw_5.png" offset="-35.480778 -5.634919"/>
+    <Frame name="cranky_hd__jaw_4.png" offset="-35.480778 -2.417252"/>
+    <Frame name="cranky_hd__jaw_3.png" offset="-30.127605 -0.973304" repeat="1"/>
+    <Frame name="cranky_hd__jaw_2.png" offset="-15.438396 7.325394"/>
+    <Frame name="cranky_hd__jaw_1.png" offset="-2.318001 2.881492"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="04-smile tongue" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="3"/>
+    <Frame name="cranky_hd__jaw_7.png" offset="0.192099 -4.799286" repeat="1"/>
+    <Frame name="cranky_hd__jaw_8.png" offset="0.192099 -4.799286" repeat="1"/>
+    <Frame name="cranky_hd__jaw_9.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_10.png" offset="0.192099 -4.703236"/>
+    <Frame name="cranky_hd__jaw_11.png" offset="0.192099 -2.740619"/>
+    <Frame name="cranky_hd__jaw_10.png" offset="0.192099 -4.703236" repeat="1"/>
+    <Frame name="cranky_hd__jaw_9.png" offset="0.192099 -4.799286" repeat="1"/>
+    <Frame name="cranky_hd__jaw_8.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_7.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_8.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_9.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_10.png" offset="0.192099 -4.703236"/>
+    <Frame name="cranky_hd__jaw_11.png" offset="0.192099 -2.740619"/>
+    <Frame name="cranky_hd__jaw_10.png" offset="0.192099 -4.703236"/>
+    <Frame name="cranky_hd__jaw_9.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_8.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_7.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="2"/>
+  </Animation>
+  <Animation name="03-smile" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286"/>
+  </Animation>
+  <Animation name="05-growl" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_12.png" offset="-3.589059 -5.042612"/>
+  </Animation>
+  <Animation name="02-tap foot" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="24"/>
+  </Animation>
+  <Animation name="10-smile" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_13.png" offset="1.034136 -3.204860"/>
+  </Animation>
+  <Animation name="13-snore" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="cranky_hd__jaw_14.png" offset="-0.217713 0.000000"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_15.png" offset="0.105655 0.000000"/>
+    <Frame name="cranky_hd__jaw_16.png" offset="0.240124 0.723575"/>
+    <Frame name="cranky_hd__jaw_17.png" offset="-0.009605 0.000000"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="3"/>
+  </Animation>
+  <Animation name="18-yodel" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_18.png" offset="7.690383 -15.265507"/>
+    <Frame name="cranky_hd__jaw_19.png" offset="7.690383 -16.145962"/>
+    <Frame name="cranky_hd__jaw_20.png" offset="7.690383 -17.375399"/>
+    <Frame name="cranky_hd__jaw_21.png" offset="7.690383 -17.426626"/>
+    <Frame name="cranky_hd__jaw_22.png" offset="7.690383 -17.426626" repeat="2"/>
+    <Frame name="cranky_hd__jaw_21.png" offset="7.690383 -17.426626"/>
+    <Frame name="cranky_hd__jaw_20.png" offset="7.690383 -17.375399"/>
+    <Frame name="cranky_hd__jaw_19.png" offset="7.690383 -16.145962"/>
+    <Frame name="cranky_hd__jaw_18.png" offset="7.690383 -15.265507" repeat="14"/>
+  </Animation>
+  <Animation name="19-yodel2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_18.png" offset="7.690383 -15.265507"/>
+  </Animation>
+  <Animation name="12-yell" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_22.png" offset="7.690383 -17.426626"/>
+  </Animation>
+  <Animation name="25-snap 1234" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="6"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="5"/>
+    <Frame name="cranky_hd__jaw_19.png" offset="7.690383 -16.145962" repeat="1"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="8"/>
+  </Animation>
+  <Animation name="26-MASTICATE" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="2"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="6"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="3"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="3"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="4"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="5"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="3"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="3"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="5"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="1"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="6"/>
+  </Animation>
+  <Animation name="27-Layer 2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="3"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="2"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_26.png" offset="5.449222 -12.307175"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="4"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="3"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_26.png" offset="5.449222 -12.307175"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="4"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142" repeat="3"/>
+    <Frame name="cranky_hd__jaw_25.png" offset="1.581619 -5.718162" repeat="1"/>
+    <Frame name="cranky_hd__jaw_26.png" offset="5.449222 -12.307175"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="5"/>
+    <Frame name="cranky_hd__jaw_26.png" offset="5.449222 -12.307175"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="1"/>
+    <Frame name="cranky_hd__jaw_26.png" offset="5.449222 -12.307175" repeat="2"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="21-swallow" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_27.png" offset="1.005321 -6.838742"/>
+    <Frame name="cranky_hd__jaw_28.png" offset="3.512219 -2.625360"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="4"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="23"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_hd__jaw_27.png" offset="1.005321 -6.838742" repeat="1"/>
+    <Frame name="cranky_hd__jaw_28.png" offset="3.512219 -2.625360" repeat="1"/>
+    <Frame name="cranky_hd__jaw_24.png" offset="2.218749 -4.908142"/>
+    <Frame name="cranky_hd__jaw_23.png" offset="-2.641368 -5.349971" repeat="1"/>
+  </Animation>
+  <Animation name="30_ohno" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_32.png" offset="-3.534631 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_32.png" offset="-3.534631 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_32.png" offset="-3.534631 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_31.png" offset="-2.868686 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_30.png" offset="-1.767315 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_hd__jaw_29.png" offset="-0.659542 0.000000"/>
+  </Animation>
+  <Animation name="29-Layer 5" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="4"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="1"/>
+    <Frame name="cranky_hd__jaw_18.png" offset="7.690383 -15.265507" repeat="17"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286" repeat="1"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="9"/>
+  </Animation>
+  <Animation name="23-shakehead2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="5"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="2"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_33.png" offset="5.804606 0.163285" repeat="15"/>
+    <Frame name="cranky_hd__jaw_6.png" offset="0.192099 -4.799286"/>
+    <Frame name="cranky_hd__jaw_0.png" offset="0.000000 0.000000" repeat="8"/>
+  </Animation>
+</Sprite>

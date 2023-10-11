@@ -1,0 +1,50 @@
+<AnimationList>
+ 	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="Idle" probability="8"/>
+			<NextAnimationGroup name="IdleVariation" probability="5" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+	</Groups>
+  <Animations>
+    <Animation name="idle_breath" armatureName="idle01_breath">
+    	<Groups>
+			<Group name="Idle" />
+		</Groups>
+      <Events>
+        <Event type="marker" time="0">
+          <PropAction propName="idle01_breath_Keys" visible="1" relativeLayer="2"/>
+          <PropAction propName="idle01_breath_Keys" animationName="idle" playbackMode="single frame"/>
+          <PropAction propName="idle01_breath_KeyBoard" visible="1" relativeLayer="1"/>
+          <PropAction propName="idle01_breath_KeyBoard" animationName="Isolation Mode" playbackMode="loop"/>
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="idle_play" armatureName="idle02_play_a">
+    	<Groups>
+			<Group name="IdleVariation" />
+		</Groups>
+      <Events>
+        <Event type="marker" time="0">
+          <PropAction propName="idle02_play_a_Keys" visible="1" relativeLayer="2"/>
+          <PropAction propName="idle02_play_a_Keys" animationName="keys_a" playOffset="0.041666666666666664"/>
+          <PropAction propName="idle02_play_a_KeyBoard" visible="1" relativeLayer="1"/>
+          <PropAction propName="idle02_play_a_KeyBoard" animationName="Isolation Mode" playbackMode="loop"/>
+        </Event>
+        <Event type="marker" time="3.2916666666666665">
+          <PropAction propName="idle02_play_a_Keys" animationName="idle" playbackMode="single frame"/>
+        </Event>
+      </Events>
+    </Animation>
+  </Animations>
+  <Props>
+    <Prop name="idle01_breath_Keys" sprite="/Sprites/allie_level_level_keyboard_keys.sprite" relativePos="38.12897081375121 -2.939206981658927" relativeScale="1 1" relativeLayer="2" type="skeleton|scene" visible="0"/>
+    <Prop name="idle01_breath_KeyBoard" sprite="/Sprites/allie_level_level_keyboard.sprite" relativePos="40.09334354400636 -11.395560932159427" relativeScale="1 1" relativeLayer="1" type="skeleton|scene" visible="0"/>
+    <Prop name="idle02_play_a_Keys" sprite="/Sprites/allie_level_level_keyboard_keys.sprite" relativePos="38.12897081375121 -2.939206981658927" relativeScale="1 1" relativeLayer="2" type="skeleton|scene" visible="0"/>
+    <Prop name="idle02_play_a_KeyBoard" sprite="/Sprites/allie_level_level_keyboard.sprite" relativePos="40.09334354400636 -11.395560932159427" relativeScale="1 1" relativeLayer="1" type="skeleton|scene" visible="0"/>
+  </Props>
+  <Emitters/>
+</AnimationList>

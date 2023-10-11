@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="move" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_bottom_0.png" offset="-3.816000000000001 7.091999999999996"/>
+    <Frame name="mystery_box_bottom_0.png" offset="-12.12 7.091999999999996"/>
+    <Frame name="mystery_box_bottom_0.png" offset="-18.552 7.091999999999996"/>
+    <Frame name="mystery_box_bottom_0.png" offset="-23.16 7.091999999999996"/>
+    <Frame name="mystery_box_bottom_0.png" offset="-25.944 7.091999999999996"/>
+    <Frame name="mystery_box_bottom_0.png" offset="-26.856 7.091999999999996"/>
+  </Animation>
+  <Animation name="opened" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_bottom_0.png" offset="-3.816000000000001 7.091999999999996"/>
+  </Animation>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_bottom_1.png" offset="0 0.4439999999999986"/>
+    <Frame name="mystery_box_bottom_2.png" offset="0 4.031999999999996"/>
+    <Frame name="mystery_box_bottom_3.png" offset="0 7.571999999999996"/>
+    <Frame name="mystery_box_bottom_4.png" offset="-1.26 7.38"/>
+    <Frame name="mystery_box_bottom_5.png" offset="-5.831999999999999 7.5"/>
+    <Frame name="mystery_box_bottom_6.png" offset="-4.3439999999999985 7.091999999999996"/>
+  </Animation>
+  <Animation name="CLOSED" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_box_bottom_7.png" offset="0 0"/>
+  </Animation>
+</Sprite>

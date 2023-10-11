@@ -1,0 +1,817 @@
+<?xml version="1.0"?>
+<AnimationList>
+
+	<!-- Scene Names -->
+	<Scenes>
+		<Scene name="GeneralLevel" />
+		<Scene name="LevelResults" />
+		<Scene name="BelowSwampy" />
+        <Scene name="MainMenu" />
+	</Scenes>
+	
+	<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="Idle" probability="10"/>
+			<NextAnimationGroup name="IdleVariation" probability="5" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Touch" >						<!-- 4 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Win" />						<!-- 8 -->
+		<group name="WinChew" />					<!-- 32 -->
+		<Group name="LoseSludge" />					<!-- 64 -->
+		<Group name="LoseWater" />					<!-- 128 -->
+		<Group name="LoseNoMoreFluid" >				<!-- 256 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="BombStart" >					<!-- 512 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="BombExplodes" >				<!-- 1024 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Miscellaneous" />				<!-- 2048 -->
+        <Group name="TouchMoss">                    <!-- 4096 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+        <Group name="TouchPipe">                    <!-- 8192 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+            
+	</Groups>
+
+	<!-- Animations  -->
+	<Animations>
+		<Animation name="IdleBreatheDeep" armatureName="idle_primary">
+			<Groups>
+				<Group name="Idle" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleBreathe4thWall" armatureName="idle_primary_4th_wall">
+			<Groups>
+				<Group name="Idle" />
+			</Groups>
+		</Animation>
+				
+		<Animation name="IdleHeadturn" armatureName="idle_headturn">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>						
+			<Groups>
+				<Group name="IdleVariation" />
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0333" >
+					<SoundAction sound="3304" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleLickChops" armatureName="idle_licks_chops">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.13333" >
+					<SoundAction sound="3308" />
+				</Event>
+			</Events>
+			<!--<Events>
+				<Event type="marker" time="1.2333333" >
+					<AnimationAction animation="IdleLickChopsCycle" loops="1" isSpecific="1" crossFade="1" />
+				</Event>
+			</Events>-->
+		</Animation>
+		
+		<!--<Animation name="IdleLickChopsCycle" armatureName="idle_licks_chops_cycle">
+			<Events>
+				<Event type="finished">
+					<AnimationAction animation="IdleLickChops" isSpecific="1" playOffset="1.266677" crossFade="1" />
+				</Event>
+			</Events>
+		</Animation>-->
+		
+		<!--<Animation name="IdleFrustratedMild" armatureName="idle_frustrated_mild">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleFrustratedLow" armatureName="idle_frustrated_low">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleFrustratedMedium" armatureName="idle_frustrated_medium">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+		</Animation>-->
+		
+		<Animation name="IdleFrustratedStrong" armatureName="idle_frustrated_strong_EXTENDED">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.66667" >
+					<SoundAction sound="3301" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleFoldArms" armatureName="idle_fold_arms">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.233333" >
+					<SoundAction sound="3309" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleHungry" armatureName="idle_hungry">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.1" >
+					<SoundAction sound="3305" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseJumpWater" armatureName="idle_test_food">
+			<Groups>
+				<Group name="LoseWater" />
+			</Groups>
+			<Events>
+				<Event type="began"  >
+					<SoundAction sound="3310" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.366667" >
+					<SoundAction sound="3310" soundSpecific="1" />
+				</Event>
+				 <Event type="marker" time="1.36666667" >
+					 <AnimationAction animation="LoseJumpWaterCycle" loops="-1" isSpecific="1" crossFade="0" />
+				 </Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="LoseJumpWaterCycle" armatureName="idle_test_food_cycle" />
+		
+		<Animation name="IdleFallingAsleep" armatureName="idle_falling_asleep">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time=".2"  >
+					<SoundAction sound="3311" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="1.0" >
+					<SoundAction sound="3311" soundSpecific="1" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleYawn" armatureName="idle_yawning">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.06667" >
+					<SoundAction sound="3307" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="IdleJumpLow" armatureName="idle_jump_low">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="BelowSwampy" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time=".1" >
+					<SoundAction sound="3306" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<!--<Animation name="IdleGnawPipe" armatureName="idle_gnaw_pipe" >
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+		</Animation>
+		
+		<Animation name="IdleGnawPipeCycle" armatureName="idle_gnaw_pipe_cycle" />-->
+			
+		<Animation name="IdleCan" armatureName="idle_can">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.1" >
+					<SoundAction sound="3304" />
+				</Event>
+			</Events>
+		</Animation> 
+		
+		<Animation name="TouchChuckle" armatureName="tap_chuckle">
+			<Groups>
+				<Group name="Touch" />
+				<Group name="BombExplodes" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.166667" >
+					<SoundAction sound="3300" />
+				</Event>
+			</Events>
+		</Animation>
+
+		<Animation name="TouchChuckleCycle" armatureName="tap_chuckle_cycle" />
+		
+		<Animation name="TouchSwat" armatureName="tap_swats">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.1" >
+					<SoundAction sound="3306" />
+				</Event>
+				<Event type="marker" time="0.3" >
+					<SoundAction sound="3312" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="TouchSwatAway" armatureName="tap_swat_away">
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.1" >
+					<SoundAction sound="3306" />
+				</Event>
+				<Event type="marker" time="0.23333" >
+					<SoundAction sound="3312" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinEatFood" armatureName="win_eat">
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>	
+				<Event type="marker" time="0.43333" >
+					<SoundAction sound="3313" />
+				</Event>
+				<Event type="marker" time=".5" />
+				<Event type="finished" >
+					<AnimationAction animation="WinChew" isSpecific="0" crossFade="1"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinAfterChew" armatureName="win_eat_chew">
+			<Groups>
+				<Group name="WinChew" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.3" >
+					<SoundAction sound="3314" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.43333" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+				<Event type="marker" time="0.53333" >
+					<SoundAction sound="3314" soundSpecific="1" />
+				</Event>
+				<Event type="marker" time="0.8" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+				<Event type="marker" time=".9" >
+					<AnimationAction animation="WinAfterChewCycle" loops="-1" isSpecific="1" crossFade="0" />
+				</Event>
+			</Events>
+		</Animation>
+
+		<Animation name="WinAfterChewCycle" armatureName="win_eat_chew_cycle" >
+			<Events>	
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3314" />
+				</Event>
+				<Event type="marker" time="0.26667" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinAfterEatVigorous" armatureName="win_eat_vigorous">
+			<Groups>
+				<Group name="WinChew" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.4" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3315" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.86667" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+				<Event type="marker" time="0.93333" >
+					<SoundAction sound="3315" soundSpecific="1" />
+				</Event>
+				<Event type="marker" time="1.03333" >
+					<AnimationAction animation="WinAfterEatVigorousCycle" loops="-1" isSpecific="1" crossFade="0" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinAfterEatVigorousCycle" armatureName="win_eat_vigorous_cycle" >
+			<Events>
+				<Event type="marker" time="0.3" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="20" />
+				</Event>
+				<Event type="marker" time=".36667" >
+					<SoundAction sound="3315" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<Animation name="WinAfterSwallow" armatureName="win_eat_swallow_taps_belly">
+			<Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="WinChew" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.1" >
+					<SoundAction sound="3316" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.46667" >
+					<SoundAction sound="3316" soundSpecific="1" />
+				</Event>
+				<Event type="finished" >
+					<AnimationAction animation="WinAfterFeetStompFeet" loops="-1" isSpecific="1" crossFade="0"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		<!--<Animation name="WinAfterStompFeetOnce" armatureName="win_tap_foot">
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+		</Animation>-->
+			
+		<Animation name="WinAfterStompFeet" armatureName="win_tap_foot_both">
+			<!--<Groups>
+				<Group name="Win" />
+			</Groups>-->
+		</Animation>
+		
+		<Animation name="WinAfterStompFeetCycle" armatureName="win_tap_foot_both_cycle" />
+			
+		<Animation name="LoseHeadGrab" armatureName="fail_oh_no_EXTENDED">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3303" soundSpecific="0" />
+					<SoundAction sound="3303" soundSpecific="1" />
+				</Event>
+			</Events>
+		</Animation>
+		
+		<!--<Animation name="LoseFailKick" armatureName="fail_kicks">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+		</Animation> -->
+			
+		<Animation name="LoseMultipleKicks" armatureName="fail_kicks_with_3">
+			<Groups>
+				<Group name="LoseSludge" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.43333" >
+					<SoundAction sound="3306" />
+				</Event>
+				<Event type="marker" time="1.1" >
+					<SoundAction sound="3317" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="1.56667" >
+					<SoundAction sound="3317" soundSpecific="1" />
+				</Event>
+				<Event type="marker" time="2.03333" >
+					<SoundAction sound="3317" soundSpecific="2" />
+				</Event>
+			</Events>				
+		</Animation>
+		
+		<Animation name="LoseMultipleKicksCycle" armatureName="fail_kicks_with_3_cycle" />
+		
+		<!--<Animation name="LoseYells" armatureName="fail_weep_yells">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+		</Animation>-->
+		
+		<Animation name="LoseYellsStagger" armatureName="fail_weep_yells_stagger_EXTENDED">
+			<Groups>
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.233333" >
+					<SoundAction sound="3319" />
+				</Event>
+			</Events>
+		</Animation>
+			
+		<Animation name="LoseSurprised" armatureName="fail__EXTENDED">
+			<Groups>
+				<Group name="LoseWater" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.3" >
+					<SoundAction sound="3302" />
+				</Event>
+			</Events>
+		</Animation>
+        
+        <Animation name="HubIdlePrimary" armatureName="hub_idle_primary">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="Idle" />
+            </Groups>
+        </Animation>
+        
+        <Animation name="HubIdleHeadTurn" armatureName="hub_idle_headturn">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="IdleVariation" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3321"/>
+                    <SoundAction sound="3320"/>
+                </Event>
+                <Event type="marker" time="1.4666666666666666">
+                    <SoundAction sound="3322"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleButtonPoint" armatureName="hub_idle_buttonpoint">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="IdleVariation" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0.2">
+                    <SoundAction sound="3323"/>
+                </Event>
+                <Event type="marker" time="1.4333333333333333">
+                    <SoundAction sound="3324"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleAngry" armatureName="hub_idle_angry">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="IdleVariation" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3325"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleLowJump" armatureName="hub_idle_lowjump">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="IdleVariation" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0.1">
+                    <SoundAction sound="3326"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapMoss" armatureName="hub_tap_moss_yell">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="TouchMoss" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_tap_moss_moss" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_moss_moss" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss2" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="idle" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.03333333333333333">
+                    <PropAction propName="hub_tap_moss_moss" animationName="moss_bottom_scare"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="moss_mouth_scare"/>
+                </Event>
+                <Event type="marker" time="0.3">
+                    <SoundAction sound="3327"/>
+                </Event>
+                <Event type="marker" time="1.6333333333333333">
+                    <SoundAction sound="3328"/>
+                </Event>
+                <Event type="marker" time="2.8">
+                    <SoundAction sound="3329"/>
+                </Event>
+                <Event type="marker" time="3.533333333333333">
+                    <PropAction propName="hub_tap_moss_moss" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="idle"/>
+                </Event>
+                <Event type="marker" time="5">
+                    <SoundAction sound="3330"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="" armatureName="hub_tap_moss_move">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="TouchMoss" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_tap_moss_moss_moss" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_moss_moss_moss" animationName="moss_bottom_tap"/>
+                    <PropAction propName="hub_tap_moss_moss_moss2" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_moss_moss_moss2" animationName="moss_mouth_tap"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapPipeBreak" armatureName="hub_tap_pipebreak">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="Touch" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_tap_pipebreak_pipe" visible="1" relativeLayer="5"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe" animationName="pipe_idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss" visible="1" relativeLayer="4"/>
+                    <PropAction propName="hub_tap_moss_moss" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss2" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="idle" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.26666666666666666">
+                    <SoundAction sound="3331"/>
+                </Event>
+                <Event type="marker" time="0.9333333333333333">
+                    <SoundAction sound="3332"/>
+                </Event>
+                <Event type="marker" time="1.7333333333333334">
+                    <SoundAction sound="3333"/>
+                </Event>
+                <Event type="marker" time="2.1666666666666665">
+                    <PropAction propName="hub_tap_moss_moss" animationName="moss_bottom_eat"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="moss_mouth_scare" playOffset="3.466666666666667"/>
+                </Event>
+                <Event type="marker" time="2.3333333333333335">
+                    <SoundAction sound="3334"/>
+                </Event>
+                <Event type="marker" time="2.5">
+                    <PropAction propName="hub_tap_pipebreak_pipe2" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe2" animationName="pipe_eating" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="3.5">
+                    <PropAction propName="hub_tap_pipebreak_pipe2" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapBurp" armatureName="hub_tap_burp">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="Touch" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3335"/>
+                </Event>
+                <Event type="marker" time="0.8333333333333334">
+                    <SoundAction sound="3336"/>
+                </Event>
+                <Event type="marker" time="1.4">
+                    <SoundAction sound="3337"/>
+                </Event>
+                <Event type="marker" time="1.7666666666666666">
+                    <SoundAction sound="3338"/>
+                </Event>
+                <Event type="marker" time="1.9">
+                    <PropAction propName="hub_tap_burp_debris" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_tap_burp_debris" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="2.1333333333333333">
+                    <PropAction propName="hub_tap_burp_debris" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapScratch" armatureName="hub_tap_scratch">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="Touch" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0.36666666666666664">
+                    <SoundAction sound="3340"/>
+                    <SoundAction sound="3339"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe" animationName="pipe_idle" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.9666666666666667">
+                    <SoundAction sound="3341"/>
+                    <PropAction propName="hub_tap_scratch_flies" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_scratch_flies" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="1.2">
+                    <PropAction propName="hub_tap_scratch_flies" visible="0"/>
+                </Event>
+                <Event type="marker" time="1.2666666666666666">
+                    <SoundAction sound="3341"/>
+                </Event>
+                <Event type="marker" time="1.3">
+                    <PropAction propName="hub_tap_scratch_flies" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_scratch_flies" animationName="flies" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="1.4">
+                    <SoundAction sound="3341"/>
+                    <PropAction propName="hub_tap_scratch_flies" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_scratch_flies" animationName="flies" playbackMode="loop" playOffset="0.1"/>
+                </Event>
+                <Event type="marker" time="1.5333333333333334">
+                    <PropAction propName="hub_tap_scratch_flies" visible="0"/>
+                </Event>
+                <Event type="marker" time="1.7">
+                    <PropAction propName="hub_tap_scratch_flies" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapChuckle" armatureName="hub_tap_chuckle">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="Touch" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3342"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapPipeDrip" armatureName="hub_tap_pipe_drip">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="TouchPipe" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_tap_pipebreak_pipe" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe" animationName="pipe_idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_moss_moss" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss2" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="idle" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.06666666666666667">
+                    <SoundAction sound="3343"/>
+                </Event>
+                <Event type="marker" time="0.2">
+                    <PropAction propName="hub_tap_pipe_drip_drop" visible="1" relativeLayer="4"/>
+                    <PropAction propName="hub_tap_pipe_drip_drop" animationName="drop" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.23333333333333334">
+                    <PropAction propName="hub_tap_pipe_drip_drop" animationName="drip" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.36666666666666664">
+                    <PropAction propName="hub_tap_pipebreak_pipe" animationName="pipe_drop" playbackMode="single frame" playOffset="0.16666666666666666"/>
+                </Event>
+                <Event type="marker" time="0.4">
+                    <PropAction propName="hub_tap_moss_moss" animationName="moss_bottom_scare" playOffset="1.8"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="moss_mouth_scare" playOffset="1.8"/>
+                </Event>
+                <Event type="marker" time="0.6">
+                    <PropAction propName="hub_tap_pipe_drip_drop" visible="0"/>
+                </Event>
+                <Event type="marker" time="1.8666666666666667">
+                    <PropAction propName="hub_tap_moss_moss" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_tap_moss_moss2" animationName="idle" playbackMode="single frame"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapPipeBubble" armatureName="hub_tap_pipe_bubble">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+                <Group name="TouchPipe" />
+            </Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_tap_pipebreak_pipe" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_tap_pipebreak_pipe" animationName="pipe_tap2"/>
+                </Event>
+                <Event type="marker" time="0.8333333333333334">
+                    <PropAction propName="hub_tap_pipe_bubble_bubble" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_pipe_bubble_bubble" animationName="bubbleburst" playbackMode="single frame"/>
+                    <SoundAction sound="3344" />
+                </Event>
+                <Event type="marker" time="1.5666666666666667">
+                    <PropAction propName="hub_tap_pipe_bubble_bubble" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+	</Animations>
+	
+    <Props>
+        <Prop name="hub_tap_moss_moss2" sprite="/Sprites/crankyNew_mossguy.sprite" relativePos="84.19811129760744 2.283190032958999" relativeScale="1 1" relativeLayer="1" visible="1" type="skeleton|scene" scenes="MainMenu" startAnimation="idle"/>
+        <Prop name="hub_tap_moss_moss" sprite="/Sprites/crankyNew_mossguytop.sprite" relativePos="81.70225051879882 -3.162980163574204" relativeScale="1 1" relativeLayer="2" visible="1" type="skeleton|scene" scenes="MainMenu" startAnimation="idle"/>
+        <Prop name="hub_tap_pipebreak_pipe" sprite="/Sprites/crankyNew_spout_01.sprite" relativePos="60.86112499999999 115.50337499999998" relativeScale="1 1" relativeLayer="5" visible="1" type="skeleton|scene" scenes="MainMenu" startAnimation="idle" />
+        <Prop name="hub_tap_pipebreak_pipe2" sprite="/Sprites/crankyNew_pipe_new.sprite" relativePos="13.523499999999995 31.572750000000003" relativeScale="1 1" relativeLayer="3" visible="0" type="skeleton" />
+        <Prop name="hub_tap_burp_debris" sprite="/Sprites/crankyNew_burp.sprite" relativePos="4.563506143569956 93.1004859676361" relativeScale="1 1" relativeLayer="-1" type="skeleton" visible="0"/>
+        <Prop name="hub_tap_scratch_flies" sprite="/Sprites/crankyNew_fly.sprite" relativePos="0 100" relativeScale="1 1" relativeLayer="3" type="skeleton" visible="0"/>
+        <Prop name="hub_tap_pipe_bubble_bubble" sprite="/Sprites/crankyNew_bubble_animation.sprite" relativePos="42.70974999999999 89.92375" relativeScale="1 1" relativeLayer="1" type="skeleton" visible="0"/>
+        <Prop name="hub_tap_pipe_drip_drop" sprite="/Sprites/crankyNew_drip.sprite" relativePos="58.345625 87.55875" relativeScale="1 1" relativeLayer="4" type="skeleton" visible="0"/>
+    </Props>
+	<Emitters>
+		<Emitter path="/Emitters/CrankyChewing.emitter" baseNode="ikBoneName80" >
+			<EmitterZone position="30 5" radius="5" />
+		</Emitter>
+	</Emitters>
+</AnimationList>

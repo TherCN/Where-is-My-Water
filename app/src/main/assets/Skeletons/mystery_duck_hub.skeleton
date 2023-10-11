@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Skeleton name="mystery_duck_hub" animations="/Animations/mystery_duck_hub.ani" curveCollection="/Curves/mystery_duck_hub.bin">
+  <Bone name="ikBoneName29" localPos="0.293906 -0.589629" localAngleRad="0.000000">
+    <Sprite localLayer="1" name="ikNode_29" relativePath="/Sprites/mystery_duck_hub_hub_duck.sprite" localScale="1.000000 -1.000000" localPos="-3.535414 52.089005"/>
+    <Bone name="ikBoneName30" localPos="-33.725895 49.837627" localAngleRad="0.000000">
+      <Sprite localLayer="4" name="ikNode_30" relativePath="/Sprites/mystery_duck_hub_hub_bowtie.sprite" localScale="1.000000 -1.000000" localPos="2.100000 1.050000"/>
+      <Bone name="ikBoneName31" localPos="10.575836 -2.845921" localAngleRad="0.081626">
+        <Sprite localLayer="3" name="ikNode_31" relativePath="/Sprites/mystery_duck_hub_hub_scarf.sprite" localScale="1.000000 -1.000000" localPos="24.657509 -3.130639"/>
+        <Bone name="ikBoneName32" localPos="48.381424 0.978884" localAngleRad="-0.000167"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName33" localPos="-51.905895 55.849628" localAngleRad="0.000000">
+      <Sprite localLayer="0" name="ikNode_33" relativePath="/Sprites/mystery_duck_hub_hub_extra02.sprite" localScale="1.000000 -1.000000" localPos="37.679996 25.349998"/>
+    </Bone>
+    <Bone name="ikBoneName34" localPos="-42.005894 125.449623" localAngleRad="0.000000">
+      <Sprite localLayer="6" name="ikNode_34" relativePath="/Sprites/mystery_duck_hub_hub_extra03.sprite" localScale="1.000000 -1.000000" localPos="44.070000 -16.799999"/>
+    </Bone>
+    <Bone name="ikBoneName35" localPos="40.566101 98.497627" localAngleRad="0.000000">
+      <Sprite localLayer="7" name="ikNode_35" relativePath="/Sprites/mystery_duck_hub_hub_extra04.sprite" localScale="1.000000 -1.000000" localPos="-1.260000 -0.540000"/>
+    </Bone>
+    <Bone name="ikBoneName36" localPos="44.646099 84.337631" localAngleRad="0.000000">
+      <Sprite localLayer="5" name="ikNode_36" relativePath="/Sprites/mystery_duck_hub_hub_extra05.sprite" localScale="1.000000 -1.000000" localPos="-0.780000 0.300000"/>
+    </Bone>
+  </Bone>
+</Skeleton>

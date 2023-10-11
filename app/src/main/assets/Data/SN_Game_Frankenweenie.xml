@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Game.xml">
+    
+	<!-- "MENU" button -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Frankenweenie_UI_button_pause_square.png" />
+	
+    <!-- "RETRY" button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Frankenweenie_UI_refresh_button.png" />
+    
+    <!-- ducks -->
+    <Widget type="WT_LABEL" id="600" priority="0" layer="1" pos="0.09 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="Ducks2_frankenweenie__empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="601" priority="0" layer="1" pos="0.18 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="Ducks2_frankenweenie__empty_hud.png" aspectBasis="height" />
+	<Widget type="WT_LABEL" id="602" priority="0" layer="1" pos="0.27 0.0425" size="0 0.046875" forceAspect="1.15556" texBGName="Ducks2_frankenweenie__empty_hud.png" aspectBasis="height" />
+    
+    <Widget type="WT_SLIDER" id="6" priority="0" layer="0" pos=".0525 .55" size="1.2 0.12" texBGName="slider_bg.png" texHandleName="Frankenweenie_UI_slider_handle.png" handleSize="0.1 0" forceHandleAspect="1" handleAngle="90" minSlideVal="0" maxSlideVal="1" slideStep="0.0001" />
+    
+    <!-- Frankenweenie banner -->
+    <Widget type="WT_LABEL" id ="700" layer="1" pos=".5 .85" size="0.4 0" forceAspect="466:272" texBGName="Frankenweenie_UI_sponser_banner.png" visible="false" />
+</Widgets>

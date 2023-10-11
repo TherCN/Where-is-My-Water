@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Resume			0
+ WN_LevelSelect		1
+ WN_MainMenu		2
+ WN_SkipLevel		3
+ 
+ WN_LevelName		4
+ WN_ChallengeDetails	5
+ 
+ WN_Shade			6
+ -->
+<Widgets texturePath="/Textures/">
+	
+    
+	<Widget type="WT_LABEL" layer="0" pos="0.5 0.5" size="1.0 1.0" texBGName="transparent_black.webp" />
+    
+    
+    <Widget type="WT_LABEL" id="210" layer="1" justifyWidget="1.0 0.0" size="0 0.85" forceAspect="100:720" aspectBasis="height" texBGName="pause_menu_background_white.webp" bgBlendColorRGBA="180 180 180 180"/>
+    
+    <Widget type="WT_LABEL" id="211" layer="1" justifyWidget="1.0 0.0" size="0 0.695" forceAspect="256:1508" aspectBasis="height" texBGName="pause_menu_background_white_med.webp" bgBlendColorRGBA="180 180 180 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="212" layer="1" justifyWidget="1.0 0.0" size="0 0.529" forceAspect="256:1148" aspectBasis="height" texBGName="pause_menu_background_white_sml.webp" bgBlendColorRGBA="180 180 180 180" visible="false"/>
+    
+    <!-- Pause Menu Backgrounds -->
+    <Widget type="WT_LABEL" id="200" layer="1" justifyWidget="1.0 0.0" size="0 0.85" forceAspect="100:720" aspectBasis="height" texBGName="pause_menu_background.webp" bgBlendColorRGBA="48 126 140 180"/>
+    
+    <Widget type="WT_LABEL" id="201" layer="1" justifyWidget="1.0 0.0" size="0 0.695" forceAspect="256:1508" aspectBasis="height" texBGName="pause_menu_background_med.webp" bgBlendColorRGBA="48 126 140 180" visible="false"/>
+    
+    <Widget type="WT_LABEL" id="202" layer="1" justifyWidget="1.0 0.0" size="0 0.529" forceAspect="256:1148" aspectBasis="height" texBGName="pause_menu_background_sml.webp" bgBlendColorRGBA="48 126 140 180" visible="false"/>
+    
+    <!-- Resume -->
+    <Widget type="WT_PUSH_BUTTON" id="0" layer="2" posByParentSize="0.55 0.18" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_play.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="2" layer="2" posByParentSize="0.55 0.6" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_main_menu.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="2" posByParentSize="0.55 0.74" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_level.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="3" layer="2" posByParentSize="0.55 0.88" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_skip.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="40" layer="2" posByParentSize="0.55 0.32" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_sound.png" texOffName="owall_button_sound_hit.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="41" layer="2" posByParentSize="0.55 0.46" size="0.14 0.09" aspectBasis="height" parent="200" forceAspect="1:1" texNormalName="owall_button_music.png" texOffName="owall_button_music_hit.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    
+	
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+    
+    <!-- Level name -->
+	<Widget type="WT_LABEL" id="4" layer="2" parent="200" pos="0 0" posByParentSize="0.55 0.08" size="0.1 0.08" text="MAP 1-1" textColorRGB="0 64 94" textPadding=".2" paddingH=".05" />
+
+	
+	
+	<!-- challenge details -->
+	<Widget type="WT_LABEL" id="5" layer="2" pos=".5 .075" size="0.975 0.15" text="CHALLENGE" textColorRGB="255 255 255" textPadding=".2" paddingH=".05" visible="false" />
+	
+	<!-- DEBUG: Language Changing button -->
+	<Widget type="WT_PUSH_BUTTON" id="30" pos="0.5 0.9" layer="1" size="0.5 0.1" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="LANGUAGE_NAME" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+    
+    <Widget type="WT_LABEL" id="100" layer="0" pos="0.5 0.9" size="1.0 0.35" forceAspect="320:110" aspectBasis="width" texBGName="iap_pause_footer.png" />
+
+	
+</Widgets>

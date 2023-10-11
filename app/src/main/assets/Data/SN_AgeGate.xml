@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_SOUNDS			0
+ WN_CREDITS			1
+ 
+ WN_BACK			3
+ -->
+<Widgets texturePath="/Textures/"> 
+	
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.5" size="12.0 1.4" numTiles="30 0" tileForceAspect="1" texBGName="WMW_UI_brick.webp"  />
+	<Widget type="WT_LABEL" id="1" layer="1" pos="0.5 0.5" size="1 1" texBGName="WMW_UI_light.webp" visible="true" bgBlendColorRGBA="255 255 255 160"/>
+     
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="2" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.webp" texHilightName="back_button_highlight.webp" reactOnDown="false" />
+
+    
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="24" layer="2" pos=".5 .13" size="0.7 0.075" text="VERIFY_AGE" textColorRGB="34 124 158" font="outlined"/>
+	<Widget type="WT_LABEL" id="25" layer="2" pos=".5 .35" size="0.72 0.36" text="VERIFY_AGE_BODY" textColorRGB="255 255 255" halign="center" valign="top"/>
+    
+	<!-- number label -->
+	<Widget type="WT_LABEL" id="22" layer="2" pos="0.5 0.26" size="0.4 0.07" font="outlined" textNT="" visible="false"/>
+    
+    <!-- widget for slider placement -->
+    <!-- 
+	<Widget type="WT_LABEL" id="220" layer="2" pos="0.5 0.54" size="0 0.5" forceAspect="1:2" aspectBasis="height"/>
+    -->
+
+    <!-- age number -->
+	<Widget type="WT_LABEL" id="220" layer="2" 
+        pos="0.5 0.3" size="0.72 0.25" aspectBasis="height"
+        text="VERIFY_AGE" textColorRGB="34 124 158" font="outlined"
+    />
+
+    <!-- numpad -->
+    <Widget type="WT_PUSH_BUTTON" id="301" layer="2" pos="0.25 0.40" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="302" layer="2" pos="0.5 0.40" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="303" layer="2" pos="0.75 0.40" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+
+    <Widget type="WT_PUSH_BUTTON" id="304" layer="2" pos="0.25 0.5" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="305" layer="2" pos="0.5 0.5" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="306" layer="2" pos="0.75 0.5" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="307" layer="2" pos="0.25 0.6" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="308" layer="2" pos="0.5 0.6" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="309" layer="2" pos="0.75 0.6" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="300" layer="2" pos="0.5 0.7" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="button.png" texHilightName="button_highlight.png" 
+        text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" 
+        edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+
+    <Widget type="WT_PUSH_BUTTON" id="400" layer="2" pos="0.25 0.7" 
+        size="0.1 0.1" forceAspect="44:44" aspectBasis="height" 
+        texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false"  />
+
+	<!-- Next button  -->
+    <Widget type="WT_PUSH_BUTTON" id="23" layer="2" pos="0.5 0.86" size="0.0 0.1" forceAspect="128:44" aspectBasis="height" texNormalName="button.png" texHilightName="button_highlight.png" text="CONTINUE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+</Widgets>

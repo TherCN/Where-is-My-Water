@@ -1,0 +1,830 @@
+<AnimationList>
+	
+    <!-- Scene Names -->
+	<Scenes>
+		<Scene name="MainMenu" />
+		<Scene name="GeneralLevel" />
+		<Scene name="FirstLevel" />
+		<Scene name="LevelResults" />
+	</Scenes>
+    
+    <!-- Animation Group names -->
+	<Groups>
+        <Group name="NONE" />                       <!-- 0 -->
+		<Group name="Idle" >                        <!-- 1 -->
+			<NextAnimationGroup name="IdleVariation" />
+		</Group>
+		<Group name="IdleVariation" >               <!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+        <Group name="HubIdle" >                     <!-- 3 -->
+            <NextAnimationGroup name="HubIdleVariation" />
+        </Group>
+        <Group name="HubIdleVariation" >            <!-- 4 -->
+            <NextAnimationGroup name="HubIdle" />
+        </Group>
+        <Group name="Touch" >
+            <NextAnimationGroup name="Idle" />
+        </Group>
+        <Group name="HubTouch">                     <!-- 6 -->
+            <NextAnimationGroup name="HubIdle" />
+        </Group>
+		<Group name="Win" />						<!-- 8 -->
+		<Group name="LoseSludge" />					<!-- 16 -->
+		<Group name="LoseContaminatedWater" />		<!-- 32 -->
+		<Group name="LoseNoMoreFluid" />			<!-- 64 -->
+		<Group name="BombStart" />					<!-- 128 -->
+		<Group name="BombExplodes" >				<!-- 256 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Miscellaneous" />				<!-- 512 -->
+        <Group name="ShowerTap" >
+            <NextAnimationGroup name="HubIdle" />
+        </Group>
+	</Groups>
+    
+    <!-- Animations  -->
+    <Animations>
+        
+        <Animation name="IdleBreathe" armatureName="001_brth">
+            <Groups>
+				<Group name="Idle" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="8.0" >
+					<AnimationAction animation="IdleVariation"/>
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleHeadturn" armatureName="002_hdtrn">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3015" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleBangPipes" armatureName="003_pipe">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3016" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="1.566667" >
+					<SoundAction sound="3016" soundSpecific="1" />
+				</Event>
+				<Event type="marker" time="1.833333" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.266667"  >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.666667" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="3.1" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleSleep" armatureName="004_slp">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3023" />
+				</Event>
+				<Event type="marker" time=".53333" >
+					<EmitterAction emitterIndex="1" active="1" numParticles="4" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleYawn" armatureName="005_ywn">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3000" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleTurnNob" armatureName="006_nob">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3026" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3026" soundSpecific="1" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleSad" armatureName="008_sad">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+				<Group name="LoseNoMoreFluid" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3019" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleDance" armatureName="009_dnc">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3009" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleGnaw" armatureName="401_gnaw">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3013" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.466667" >
+					<SoundAction sound="3013" soundSpecific="1" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleEvil" armatureName="403_evil">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3003" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="IdleJugglingDuckies" armatureName="202_jgl">
+            <Groups>
+				<Group name="IdleVariation" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.2">
+                    <PropAction propName="202_jgl_ball1" visible="1" relativeLayer="1"/>
+                    <PropAction propName="202_jgl_ball1" animationName="ball1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.43333333333333335">
+                    <PropAction propName="202_jgl_ball2" visible="1" relativeLayer="2"/>
+                    <PropAction propName="202_jgl_ball2" animationName="ball1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="1.8333333333333333">
+                    <PropAction propName="202_jgl_ball2" visible="0"/>
+                    <PropAction propName="202_jgl_ball1" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="TouchTickled" armatureName="101_tckl">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3025" soundSpecific="0"/>
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3025" soundSpecific="1"/>
+				</Event>
+				<Event type="marker" time="0.9" >
+					<SoundAction sound="3025" soundSpecific="1"/>
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="TouchEmbarrassed" armatureName="102_embr">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3012" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="TouchPullCurtain" armatureName="104_crtn">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Touch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3008" soundSpecific="0"/>
+				</Event>
+				<Event type="marker" time="1.13333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+				</Event>
+                <Event type="marker" time="1.1" >
+                    <PropAction propName="104_crtn_curtain" visible="1" relativeLayer="4"/>
+                    <PropAction propName="104_crtn_curtain" animationName="curtain"/>
+                </Event>
+				<Event type="marker" time="1.76667" >
+					<SoundAction sound="3008" soundSpecific="2"/>
+				</Event>
+				<Event type="marker" time="2.53333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+				</Event>
+                <Event type="marker" time="2.566666666666667">
+                    <PropAction propName="104_crtn_curtain" animationName="curtainOut" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="2.6333333333333333">
+                    <PropAction propName="104_crtn_curtain" visible="0"/>
+                </Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="WinWashing" armatureName="201_wash">
+            <Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3021" />
+				</Event>
+			</Events>
+        </Animation>
+
+        
+        <Animation name="WinDancing" armatureName="203_dnc">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.266667" >
+					<SoundAction sound="3010" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="WinSplashing" armatureName="204_splsh">
+            <Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3024" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="WinWashWithBrush" armatureName="205_brsh">
+            <Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.266667" >
+					<SoundAction sound="3002" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="WinJump" armatureName="206_jmp">
+            <Scenes>
+				<Scene name="GeneralLevel" />
+				<Scene name="FirstLevel" />
+			</Scenes>
+			<Groups>
+				<Group name="Win" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.433333" >
+					<SoundAction sound="3022" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="LoseSludgeGross" armatureName="301_grss">
+            <Groups>
+				<Group name="LoseSludge" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.2" >
+					<SoundAction sound="3018" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="LoseContaminatedWaterJumpOut" armatureName="303_jmpB">
+            <Groups>
+				<Group name="LoseContaminatedWater" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3004" />
+				</Event>
+				<Event type="finished" >
+					<AnimationAction animation="LoseContaminatedWaterJumpDown" isSpecific="1" crossFade="0"/>
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="LoseContaminatedWaterJumpDown" armatureName="303_jmpD">
+            <Events>
+				<Event type="marker" time="0.233333" >
+					<SoundAction sound="3005" />
+				</Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="BombExplodesStart" armatureName="306_bmb">
+            <Groups>
+				<Group name="BombStart" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.3">
+                    <PropAction propName="306_bmb_umbrella" visible="1" relativeLayer="1"/>
+                    <PropAction propName="306_bmb_umbrella" animationName="umbrella1" playOffset=".2666667" />
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="BombExplodesReaction" armatureName="306_bmb3">
+            <Groups>
+				<Group name="BombExplodes" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3001" />
+				</Event>
+                <Event type="marker" time="0">
+                    <PropAction propName="306_bmb3_umbrella" visible="1" relativeLayer="1"/>
+                    <PropAction propName="306_bmb3_umbrella" animationName="umbrella3"/>
+                </Event>
+                <Event type="marker" time="1.1333333333333333">
+                    <PropAction propName="306_bmb3_umbrella" visible="0"/>
+                </Event>
+			</Events>
+        </Animation>
+        
+        <Animation name="HubIdleBreathe" armatureName="hub_idle_breathe">
+            <Groups>
+				<Group name="HubIdle" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="8.0" >
+					<AnimationAction animation="HubIdleVariation"/>
+				</Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleHeadTurn" armatureName="hub_idle_head_turn_left">
+            <Groups>
+				<Group name="HubIdleVariation" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.2">
+                    <SoundAction sound="3028"/>
+                </Event>
+                <Event type="marker" time="1.2333333333333334">
+                    <SoundAction sound="3029"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleHeadTurnRight" armatureName="hub_idle_head_turn_right">
+            <Groups>
+				<Group name="HubIdleVariation" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.8">
+                    <SoundAction sound="3030"/>
+                </Event>
+                <Event type="marker" time="2.2">
+                    <SoundAction sound="3031"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdleChannelChange" armatureName="hub_idle_channel_changer">
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.5666666666666667">
+                    <SoundAction sound="3032"/>
+                </Event>
+                <Event type="marker" time="0.6">
+                    <SoundAction sound="3033"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubIdlePlayTime" armatureName="hub_idle_time_to_play">
+            <Groups>
+				<Group name="HubIdleVariation" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.4666666666666667">
+                    <SoundAction sound="3034"/>
+                </Event>
+            </Events>
+            
+        </Animation>
+        
+        <Animation name="HubIdleBangPipes" armatureName="hub_tap_hit_pipe">
+            <Groups>
+				<Group name="HubIdleVariation" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="1.7333333333333334">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerhit"/>
+                </Event>
+                <Event type="marker" time="1.9">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="2.1333333333333333">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerhit"/>
+                </Event>
+                <Event type="marker" time="2.3">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="2.566666666666667">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerhit"/>
+                </Event>
+                <Event type="marker" time="2.7333333333333334">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="2.966666666666667">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerhit"/>
+                </Event>
+                <Event type="marker" time="3.1333333333333333">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.0" >
+					<SoundAction sound="3016" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="1.566667" >
+					<SoundAction sound="3016" soundSpecific="1" />
+				</Event>
+				<Event type="marker" time="1.833333" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.266667"  >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="2.666667" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+				<Event type="marker" time="3.1" >
+					<SoundAction sound="3016" soundSpecific="2" />
+				</Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapDance" armatureName="hub_tap_dance">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.13333333333333333">
+                    <SoundAction sound="3039"/>
+                </Event>
+                <Event type="marker" time="1.1">
+                    <SoundAction sound="3040"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapWash" armatureName="hub_tap_wash">
+            <!-- Not used any more
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups> -->
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.06666666666666667">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerstart"/>
+                </Event>
+                <Event type="marker" time="0.1">
+                    <PropAction propName="hub_tap_wash_drops1" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_wash_drops1" animationName="drop1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.23333333333333334">
+                    <PropAction propName="hub_tap_wash_drops2" visible="1" relativeLayer="4"/>
+                    <PropAction propName="hub_tap_wash_drops2" animationName="drop1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.36666666666666664">
+                    <SoundAction sound="3041"/>
+                    <PropAction propName="hub_tap_wash_drops1" visible="0"/>
+                    <PropAction propName="hub_tap_wash_water" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_wash_water" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.4">
+                    <PropAction propName="hub_tap_wash_drops1" visible="1"/>
+                    <PropAction propName="hub_tap_wash_drops1" animationName="splash 1"/>
+                </Event>
+                <Event type="marker" time="0.4666666666666667">
+                    <SoundAction sound="3042"/>
+                </Event>
+                <Event type="marker" time="0.5">
+                    <PropAction propName="hub_tap_wash_drops2" visible="0"/>
+                </Event>
+                <Event type="marker" time="0.6">
+                    <PropAction propName="hub_tap_wash_drops2" visible="1"/>
+                    <PropAction propName="hub_tap_wash_drops2" animationName="splash 2"/>
+                </Event>
+                <Event type="marker" time="2.6666666666666665">
+                    <PropAction propName="hub_tap_wash_drops1" animationName="drop1"/>
+                    <PropAction propName="hub_tap_wash_water" visible="0"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerback"/>
+                </Event>
+                <Event type="marker" time="2.7333333333333334">
+                    <PropAction propName="hub_tap_wash_drops2" animationName="drop1"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="HubTapWashAlt" armatureName="hub_tap_wash_2">
+            <!-- Not used any more
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups> -->
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.3333333333333333">
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerstart"/>
+                </Event>
+                <Event type="marker" time="0.36666666666666664">
+                    <PropAction propName="hub_tap_wash_drops1" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_tap_wash_drops1" animationName="drop1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.5">
+                    <PropAction propName="hub_tap_wash_drops2" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_wash_drops2" animationName="drop1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.6333333333333333">
+                    <SoundAction sound="3041" />
+                    <PropAction propName="hub_tap_wash_drops1" visible="0"/>
+                    <PropAction propName="hub_tap_wash_water" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_wash_water" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.9333333333333333">
+                    <SoundAction sound="3043"/>
+                </Event>
+                <Event type="marker" time="1.2">
+                    <PropAction propName="hub_tap_wash_drops2" animationName="splash 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="1.5333333333333334">
+                    <SoundAction sound="3044"/>
+                </Event>
+                <Event type="marker" time="2.2666666666666666">
+                    <PropAction propName="hub_tap_wash_drops1" visible="1"/>
+                    <PropAction propName="hub_tap_wash_water" visible="0"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerback"/>
+                </Event>
+                <Event type="marker" time="2.4">
+                    <PropAction propName="hub_tap_wash_drops2" animationName="drop1"/>
+                </Event>
+                <Event type="marker" time="2.5">
+                    <PropAction propName="hub_tap_wash_drops1" visible="0"/>
+                </Event>
+                <Event type="marker" time="2.6333333333333333">
+                    <PropAction propName="hub_tap_wash_drops2" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        <Animation name="HubTapJuggle" armatureName="hub_tap_juggle">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.2">
+                    <PropAction propName="202_jgl_ball1" visible="1" relativeLayer="1"/>
+                    <PropAction propName="202_jgl_ball1" animationName="ball1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.43333333333333335">
+                    <PropAction propName="202_jgl_ball2" visible="1" relativeLayer="2"/>
+                    <PropAction propName="202_jgl_ball2" animationName="ball1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="1.8333333333333333">
+                    <PropAction propName="202_jgl_ball2" visible="0"/>
+                    <PropAction propName="202_jgl_ball1" visible="0"/>
+                </Event>
+                <Event type="marker" time="0.0" >
+					<SoundAction sound="3017" />
+				</Event>
+            </Events>
+        </Animation>
+        <Animation name="HubTapKnob" armatureName="hub_tap_knob">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+			<Events>
+				<Event type="marker" time="0.0" >
+					<SoundAction sound="3026" soundSpecific="0" />
+				</Event>
+				<Event type="marker" time="0.5" >
+					<SoundAction sound="3026" soundSpecific="1" />
+				</Event>
+			</Events>
+
+        </Animation>
+        <Animation name="HubTapCurtain" armatureName="hub_tap_curtain">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.0" >
+					<SoundAction sound="3008" soundSpecific="0"/>
+				</Event>
+				<Event type="marker" time="1.13333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+				</Event>
+                <Event type="marker" time="1.1" >
+                    <PropAction propName="hub_tap_curtain_curtain" visible="1" relativeLayer="4"/>
+                    <PropAction propName="hub_tap_curtain_curtain" animationName="curtain"/>
+                </Event>
+                <Event type="marker" time="1.23334" >
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="0" />
+                </Event>
+				<Event type="marker" time="1.76667" >
+					<SoundAction sound="3008" soundSpecific="2"/>
+				</Event>
+				<Event type="marker" time="2.53333" >
+					<SoundAction sound="3008" soundSpecific="1"/>
+				</Event>
+                <Event type="marker" time="2.566666666666667" >
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" />
+                    <PropAction propName="hub_tap_curtain_curtain" animationName="curtainOut" playbackMode="single frame"/>
+				</Event>
+                <Event type="marker" time="2.6333333333333333">
+                    <PropAction propName="hub_tap_curtain_curtain" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        <Animation name="Walk" armatureName="walk">
+			<Groups>
+				<Group name="Miscellaneous" />
+			</Groups>
+		</Animation>
+        <Animation name="HubTapShower" armatureName="hub_tap_shower">
+            <Groups>
+				<Group name="ShowerTap" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="showerhit"/>
+                </Event>
+            </Events>
+        </Animation>
+        <Animation name="HubTapSing" armatureName="hub_tap_sing">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.5">
+                    <SoundAction sound="3045"/>
+                </Event>
+            </Events>
+        </Animation>
+        <Animation name="HubTapTailKnock" armatureName="hub_tap_tailknock">
+            <Groups>
+				<Group name="HubTouch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_idle_breathe_showerhead" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_idle_breathe_showerhead" animationName="main" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.9">
+                    <SoundAction sound="3046" />
+                </Event>
+                <Event type="marker" time="1.1333333333333333">
+                    <SoundAction sound="3046" />
+                </Event>
+                <Event type="marker" time="1.3666666666666667">
+                    <SoundAction sound="3046" />
+                </Event>
+                <Event type="marker" time="1.6666666666666667">
+                    <SoundAction sound="3035" />
+                </Event>
+            </Events>
+        </Animation>
+    </Animations>
+
+    <Props>
+
+        <Prop name="104_crtn_curtain" sprite="/Sprites/swampy_curtain.sprite" relativePos="90.88599999999998 56.08599999999999" relativeScale="1 1" relativeLayer="4" type="skeleton" visible="0"/>
+        
+        <Prop name="hub_tap_curtain_curtain" sprite="/Sprites/swampy_curtain.sprite" relativePos="90.88599999999998 56.08599999999999" relativeScale="1 1" relativeLayer="4" type="skeleton" visible="0"/>
+
+
+        <Prop name="202_jgl_ball2" sprite="/Sprites/swampy_juggleanimation.sprite" relativePos="-27.361500000000003 45.39224999999999" relativeScale="1 1" relativeLayer="2" type="skeleton" visible="0"/>
+
+        <Prop name="202_jgl_ball1" sprite="/Sprites/swampy_juggleanimation.sprite" relativePos="-27.361500000000003 45.39224999999999" relativeScale="1 1" relativeLayer="1" type="skeleton" visible="0"/>
+
+        <Prop name="306_bmb_umbrella" sprite="/Sprites/swampy_umbrella_outside.sprite" relativePos="3.755500000000013 147.05175" relativeScale="1 1" relativeLayer="1" type="skeleton" visible="0"/>
+
+        <Prop name="306_bmb3_umbrella" sprite="/Sprites/swampy_umbrella_outside.sprite" relativePos="3.755500000000013 147.05175" relativeScale="1 1" relativeLayer="1" type="skeleton" visible="0"/>
+
+        <Prop name="hub_idle_breathe_showerhead" sprite="/Sprites/swampy_ShowerAnim.sprite" relativePos="-55.5175 125.21675" relativeScale="1.1 1.1" relativeLayer="-1" type="skeleton|scene" scenes="MainMenu" visible="1"/>
+
+        <Prop name="hub_tap_wash_drops2" sprite="/Sprites/swampy_dropanimation.sprite" relativePos="-48.807 125.41999999999999" relativeScale="1 1" relativeLayer="4" type="skeleton" visible="0"/>
+
+        <Prop name="hub_tap_wash_drops1" sprite="/Sprites/swampy_dropanimation.sprite" relativePos="-48.807 125.41999999999999" relativeScale="1 1" relativeLayer="3" type="skeleton" visible="0"/>
+
+        <Prop name="hub_tap_wash_water" sprite="/Sprites/swampy_showeranimation.sprite" relativePos="9.616499999999972 27.26175000000001" relativeScale="1 1" relativeLayer="2" type="skeleton" visible="0"/>
+        
+        <Prop name="curtainSprite" sprite="/Sprites/curtain.sprite" relativePos="90.524 56.2" relativeScale=
+            "1.288889 1.288889" relativeLayer="100" type="skeleton" visible="false"/>
+        
+    </Props>
+
+	<Emitters>
+		<Emitter path="/Emitters/SwampyTears.emitter" baseNode="ikBoneName287" >
+			<EmitterZone position="-8 8" radius="16" />
+		</Emitter>
+		<Emitter path="/Emitters/SleepZs.emitter" baseNode="ikBoneName287" >
+			<EmitterZone position="30 30" radius="1" />
+		</Emitter>
+	</Emitters>
+
+
+</AnimationList>

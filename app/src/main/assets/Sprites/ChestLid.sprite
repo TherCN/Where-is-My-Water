@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Closed" textureBasePath="/Textures/" atlas="/Textures/treasure_chest.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ChestLid_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="Open" textureBasePath="/Textures/" atlas="/Textures/treasure_chest.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ChestLid_0.png" offset="0 0" repeat="7"/>
+    <Frame name="ChestLid_1.png" offset="-0.012499999999995737 1.9500000000000028"/>
+    <Frame name="ChestLid_0.png" offset="0 0"/>
+    <Frame name="ChestLid_2.png" offset="0 -9.03125" repeat="2"/>
+    <Frame name="ChestLid_3.png" offset="-0.3062499999999986 -15.631250000000001" repeat="2"/>
+    <Frame name="ChestLid_4.png" offset="-0.5249999999999986 -18.181250000000006"/>
+  </Animation>
+  <Animation name="Opened" textureBasePath="/Textures/" atlas="/Textures/treasure_chest.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ChestLid_4.png" offset="-0.5249999999999986 -18.181250000000006"/>
+  </Animation>
+</Sprite>

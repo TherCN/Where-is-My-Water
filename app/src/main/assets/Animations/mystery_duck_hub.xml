@@ -1,0 +1,441 @@
+<AnimationList>
+    
+    <!-- Mystery Sound Effects
+     Mani01            3100
+     Mani02            3101
+     Mani03            3102
+     Mani04            3103
+     Mani05            3104
+     Mani06            3105
+     Mani07            3106
+     Mani08            3107
+     Mani09            3108
+     Mani10            3109
+     Mani11            3110
+     -->
+
+    <!-- Scene Names -->
+	<Scenes>
+        <Scene name="MainMenu" />
+        <Scene name="MainMenuIPhone5" />   <!-- for iPhone 5, because the screen resolution, don't play  hub_tap_04 -->
+	</Scenes>
+	
+	<!-- Animation Group names -->
+	<Groups>
+		
+        <Group name="NONE" />						<!-- 0 -->
+
+        <Group name="Enter" >						<!-- 1 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+		
+        <Group name="Idle" >						<!-- 2 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+		
+        <Group name="Touch" >						<!-- 3 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+
+        <Group name="TouchHat" >					<!-- 4 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+        
+        <Group name="TouchGlobe" >					<!-- 5 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+
+	</Groups>
+
+    <Animations>
+        
+        <Animation name="hub_first_time_enter" armatureName="hub_first_time_enter">
+            <Groups>
+				<Group name="Enter" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3100"/>
+                </Event>
+                <Event type="marker" time="8.0" >
+                    <AnimationAction animation="Idle" />
+                </Event>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_hat_tap_01_hat" visible="1" />
+                    <PropAction propName="hub_hat_tap_01_hat" animationName="idle" playbackMode="single frame"/>
+                    <PropAction propName="hub_globe_tap_01_globe" visible="1" />
+                    <PropAction propName="hub_globe_tap_01_globe" animationName="idle" playbackMode="single frame"/>
+                </Event>
+                <Event type="marker" time="0.3">
+                    <PropAction propName="hub_first_time_enter_starenter23" visible="1" relativeLayer="-23"/>
+                    <PropAction propName="hub_first_time_enter_starenter23" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.3333333333333333">
+                    <PropAction propName="hub_first_time_enter_starenter22" visible="1" relativeLayer="-22"/>
+                    <PropAction propName="hub_first_time_enter_starenter22" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.36666666666666664">
+                    <PropAction propName="hub_first_time_enter_starenter21" visible="1" relativeLayer="-21"/>
+                    <PropAction propName="hub_first_time_enter_starenter21" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.4">
+                    <PropAction propName="hub_first_time_enter_starenter20" visible="1" relativeLayer="-20"/>
+                    <PropAction propName="hub_first_time_enter_starenter20" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.43333333333333335">
+                    <PropAction propName="hub_first_time_enter_starenter19" visible="1" relativeLayer="-19"/>
+                    <PropAction propName="hub_first_time_enter_starenter19" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.4666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter18" visible="1" relativeLayer="-18"/>
+                    <PropAction propName="hub_first_time_enter_starenter18" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.5">
+                    <PropAction propName="hub_first_time_enter_starenter17" visible="1" relativeLayer="-17"/>
+                    <PropAction propName="hub_first_time_enter_starenter17" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.5333333333333333">
+                    <PropAction propName="hub_first_time_enter_starenter16" visible="1" relativeLayer="-16"/>
+                    <PropAction propName="hub_first_time_enter_starenter16" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.5666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter15" visible="1" relativeLayer="-15"/>
+                    <PropAction propName="hub_first_time_enter_starenter15" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.6">
+                    <PropAction propName="hub_first_time_enter_starenter14" visible="1" relativeLayer="-14"/>
+                    <PropAction propName="hub_first_time_enter_starenter14" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.6333333333333333">
+                    <PropAction propName="hub_first_time_enter_starenter13" visible="1" relativeLayer="-13"/>
+                    <PropAction propName="hub_first_time_enter_starenter13" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.6666666666666666">
+                    <PropAction propName="hub_first_time_enter_starenter12" visible="1" relativeLayer="-12"/>
+                    <PropAction propName="hub_first_time_enter_starenter12" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.7">
+                    <PropAction propName="hub_first_time_enter_starenter11" visible="1" relativeLayer="-11"/>
+                    <PropAction propName="hub_first_time_enter_starenter11" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.7333333333333333">
+                    <PropAction propName="hub_first_time_enter_starenter10" visible="1" relativeLayer="-10"/>
+                    <PropAction propName="hub_first_time_enter_starenter10" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.7666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter9" visible="1" relativeLayer="-9"/>
+                    <PropAction propName="hub_first_time_enter_starenter9" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.8">
+                    <PropAction propName="hub_first_time_enter_starenter8" visible="1" relativeLayer="-8"/>
+                    <PropAction propName="hub_first_time_enter_starenter8" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.8333333333333334">
+                    <PropAction propName="hub_first_time_enter_starenter7" visible="1" relativeLayer="-7"/>
+                    <PropAction propName="hub_first_time_enter_starenter7" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.8666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter6" visible="1" relativeLayer="-6"/>
+                    <PropAction propName="hub_first_time_enter_starenter6" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.9">
+                    <PropAction propName="hub_first_time_enter_starenter5" visible="1" relativeLayer="-5"/>
+                    <PropAction propName="hub_first_time_enter_starenter5" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.9333333333333333">
+                    <PropAction propName="hub_first_time_enter_starenter4" visible="1" relativeLayer="-4"/>
+                    <PropAction propName="hub_first_time_enter_starenter4" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="0.9666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter3" visible="1" relativeLayer="-3"/>
+                    <PropAction propName="hub_first_time_enter_starenter3" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="1">
+                    <PropAction propName="hub_first_time_enter_starenter2" visible="1" relativeLayer="-2"/>
+                    <PropAction propName="hub_first_time_enter_starenter2" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="1.0333333333333334">
+                    <PropAction propName="hub_first_time_enter_starenter1" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_first_time_enter_starenter1" animationName="Layer 1" playOffset="0.06666666666666667"/>
+                </Event>
+                <Event type="marker" time="1.6666666666666667">
+                    <PropAction propName="hub_first_time_enter_starenter2" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter3" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter4" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter5" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter6" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter7" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter8" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter9" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter10" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter11" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter12" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter13" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter14" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter15" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter16" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter17" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter18" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter19" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter20" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter21" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter22" visible="0"/>
+                    <PropAction propName="hub_first_time_enter_starenter23" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+        <Animation name="hub_idle" armatureName="hub_idle">
+            <Groups>
+				<Group name="Idle" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.5666666666666667">
+                    <SoundAction sound="3101"/>
+                </Event>
+                <Event type="marker" time="8.0" >
+                    <AnimationAction animation="Idle"/>
+                </Event>
+            </Events>
+        </Animation>
+    
+
+        <Animation name="hub_tap_01" armatureName="hub_tap_01">
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3102"/>
+                </Event>
+                <Event type="marker" time="1.53333" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="25" />
+				</Event>
+                <Event type="marker" time="2.36666" >
+					<EmitterAction emitterIndex="1" active="1" numParticles="25" />
+				</Event>
+            </Events>
+        </Animation>
+    
+        <Animation name="hub_tap_02" armatureName="hub_tap_02">
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3103"/>
+                </Event>
+            </Events>
+        </Animation>
+
+        <Animation name="hub_tap_03" armatureName="hub_tap_03">
+            <!--
+            <Groups>
+				<Group name="Touch1" />
+			</Groups> -->
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3104"/>
+                </Event>
+            </Events>
+        </Animation>
+    
+        <Animation name="hub_tap_04" armatureName="hub_tap_04">
+            <Scenes>
+				<Scene name="MainMenu" />
+			</Scenes>
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.06666666666666667">
+                    <SoundAction sound="3105"/>
+                </Event>
+                <Event type="marker" time="0.6333333333333333">
+                    <PropAction propName="hub_tap_04_pour" visible="1" relativeLayer="2"/>
+                </Event>
+                <Event type="marker" time="0.6666666666666666">
+                    <PropAction propName="hub_tap_04_pour" visible="1" relativeLayer="3"/>
+                    <PropAction propName="hub_tap_04_pour" animationName="drop"/>
+                </Event>
+                <Event type="marker" time="0.8666666666666667">
+                    <PropAction propName="hub_tap_04_pour" visible="0"/>
+                </Event>
+                <Event type="marker" time="0.9">
+                    <PropAction propName="hub_tap_04_pour" visible="0"/>
+                </Event>
+                <Event type="marker" time="1.1">
+                    <PropAction propName="hub_tap_04_pour" visible="1" relativeLayer="4"/>
+                    <PropAction propName="hub_tap_04_pour" animationName="pour"/>
+                </Event>
+                <Event type="marker" time="2.1333333333333333">
+                    <PropAction propName="hub_tap_04_pour" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+    
+        <Animation name="hub_tap_05" armatureName="hub_tap_05">
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0.23333333333333334">
+                    <SoundAction sound="3106"/>
+                </Event>
+                <Event type="marker" time="0.13333333333333333">
+                    <PropAction propName="hub_tap_05_shadow" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_tap_05_shadow" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.43333333333333335">
+                    <PropAction propName="hub_tap_05_ball" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_tap_05_ball" animationName="Layer 1"/>
+                </Event>
+                <Event type="marker" time="1.4333333333333333">
+                    <PropAction propName="hub_tap_05_ball" visible="0"/>
+                </Event>
+                <Event type="marker" time="2.2666666666666666">
+                    <PropAction propName="hub_tap_05_shadow" visible="0"/>
+                </Event>
+            </Events>
+        </Animation>
+
+        <Animation name="hub_tap_06" armatureName="hub_tap_06">
+            <Groups>
+				<Group name="Touch" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3107"/>
+                </Event>
+            </Events>
+        </Animation>
+        
+
+        <Animation name="hub_hat_tap_01" armatureName="hub_hat_tap_01">
+            <Groups>
+				<Group name="TouchHat" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_hat_tap_01_hat" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_hat_tap_01_hat" animationName="tap1" />
+                </Event>
+                <Event type="marker" time="0.3">
+                    <SoundAction sound="3101"/>
+                </Event>
+            </Events>
+        </Animation>
+
+        <Animation name="hub_hat_tap_02" armatureName="hub_hat_tap_02">
+            <Groups>
+				<Group name="TouchHat" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_hat_tap_01_hat" visible="1" relativeLayer="2"/>
+                    <PropAction propName="hub_hat_tap_01_hat" animationName="tap2"/>
+                </Event>
+                <Event type="marker" time="0.9333333333333333">
+                    <PropAction propName="hub_hat_tap_02_superduck" visible="1" relativeLayer="1"/>
+                    <PropAction propName="hub_hat_tap_02_superduck" animationName="Layer 1"/>
+                </Event>
+                <Event type="marker" time="1.4">
+                    <PropAction propName="hub_hat_tap_02_superduck" visible="0"/>
+                </Event>
+                <Event type="marker" time="0.06666666666666667">
+                    <SoundAction sound="3108"/>
+                </Event>
+            </Events>
+        </Animation>
+
+        <Animation name="hub_globe_tap_01" armatureName="hub_globe_tap_01">
+            <Groups>
+				<Group name="TouchGlobe" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <SoundAction sound="3109"/>
+                    <PropAction propName="hub_globe_tap_01_globe" visible="1" relativeLayer="-1"/>
+                    <PropAction propName="hub_globe_tap_01_globe" animationName="hovering" />
+                </Event>
+            </Events>
+        </Animation>
+
+        <Animation name="hub_globe_tap_02" armatureName="hub_globe_tap_02">
+            <Groups>
+				<Group name="TouchGlobe" />
+			</Groups>
+            <Events>
+                <Event type="marker" time="0">
+                    <PropAction propName="hub_globe_tap_01_globe" visible="1" relativeLayer="-3"/>
+                    <PropAction propName="hub_globe_tap_01_globe" animationName="changing"/>
+                </Event>
+                <Event type="marker" time="0.16666666666666666">
+                    <PropAction propName="hub_globe_tap_02_character" visible="1" relativeLayer="-2"/>
+                    <PropAction propName="hub_globe_tap_02_character" animationName="Layer 1" playbackMode="loop"/>
+                </Event>
+                <Event type="marker" time="0.2">
+                    <SoundAction sound="3110"/>
+                </Event>
+            </Events>
+        </Animation>
+
+    </Animations>
+  
+    <Props>
+        <Prop name="hub_first_time_enter_starenter1" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-7.482993896484386 103.31043383789061" relativeScale="1 1" relativeLayer="-1" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter2" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="1.157006103515614 122.4864338378906" relativeScale="1 1" relativeLayer="-2" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter3" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="12.677006103515668 141.6864338378906" relativeScale="1 1" relativeLayer="-3" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter4" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="28.03700610351567 158.0064338378906" relativeScale="1 1" relativeLayer="-4" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter5" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="46.25300610351563 163.76643383789062" relativeScale="1 1" relativeLayer="-5" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter6" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="64.49300610351564 158.9664338378906" relativeScale="1 1" relativeLayer="-6" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter7" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="88.49300610351563 144.5664338378906" relativeScale="1 1" relativeLayer="-7" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter8" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="110.54900610351565 117.6864338378906" relativeScale="1 1" relativeLayer="-8" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter9" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="108.62900610351565 53.39043383789061" relativeScale="1 1" relativeLayer="-9" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter10" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="61.61300610351563 8.294433837890647" relativeScale="1 1" relativeLayer="-10" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter11" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="28.03700610351567 -7.065566162109353" relativeScale="1 1" relativeLayer="-11" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter12" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-15.162993896484386 -9.945566162109353" relativeScale="1 1" relativeLayer="-12" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter13" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-35.322993896484384 -4.185566162109353" relativeScale="1 1" relativeLayer="-13" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter14" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-72.73899389648437 16.934433837890648" relativeScale="1 1" relativeLayer="-14" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter15" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-99.61899389648438 55.33443383789064" relativeScale="1 1" relativeLayer="-15" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter16" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-109.19499389648438 103.31043383789061" relativeScale="1 1" relativeLayer="-16" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter17" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-106.33899389648438 145.5264338378906" relativeScale="1 1" relativeLayer="-17" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter18" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-97.69899389648438 179.1024338378906" relativeScale="1 1" relativeLayer="-18" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter19" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-80.41899389648438 212.7024338378906" relativeScale="1 1" relativeLayer="-19" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter20" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-64.09899389648437 235.7424338378906" relativeScale="1 1" relativeLayer="-20" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter21" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-44.89899389648438 257.7984338378906" relativeScale="1 1" relativeLayer="-21" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter22" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-25.722993896484386 276.03843383789064" relativeScale="1 1" relativeLayer="-22" type="skeleton" visible="0"/>
+        <Prop name="hub_first_time_enter_starenter23" sprite="/Sprites/mystery_duck_hub_hub_starpin.sprite" relativePos="-6.21099389648437 287.1984338378906" relativeScale="1 1" relativeLayer="-23" type="skeleton" visible="0"/>
+        
+        <Prop name="hub_tap_05_ball" sprite="/Sprites/mystery_duck_hub_duckballanim.sprite" relativePos="-205.15200000000002 -10.04400000000004" relativeScale="1.5 1.5" relativeLayer="1" type="skeleton" visible="0"/>
+
+        <Prop name="hub_tap_05_shadow" sprite="/Sprites/mystery_duck_hub_DUCKSHADOWANIM.sprite" relativePos="-10.15200000000002 -10.04400000000004" relativeScale="1.5 1.5" relativeLayer="-1" type="skeleton" visible="0"/>
+
+        <Prop name="hub_hat_tap_01_hat" sprite="/Sprites/mystery_duck_hub_hatanimation.sprite" relativePos="-110.912 55.62399999999997" relativeScale="1.5 1.5" relativeLayer="1" type="skeleton|scene" visible="1" sceneName="MainMenu" startAnimation="idle"/>
+
+        <Prop name="hub_hat_tap_02_superduck" sprite="/Sprites/mystery_duck_hub_babyduckanimation.sprite" relativePos="-115.912 115.62399999999997" relativeScale="1.5 1.5" relativeLayer="1" type="skeleton" visible="0"/>
+
+        <Prop name="hub_globe_tap_01_globe" sprite="/Sprites/mystery_duck_hub_globeanimation.sprite" relativePos="115.84799999999996 40.62399999999997" relativeScale="1.5 1.5" relativeLayer="-1" type="skeleton|scene" visible="1" sceneName="MainMenu" startAnimation="idle"/>
+
+        <Prop name="hub_globe_tap_02_character" sprite="/Sprites/mystery_duck_hub_inthecrystalballanimation.sprite" relativePos="115.84799999999996 55.62399999999997" relativeScale="1.5 1.5" relativeLayer="-2" type="skeleton" visible="0"/>
+        
+        <Prop name="hub_tap_04_pour" sprite="/Sprites/mystery_duck_hub_waterpickup.sprite" relativePos="56.01600000000002 120.04399999999997" relativeScale="1.5 1.5" relativeLayer="4" type="skeleton" visible="0"/>
+
+    </Props>
+  
+    <Emitters>
+		<Emitter path="/Emitters/MysteryDust.emitter" baseNode="ikNode_36" >
+		</Emitter>
+		<Emitter path="/Emitters/MysteryPoof.emitter" baseNode="ikBoneName29">
+			<EmitterZone position="0 50" radius="0" ringparticles="8" ringradius="10.5"/>
+		</Emitter>
+        <Emitter path="/Emitters/WaterDrops.emitter" baseNode="ikNode_34" >
+			<EmitterZone position="-10 10" radius="16" />
+		</Emitter>
+        <Emitter path="/Emitters/WaterDrips.emitter" baseNode="ikNode_34" >
+			<EmitterZone position="-10 10" radius="8" />
+		</Emitter>
+	</Emitters>
+
+
+</AnimationList>

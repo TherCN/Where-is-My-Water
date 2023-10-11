@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_PLAY				0
+ 
+ WN_SETTINGS			1
+ 
+ WN_FACEBOOK			2
+ 
+ WN_ACHIEVEMENTS		4
+ 
+ WN_ANIMATION_TEST		5
+ 
+ WN_ACHIEVEMENT_TEST	6
+ 
+ WN_SWAMPY_TAP			7
+ 
+ WN_FULLVERSION			9
+ 
+ WN_Radio				50
+ WN_RadioString			51
+ WN_Shower				52
+ 
+ WN_Version				99
+ 
+ WN_Background			200
+ WN_Logo				201
+ 
+ WN_BonusDucks			1000
+ 
+ WN_ICON_GEARS          203 
+ WN_ICON_MORE_DISNEY    204
+ -->
+<Widgets texturePath="/Textures/">
+    
+	<!-- Background -->
+	<Widget type="WT_LABEL" id="200" layer="0" pos="0.5 0.5" size="1.0 1.0" forceAspect="360:480" aspectBasis="height" texBGName="main_menu.jpg" />
+    
+	<!-- TV -->
+	<Widget type="WT_PUSH_BUTTON" id="50" parent="200" layer="4" pos="0 0" posByParentSize="0.745 0.400" size="0.120 0.210" forceAspect="120:210" aspectBasis="height" texNormalName="WMW_UI_main_tv_front.webp" reactOnDown="true" />
+	<Widget type="WT_LABEL" id="51" parent="200" layer="3" pos="0 0" posByParentSize="0.745 0.400" size="0.120 0.210" forceAspect="120:210" aspectBasis="height" texBGName="WMW_UI_main_tv_back.webp" />
+	
+	<!-- shower head -->
+	<Widget type="WT_PUSH_BUTTON" id="52" layer="4" pos="0 0" parent="200" posByParentSize="0.1880 0.2699" size="0.16 0" forceAspect="65:46" texNormalName="UI_Shower_Head.webp" reactOnDown="true"/>
+	
+	<!-- logo & phantom button (to detect touches on the logo) -->
+	<Widget type="WT_LABEL" id="201" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.14" size="0.75 0" forceAspect="256:110" texBGName="wmw_logo.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="202" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.14" size="0.45 0" forceAspect="256:110" texBGName="clear.webp" reactOnDown="true" />
+	
+	
+	<!-- "PLAY" (New Design)-->
+    <Widget type="WT_PUSH_BUTTON" id="0" layer="6" pos="0.5 0.33" size="0.15 0.15" forceAspect="1" aspectBasis="height" texNormalName="iap_play.png" texHilightName="iap_play_depressed.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158"/>
+    
+	<!-- 
+    <Widget type="WT_PUSH_BUTTON" id="0" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.338" size="0.0 0.0954" forceAspect="128:44" aspectBasis="height" texNormalName="iap_play.png" texHilightName="iap_play_depressed.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/> -->
+    
+	<!-- "SETTINGS" (Gear Icon) -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="6" pos="0.08 0.96" size="0.11 0.11" forceAspect="1" texNormalName="button_splash.png" texHilightName="button_splash_highlight.png" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.2" textOffsetRelative="0 0.05f" textHilightOffsetRelative="0 0.05f" />
+
+    <!--
+	<Widget type="WT_PUSH_BUTTON" id="3" layer="6" pos="0 0" parent="200" posByParentSize="0.5 0.45" size="0.0 0.0954" forceAspect="128:44" aspectBasis="height" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Ⓓ" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" /> -->
+
+    <!--Gears and disney logos-->
+	<!--
+	<Widget type="WT_LABEL" id="303" layer="7" pos="0 0" parent="200" posByParentSize="0.400 0.445" size="0.0 0.0650" forceAspect="30:30" aspectBasis="height" texBGName="icon_gears.png" />    
+    
+	<Widget type="WT_LABEL" id="304" layer="7" pos="0 0" parent="200" posByParentSize="0.600 0.445" size="0.0 0.0650" forceAspect="30:30" aspectBasis="height" texBGName="icon_more_disney.png" />      
+	 -->
+     
+    <!--
+     <Widget type="WT_PUSH_BUTTON" id="4" layer="5" pos="1.0 1.0 -30 -30" size="0.1296875 0.0" forceAspect="1" texNormalName="achievements.png" reactOnDown="false" textColorRGB="255 255 255" />
+     -->
+    
+    <Widget type="WT_PUSH_BUTTON" id="5" layer="6" pos="0.8 0.05" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Animations" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" />
+    
+    <Widget type="WT_PUSH_BUTTON" id="6" layer="6" pos="0.3 0.9" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Achieve Test" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false"/>
+    
+    <!-- swampy tap region -->
+    <Widget type="WT_PUSH_BUTTON" id="7" layer="6" pos="0.5 0.70" size="0.3 0.3" reactOnDown="true" />
+    
+    <!-- Social Media -->
+    <Widget type="WT_PUSH_BUTTON" id="2" layer="6" pos=".94 .88" size="0.1 0.1" forceAspect="1" texNormalName="f_logo.webp" />
+	
+    <Widget type="WT_PUSH_BUTTON" id="8" layer="6" pos=".94 .96" size="0.1 0.1" forceAspect="1" texNormalName="t_logo-a.webp" />
+	
+	<Widget type="WT_LABEL" id="99" layer="7" pos="0.5 0.98" size="0.9 0.04" text="VERSION_INFO" textColorRGB="255 255 255" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="100" layer="2" pos="0.15 0.75" size="0.25 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="HIDE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false"/>
+	
+	<!-- Bonus ducks -->
+    <Widget type="WT_PUSH_BUTTON" id="1000" layer="02" pos="0 0" parent="200" posByParentSize="0.275 0.846" size=".14 0" forceAspect="1" texNormalName="triduck_0.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1001" layer="01" pos="0 0" parent="200" posByParentSize="0.367 0.922" size=".14 0" forceAspect="1" texNormalName="triduck_1.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1002" layer="01" pos="0 0" parent="200" posByParentSize="0.725 0.855" size=".14 0" forceAspect="1" texNormalName="triduck_2.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1003" layer="02" pos="0 0" parent="200" posByParentSize="0.810 0.800" size=".14 0" forceAspect="1" texNormalName="triduck_3.png" visible="false" angleDegrees="5"/>
+    <Widget type="WT_PUSH_BUTTON" id="1004" layer="10" pos="0 0" parent="200" posByParentSize="0.268 0.949" size=".14 0" forceAspect="1" texNormalName="triduck_4.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1005" layer="02" pos="0 0" parent="200" posByParentSize="0.74 0.941" size=".14 0" forceAspect="1" texNormalName="triduck_5.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1006" layer="10" pos="0 0" parent="200" posByParentSize="0.62 0.946" size=".14 0" forceAspect="1" texNormalName="triduck_6.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1007" layer="01" pos="0 0" parent="200" posByParentSize="0.800 0.640" size=".14 0" forceAspect="1" texNormalName="triduck_7.png" visible="false" angleDegrees="-5"/>
+    <Widget type="WT_PUSH_BUTTON" id="1008" layer="10" pos="0 0" parent="200" posByParentSize="0.485 0.940" size=".14 0" forceAspect="1" texNormalName="triduck_8.png" visible="false" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" id="1009" layer="02" pos="0 0" parent="200" posByParentSize="0.180 0.780" size=".14 0" forceAspect="1" texNormalName="Ducks_triduck_9.png" visible="false" angleDegrees="0"/>
+	
+</Widgets>

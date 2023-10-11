@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ImageList imgSize="1024 512" drawScale="0.500000" file="/Textures/ui_atlas.webp" textureBasePath="/Textures/">
+  <Image name="UI_collectibles_button.png" offset="0 0" size="100 104" rect="781 0 100 104"/>
+  <Image name="UI_achievements_button.png" offset="0 0" size="100 104" rect="882 0 100 104"/>
+  <Image name="level_icon_0.png" offset="0 0" size="100 104" rect="601 61 100 104"/>
+  <Image name="level_icon_1.png" offset="0 0" size="100 104" rect="257 146 100 104"/>
+  <Image name="level_icon_2.png" offset="0 0" size="100 104" rect="0 235 100 104"/>
+  <Image name="level_icon_3.png" offset="0 0" size="100 104" rect="101 235 100 104"/>
+  <Image name="level_icon_null.png" offset="0 0" size="100 104" rect="358 146 100 104"/>
+  <Image name="owall_button_play.png" offset="0 0" size="100 100" rect="459 146 100 100"/>
+  <Image name="owall_button_music_hit.png" offset="0 0" size="100 100" rect="560 166 100 100"/>
+  <Image name="owall_button_music.png" offset="0 0" size="100 100" rect="459 247 100 100"/>
+  <Image name="owall_button_main_menu.png" offset="0 0" size="100 100" rect="202 251 100 100"/>
+  <Image name="owall_button_level.png" offset="0 0" size="100 100" rect="0 340 100 100"/>
+  <Image name="owall_button_skip.png" offset="0 0" size="100 100" rect="101 340 100 100"/>
+  <Image name="owall_button_sound.png" offset="0 0" size="100 100" rect="303 251 100 100"/>
+  <Image name="owall_button_sound_hit.png" offset="0 0" size="100 100" rect="661 194 100 100"/>
+  <Image name="LRS_DUCK_SUCCESS.png" offset="0 0" size="86 90" rect="863 194 86 90"/>
+  <Image name="LRS_DUCK_SHADOW.png" offset="0 0" size="86 90" rect="762 275 86 90"/>
+  <Image name="WMW_UI_Assets_2_button_square_pause.png" offset="0 0" size="84 88" rect="661 295 84 88"/>
+  <Image name="button_highlight.png" offset="0 0" size="256 88" rect="702 105 256 88"/>
+  <Image name="button.png" offset="0 0" size="256 88" rect="0 146 256 88"/>
+  <Image name="notificationBG.png" offset="0 0" size="600 84" rect="0 61 600 84"/>
+  <Image name="back_button_highlight.png" offset="0 0" size="100 80" rect="560 267 100 80"/>
+  <Image name="back_button.png" offset="0 0" size="100 80" rect="762 194 100 80"/>
+  <Image name="shineanimation_1.png" offset="0 0" size="81 78" rect="746 366 81 78"/>
+  <Image name="shineanimation_0.png" offset="0 0" size="38 72" rect="983 0 38 72"/>
+  <Image name="ui_game_circle.png" offset="0 0" size="72 72" rect="950 194 72 72"/>
+  <Image name="slider_handle.png" offset="0 0" size="70 70" rect="828 395 70 70"/>
+  <Image name="slider_bg.png" offset="0 0" size="780 60" rect="0 0 780 60"/>
+  <Image name="pause_button.png" offset="0 0" size="106 54" rect="849 340 106 54"/>
+  <Image name="refresh_button.png" offset="0 0" size="54 54" rect="959 106 54 54"/>
+  <Image name="ui_like_button.png" offset="0 0" size="118 54" rect="849 285 118 54"/>
+  <Image name="hud_gradient.png" offset="0 0" size="16 32" rect="983 73 16 32"/>
+</ImageList>

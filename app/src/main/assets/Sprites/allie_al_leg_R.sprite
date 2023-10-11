@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0__RLeg" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_leg_R_0.png" offset="0 0" repeat="63"/>
+    <Frame name="al_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="06-win play a b_RLeg" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_leg_R_0.png" offset="0.4987335205078125 1.2468338012695312"/>
+    <Frame name="al_leg_R_0.png" offset="0.12468338012695312 -0.07481002807617117" scale="0.9999847412109375 0.9999847412109375"/>
+    <Frame name="al_leg_R_0.png" offset="0.47379684448242154 -0.2743034362792972" scale="0.9998779296875 0.9998779296875"/>
+    <Frame name="al_leg_R_0.png" offset="0.9849987030029304 -0.5610752105712891" scale="0.99969482421875 0.999725341796875"/>
+    <Frame name="al_leg_R_0.png" offset="1.5523080825805669 -0.9039545059204102" scale="0.99957275390625 0.999603271484375"/>
+    <Frame name="al_leg_R_0.png" offset="2.163256645202636 -1.265536308288573" scale="0.9993896484375 0.9993896484375"/>
+    <Frame name="al_leg_R_0.png" offset="2.699395179748536 -1.5523080825805669" scale="0.999298095703125 0.9992523193359375" angleDeg="-0.0008697509765625"/>
+    <Frame name="al_leg_R_0.png" offset="3.1482553482055664 -1.801674842834473" scale="0.9991912841796875 0.999176025390625" angleDeg="-0.0008697509765625"/>
+    <Frame name="al_leg_R_0.png" offset="3.410090446472167 -1.9824657440185536" scale="0.99908447265625 0.99908447265625"/>
+    <Frame name="al_leg_R_0.png" offset="3.503602981567382 -2.044807434082032"/>
+    <Frame name="al_leg_R_0.png" offset="3.410090446472167 -1.99493408203125" scale="0.999114990234375 0.99908447265625"/>
+    <Frame name="al_leg_R_0.png" offset="3.1482553482055664 -1.8328456878662096" scale="0.9991912841796875 0.9991455078125" angleDeg="-0.0008697509765625"/>
+    <Frame name="al_leg_R_0.png" offset="2.774205207824707 -1.6395864486694325" scale="0.999267578125 0.999267578125"/>
+    <Frame name="al_leg_R_0.png" offset="2.337813377380371 -1.4151563644409173" scale="0.9993743896484375 0.999359130859375"/>
+    <Frame name="al_leg_R_0.png" offset="1.876484870910644 -1.1034479141235345" scale="0.9994964599609375 0.9994964599609375"/>
+    <Frame name="al_leg_R_0.png" offset="1.3777513504028316 -0.804207801818848" scale="0.9996337890625 0.9996185302734375" angleDeg="-0.0008697509765625"/>
+    <Frame name="al_leg_R_0.png" offset="0.82291030883789 -0.5112018585205071" scale="0.999786376953125 0.999786376953125"/>
+    <Frame name="al_leg_R_0.png" offset="0.3615818023681648 -0.22443008422851526" scale="0.9998779296875 0.9998779296875"/>
+    <Frame name="al_leg_R_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

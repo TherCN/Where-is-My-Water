@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Skeleton name="Armature_5" animations="/Animations/Armature_5.ani" curveCollection="/Curves/jellycar.bin">
+  <Bone name="ikBoneName8" localPos="-0.147186 -0.257011" localAngleRad="0.000000">
+    <Sprite localLayer="0" name="ikNode_8" relativePath="/Sprites/Chassis.sprite" localScale="1.000000 -1.000000" localPos="-3.825186 1.708102"/>
+    <Bone name="ikBoneName9" localPos="-43.443043 -18.682568" localAngleRad="-0.088436">
+      <Sprite localLayer="1" name="ikNode_9" relativePath="/Sprites/Tire.sprite" localScale="1.000000 -1.000000" localPos="0.150259 -0.066782"/>
+    </Bone>
+    <Bone name="ikBoneName10" localPos="37.797173 -18.093166" localAngleRad="0.000000">
+      <Sprite localLayer="2" name="ikNode_10" relativePath="/Sprites/Tire.sprite" localScale="1.000000 -1.000000" localPos="0.166954 -0.217040"/>
+    </Bone>
+  </Bone>
+</Skeleton>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="curtainOut" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="curtain_0.png" offset="-52.50449999999999 5.53899999999999"/>
+    <Frame name="curtain_1.png" offset="-6.249499999999986 0.9497499999999933"/>
+  </Animation>
+  <Animation name="curtain" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="curtain_2.png" offset="0 0"/>
+    <Frame name="curtain_1.png" offset="-6.249499999999986 0.9497499999999933"/>
+    <Frame name="curtain_0.png" offset="-52.50449999999999 5.53899999999999"/>
+    <Frame name="curtain_3.png" repeat="1" offset="-83.6505 5.53899999999999"/>
+    <Frame name="curtain_4.png" repeat="1" offset="-89.67524999999998 5.53899999999999"/>
+    <Frame name="curtain_5.png" repeat="8" offset="-89.67524999999998 5.53899999999999"/>
+    <Frame name="curtain_4.png" repeat="1" offset="-89.67524999999998 5.53899999999999"/>
+    <Frame name="curtain_6.png" repeat="1" offset="-75.41449999999998 5.53899999999999"/>
+    <Frame name="curtain_7.png" repeat="1" offset="-71.38349999999998 5.53899999999999"/>
+    <Frame name="curtain_8.png" repeat="19" offset="-70.20899999999999 5.53899999999999"/>
+    <Frame name="curtain_7.png" offset="-71.38349999999998 5.53899999999999"/>
+    <Frame name="curtain_6.png" offset="-75.41449999999998 5.53899999999999"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="BOMB_IDLE" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+	</Animation>
+	<Animation name="BOMB_FLASH" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="8.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Bomb_EXPLODE_0000_Bomb_F1.png" />
+		<Frame name="Bomb_EXPLODE_0000_Bomb_F1.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+		<Frame name="Bomb_EXPLODE_0000_Bomb_F1.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+		<Frame name="Bomb_EXPLODE_0000_Bomb_F1.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+		<Frame name="Bomb_EXPLODE_0000_Bomb_F1.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+		<Frame name="Bomb_EXPLODE_0001_Bomb_F2.png" />
+	</Animation>
+	<Animation name="BOMB_EXPLODE" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="8.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Bomb_EXPLODE_0008_Bomb_F9.png" />
+		<Frame name="Bomb_EXPLODE_0009_Bomb_F10.png" />
+		<Frame name="Bomb_EXPLODE_0010_Bomb_F11.png" />
+		<Frame name="Bomb_EXPLODE_0011_Bomb_F12.png" />
+		<Frame name="Bomb_EXPLODE_0012_Bomb_F13.png" />
+		<Frame name="Bomb_EXPLODE_0012_Bomb_F13.png" />
+	</Animation>
+</Sprite>

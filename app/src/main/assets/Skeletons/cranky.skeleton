@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Skeleton name="Armature_4" animations="/Animations/cranky.ani" curveCollection="/Curves/CrankyCurves.bin">
+	<Bone name="ikBoneName4" localPos="-0.249874 0.565707" localAngleRad="0.000000">
+		<Sprite localLayer="4" name="ikNode_4" relativePath="/Sprites/Cranky_Body.sprite" localScale="1.000000 -1.000000" localPos="-14.228271 8.234215"/>
+		<Bone name="ikBoneName5" localPos="-31.486624 27.938053" localAngleRad="-0.066787">
+			<Sprite localLayer="11" name="ikNode_5" relativePath="/Sprites/Cranky_Front Arm.sprite" localScale="1.000000 -1.000000" localPos="2.184511 -25.996984"/>
+		</Bone>
+		<Bone name="ikBoneName6" localPos="-27.125927 -41.191975" localAngleRad="0.000000">
+			<Sprite localLayer="6" name="ikNode_6" relativePath="/Sprites/Cranky_Front_Leg.sprite" localScale="1.000000 -1.000000" localPos="5.089293 -5.720017"/>
+			<Bone name="ikBoneName7" localPos="5.408822 -16.077559" localAngleRad="0.000000">
+				<Sprite localLayer="5" name="ikNode_7" relativePath="/Sprites/Cranky_Front_Foot.sprite" localScale="1.000000 -1.000000" localPos="11.339989 -4.484667"/>
+			</Bone>
+		</Bone>
+		<Bone name="ikBoneName8" localPos="-7.049409 46.402298" localAngleRad="-0.060055">
+			<Sprite localLayer="7" name="ikNode_8" relativePath="/Sprites/Cranky_Head_bottom.sprite" localScale="1.000000 -1.000000" localPos="35.481743 -2.309514"/>
+			<Bone name="ikBoneName10" localPos="1.007500 18.977139" localAngleRad="0.061664">
+				<Sprite localLayer="10" name="ikNode_10" relativePath="/Sprites/Cranky_Head_top.sprite" localScale="1.000000 -1.000000" localPos="33.132004 1.648811"/>
+			</Bone>
+		</Bone>
+		<Bone name="ikBoneName9" localPos="17.058453 -31.978752" localAngleRad="0.000000">
+			<Sprite localLayer="3" name="ikNode_9" relativePath="/Sprites/Cranky_back Leg.sprite" localScale="1.000000 -1.000000" localPos="6.885770 -7.007565"/>
+			<Bone name="ikBoneName12" localPos="8.517711 -21.224926" localAngleRad="0.000000">
+				<Sprite localLayer="2" name="ikNode_12" relativePath="/Sprites/Cranky_back_foot.sprite" localScale="1.000000 -1.000000" localPos="14.941642 -0.230541"/>
+			</Bone>
+		</Bone>
+		<Bone name="ikBoneName11" localPos="7.523154 9.463003" localAngleRad="0.031250">
+			<Sprite localLayer="0" name="ikNode_11" relativePath="/Sprites/Cranky_Back Arm.sprite" localScale="1.000000 -1.000000" localPos="15.222315 -7.735005"/>
+		</Bone>
+		<Bone name="ikBoneName13" localPos="-40.916805 -42.552498" localAngleRad="0.053138">
+			<Sprite localLayer="1" name="ikNode_13" relativePath="/Sprites/Cranky_Tail Base.sprite" localScale="1.000000 -1.000000" localPos="-33.371357 3.452508"/>
+			<Bone name="ikBoneName14" localPos="-69.004433 -0.675210" localAngleRad="0.218175">
+				<Sprite localLayer="8" name="ikNode_14" relativePath="/Sprites/Cranky_Tail Mid.sprite" localScale="1.000000 -1.000000" localPos="12.420877 26.861233"/>
+				<Bone name="ikBoneName15" localPos="28.629715 54.629181" localAngleRad="0.109388">
+					<Sprite localLayer="9" name="ikNode_15" relativePath="/Sprites/Cranky_Tail Tip.sprite" localScale="1.000000 -1.000000" localPos="4.976304 -15.332397"/>
+				</Bone>
+			</Bone>
+		</Bone>
+	</Bone>
+</Skeleton>

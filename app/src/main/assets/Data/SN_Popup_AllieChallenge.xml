@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup_Allie.xml">
+	
+	<!-- Duckies -->
+	<Widget type="WT_LABEL" id="17" pos="2 2" />
+	<Widget type="WT_LABEL" id="18" pos="2 2" />
+	<Widget type="WT_LABEL" id="19" pos="2 2" />
+	
+	<Widget type="WT_LABEL" id="20" pos="2 2" />
+	<Widget type="WT_LABEL" id="21" pos="2 2" />
+	<Widget type="WT_LABEL" id="22" pos="2 2" />
+	
+	<!-- Congratulations Text -->
+	<Widget type="WT_LABEL" id="5" pos="2 2" />
+	
+	<!-- Scoring -->
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="8" pos="2 2" />
+	<Widget type="WT_LABEL" id="9" pos="2 2" />
+	<Widget type="WT_LABEL" id="10" pos="2 2" />
+	<Widget type="WT_LABEL" id="11" pos="2 2" />	
+	
+	<!-- Score -->
+	<Widget type="WT_LABEL" id="12" pos="2 2" />
+	<Widget type="WT_LABEL" id="13" pos="2 2" />
+	<Widget type="WT_LABEL" id="14" pos="2 2" />
+	<Widget type="WT_LABEL" id="15" pos="2 2" />
+	
+	<!-- Notification Bar -->
+	<Widget type="WT_LABEL" id="26" pos="2 2" textColorRGB="0 0 0" />
+	
+	<Widget type="WT_LABEL" id="302" layer="2" pos="0.5 0.2" size="1.0 0.0" forceAspect="2:1" texBGName="allie_results_frame_challenge.webp" visible="false"/>
+	
+	<!-- Addition line -->
+	<Widget type="WT_LABEL" id="16" pos="2 2" />
+    
+    <!-- IAP Buy Now Button -->
+    <Widget type="WT_PUSH_BUTTON" id="290" layer="3" pos="2 2" size="0.403 0" forceAspect="128:44" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" text="BUY_NOW" font="outlined" reactOnDown="false" textColorRGB="94 41 37" visible="false" edgePaddingRelative="0.5" textOffsetRelative="0 -0.01f" textHilightOffsetRelative="0 0.05f"/>
+    
+    <!-- Maybe Later Button -->
+    <Widget type="WT_PUSH_BUTTON" id="291" layer="3" pos="2 2" size="0.403 0" forceAspect="128:44" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" text="LITE_UPSELL_MAYBELATER" font="outlined" reactOnDown="false" textColorRGB="94 41 37" visible="false" edgePaddingRelative="0.5" textOffsetRelative="0 -0.01f" textHilightOffsetRelative="0 0.05f"/>
+	
+</Widgets>

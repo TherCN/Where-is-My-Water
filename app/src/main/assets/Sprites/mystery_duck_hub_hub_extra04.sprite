@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_hub_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="extrahead" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra04_0.png" offset="-49.199999999999996 2.1"/>
+  </Animation>
+</Sprite>

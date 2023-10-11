@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Back				0
+ 
+ WN_CollectibleStart 	1
+ ...
+ WN_CollectibleEnd		...
+ 
+ WN_BonusStart			100
+ ...
+ WN_BonusEnd 			...
+ 
+ WN_BackgroundStart		200
+ ...
+ WN_BackgroundEnd		...
+ 
+ WN_Collectibles_Secret2 297
+ WN_Collectibles_Secret	298
+ ...
+ WN_PackNameStart		300
+ ...
+ WN_PackNameEnd			...
+ 
+ WN_Group				400
+ WN_ScrollGroup			401
+ 
+ WN_NewLabelStart		500
+ ...
+
+ WN_GroupTop			2001
+ WN_GroupBottom			2002
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" priority="0" layer="10" id="0" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" layer="10" pos=".826 .06" size="0.31 0" forceAspect="100:40" texBGName="duck_counter.webp" />
+	<Widget type="WT_LABEL" id ="600" layer="11" pos=".765 .06" size="0.15 0" forceAspect="100:40" text="450/450" halign="right" textColorRGB="19 179 215" />
+	
+	<Widget type="WT_GROUP" id ="400" layer="0" pos="0 0" size="1.0 1.0" />
+	
+	<!-- The 'top' of the screen (maximum y value) -->
+	<Widget type="WT_LABEL" id="2003" layer="10" pos=".5 -0.3" size="0.2 0.2" visible="false"/>
+	
+	
+	<!-- Background -->
+	
+	<!-- Gradient (up top, unaffected by scroll) -->
+	<Widget type="WT_LABEL" layer="9" pos=".5 .075" size="1.0 0" forceAspect="320:100" texBGName="collectible_gradient.png"/>
+	
+	<!-- Wallpaper -->
+	<Widget type="WT_LABEL" id ="299" layer="0" pos=".5 1.2" size="1.0 6.5" numTiles="1.25 0" tileOffset="0.25 0" tileForceAspect="1"  texBGName="collectible_wallpaper.webp" />
+	
+    <!-- Secret levels -->
+    <Widget type="WT_PUSH_BUTTON" id="295" layer="10" pos="0.8 0.15" size="0.16 0" forceAspect="1" texNormalName="Secret_level_sketches_youtube.webp" />
+   	<Widget type="WT_PUSH_BUTTON" id="298" layer="10" pos="0.5 -0.35" size="0.16 0" forceAspect="1" texNormalName="sketches_up_down.webp" />
+   	<Widget type="WT_PUSH_BUTTON" id="297" layer="10" pos="0.6 -0.175" size="0.16 0" forceAspect="1" texNormalName="sketches_good_morning.webp" />
+    
+	<!-- Wallpaper tears -->
+	<Widget type="WT_LABEL" id="280" layer="1" pos=".0 .3875" size="0.16 0" forceAspect="49:143" texBGName="collectible_rip_0.png" />
+	<Widget type="WT_LABEL" id="279" layer="1" pos=".965 0.0155" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_1.png" />
+	<Widget type="WT_LABEL" id="278" layer="1" pos=".05 3.55" size="0.1 0" forceAspect="36:84" texBGName="collectible_rip_2.png" />
+	<Widget type="WT_LABEL" id="277" layer="1" pos=".99 0.975" size="0.1 0" forceAspect="30:80" texBGName="collectible_rip_3.png" />
+	<Widget type="WT_LABEL" id="276" layer="1" pos=".059 1.66" size="0.23 0" forceAspect="73:122" texBGName="collectible_rip_4.png" />
+	<Widget type="WT_LABEL" id="275" layer="1" pos=".95 2.35" size="0.1 0" forceAspect="37:56" texBGName="collectible_rip_5.png" />
+	<Widget type="WT_LABEL" id="274" layer="1" pos=".25 2.85" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_1.png" />
+	<Widget type="WT_LABEL" id="273" layer="1" pos="1.0 3.25" size="0.14 0" forceAspect="40:120" texBGName="collectible_rip_0.png" />
+	
+	<!-- Shelves -->
+	<Widget type="WT_LABEL" id="206" layer="2" pos=".54 .1075" size="0.95 0" forceAspect="306:290" texBGName="collectible_shelf_top.png" />
+	<Widget type="WT_LABEL" id="207" layer="2" parent="206" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_0.png" />
+	<Widget type="WT_LABEL" id="208" layer="2" parent="207" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_1.png" />
+	<Widget type="WT_LABEL" id="209" layer="2" parent="208" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_0.png" />
+	<Widget type="WT_LABEL" id="210" layer="2" parent="209" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_1.png" />
+	<Widget type="WT_LABEL" id="211" layer="2" parent="210" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_0.png" />
+	<Widget type="WT_LABEL" id="212" layer="2" parent="211" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_1.png" />
+	<Widget type="WT_LABEL" id="213" layer="2" parent="212" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_0.png" />
+	<Widget type="WT_LABEL" id="214" layer="2" parent="213" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:225" texBGName="collectible_shelf_mid_1.png" />
+	<Widget type="WT_LABEL" id="215" layer="2" parent="214" parentLineUpY="true" pos="0 0 0 -1" size="0.95 0" forceAspect="306:316" texBGName="collectible_shelf_bottom.png" />
+	
+	<!-- Runner -->
+	<Widget type="WT_LABEL" id="281" layer="2" parent="215" parentLineUpY="true" pos="-0.04 0.125" size="1.0 0" forceAspect="320:183" texBGName="collectible_wall_runner.webp" />
+	<Widget type="WT_PUSH_BUTTON" id="282" layer="3" parent="281" pos="-0.275 0.05" size="0.256 0" forceAspect="82:45" texNormalName="collectible_swampy.png" />
+	
+	<!-- Shelf text -->
+	<Widget type="WT_LABEL" id="216" layer="3" parent="206" pos="-0.132 -0.175" size="0.5 0.05" text="COLLECTION" textColorRGB="45 25 18" />
+	<Widget type="WT_LABEL" id="217" layer="3" parent="206" pos="0.2 -0.1625" size="0.12 0.1" text="BONUS_LEVELS" textColorRGB="45 25 18" />
+	
+	<Widget type="WT_LABEL" id="300" layer="3" pos="0 0" parent="206" posByParentSize="0.46 0.57" size="0.75 0.03" text="WORLD_1A" textColorRGB="45 25 18" />
+	<Widget type="WT_LABEL" id="301" parent="206" posByParentSize="0.46 0.955" />
+	<Widget type="WT_LABEL" id="302" parent="207" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="303" parent="207" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="304" parent="208" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="305" parent="208" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="306" parent="209" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="307" parent="209" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="308" parent="210" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="309" parent="210" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="310" parent="211" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="311" parent="211" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="312" parent="212" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="313" parent="212" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="314" parent="213" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="315" parent="213" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="316" parent="214" posByParentSize="0.46 0.44" />
+	<Widget type="WT_LABEL" id="317" parent="214" posByParentSize="0.46 0.94" />
+	<Widget type="WT_LABEL" id="318" parent="215" posByParentSize="0.46 0.3175" />
+	<Widget type="WT_LABEL" id="319" parent="215" posByParentSize="0.46 0.6725" />
+	
+    <!-- Collectible layout -->
+    <!-- Shelf 1 (TOP) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="1" layer="6" parent="206" pos="0 0" posByParentSize="0.193 0.400" size="0.18 0" forceAspect="1" reactOnDown="false" disabledColorRGB="25 25 25" angleDegrees="25"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="02" parent="206" posByParentSize="0.362 0.450" angleDegrees="-55"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="03" parent="206" posByParentSize="0.522 0.400" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="100" layer="6" parent="206" pos="0 0" posByParentSize="0.72 0.415" size="0.16 0" forceAspect="43:45" texNormalName="level_icon_null.png" reactOnDown="true" textColorRGB="34 124 158" edgePaddingRelative="0.525" textOffsetRelative="0 -0.125" textHilightOffsetRelative="0 -0.125" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 2 (TOP) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="04" parent="206" posByParentSize="0.193 0.855" angleDegrees="-45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="05" parent="206" posByParentSize="0.362 0.855" angleDegrees="-35"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="06" parent="206" posByParentSize="0.522 0.790" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="101" parent="206" posByParentSize="0.72 0.805" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 3 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="07" parent="207" posByParentSize="0.193 0.290" angleDegrees="-50"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="08" parent="207" posByParentSize="0.362 0.260" angleDegrees="45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="09" parent="207" posByParentSize="0.522 0.260" angleDegrees="5"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="102" parent="207" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 4 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="10" parent="207" posByParentSize="0.193 0.760" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="11" parent="207" posByParentSize="0.362 0.740" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="12" parent="207" posByParentSize="0.522 0.790" angleDegrees="55"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="103" parent="207" posByParentSize="0.72 0.745" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 5 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="13" parent="208" posByParentSize="0.193 0.255" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="14" parent="208" posByParentSize="0.362 0.250" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="15" parent="208" posByParentSize="0.522 0.230" angleDegrees="17"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="104" parent="208" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 6 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="16" parent="208" posByParentSize="0.193 0.800" angleDegrees="45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="17" parent="208" posByParentSize="0.362 0.760" angleDegrees="15"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="18" parent="208" posByParentSize="0.522 0.740" angleDegrees="7"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="105" parent="208" posByParentSize="0.72 0.745" font="outlined"/>
+    
+	
+	
+	<!-- Shelf 7 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="19" parent="209" posByParentSize="0.193 0.310" angleDegrees="45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="20" parent="209" posByParentSize="0.362 0.320" angleDegrees="37"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="21" parent="209" posByParentSize="0.522 0.240" angleDegrees="-15"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="106" parent="209" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 8 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="22" parent="209" posByParentSize="0.193 0.770" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="23" parent="209" posByParentSize="0.362 0.780" angleDegrees="-45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="24" parent="209" posByParentSize="0.522 0.750" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="107" parent="209" posByParentSize="0.72 0.745" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 9 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="25" parent="210" posByParentSize="0.193 0.240" angleDegrees="10"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="26" parent="210" posByParentSize="0.347 0.220" angleDegrees="25"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="27" parent="210" posByParentSize="0.522 0.270" angleDegrees="30"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="108" parent="210" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 10 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="28" parent="210" posByParentSize="0.193 0.740" angleDegrees="30"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="29" parent="210" posByParentSize="0.342 0.770" angleDegrees="20"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="30" parent="210" posByParentSize="0.522 0.740" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="109" parent="210" posByParentSize="0.72 0.745" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 11 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="31" parent="211" posByParentSize="0.193 0.276" angleDegrees="30"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="32" parent="211" posByParentSize="0.362 0.281" angleDegrees="90"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="33" parent="211" posByParentSize="0.522 0.276" angleDegrees="10"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="110" parent="211" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 12 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="34" parent="211" posByParentSize="0.193 0.805" angleDegrees="-45"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="35" parent="211" posByParentSize="0.382 0.745" angleDegrees="10"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="36" parent="211" posByParentSize="0.522 0.735" angleDegrees="-45"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="111" parent="211" posByParentSize="0.72 0.745" font="outlined"/>
+    
+    
+    
+	<!-- Shelf 13 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="37" parent="212" posByParentSize="0.193 0.241" angleDegrees="-15"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="38" parent="212" posByParentSize="0.410 0.280" angleDegrees="-50"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="39" parent="212" posByParentSize="0.522 0.240" angleDegrees="85"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="112" parent="212" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 14 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="40" parent="212" posByParentSize="0.193 0.740" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="41" parent="212" posByParentSize="0.362 0.760" angleDegrees="30"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="42" parent="212" posByParentSize="0.522 0.740" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="113" parent="212" posByParentSize="0.72 0.745" font="outlined"/>
+    
+    
+    
+	<!-- Shelf 15 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="43" parent="213" posByParentSize="0.210 0.240" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="44" parent="213" posByParentSize="0.362 0.240" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="45" parent="213" posByParentSize="0.522 0.240" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="114" parent="213" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 16 (MID_0) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="46" parent="213" posByParentSize="0.193 0.710" angleDegrees="30"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="47" parent="213" posByParentSize="0.355 0.740" angleDegrees="35"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="48" parent="213" posByParentSize="0.522 0.760" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="115" parent="213" posByParentSize="0.72 0.745" font="outlined"/>
+    
+	
+	
+    <!-- Shelf 17 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="49" parent="214" posByParentSize="0.193 0.266" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="50" parent="214" posByParentSize="0.362 0.251" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="51" parent="214" posByParentSize="0.522 0.266" angleDegrees="0"/>
+																							
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="116" parent="214" posByParentSize="0.72 0.245" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 18 (MID_1) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="52" parent="214" posByParentSize="0.193 0.745" angleDegrees="0"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="53" parent="214" posByParentSize="0.370 0.780" angleDegrees="50"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="54" parent="214" posByParentSize="0.522 0.755" angleDegrees="0"/>
+																							
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="117" parent="214" posByParentSize="0.72 0.745" font="outlined"/>
+	
+	
+	
+    <!-- Shelf 19 (BOTTOM) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="55" parent="215" posByParentSize="0.193 0.175" angleDegrees="-12"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="56" parent="215" posByParentSize="0.370 0.205" angleDegrees="25"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="57" parent="215" posByParentSize="0.522 0.170" angleDegrees="0"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="118" parent="215" posByParentSize="0.72 0.169" font="outlined"/>
+    
+    
+    
+    <!-- Shelf 20 (BOTTOM) -->
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="58" parent="215" posByParentSize="0.193 0.575" angleDegrees="20"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="59" parent="215" posByParentSize="0.370 0.545" angleDegrees="-15"/>
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="60" parent="215" posByParentSize="0.522 0.530" angleDegrees="33"/>
+    
+    <Widget type="WT_PUSH_BUTTON" priority="1" id="119" parent="215" posByParentSize="0.72 0.530" font="outlined"/>
+    
+    
+    <!-- DEFAULT X POSITIONS
+	 posByParentSize="0.193 X"
+	 posByParentSize="0.362 X"
+	 posByParentSize="0.522 X"
+	-->
+    
+</Widgets>

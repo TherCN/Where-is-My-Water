@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Labels
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_PromoImage		4
+ 
+ 
+ Progress Indicator
+ WN_ProgressGear	20
+ WN_ProgressLabel	21
+ WN_ProgressCancel	22
+ 
+ Results
+ WN_ResultHeader	30
+ WN_ResultBody		31
+ WN_ResultOK		32
+ 
+ Button
+ WN_ButtonBuyProduct1		40
+ WN_ButtonCancel            41
+ WN_ButtonDebugBuy          42
+ WN_ButtonBuyProduct2       43
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	 
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos="0.5 0.5" size="0.8 0.7" forceAspect="256:256" texBGName="dialogue_box.webp" />
+	<Widget type="WT_LABEL" id="1" layer="0" pos="0.5 0.5" size="1.1 1.1" texBGName="dialogue_vinette_dark.webp" />
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="2" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.1" size="0.7 0.075" text="" textColorRGB="34 124 158" font="outlined" />
+	<Widget type="WT_LABEL" id="3" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.375" size="0.75 0.35" text="BODY" textColorRGB="255 255 255" halign="center" valign="top"/>
+	
+	<!-- Image -->
+	<Widget type="WT_LABEL" id="4" layer="1" parent="0" pos="0 0" posByParentSize="0.825 0.5" size="0.25 0" forceAspect="1:2" texBGName="" />
+	
+	<!-- Bottom/top images-->
+	<Widget type="WT_LABEL" id="5" layer="1" pos="0 0" justifyWidget="0.5 0.02" size="0.42 0" forceAspect="165:125" texBGName="upsell_cranky_title.webp" />
+	<Widget type="WT_LABEL" id="6" layer="1" pos="0 0" justifyWidget="0.4 1.0" size="0.0 0.32" forceAspect="250:153" aspectBasis="height" texBGName="upsell_cranky_keyart.webp" />
+		
+	<!-- progress indicator -->
+	<Widget type="WT_LABEL" id="20" layer="2" parent="0" pos="0 0" posByParentSize="0.5 0.5" size="0.1 0" forceAspect="1" texBGName="BUSY_INDICATOR.webp" visible="false" />
+	<Widget type="WT_LABEL" id="21" layer="2" parent="0" pos="0 0" posByParentSize="0.5 0.25" size="0.7 0.075" text="PROCESSING" textColorRGB="34 124 158" font="outlined" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="22" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="CANCEL" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05"/>
+	
+	<!-- result indicators -->
+	<Widget type="WT_LABEL" id="30" layer="2" parent="0" pos="0 0" posByParentSize="0.5 0.35" size="0.7 0.075" text="RESULT_HEADER" textColorRGB="34 124 158" font="outlined" />
+	<Widget type="WT_LABEL" id="31" layer="2" parent="0" pos="0 0" posByParentSize="0.5 0.5" size="0.7 0.05" text="RESULT_BODY" textColorRGB="255 255 255" halign="center"/>
+	<Widget type="WT_PUSH_BUTTON" id="32" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="OK" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05"/>
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="40" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.65" size="0.3 0" forceAspect="128:44" texNormalName="WMW_UI_IAP_cranky_buy_button.webp" texHilightName="WMW_UI_IAP_cranky_buy_button.webp" text="BUY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textOffsetRelative="0.1 0" textHilightOffsetRelative="0.1 0"/>
+    <Widget type="WT_PUSH_BUTTON" id="43" layer="1" parent="0" pos="0 0" posByParentSize="0.5 0.775" size="0.3 0" forceAspect="128:44" texNormalName="Cranky_ui_shopping_cart_button.png" texHilightName="Cranky_ui_shopping_cart_button.png" text="BUY" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textOffsetRelative="0.1 0" textHilightOffsetRelative="0.1 0"/>
+	<Widget type="WT_PUSH_BUTTON" id="41" layer="1" pos="0 0 5 5" justifyWidget="0 0" size="0.09 0" forceAspect="1" texNormalName="upsell_cranky_close.webp" reactOnDown="false" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="44" layer="1" parent="0" pos="0 0" posByParentSize="0.7 0.775" size="0.3 0" forceAspect="128:44" texNormalName="WMW_IAP_upsell_button.webp" texHilightName="WMW_IAP_upsell_button.webp" text="SALE" font="outlined" reactOnDown="false" textColorRGB="94 41 37" edgePaddingRelative="0.4" textOffsetRelative="0.1 0" textHilightOffsetRelative="0.1 0" visible="false"/>
+	<Widget type="WT_LABEL" id ="45" layer="1" parent="0" posByParentSize="0.7 0.88" size=".23 0.05" visible="false" text="SALE" textColorRGB="255 255 255"/>
+		
+	
+	
+	
+	<!-- DEBUG - Move back to pos="0.5 0.85" to see -->
+	<Widget type="WT_PUSH_BUTTON" id="42" layer="3" pos="0.5 2.85" size="0.4 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="FAKE PURCHASE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false"/>
+
+</Widgets>

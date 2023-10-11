@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="pipe_eating" textureBasePath="/Textures/" atlas="/Textures/crankyNew_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="pipe_new_0.png" repeat="1" offset="0 0"/>
+    <Frame name="pipe_new_0.png" offset="5.16 4.3"/>
+    <Frame name="pipe_new_0.png" repeat="3" offset="9.03 9.459999999999999"/>
+    <Frame name="pipe_new_0.png" offset="10.760750000000002 10.75"/>
+    <Frame name="pipe_new_0.png" offset="12.9 13.33"/>
+    <Frame name="pipe_new_0.png" offset="15.91 16.34"/>
+    <Frame name="pipe_new_1.png" repeat="1" offset="15.979874999999998 14.630749999999995"/>
+    <Frame name="pipe_new_1.png" offset="18.559874999999998 16.350749999999994"/>
+    <Frame name="pipe_new_1.png" offset="21.569874999999996 18.500749999999996"/>
+    <Frame name="pipe_new_2.png" offset="22.892124999999993 24.520750000000003"/>
+    <Frame name="pipe_new_2.png" repeat="1" offset="25.47212499999999 26.240750000000002"/>
+    <Frame name="pipe_new_2.png" offset="27.627499999999987 26.235374999999994" angleDeg="-8.938690185546875"/>
+    <Frame name="pipe_new_2.png" offset="31.916749999999997 24.945374999999995" scale="0.9999847412109375 0.9999847412109375" angleDeg="-15.003814697265625"/>
+    <Frame name="pipe_new_3.png" offset="20.075625 17.253749999999993" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="pipe_new_3.png" repeat="1" offset="23.155499999999996 14.227624999999996" scale="1.0000152587890625 1.0000152587890625" angleDeg="-8.481674194335938"/>
+    <Frame name="pipe_new_4.png" offset="37.57662500000001 15.383249999999997"/>
+    <Frame name="pipe_new_3.png" offset="35.007374999999996 14.098624999999997" scale="1.0000152587890625 1.0000152587890625" angleDeg="-27.73345947265625"/>
+    <Frame name="pipe_new_3.png" offset="41.027375 17.538624999999996" scale="1.0000152587890625 1.0000152587890625" angleDeg="-27.73345947265625"/>
+    <Frame name="pipe_new_5.png" repeat="1" offset="46.35399999999999 18.280374999999996"/>
+    <Frame name="pipe_new_6.png" offset="44.478125 20.091749999999998"/>
+    <Frame name="pipe_new_7.png" offset="45.563875 16.544249999999998"/>
+    <Frame name="pipe_new_8.png" offset="44.892 19.054375"/>
+  </Animation>
+</Sprite>

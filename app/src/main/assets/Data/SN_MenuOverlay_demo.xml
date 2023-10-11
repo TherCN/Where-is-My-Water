@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Resume			0
+ WN_LevelSelect		1
+ WN_MainMenu		2
+ WN_SkipLevel		3
+ 
+ WN_LevelName		4
+ WN_ChallengeDetails	5
+ 
+ WN_Shade			6
+ -->
+<Widgets texturePath="/Textures/">
+	
+	<Widget type="WT_LABEL" layer="0" pos="0.5 0.5" size="1.0 1.0" texBGName="transparent_black.webp" />
+	
+	
+	<Widget type="WT_PUSH_BUTTON" id="0" pos="0.5 0.33" layer="1" size="0.5 0.1" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="RESUME" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="2" pos="0.5 0.5" layer="1" size="0.5 0.1" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="MAIN_MENU" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+	<Widget type="WT_PUSH_BUTTON" id="3" pos="0.5 0.66" layer="1" size="0.5 0.1" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="SKIP_LEVEL" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+	
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+	<Widget type="WT_LABEL" layer="1" pos=".5 .075" size="1.0 0.15" texBGName="hud_gradient.png" />
+    
+	<Widget type="WT_LABEL" id="4" layer="2" pos=".5 .075" size="0.975 0.1" text="MAP 1-1" textColorRGB="255 255 255" textPadding=".2" paddingH=".05" />
+	
+	
+	<!-- challenge details -->
+	<Widget type="WT_LABEL" id="5" layer="2" pos=".5 .2" size="0.975 0.15" text="CHALLENGE" textColorRGB="255 255 255" textPadding=".2" paddingH=".05" visible="false" />
+	
+	<!-- DEBUG: Language Changing button -->
+	<Widget type="WT_PUSH_BUTTON" id="30" pos="0.5 0.9" layer="1" size="0.5 0.1" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="LANGUAGE_NAME" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+	
+</Widgets>

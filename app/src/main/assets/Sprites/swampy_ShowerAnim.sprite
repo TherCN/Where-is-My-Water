@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="showerwiggle" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="ShowerAnim_0.png" offset="-3.240750000000001 1.725500000000005" scale="0.9495399545295025 1.0277095381235029" angleDeg="-3.806182861328125"/>
+    <Frame name="ShowerAnim_0.png" offset="-6.894750000000001 3.2480000000000047" scale="0.8994766315211254 1.0558157987091261" angleDeg="-7.9447021484375"/>
+    <Frame name="ShowerAnim_0.png" offset="-0.21749999999999997 -0.76125" scale="0.9496925400918566 0.9823916261043381" angleDeg="0.5341644287109375"/>
+    <Frame name="ShowerAnim_0.png" offset="5.422999999999998 -5.850749999999994" scale="1 0.9090284877244915" angleDeg="9.2310791015625"/>
+    <Frame name="ShowerAnim_0.png" offset="4.676249999999998 -3.6467499999999964" scale="0.9996032775378794 0.9541022628438897" angleDeg="7.5326690673828125"/>
+    <Frame name="ShowerAnim_0.png" offset="3.929500000000001 -1.4717499999999966" scale="0.9999847414437646 0.9999847414437646" angleDeg="5.9990386962890625"/>
+    <Frame name="ShowerAnim_0.png" offset="0.18124999999999794 -0.0725" scale="1.0000152587890625 1.0000152587890625" angleDeg="0.2867584228515625"/>
+    <Frame name="ShowerAnim_0.png" offset="-3.509000000000002 0.9424999999999999" scale="1.0000152587890625 1.0000152587890625" angleDeg="-5.2015228271484375"/>
+    <Frame name="ShowerAnim_0.png" offset="-1.4645000000000012 3.494500000000003" scale="0.9230358423485969 1.0571738102140775" angleDeg="-0.7789154052734375"/>
+    <Frame name="ShowerAnim_0.png" offset="0.7032499999999992 5.9739999999999975" scale="0.846147977478371 1.1144086546530967" angleDeg="3.46746826171875"/>
+    <Frame name="ShowerAnim_0.png" offset="0.18849999999999958 3.0087499999999996" scale="0.9229748081236553 1.0571127759891359" angleDeg="1.559295654296875"/>
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+  </Animation>
+  <Animation name="showerback" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ShowerAnim_0.png" offset="12.752749999999999 -6.749749999999997" scale="0.9999694828875292 0.9999694828875292" angleDeg="20.748947143554688"/>
+    <Frame name="ShowerAnim_0.png" offset="9.156749999999999 -4.284750000000002" scale="0.9991607794070525 0.9991607794070525" angleDeg="14.514938354492188"/>
+    <Frame name="ShowerAnim_0.png" offset="5.343250000000001 -2.1604999999999968" scale="0.9995269847567023 0.9995269847567023" angleDeg="8.263473510742188"/>
+    <Frame name="ShowerAnim_0.png" offset="1.319499999999997 -0.449499999999995" scale="0.9998779315501167 0.9998779315501167" angleDeg="2.012603759765625"/>
+    <Frame name="ShowerAnim_0.png" offset="-2.82025 0.7757500000000033" scale="1.0000152587890625 1.0000152587890625" angleDeg="-4.187255859375"/>
+    <Frame name="ShowerAnim_0.png" offset="-1.1962499999999998 0.3480000000000049" scale="0.9998474144376459 0.9998474144376459" angleDeg="-1.777679443359375"/>
+    <Frame name="ShowerAnim_0.png" offset="-0.2102500000000004 0.07975000000000164" scale="0.9999542243312938 0.9999542243312938" angleDeg="-0.3042449951171875"/>
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+  </Animation>
+  <Animation name="showerstart" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="ShowerAnim_0.png" offset="0.46400000000000036 -1.7110000000000016" scale="1.038314234707112 0.9551551032241329"/>
+    <Frame name="ShowerAnim_0.png" offset="1.848749999999998 -6.851249999999999" scale="1.1534247829470377 0.820666188565238"/>
+    <Frame name="ShowerAnim_0.png" offset="0 -1.283249999999995" scale="0.9999847414437646 0.966537986175748"/>
+    <Frame name="ShowerAnim_0.png" offset="-1.84875 4.299250000000004" scale="0.8465294413842562 1.112409783786258"/>
+    <Frame name="ShowerAnim_0.png" offset="4.212249999999999 1.0005000000000048" scale="0.8972793994232265 1.0744312373163252" angleDeg="7.7705535888671875"/>
+    <Frame name="ShowerAnim_0.png" offset="9.5845 -3.1247500000000015" scale="0.9479988403497261 1.0365747592962753" angleDeg="15.546478271484375"/>
+    <Frame name="ShowerAnim_0.png" offset="14.195499999999997 -7.967749999999998" scale="0.9999847414437646 0.9999847414437646" angleDeg="23.452285766601562"/>
+    <Frame name="ShowerAnim_0.png" offset="13.282 -7.271749999999996" scale="0.9988250911698735 0.9988250911698735" angleDeg="21.824462890625"/>
+    <Frame name="ShowerAnim_0.png" offset="12.8615 -6.930999999999997" scale="0.9988556082823443 0.9988556082823443" angleDeg="21.035873413085938"/>
+    <Frame name="ShowerAnim_0.png" offset="12.752749999999999 -6.749749999999997" scale="0.9999694828875292 0.9999694828875292" angleDeg="20.748947143554688"/>
+  </Animation>
+  <Animation name="showerhit" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ShowerAnim_0.png" offset="-3.8642500000000006 1.0077499999999984" scale="0.9999847414437646 0.9999847414437646" angleDeg="-5.72479248046875"/>
+    <Frame name="ShowerAnim_0.png" offset="-3.2262500000000016 0.8555000000000049" scale="0.9997253459877626 0.9997253459877626" angleDeg="-4.781585693359375"/>
+    <Frame name="ShowerAnim_0.png" offset="-1.522500000000002 0.4277499999999983" scale="0.9998626729938813 0.9998626729938813" angleDeg="-2.2657928466796875"/>
+    <Frame name="ShowerAnim_0.png" offset="1.2977500000000004 -0.43499999999999994" scale="1.0000152587890625 1.0000152587890625" angleDeg="1.9506072998046875"/>
+    <Frame name="ShowerAnim_0.png" offset="0.20300000000000082 -0.06524999999999835" scale="0.9999847414437646 0.9999847414437646" angleDeg="0.3094940185546875"/>
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+  </Animation>
+  <Animation name="main" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ShowerAnim_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="24" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="8"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="6"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="16"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="6"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="17"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="28" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_torso_LS_1.png" offset="0.000000 0.125074"/>
+    <Frame name="cranky_bd_torso_LS_2.png" offset="0.000000 0.268015"/>
+    <Frame name="cranky_bd_torso_LS_3.png" offset="0.000000 0.525309"/>
+    <Frame name="cranky_bd_torso_LS_4.png" offset="0.000000 0.896957"/>
+    <Frame name="cranky_bd_torso_LS_5.png" offset="0.000000 1.072060"/>
+    <Frame name="cranky_bd_torso_LS_6.png" offset="0.000000 1.282898"/>
+    <Frame name="cranky_bd_torso_LS_7.png" offset="1.340075 2.555075"/>
+    <Frame name="cranky_bd_torso_LS_8.png" offset="1.861810 3.852268"/>
+    <Frame name="cranky_bd_torso_LS_9.png" offset="2.426428 5.049401"/>
+    <Frame name="cranky_bd_torso_LS_8.png" offset="1.861810 3.852268"/>
+    <Frame name="cranky_bd_torso_LS_7.png" offset="1.340075 2.555075"/>
+    <Frame name="cranky_bd_torso_LS_8.png" offset="1.861810 3.852268"/>
+    <Frame name="cranky_bd_torso_LS_9.png" offset="2.426428 5.049401"/>
+    <Frame name="cranky_bd_torso_LS_8.png" offset="1.861810 3.852268"/>
+    <Frame name="cranky_bd_torso_LS_7.png" offset="1.340075 2.555075"/>
+    <Frame name="cranky_bd_torso_LS_9.png" offset="2.426428 5.049401"/>
+    <Frame name="cranky_bd_torso_LS_8.png" offset="1.861810 3.852268"/>
+    <Frame name="cranky_bd_torso_LS_7.png" offset="1.340075 2.555075"/>
+    <Frame name="cranky_bd_torso_LS_6.png" offset="0.000000 1.282898"/>
+    <Frame name="cranky_bd_torso_LS_4.png" offset="0.000000 0.896957"/>
+    <Frame name="cranky_bd_torso_LS_3.png" offset="0.000000 0.525309"/>
+    <Frame name="cranky_bd_torso_LS_2.png" offset="0.000000 0.268015"/>
+    <Frame name="cranky_bd_torso_LS_1.png" offset="0.000000 0.125074"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="4"/>
+  </Animation>
+  <Animation name="25" textureBasePath="/Textures/" atlas="/Textures/cranky_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000" repeat="2"/>
+    <Frame name="cranky_bd_torso_LS_1.png" offset="0.000000 0.125074"/>
+    <Frame name="cranky_bd_torso_LS_2.png" offset="0.000000 0.268015"/>
+    <Frame name="cranky_bd_torso_LS_3.png" offset="0.000000 0.525309"/>
+    <Frame name="cranky_bd_torso_LS_4.png" offset="0.000000 0.896957"/>
+    <Frame name="cranky_bd_torso_LS_5.png" offset="0.000000 1.072060"/>
+    <Frame name="cranky_bd_torso_LS_6.png" offset="0.000000 1.282898" repeat="35"/>
+    <Frame name="cranky_bd_torso_LS_5.png" offset="0.000000 1.072060"/>
+    <Frame name="cranky_bd_torso_LS_4.png" offset="0.000000 0.896957"/>
+    <Frame name="cranky_bd_torso_LS_3.png" offset="0.000000 0.525309"/>
+    <Frame name="cranky_bd_torso_LS_2.png" offset="0.000000 0.268015"/>
+    <Frame name="cranky_bd_torso_LS_1.png" offset="0.000000 0.125074"/>
+    <Frame name="cranky_bd_torso_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+</Sprite>

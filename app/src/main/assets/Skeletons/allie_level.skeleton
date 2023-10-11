@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Skeleton name="allie_level" animations="/Animations/allie_level.ani" curveCollection="/Curves/allie_levelCurves.bin">
+  <Bone name="ikBoneName2" localPos="-16.987495 12.731255" localAngleRad="0.000000">
+    <Sprite localLayer="6" name="ikNode_2" relativePath="/Sprites/allie_level_level_root.sprite" localScale="1.000000 -1.000000" localPos="0.000000 0.000000"/>
+    <Bone name="ikBoneName3" localPos="-13.856251 0.000000" localAngleRad="0.000000">
+      <Sprite localLayer="7" name="ikNode_3" relativePath="/Sprites/allie_level_al_level_torso.sprite" localScale="1.000000 -1.000000" localPos="36.553123 6.703125"/>
+      <Bone name="ikBoneName4" localPos="1.237500 11.100000" localAngleRad="0.000000">
+        <Sprite localLayer="9" name="ikNode_4" relativePath="/Sprites/allie_level_al_level_right_foot.sprite" localScale="1.000000 -1.000000" localPos="-1.040626 -9.553125"/>
+        <Bone name="ikBoneName28" localPos="-2.231250 -20.587502" localAngleRad="0.000000">
+          <Sprite localLayer="8" name="ikNode_28" relativePath="/Sprites/allie_level_al_level_foot_right.sprite" localScale="1.000000 -1.000000" localPos="-0.431251 -9.768750"/>
+        </Bone>
+      </Bone>
+      <Bone name="ikBoneName5" localPos="12.750000 -6.768750" localAngleRad="0.000000">
+        <Sprite localLayer="2" name="ikNode_5" relativePath="/Sprites/allie_level_al_level_left_leg.sprite" localScale="1.000000 -1.000000" localPos="-10.087503 -6.478125"/>
+        <Bone name="ikBoneName29" localPos="-25.574999 -11.362499" localAngleRad="0.000000">
+          <Sprite localLayer="0" name="ikNode_29" relativePath="/Sprites/allie_level_al_level_left_foot.sprite" localScale="1.000000 -1.000000" localPos="-10.996874 -5.240625"/>
+        </Bone>
+      </Bone>
+      <Bone name="ikBoneName6" localPos="59.118748 10.293751" localAngleRad="0.000000">
+        <Sprite localLayer="14" name="ikNode_6" relativePath="/Sprites/allie_level_al_level_right_arm.sprite" localScale="1.000000 -1.000000" localPos="5.193749 -12.403124"/>
+      </Bone>
+      <Bone name="ikBoneName7" localPos="83.774994 -9.299999" localAngleRad="0.000000">
+        <Sprite localLayer="13" name="ikNode_7" relativePath="/Sprites/allie_level_al_level_left_arm.sprite" localScale="1.000000 -1.000000" localPos="9.843750 11.296873"/>
+      </Bone>
+      <Bone name="ikBoneName8" localPos="81.449997 9.356251" localAngleRad="0.000000">
+        <Sprite localLayer="10" name="ikNode_8" relativePath="/Sprites/allie_level_al_level_bottom_lip.sprite" localScale="1.000000 -1.000000" localPos="-5.146874 22.303127"/>
+        <Bone name="ikBoneName9" localPos="22.481251 31.199999" localAngleRad="0.000000">
+          <Sprite localLayer="11" name="ikNode_9" relativePath="/Sprites/allie_level_al_level_top_lip.sprite" localScale="1.000000 -1.000000" localPos="-40.556252 -8.371876"/>
+          <Bone name="ikBoneName10" localPos="-15.075001 0.000000" localAngleRad="0.000000">
+            <Sprite localLayer="12" name="ikNode_10" relativePath="/Sprites/allie_level_al_level_eyes.sprite" localScale="1.000000 -1.000000" localPos="-5.962501 18.412498"/>
+            <Bone name="ikBoneName11" localPos="12.674999 14.718750" localAngleRad="0.000000">
+              <Sprite localLayer="1" name="ikNode_11" relativePath="/Sprites/allie_level_al_level_bow.sprite" localScale="1.000000 -1.000000" localPos="8.943749 7.678126"/>
+            </Bone>
+          </Bone>
+        </Bone>
+      </Bone>
+      <Bone name="ikBoneName12" localPos="5.717050 1.192045" localAngleRad="0.007900">
+        <Sprite localLayer="5" name="ikNode_12" relativePath="/Sprites/allie_level_al_level_tail_a.sprite" localScale="1.000000 -1.000000" localPos="-32.822109 -1.834892"/>
+        <Bone name="ikBoneName13" localPos="-56.837917 -2.023009" localAngleRad="0.084819">
+          <Sprite localLayer="4" name="ikNode_13" relativePath="/Sprites/allie_level_al_level_tail_b.sprite" localScale="1.000000 -1.000000" localPos="-6.732705 25.994427"/>
+          <Bone name="ikBoneName14" localPos="1.806226 55.248001" localAngleRad="0.000000">
+            <Sprite localLayer="3" name="ikNode_14" relativePath="/Sprites/allie_level_al_level_tail_c.sprite" localScale="1.000000 -1.000000" localPos="41.248356 3.445947"/>
+          </Bone>
+        </Bone>
+      </Bone>
+    </Bone>
+  </Bone>
+</Skeleton>

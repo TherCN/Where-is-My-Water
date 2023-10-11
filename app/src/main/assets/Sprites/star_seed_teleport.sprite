@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="DUCK_FULL" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_0.png" offset="-0.12890625 0.041250000000002784"/>
+  </Animation>
+  <Animation name="DUCK_EMPTY" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_1.png" offset="-0.005156249999999706 0.005156250000000439"/>
+  </Animation>
+  <Animation name="disappear" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_2.png" offset="0.16500000000000087 -6.0121875" scale="1.28887939453125 0.9891357421875"/>
+    <Frame name="star_seed_teleport_2.png" offset="0.3299999999999988 -8.21390625" scale="1.7899627685546875 0.7178802490234375"/>
+    <Frame name="star_seed_teleport_2.png" offset="0 -5.723437499999999" scale="0.9861297607421875 1.01123046875"/>
+    <Frame name="star_seed_teleport_2.png" offset="0.04640625000000029 -5.120156249999999" scale="0.64581298828125 0.654541015625"/>
+    <Frame name="star_seed_teleport_2.png" offset="0.103125 -4.511718749999999" scale="0.30548095703125 0.2978515625"/>
+	<Frame name="star_seed_teleport_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="appear" textureBasePath="/Textures/" atlas="/Textures/duckies.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="star_seed_teleport_3.png" offset="0 0"/>
+    <Frame name="star_seed_teleport_4.png" offset="0 -0.005156249999999706"/>
+    <Frame name="star_seed_teleport_5.png" offset="-0.005156250000001172 -0.005156249999998974"/>
+    <Frame name="star_seed_teleport_6.png" offset="-0.005156250000001172 0.005156250000000439"/>
+    <Frame name="star_seed_teleport_7.png" offset="0.010312499999999412 -7.327471962526033e-16"/>
+    <Frame name="star_seed_teleport_8.png" offset="0 0.005156250000000439"/>
+    <Frame name="star_seed_teleport_1.png" offset="-0.005156249999999706 0.005156250000000439"/>
+    <Frame name="star_seed_teleport_1.png" offset="-0.005156249999999706 0.005156250000000439"/>
+  </Animation>
+</Sprite>

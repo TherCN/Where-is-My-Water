@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_hub_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="scarf" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_scarf_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

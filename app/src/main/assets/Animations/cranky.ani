@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<Animations>
+	<Animation fps="30.000000" forceFPS="true" name="idle">
+		<NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/idle/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName10_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName11" angleRelCurvePath="/Curves/idle/ikBoneName11_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName11_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName11_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName12" angleRelCurvePath="/Curves/idle/ikBoneName12_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName12_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName12_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName13" angleRelCurvePath="/Curves/idle/ikBoneName13_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName13_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName13_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName14" angleRelCurvePath="/Curves/idle/ikBoneName14_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName14_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName14_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName15" angleRelCurvePath="/Curves/idle/ikBoneName15_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName15_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName15_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName4" angleRelCurvePath="/Curves/idle/ikBoneName4_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName4_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName4_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName5" angleRelCurvePath="/Curves/idle/ikBoneName5_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName5_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName5_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName6" angleRelCurvePath="/Curves/idle/ikBoneName6_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName6_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName6_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName7" angleRelCurvePath="/Curves/idle/ikBoneName7_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName7_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName7_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/idle/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName8_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/idle/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/idle/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/idle/ikBoneName9_posY.xml"/>
+		<SpriteAnimationTrack sprite="ikNode_10">
+			<SpriteAnimationEvent time="0.000000" animationName="blink" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.266667" animationName="blink" playOffset="0.266667" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.900000" animationName="open" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.833333" animationName="blink" loops="false" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_11">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_12">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_13">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_base" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_14">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_mid" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_15">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_4">
+			<SpriteAnimationEvent time="0.000000" animationName="body" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_5">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_6">
+			<SpriteAnimationEvent time="0.000000" animationName="front_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_7">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_8">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_9">
+			<SpriteAnimationEvent time="0.000000" animationName="back_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+	</Animation>
+	<Animation fps="30.000000" forceFPS="true" name="evil laugh">
+		<NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/evil laugh/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName10_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName11" angleRelCurvePath="/Curves/evil laugh/ikBoneName11_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName11_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName11_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName12" angleRelCurvePath="/Curves/evil laugh/ikBoneName12_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName12_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName12_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName13" angleRelCurvePath="/Curves/evil laugh/ikBoneName13_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName13_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName13_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName14" angleRelCurvePath="/Curves/evil laugh/ikBoneName14_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName14_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName14_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName15" angleRelCurvePath="/Curves/evil laugh/ikBoneName15_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName15_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName15_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName4" angleRelCurvePath="/Curves/evil laugh/ikBoneName4_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName4_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName4_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName5" angleRelCurvePath="/Curves/evil laugh/ikBoneName5_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName5_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName5_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName6" angleRelCurvePath="/Curves/evil laugh/ikBoneName6_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName6_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName6_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName7" angleRelCurvePath="/Curves/evil laugh/ikBoneName7_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName7_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName7_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/evil laugh/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName8_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/evil laugh/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/evil laugh/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/evil laugh/ikBoneName9_posY.xml"/>
+		<SpriteAnimationTrack sprite="ikNode_10">
+			<SpriteAnimationEvent time="0.000000" animationName="blink" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.133333" animationName="closed" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="grinclosed" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.466667" animationName="blink" playOffset="0.066667" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="1.500000" animationName="blink" playOffset="0.100000" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="1.666667" animationName="blink" loops="false" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_11">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="arm_bent" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.500000" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.666667" animationName="arm_idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_12">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_13">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_base" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_14">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_mid" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_15">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_4">
+			<SpriteAnimationEvent time="0.000000" animationName="body" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_5">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="arm_bent" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.466667" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.666667" animationName="arm_idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_6">
+			<SpriteAnimationEvent time="0.000000" animationName="front_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_7">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_8">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="evil" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.466667" animationName="idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_9">
+			<SpriteAnimationEvent time="0.000000" animationName="back_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+	</Animation>
+	<Animation fps="30.000000" forceFPS="true" name="growl">
+		<NodeAnimationTrack node="ikBoneName10" angleRelCurvePath="/Curves/growl/ikBoneName10_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName10_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName10_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName11" angleRelCurvePath="/Curves/growl/ikBoneName11_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName11_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName11_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName12" angleRelCurvePath="/Curves/growl/ikBoneName12_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName12_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName12_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName13" angleRelCurvePath="/Curves/growl/ikBoneName13_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName13_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName13_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName14" angleRelCurvePath="/Curves/growl/ikBoneName14_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName14_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName14_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName15" angleRelCurvePath="/Curves/growl/ikBoneName15_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName15_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName15_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName4" angleRelCurvePath="/Curves/growl/ikBoneName4_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName4_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName4_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName5" angleRelCurvePath="/Curves/growl/ikBoneName5_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName5_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName5_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName6" angleRelCurvePath="/Curves/growl/ikBoneName6_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName6_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName6_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName7" angleRelCurvePath="/Curves/growl/ikBoneName7_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName7_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName7_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName8" angleRelCurvePath="/Curves/growl/ikBoneName8_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName8_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName8_posY.xml"/>
+		<NodeAnimationTrack node="ikBoneName9" angleRelCurvePath="/Curves/growl/ikBoneName9_angle.xml" posXRelCurvePath="/Curves/growl/ikBoneName9_posX.xml" posYRelCurvePath="/Curves/growl/ikBoneName9_posY.xml"/>
+		<SpriteAnimationTrack sprite="ikNode_10">
+			<SpriteAnimationEvent time="0.000000" animationName="blink" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.100000" animationName="blink" playOffset="0.100000" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.133333" animationName="open" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="0.166667" animationName="growl" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.166667" animationName="blink" playOffset="0.100000" loops="false" singleFrame="false"/>
+			<SpriteAnimationEvent time="1.333333" animationName="blink" loops="false" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_11">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.133333" animationName="arm_bent" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="arm_fist" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.166667" animationName="arm_idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_12">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_13">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_base" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_14">
+			<SpriteAnimationEvent time="0.000000" animationName="tail_mid" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_15">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_4">
+			<SpriteAnimationEvent time="0.000000" animationName="body" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_5">
+			<SpriteAnimationEvent time="0.000000" animationName="arm_idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.133333" animationName="arm_bent" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="arm_fist" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.166667" animationName="arm_idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_6">
+			<SpriteAnimationEvent time="0.000000" animationName="front_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_7">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_8">
+			<SpriteAnimationEvent time="0.000000" animationName="idle" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="0.166667" animationName="growl" loops="false" singleFrame="true"/>
+			<SpriteAnimationEvent time="1.166667" animationName="idle" loops="false" singleFrame="true"/>
+		</SpriteAnimationTrack>
+		<SpriteAnimationTrack sprite="ikNode_9">
+			<SpriteAnimationEvent time="0.000000" animationName="back_leg" loops="true" singleFrame="false"/>
+		</SpriteAnimationTrack>
+	</Animation>
+</Animations>

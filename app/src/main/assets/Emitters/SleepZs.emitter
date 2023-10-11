@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Emitter name="tears" maxParticles="100" active="0">
+	<!--<EmitterZones>-->
+		<!--<EmitterZone position="160 240" radius="10" />-->
+	<!--</EmitterZone>-->
+	<Textures>
+		<Texture path="/Textures/sleep_z.png" />
+	</Textures>
+	<Particles number="50" >
+		<Size min="10 -10" max="10 -10" />
+		<GrowToSize min="40 -40" max="40 -40" />
+		<Directions>
+			<Direction min="55" max="55" />
+		</Directions>
+		<Speed min=".09" max=".09" />
+		<ScreenSpeed min=".5" max=".5" />
+		<ParticlesPerSecond min="1.25" max="1.25" />
+		<Mass min="1.0" max="1.0" />
+		<Angle min="0" max="0" />
+		<LifeTime min="3.0" max="3.0" />
+		<FadeTime min="1.5" max="1.5" />
+	</Particles>
+</Emitter>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Buttons
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_ImageLeft       4
+ WN_Image			5
+ WN_ImageRight      6
+ WN_MysteryBurst    7
+ WN_DucklingBusrt    8
+ WN_MegaBurst       9
+ 
+ WN_ButtonLeft		10
+ WN_ButtonRight		11
+ WN_ButtonCenter	12
+ WN_ButtonFacebook  14
+ 
+ WN_Duckling        20
+ WN_Mystery         21
+ WN_Mega            22
+ 
+ -->
+
+<Widgets texturePath="/Textures/">
+	 
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id ="0" layer="0" pos="0.5 0.5" size="0.8 0.4" forceAspect="256:192" texBGName="dialogue_box.webp" visible="false"/>
+	<Widget type="WT_LABEL" id ="1" layer="0" pos="0.5 0.5" size="1.1 1.1" texBGName="dialogue_vinette.webp" visible="false"/>
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id ="2" layer="1" pos=".5 .365" size="0.7 0.075" text="HEADER" textColorRGB="34 124 158" font="outlined" visible="false"/>
+	<Widget type="WT_LABEL" id ="3" layer="1" pos=".5 .5" size="0.72 0.2" text="BODY" textColorRGB="255 255 255" visible="false" halign="center"/>
+    <Widget type="WT_LABEL" id ="30" layer="1" pos=".5 .55" size="0.72 0.2" text="LOADING" textColorRGB="255 255 255" visible="false" halign="center"/>
+	
+	<!-- Image -->
+    <Widget type="WT_LABEL" id ="4" parent="3" layer="1" pos="-0.275 0.0" size="0.2 0" forceAspect="1" texBGName="" visible="false"/>
+	<Widget type="WT_LABEL" id ="5" parent="3" layer="1" pos="-0.275 0.0" size="0.2 0" forceAspect="1" texBGName="" visible="false"/>
+    <Widget type="WT_LABEL" id ="6" parent="3" layer="1" pos="-0.275 0.0" size="0.2 0" forceAspect="1" texBGName="" visible="false"/>
+    <Widget type="WT_LABEL" id ="7" parent="3" layer="1" pos="-0.275 0.0" size="0.2 0" forceAspect="1" texBGName="" visible="false"/>
+    
+    
+    <!-- Image Referencens -->
+    <Widget type="WT_LABEL" id ="20" pos="-0.275 0.0" size="0.2 0" texBGName="MD_preview_duckling.png"/>
+    <Widget type="WT_LABEL" id ="21" pos="-0.275 0.0" size="0.2 0" texBGName="MD_preview_mysteryduck.png"/>
+    <Widget type="WT_LABEL" id ="22" pos="-0.275 0.0" size="0.2 0" texBGName="MD_preview_megaduck.png"/>
+    
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="1" pos="0.325 0.64" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="BUTTON_1S" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	<Widget type="WT_PUSH_BUTTON" id="11" layer="1" pos="0.675 0.64" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="BUTTON_2S" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+    <Widget type="WT_PUSH_BUTTON" id="12" layer="1" pos="0.5 0.64" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="BUTTON_1C" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+    <Widget type="WT_PUSH_BUTTON" id="13" layer="1" pos="0.725 0.64" size="0.1 0" forceAspect="1" texNormalName="t_logo-a.webp" reactOnDown="false" visible="false"/>
+    
+    <Widget type="WT_PUSH_BUTTON" id="14" layer="1" pos="0.85  0.64" size="0.1 0" forceAspect="1" texNormalName="f_logo.webp" reactOnDown="false" visible="false" />
+    
+</Widgets>

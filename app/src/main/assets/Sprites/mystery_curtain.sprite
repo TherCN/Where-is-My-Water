@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="curtainclose" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_curtain_0.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_1.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_2.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_3.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_4.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_5.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_6.png" offset="0 0.20400000000000545"/>
+  </Animation>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_curtain_7.png" offset="0 0.20400000000000545"/>
+  </Animation>
+  <Animation name="curtainopen" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_curtain_5.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_4.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_3.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_2.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_1.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_0.png" offset="0 0.20400000000000545"/>
+  </Animation>
+  <Animation name="closed" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_curtain_6.png" offset="0 0.20400000000000545"/>
+  </Animation>
+  <Animation name="roll_in" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="LOOP" loopCount="-1">
+    <Frame name="mystery_curtain_8.png" offset="0 0"/>
+    <Frame name="mystery_curtain_9.png" offset="0 0.36"/>
+    <Frame name="mystery_curtain_10.png" offset="0 -0.09599999999999453"/>
+    <Frame name="mystery_curtain_11.png" offset="0 0.15599999999999453"/>
+    <Frame name="mystery_curtain_12.png" offset="0 0.13200000000000273"/>
+    <Frame name="mystery_curtain_13.png" offset="0 -0.18"/>
+    <Frame name="mystery_curtain_14.png" offset="0 0.14400000000000546"/>
+    <Frame name="mystery_curtain_15.png" offset="0 0.20400000000000545"/>
+    <Frame name="mystery_curtain_16.png" offset="0 0.20400000000000545"/>
+  </Animation>
+</Sprite>

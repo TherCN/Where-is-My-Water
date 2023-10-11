@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="open" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="upperlockanimation_0.png" offset="13.929594039916996 -8.719287872314457" scale="0.9499053955078125 0.9499053955078125" angleDeg="29.497039794921875"/>
+    <Frame name="upperlockanimation_0.png" offset="16.51702499389648 -9.853504180908201" scale="0.9484100341796875 0.9484100341796875" angleDeg="35.11317443847656"/>
+    <Frame name="upperlockanimation_0.png" offset="26.831304550170895 -11.005442619323734" scale="0.948394775390625 0.948394775390625" angleDeg="52.39158630371094"/>
+    <Frame name="upperlockanimation_0.png" offset="39.82162570953369 -3.7570915222168" scale="0.94989013671875 0.94989013671875" angleDeg="80.90269470214844"/>
+    <Frame name="upperlockanimation_0.png" offset="37.127861976623535 -5.4761381149292" scale="0.9491424560546875 0.9491424560546875" angleDeg="75.45637512207031"/>
+    <Frame name="upperlockanimation_0.png" offset="36.6848087310791 -6.379966735839849" scale="0.948974609375 0.948974609375" angleDeg="72.18438720703125"/>
+    <Frame name="upperlockanimation_0.png" offset="35.001206398010254 -6.645798683166509" scale="0.9498748779296875 0.9498748779296875" angleDeg="70.9530029296875"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="upperlockanimation_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

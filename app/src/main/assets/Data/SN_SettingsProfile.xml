@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ -->
+<Widgets texturePath="/Textures/"> 
+	
+	<!-- Background elements -->
+	<Widget type="WT_LABEL" id="0" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5 0" tileForceAspect="1:1" texBGName="credits_tile.webp" />
+	<Widget type="WT_LABEL" id="1" layer="1" pos=".5 .5" size="1.0 1.0" texBGName="credits_lighting.png" />
+	
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="10" layer="2" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+	<!-- Stack of buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="20" layer="2" pos="0.5 0.29" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="RESET" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="21" layer="2" pos="0.5 0.43" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="ICLOUD_TOGGLE" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+    
+    <Widget type="WT_PUSH_BUTTON" id="26" layer="2" pos="0.5 0.57" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="FB_POST_ON" font="outlined" reactOnDown="false" textColorRGB="0 0 0" edgePaddingRelative="0.325" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="22" layer="2" pos="0.5 0.71" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="FACEBOOK_LOGOUT" font="outlined" reactOnDown="false" textColorRGB="0 0 0" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="24" layer="2" pos="0.5 0.99" size="0.5 0.0" forceAspect="128:44" texNormalName="db_logout.png" reactOnDown="false" visible="false" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="25" layer="2" pos="0.7 0.7" size="0.5 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Reset iCloud - Game" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false"/>
+	
+</Widgets>

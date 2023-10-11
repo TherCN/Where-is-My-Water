@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout12">
+    <AbsoluteLocation value="7.389362 -27.029301"/>
+    <Properties>
+      <Property name="Angle" value="297.291"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="1.049221 -2.360424"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="9.350536 36.514008"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="-29.468273 -45.061447"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout13">
+    <AbsoluteLocation value="-19.660534 32.262493"/>
+    <Properties>
+      <Property name="Angle" value="-90.7568"/>
+      <Property name="Filename" value="/Objects/touch_spout.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Switch11">
+    <AbsoluteLocation value="-17.343750 -17.812500"/>
+    <Properties>
+      <Property name="Angle" value="-42.6925"/>
+      <Property name="ConnectedObject0" value="Fan16"/>
+      <Property name="Filename" value="/Objects/switch_momentary.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Switch22">
+    <AbsoluteLocation value="22.500000 -46.031250"/>
+    <Properties>
+      <Property name="Angle" value="-103.866"/>
+      <Property name="ConnectedObject0" value="Fan14"/>
+      <Property name="Filename" value="/Objects/switch_momentary_blue.hs"/>
+      <Property name="Type" value="switch"/>
+    </Properties>
+  </Object>
+  <Object name="Spout23">
+    <AbsoluteLocation value="27.093750 -37.312500"/>
+    <Properties>
+      <Property name="Angle" value="-168.11"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="40"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Fan15">
+    <AbsoluteLocation value="-26.400002 15.043751"/>
+    <Properties>
+      <Property name="Angle" value="-90"/>
+      <Property name="Filename" value="/Objects/fan_24x8_gear2.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumForce" value="30"/>
+      <Property name="VacuumMaxForce" value="30"/>
+      <Property name="VaccuumFriction" value="0.01"/>
+      <Property name="VacuumOn" value="1"/>
+    </Properties>
+  </Object>
+  <Object name="Fan14">
+    <AbsoluteLocation value="1.076000 -13.524323"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/fan_24x8_gear3.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumForce" value="30"/>
+      <Property name="VacuumMaxForce" value="30"/>
+    </Properties>
+  </Object>
+  <Object name="Fan16">
+    <AbsoluteLocation value="28.400002 15.443748"/>
+    <Properties>
+      <Property name="Angle" value="90"/>
+      <Property name="Filename" value="/Objects/fan_24x8.hs"/>
+      <Property name="Type" value="fan"/>
+      <Property name="VacuumForce" value="30"/>
+      <Property name="VacuumMaxForce" value="30"/>
+      <Property name="VaccuumFriction" value="0.01"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-9.999998 -34.800003"/>
+  </Room>
+</Objects>

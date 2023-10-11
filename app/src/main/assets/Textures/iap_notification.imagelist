@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ImageList imgSize="512 256" file="/Textures/iap_notification.png" textureBasePath="/Textures/">
+  <Image name="iap_pause_footer.png" offset="0 0" size="320 116" rect="1 1 320 116"/>
+  <Image name="iap_cranky_portal.png" offset="0 0" size="83 80" rect="322 1 83 80"/>
+  <Image name="iap_md_portal.png" offset="0 0" size="83 80" rect="406 1 83 80"/>
+  <Image name="iap_cranky_frame.png" offset="0 0" size="225 72" rect="1 118 225 72"/>
+  <Image name="iap_md_frame.png" offset="0 0" size="225 72" rect="227 118 225 72"/>
+  <Image name="iap_cranky_button.png" offset="0 0" size="120 42" rect="1 191 120 42"/>
+  <Image name="iap_cranky_button_depressed.png" offset="0 0" size="120 42" rect="122 191 120 42"/>
+  <Image name="iap_md_button.png" offset="0 0" size="120 42" rect="243 191 120 42"/>
+  <Image name="iap_md_button_depressed.png" offset="0 0" size="120 42" rect="364 191 120 42"/>
+</ImageList>

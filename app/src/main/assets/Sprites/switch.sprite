@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="IDLE" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="15.0" playbackMode="LOOP" loopCount="-1">
+		<Frame name="Switch_Fill_FRONT.png" />
+	</Animation>
+	<Animation name="IDLE_ON" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="1.0" playbackMode="LOOP" loopCount="-1">
+		<Frame name="Switch_Fill_FRONT.png" />
+	</Animation>
+	<Animation name="TURN_ON" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="20.0" playbackMode="ONCE" loopCount="0">
+		<Frame name="Switch_Fill_FRONT.png" />
+	</Animation>
+	<Animation name="TURN_OFF" textureBasePath="/Textures/" atlas="/Textures/objects.imagelist" fps="30.0" playbackMode="ONCE" loopCount="0">
+		<Frame name="Switch_Fill_FRONT.png" />
+	</Animation>
+</Sprite>

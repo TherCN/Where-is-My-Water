@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Jiggle" textureBasePath="/Textures/" atlas="/Textures/WMW_UI_20_atlas.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="Chest_Top_0.png" repeat="2" offset="0 0" scale="0.9999694833531692 0.9999694833531692"/>
+    <Frame name="Chest_Top_0.png" offset="0 0" scale="0.9999694833531692 0.9999694833531692"/>
+    <Frame name="Chest_Top_0.png" offset="0.037471771240242896 -3.3724594116210938" scale="0.9999389667063383 0.9999389667063383" angleDeg="-1.3085479736328125"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240242896 -6.7449188232421875" scale="0.9999847416765846 0.9999847416765846" angleDeg="-2.968963623046875"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240242896 -6.707447052001955" scale="1.000030517578125 1.000030517578125" angleDeg="-0.2788848876953125"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240242896 -6.78239059448242" scale="1.000030517578125 1.000030517578125" angleDeg="2.2369842529296875"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240242896 -6.78239059448242" scale="1.000030517578125 1.000030517578125" angleDeg="-0.2788848876953125"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240242896 -6.7449188232421875" scale="0.9999847416765846 0.9999847416765846" angleDeg="-2.968963623046875"/>
+    <Frame name="Chest_Top_0.png" offset="-0.037471771240221594 -3.3724594116210938" scale="0.9999389667063383 0.9999389667063383" angleDeg="-1.3085479736328125"/>
+    <Frame name="Chest_Top_0.png" repeat="17" offset="0 0" scale="0.9999694833531692 0.9999694833531692"/>
+  </Animation>
+  <Animation name="Idle" textureBasePath="/Textures/" atlas="/Textures/WMW_UI_20_atlas.imagelist" fps="24" playbackMode="ONCE" loopCount="1">
+    <Frame name="Chest_Top_0.png" offset="0 0" scale="0.9999694833531692 0.9999694833531692"/>
+  </Animation>
+</Sprite>

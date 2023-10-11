@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ImageList imgSize="256 512" file="/Textures/ui_cranky_atlas.webp" textureBasePath="/Textures/">
+  <Image name="cranky_owall_button_sound_hit.png" offset="0 0" size="70 70" rect="153 0 70 70"/>
+  <Image name="cranky_owall_button_sound.png" offset="0 0" size="70 70" rect="129 112 70 70"/>
+  <Image name="cranky_owall_button_skip.png" offset="0 0" size="70 70" rect="0 141 70 70"/>
+  <Image name="cranky_owall_button_play.png" offset="0 0" size="70 70" rect="71 183 70 70"/>
+  <Image name="cranky_owall_button_music_hit.png" offset="0 0" size="70 70" rect="0 212 70 70"/>
+  <Image name="cranky_owall_button_music.png" offset="0 0" size="70 70" rect="142 218 70 70"/>
+  <Image name="cranky_owall_button_main_menu.png" offset="0 0" size="70 70" rect="71 254 70 70"/>
+  <Image name="cranky_owall_button_level.png" offset="0 0" size="70 70" rect="0 283 70 70"/>
+  <Image name="Cranky_Skull_Icon_3.png" offset="0 0" size="50 52" rect="200 112 50 52"/>
+  <Image name="Cranky_Skull_Icon_2.png" offset="0 0" size="50 52" rect="200 165 50 52"/>
+  <Image name="Cranky_Skull_Icon_1.png" offset="0 0" size="50 52" rect="142 289 50 52"/>
+  <Image name="Cranky_ui_Crossed_out.png" offset="0 0" size="50 52" rect="71 325 50 52"/>
+  <Image name="Cranky_Level_Icon_Locked.png" offset="0 0" size="50 52" rect="0 354 50 52"/>
+  <Image name="Cranky_Level_Icon_3_Ducks.png" offset="0 0" size="50 52" rect="193 289 50 52"/>
+  <Image name="Cranky_Level_Icon_2_Ducks.png" offset="0 0" size="50 52" rect="122 342 50 52"/>
+  <Image name="Cranky_Level_Icon_1_Duck.png" offset="0 0" size="50 52" rect="51 378 50 52"/>
+  <Image name="Cranky_Level_Icon_0_Ducks.png" offset="0 0" size="50 52" rect="0 407 50 52"/>
+  <Image name="Cranky_ui_shopping_cart_button.png" offset="0 0" size="152 50" rect="0 0 152 50"/>
+  <Image name="Cranky_Button_W_Shadow.png" offset="0 0" size="128 44" rect="0 51 128 44"/>
+  <Image name="Cranky_Button_no_Shadow.png" offset="0 0" size="128 44" rect="0 96 128 44"/>
+  <Image name="WMW_CRANKY_UI_Assets_button_sqaure_pause.png" offset="0 0" size="42 44" rect="213 218 42 44"/>
+  <Image name="Cranky_Duck_Counter.png" offset="0 0" size="114 40" rect="129 71 114 40"/>
+  <Image name="Cranky_Back_W_Shadow.png" offset="0 0" size="50 40" rect="71 141 50 40"/>
+  <Image name="Cranky_Back_NO_Shadow.png" offset="0 0" size="50 40" rect="173 342 50 40"/>
+  <Image name="Cranky_Button_Scrubber.png" offset="0 0" size="35 35" rect="173 383 35 35"/>
+  <Image name="Cranky_Button_Refresh.png" offset="0 0" size="27 27" rect="224 0 27 27"/>
+  <Image name="Cranky_Button_Pause.png" offset="0 0" size="53 27" rect="142 183 53 27"/>
+  <Image name="Cranky_LRS_Empty_Duck.png" offset="0 0" size="26 23" rect="224 28 26 23"/>
+  <Image name="Cranky_LRS_Duck.png" offset="0 0" size="26 23" rect="213 263 26 23"/>
+  <Image name="cr_scroll_set_scrubber.png" offset="0 0" size="14 15" rect="129 51 14 15"/>
+</ImageList>

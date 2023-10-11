@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
+    namespace "thercn.wmw"
+
+    defaultConfig {
+        applicationId "thercn.wmw"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    maven {     
+        url "https://jitpack.io"
+		url "https://maven.google.com"
+        mavenCentral()
+    }    
+} 
+dependencies {
+	
+    implementation fileTree(dir: "libs", include: ["1.18.8.jar"])
+	implementation fileTree(dir: "libs", include: ["内购.jar"])
+}

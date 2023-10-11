@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="12.182467 -31.079582"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="-25.701151 9.468298"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="25.445965 8.962769"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/star_poison.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb10">
+    <AbsoluteLocation value="12.748323 1.424396"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb11">
+    <AbsoluteLocation value="-0.659182 -22.593307"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb12">
+    <AbsoluteLocation value="24.895399 -23.484909"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb13">
+    <AbsoluteLocation value="25.458954 -38.366596"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Bomb14">
+    <AbsoluteLocation value="-0.071554 -38.162785"/>
+    <Properties>
+      <Property name="Angle" value="-0.597663"/>
+      <Property name="Filename" value="/Objects/bomb.hs"/>
+      <Property name="Type" value="bomb"/>
+    </Properties>
+  </Object>
+  <Object name="Object10">
+    <AbsoluteLocation value="-31.500000 35.437500"/>
+    <Properties>
+      <Property name="Angle" value="-72.9339"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="-27.098696 28.278988"/>
+    <Properties>
+      <Property name="Angle" value="321.951"/>
+      <Property name="Filename" value="/Objects/touch_spout_murky.hs"/>
+      <Property name="FluidType" value="ContaminatedWater"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Object11">
+    <AbsoluteLocation value="-35.281250 43.906250"/>
+    <Properties>
+      <Property name="Angle" value="-59.3118"/>
+      <Property name="Filename" value="/Objects/pipe_straight_long.hs"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="BonusTimer" value="45"/>
+    <Property name="ShowTopEdge" value="1"/>
+  </Properties>
+</Objects>

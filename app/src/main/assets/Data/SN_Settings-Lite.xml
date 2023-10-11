@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+-->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Settings.xml"> 
+	
+	<Widget type="WT_PUSH_BUTTON" id="0" pos="0.5 0.18" />
+	<Widget type="WT_PUSH_BUTTON" id="6" pos="0.5 0.31" />
+	<Widget type="WT_PUSH_BUTTON" id="1" pos="0.5 0.44" />
+	<Widget type="WT_PUSH_BUTTON" id="2" pos="0.5 0.57" />
+	<Widget type="WT_PUSH_BUTTON" id="7" pos="0.5 0.70" />
+	
+    <Widget type="WT_PUSH_BUTTON" id="2000" pos="0.5 0.83" />
+	
+</Widgets>

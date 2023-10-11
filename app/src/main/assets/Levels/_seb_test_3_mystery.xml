@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Ducky1">
+    <AbsoluteLocation value="18.400002 -41.599998"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star_bunny.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout2">
+    <AbsoluteLocation value="-1.200003 39.799995"/>
+    <Properties>
+      <Property name="Angle" value="-14.9574"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="Type" value="spout"/>
+	  <Property name="NumberParticles" value="40"/>
+	  <Property name="ParticleSpeed" value="10"/>
+	  <Property name="PerticlesPerSecond" value="15"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-1.000000 -1.000000"/>
+  </Room>
+  <Properties>
+    <Property name="MysteryLevel" value="1"/>
+  </Properties>
+</Objects>

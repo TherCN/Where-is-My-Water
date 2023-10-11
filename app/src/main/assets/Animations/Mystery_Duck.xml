@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<AnimationList>
+
+	<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />	
+	</Groups>
+
+	<!-- Animations  -->
+	<Animations>
+		<Animation name="Arrival" armatureName="arrival">
+		</Animation>
+		
+		<Animation name="HopEntrance" armatureName="hop_entrance">    
+			<Events>
+				<Event type="looped" >
+					<EmitterAction emitterIndex="0" active="1" numParticles="15"/>                        
+                </Event>
+				<Event type="marker" time="0.43333333333333335">
+					<SoundAction soundFile="/Audio/Duckies/DANI001.wav"/>
+				</Event>
+			</Events>                    
+		</Animation>
+				
+		<Animation name="WandIntro" armatureName="wand_intro">
+			<Events>
+                <Event type="marker" time="0.9">
+					<SoundAction soundFile="/Audio/Duckies/DANI004.wav"/>
+				</Event>
+				<Event type="marker" time="1.3333333333333333">
+					<SoundAction soundFile="/Audio/Duckies/DANI005.wav"/>
+				</Event>
+				<Event type="finished" >
+					<EmitterAction emitterIndex="1" active="1" numParticles="1"/>                                                            
+                </Event>
+			</Events>            
+		</Animation>
+		
+		<Animation name="CurtainIntro" armatureName="curtain_intro">
+			<Events>				
+				<Event type="finished">
+					<SoundAction soundFile="/Audio/Duckies/DANI013.wav"/>
+				</Event>
+			</Events>
+		</Animation>
+		
+		
+		<Animation name="BoxIntro" armatureName="box_intro">
+			<Events/>
+		</Animation>
+		
+		<Animation name="HatIntro" armatureName="hat_intro">
+			<Events>
+				<Event type="marker" time="0.23333333333333334">
+					<SoundAction soundFile="/Audio/Duckies/DANI014.wav"/>
+				</Event>
+				<Event type="marker" time="0.8333333333333334">
+					<SoundAction soundFile="/Audio/Duckies/DANI015.wav"/>
+				</Event>
+				<Event type="marker" time="1.0666666666666667">
+					<SoundAction soundFile="/Audio/Duckies/DANI016.wav"/>
+				</Event>
+				<Event type="marker" time="2.1">
+					<SoundAction soundFile="/Audio/Duckies/DANI017.wav"/>
+				</Event>
+				<Event type="marker" time="2.466666666666667">
+					<SoundAction soundFile="/Audio/Duckies/DANI018.wav"/>
+				</Event>
+				<Event type="marker" time="2.7666666666666666">
+					<SoundAction soundFile="/Audio/Duckies/DANI019.wav"/>
+				</Event>
+			</Events>
+		</Animation>
+	</Animations>
+
+	<Emitters>
+		<Emitter path="/Emitters/MysteryDust.emitter" baseNode="ikBoneName29" >
+		</Emitter>
+		<Emitter path="/Emitters/MysteryPoof.emitter" baseNode="ikBoneName29">
+			<EmitterZone position="0 25" radius="0" ringparticles="8" ringradius="3.5"/>        
+		</Emitter>                
+	</Emitters>
+
+</AnimationList>

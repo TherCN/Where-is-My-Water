@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<Animations>
+  <Animation fps="30.000000" forceFPS="true" name="arrival">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/arrival/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="squash1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.033333" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.166667" animationName="squash1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.200000" animationName="duck" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.166667" animationName="extrapieces" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.200000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="hop_entrance">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hop_entrance/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="squash1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.033333" animationName="stretch" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.066667" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.433333" animationName="squash1" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.033333" animationName="backofhat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hatsquash" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.033333" animationName="hatstretch" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.066667" animationName="hat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.300000" animationName="extrapieces" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.333333" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="wand_intro">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/wand_intro/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.933333" animationName="disappear" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="disappear" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.933333" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.900000" animationName="hatwandcut" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.933333" animationName="hatwandcut" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.966667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.133333" animationName="wand" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.166667" animationName="wand" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.200000" animationName="wand" playOffset="0.066667" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.400000" animationName="wand" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.433333" animationName="wand" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.466667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="curtain_intro">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/curtain_intro/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.066667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.066667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.066667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.066667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="2.066667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="box_intro">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/box_intro/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.666667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.666667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.666667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.666667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hat" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.666667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+  </Animation>
+  <Animation fps="30.000000" forceFPS="true" name="hat_intro">
+    <NodeAnimationTrack node="ikBoneName29" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName29_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName29_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName29_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName30" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName30_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName30_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName30_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName31" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName31_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName31_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName31_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName32" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName32_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName32_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName32_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName33" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName33_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName33_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName33_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName34" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName34_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName34_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName34_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName35" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName35_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName35_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName35_posY.xml"/>
+    <NodeAnimationTrack node="ikBoneName36" angleRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName36_angle.xml" posXRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName36_posX.xml" posYRelCurvePath="/Curves/mystery_duck/hat_intro/ikBoneName36_posY.xml"/>
+    <SpriteAnimationTrack sprite="ikNode_29">
+      <SpriteAnimationEvent time="0.000000" animationName="duck" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.700000" animationName="squash1" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.733333" animationName="squash2" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.766667" animationName="hatless" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.800000" animationName="hatless" playOffset="0.033333" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.866667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_30">
+      <SpriteAnimationEvent time="0.000000" animationName="bowtie" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.766667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_31">
+      <SpriteAnimationEvent time="0.000000" animationName="scarf" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="0.766667" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_33">
+      <SpriteAnimationEvent time="0.000000" animationName="backofhat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_34">
+      <SpriteAnimationEvent time="0.000000" animationName="hat" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_35">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+    </SpriteAnimationTrack>
+    <SpriteAnimationTrack sprite="ikNode_36">
+      <SpriteAnimationEvent time="0.000000" animationName="blank" loops="false" singleFrame="true"/>
+      <SpriteAnimationEvent time="1.200000" animationName="rabbitduck" loops="false" singleFrame="false"/>
+      <SpriteAnimationEvent time="1.800000" animationName="rabbitduck" playOffset="0.533333" loops="false" singleFrame="false"/>
+    </SpriteAnimationTrack>
+  </Animation>
+</Animations>

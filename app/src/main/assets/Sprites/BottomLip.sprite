@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="14" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_1.png" offset="0.000000 0.000000"/>
+    <Frame name="BottomLip_2.png" offset="-0.027911 0.000000"/>
+    <Frame name="BottomLip_3.png" offset="-0.034889 0.000000"/>
+    <Frame name="BottomLip_4.png" offset="-0.048844 0.000000"/>
+    <Frame name="BottomLip_5.png" offset="12.357594 0.795463"/>
+    <Frame name="BottomLip_6.png" offset="12.664614 0.990840"/>
+    <Frame name="BottomLip_7.png" offset="13.774076 1.493238" repeat="34"/>
+    <Frame name="BottomLip_8.png" offset="12.664614 0.990840"/>
+    <Frame name="BottomLip_9.png" offset="12.357594 0.795463"/>
+    <Frame name="BottomLip_10.png" offset="-0.048844 0.000000"/>
+    <Frame name="BottomLip_11.png" offset="-0.020933 0.000000"/>
+    <Frame name="BottomLip_12.png" offset="0.000000 0.000000"/>
+    <Frame name="BottomLip_13.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="7" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_14.png" offset="0.000000 0.000000"/>
+    <Frame name="BottomLip_15.png" offset="-0.418665 1.004796"/>
+    <Frame name="BottomLip_16.png" offset="-0.851285 1.576971"/>
+    <Frame name="BottomLip_17.png" offset="-1.646749 1.632793"/>
+    <Frame name="BottomLip_18.png" offset="-2.016569 2.372435" repeat="18"/>
+  </Animation>
+  <Animation name="4" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_19.png" offset="-2.016569 2.372435"/>
+  </Animation>
+  <Animation name="8" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_18.png" offset="-2.016569 2.372435"/>
+    <Frame name="BottomLip_17.png" offset="-1.646749 1.632793"/>
+    <Frame name="BottomLip_16.png" offset="-0.851285 1.576971"/>
+    <Frame name="BottomLip_15.png" offset="-0.418665 1.004796"/>
+    <Frame name="BottomLip_14.png" offset="0.000000 0.000000" repeat="20"/>
+  </Animation>
+  <Animation name="15" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_0.png" offset="0.000000 0.000000" repeat="37"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000" repeat="12"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_0.png" offset="0.000000 0.000000" repeat="24"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000" repeat="16"/>
+    <Frame name="BottomLip_23.png" offset="-1.870037 0.000000"/>
+    <Frame name="BottomLip_22.png" offset="-1.046662 0.000000"/>
+    <Frame name="BottomLip_21.png" offset="-0.265154 0.000000"/>
+    <Frame name="BottomLip_20.png" offset="-0.006978 0.000000"/>
+    <Frame name="BottomLip_0.png" offset="0.000000 0.000000" repeat="16"/>
+  </Animation>
+  <Animation name="11" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_24.png" offset="-4.640203 17.870014"/>
+  </Animation>
+  <Animation name="5" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_14.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="BottomLip_15.png" offset="-0.418665 1.004796" repeat="1"/>
+    <Frame name="BottomLip_16.png" offset="-0.851285 1.576971" repeat="1"/>
+    <Frame name="BottomLip_17.png" offset="-1.646749 1.632793" repeat="1"/>
+    <Frame name="BottomLip_18.png" offset="-2.016569 2.372435" repeat="14"/>
+  </Animation>
+  <Animation name="2" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_25.png" offset="0.000000 -0.006978"/>
+  </Animation>
+  <Animation name="9" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_26.png" offset="-3.091143 4.040117"/>
+  </Animation>
+  <Animation name="6" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_18.png" offset="-2.016569 2.372435" repeat="1"/>
+    <Frame name="BottomLip_17.png" offset="-1.646749 1.632793" repeat="1"/>
+    <Frame name="BottomLip_16.png" offset="-0.851285 1.576971" repeat="1"/>
+    <Frame name="BottomLip_15.png" offset="-0.418665 1.004796" repeat="1"/>
+    <Frame name="BottomLip_14.png" offset="0.000000 0.000000" repeat="16"/>
+  </Animation>
+  <Animation name="16" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_27.png" offset="14.841672 1.493238" repeat="257"/>
+  </Animation>
+  <Animation name="10x" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_19.png" offset="-2.016569 2.372435"/>
+    <Frame name="BottomLip_28.png" offset="-2.491056 3.879628"/>
+    <Frame name="BottomLip_29.png" offset="-3.223720 4.284338"/>
+    <Frame name="BottomLip_30.png" offset="-3.719140 6.349751"/>
+    <Frame name="BottomLip_31.png" offset="-4.716958 6.349751" repeat="24"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="10" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_32.png" offset="-4.716958 7.752279"/>
+  </Animation>
+  <Animation name="3" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_33.png" offset="-2.016569 2.372435"/>
+  </Animation>
+</Sprite>

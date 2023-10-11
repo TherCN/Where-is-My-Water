@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Spout12">
+    <AbsoluteLocation value="-28.625053 -20.356503"/>
+    <Properties>
+      <Property name="Angle" value="-88.7195"/>
+      <Property name="ConnectedSpout0" value="SWAMPY_SPOUT"/>
+      <Property name="ConnectedSpoutProbability0" value="1"/>
+      <Property name="Filename" value="/Objects/broken_pipe.hs"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky4">
+    <AbsoluteLocation value="-8.619007 -1.870068"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky5">
+    <AbsoluteLocation value="26.346672 -14.215416"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Ducky6">
+    <AbsoluteLocation value="-2.778168 -44.989616"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Spout11">
+    <AbsoluteLocation value="24.400000 26.800001"/>
+    <Properties>
+      <Property name="Angle" value="-180"/>
+      <Property name="Blockable" value="1"/>
+      <Property name="ExplusionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Mud"/>
+      <Property name="ParticleDryness" value="1.0"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="Timer0" value="1 4"/>
+      <Property name="Timer1" value="0 2"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="Spout10">
+    <AbsoluteLocation value="-26.800001 27.200001"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Blockable" value="1"/>
+      <Property name="ExplusionAngleVariation" value="2"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Mud"/>
+      <Property name="ParticleDryness" value="1.0"/>
+      <Property name="ParticleSpeed" value="80"/>
+      <Property name="Timer0" value="1 4"/>
+      <Property name="Timer1" value="0 2"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="WaterDropRight">
+    <AbsoluteLocation value="15.600000 33.200001"/>
+    <Properties>
+      <Property name="Angle" value="-80"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="20"/>
+      <Property name="Timer0" value="0 5"/>
+      <Property name="Timer1" value="1 1"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="WaterDropMidRight">
+    <AbsoluteLocation value="6.800001 33.600002"/>
+    <Properties>
+      <Property name="Angle" value="-85"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="20"/>
+      <Property name="Timer0" value="0 5"/>
+      <Property name="Timer1" value="1 1"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="WaterDropMidLeft">
+    <AbsoluteLocation value="-5.892685 33.418537"/>
+    <Properties>
+      <Property name="Angle" value="-100.44"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="20"/>
+      <Property name="Timer0" value="0 5"/>
+      <Property name="Timer1" value="1 1"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Object name="WaterDropLeft">
+    <AbsoluteLocation value="-17.437500 32.668537"/>
+    <Properties>
+      <Property name="Angle" value="-100.44"/>
+      <Property name="Filename" value="/Objects/shower_head.hs"/>
+      <Property name="FluidType" value="Water"/>
+      <Property name="ParticleSpeed" value="20"/>
+      <Property name="Timer0" value="0 5"/>
+      <Property name="Timer1" value="1 1"/>
+      <Property name="Type" value="spout"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="18.000002 -33.200005"/>
+  </Room>
+</Objects>

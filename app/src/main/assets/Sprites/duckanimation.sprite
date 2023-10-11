@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckanimation_0.png" offset="0 0" scale="0.8339885092228606 0.8339885092228606"/>
+  </Animation>
+  <Animation name="unlock" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckanimation_0.png" repeat="2" offset="0 0" scale="0.8339885092228606 0.8339885092228606"/>
+    <Frame name="duckanimation_0.png" offset="0 0" scale="0.8339885092228606 0.8339885092228606"/>
+    <Frame name="duckanimation_0.png" offset="-1.4886589050293029 1.2582712173461903" scale="0.8760961596613245 0.7819776232234654" angleDeg="-5.0584259033203125"/>
+    <Frame name="duckanimation_0.png" offset="-2.481098175048833 2.1443777084350577" scale="0.9062594496522528 0.7446325975204112" angleDeg="-8.8089599609375"/>
+    <Frame name="duckanimation_0.png" offset="-2.9950399398803773 2.782374382019046" scale="0.9243271847596009 0.7224070154218325" angleDeg="-11.056503295898438"/>
+    <Frame name="duckanimation_0.png" offset="-3.2254276275634797 2.995039939880372" scale="0.93097973994557 0.7153764741457515" angleDeg="-11.954727172851562"/>
+    <Frame name="duckanimation_0.png" offset="-2.2684326171875044 1.8785457611083973" scale="0.9043695192016934 0.7381312367704869" angleDeg="-8.779067993164062"/>
+    <Frame name="duckanimation_0.png" offset="0.7443294525146413 -1.0456056594848644" scale="0.8264287874206229 0.8079074690051407" angleDeg="0.3033599853515625"/>
+    <Frame name="duckanimation_0.png" offset="6.964797019958493 -4.838141441345217" scale="0.6957967946779559 0.9235712125793771"/>
+    <Frame name="duckanimation_0.png" offset="6.805297851562496 -4.607753753662104" scale="0.708270335651648 0.911929241003931" angleDeg="15.825241088867188"/>
+    <Frame name="duckanimation_0.png" offset="6.752131462097167 -4.448254585266112" scale="0.7159812518899304 0.9054278802540067"/>
+    <Frame name="duckanimation_0.png" repeat="2" offset="6.823019981384272 -4.412810325622554" scale="0.719307529482915 0.9039915331115815" angleDeg="15.988571166992188"/>
+    <Frame name="duckanimation_0.png" offset="5.4052495956420845 -0.8683843612670858" scale="0.719307529482915 0.9039915331115815" angleDeg="15.988571166992188"/>
+    <Frame name="duckanimation_0.png" offset="2.9064292907714804 0.03544425964355771" scale="0.753401874811007 0.8564408829755065" angleDeg="9.541702270507812"/>
+    <Frame name="duckanimation_0.png" offset="0.7088851928710888 1.2582712173461954" scale="0.7884033867553674 0.8096462050196552"/>
+    <Frame name="duckanimation_0.png" offset="-1.3646039962768586 2.622875213623049" scale="0.8230269126096159 0.7627003326277593" angleDeg="-3.02215576171875"/>
+    <Frame name="duckanimation_0.png" offset="-3.2608718872070375 4.2533111572265625" scale="0.8578772301179317 0.7157544602358633"/>
+    <Frame name="duckanimation_0.png" offset="-4.306477546691896 2.8178186416625985" scale="0.8395827033565165 0.7329150287269428" angleDeg="-9.3009033203125"/>
+    <Frame name="duckanimation_0.png" repeat="5" offset="-4.714086532592778 2.339321136474607" scale="0.834064106440883 0.7391140006047777" angleDeg="-9.442184448242188"/>
+    <Frame name="duckanimation_0.png" offset="-2.587430953979496 2.339321136474607" scale="0.834064106440883 0.7391140006047777" angleDeg="-9.442184448242188"/>
+    <Frame name="duckanimation_0.png" offset="-1.8431015014648473 1.0987720489501984" scale="0.8173571212579377 0.790142122769882" angleDeg="-6.259185791015625"/>
+    <Frame name="duckanimation_0.png" offset="-0.9038286209106485 -0.07088851928710535" scale="0.8014061082552162 0.8417750226791654" angleDeg="-3.0387115478515625"/>
+    <Frame name="duckanimation_0.png" offset="0.017722129821776338 -1.2759933471679668" scale="0.78530390081645 0.893256728152404"/>
+    <Frame name="duckanimation_0.png" offset="0.017722129821776338 -0.9569950103759726" scale="0.7973994557000302 0.8784396734200182"/>
+    <Frame name="duckanimation_0.png" offset="0 -0.6557188034057597" scale="0.8096462050196552 0.8636226186876323"/>
+    <Frame name="duckanimation_0.png" offset="0 -0.3367204666137655" scale="0.8218173571212579 0.8488055639552464"/>
+    <Frame name="duckanimation_0.png" offset="0 0" scale="0.8339885092228606 0.8339885092228606"/>
+  </Animation>
+  <Animation name="outro" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duckanimation_0.png" offset="0 0" scale="0.8339885092228606 0.8339885092228606"/>
+    <Frame name="duckanimation_0.png" offset="-5.036932242824532e-15 -0.10633277893066305" scale="0.8442697308739039 0.8442697308739039"/>
+    <Frame name="duckanimation_0.png" offset="0.1240549087524394 -0.3721647262573232" scale="0.8754157846991231 0.8754157846991231"/>
+    <Frame name="duckanimation_0.png" offset="0.2658319473266551 -0.8152179718017568" scale="0.9274266706985183 0.9274266706985183"/>
+    <Frame name="duckanimation_0.png" offset="0.5671081542968679 -1.4000482559204062"/>
+    <Frame name="duckanimation_0.png" offset="0.4784975051879863 -0.8152179718017568" scale="0.758844874508618 0.758844874508618"/>
+    <Frame name="duckanimation_0.png" offset="0.4784975051879863 -0.17722129821777344" scale="0.5176141517992138 0.5176141517992138"/>
+    <Frame name="duckanimation_0.png" offset="0.4430532455444336 0.4430532455444336" scale="0.2763834290898095 0.2763834290898095"/>
+  </Animation>
+</Sprite>

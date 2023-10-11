@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0_tlip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_topLip_0.png" offset="0 0"/>
+    <Frame name="al_topLip_1.png" offset="-0.04343957901001259 0.2358148574829091"/>
+    <Frame name="al_topLip_2.png" offset="0.4406014442443862 -0.20478658676147532"/>
+  </Animation>
+  <Animation name="04-sad_tlip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_topLip_0.png" offset="0 0"/>
+    <Frame name="al_topLip_1.png" offset="-0.04343957901001259 0.2358148574829091" repeat="3"/>
+    <Frame name="al_topLip_0.png" offset="0 0"/>
+    <Frame name="al_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="02-steam_a_tlip" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_topLip_0.png" offset="0 0" repeat="4"/>
+    <Frame name="al_topLip_4.png" offset="2.9414800643920884 -0.6205654144287109" repeat="22"/>
+    <Frame name="al_topLip_5.png" offset="2.9414800643920884 -0.6205654144287109" repeat="53"/>
+    <Frame name="al_topLip_5.png" offset="2.9414800643920884 -0.6205654144287109" repeat="2"/>
+    <Frame name="al_topLip_2.png" offset="0.4406014442443862 -0.20478658676147532" repeat="8"/>
+    <Frame name="al_topLip_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

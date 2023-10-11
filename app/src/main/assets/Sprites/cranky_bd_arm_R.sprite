@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="01" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="17-headturn" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="1"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821" repeat="38"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="3"/>
+  </Animation>
+  <Animation name="11-squash" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821" repeat="25"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="16-shmack1" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821" repeat="17"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="3"/>
+  </Animation>
+  <Animation name="10-gnaw" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_4.png" offset="-0.476018 -0.212278"/>
+  </Animation>
+  <Animation name="04-shrug" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+  </Animation>
+  <Animation name="04-fist" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_5.png" offset="10.298718 -20.803282"/>
+  </Animation>
+  <Animation name="18-foldarms" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124" repeat="1"/>
+    <Frame name="cranky_bd_arm_R_7.png" offset="4.155510 -23.726934"/>
+    <Frame name="cranky_bd_arm_R_8.png" offset="7.037350 0.778354" repeat="16"/>
+    <Frame name="cranky_bd_arm_R_8.png" offset="7.037350 0.778354" repeat="1"/>
+    <Frame name="cranky_bd_arm_R_8.png" offset="7.037350 0.778354"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="3"/>
+  </Animation>
+  <Animation name="04-punch" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_9.png" offset="-20.687492 -10.350179"/>
+    <Frame name="cranky_bd_arm_R_10.png" offset="-17.162386 -8.327103"/>
+    <Frame name="cranky_bd_arm_R_11.png" offset="18.895992 -18.323483"/>
+    <Frame name="cranky_bd_arm_R_12.png" offset="39.377636 -35.974751"/>
+    <Frame name="cranky_bd_arm_R_13.png" offset="33.929161 -46.855629"/>
+    <Frame name="cranky_bd_arm_R_14.png" offset="30.616331 -45.910023"/>
+    <Frame name="cranky_bd_arm_R_15.png" offset="28.422789 -34.829735"/>
+    <Frame name="cranky_bd_arm_R_16.png" offset="23.826641 -20.668194"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="7"/>
+  </Animation>
+  <Animation name="07-nooo" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_17.png" offset="-6.593495 6.323323"/>
+  </Animation>
+  <Animation name="19-Layer 4" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124" repeat="13"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="02-hang" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_4.png" offset="-0.476018 -0.212278"/>
+  </Animation>
+  <Animation name="14-shmack" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_18.png" offset="-12.067704 -14.981709"/>
+    <Frame name="cranky_bd_arm_R_19.png" offset="-15.750413 -13.823825"/>
+    <Frame name="cranky_bd_arm_R_9.png" offset="-20.687492 -10.350179"/>
+    <Frame name="cranky_bd_arm_R_10.png" offset="-17.162386 -8.327103"/>
+    <Frame name="cranky_bd_arm_R_11.png" offset="18.895992 -18.323483"/>
+    <Frame name="cranky_bd_arm_R_12.png" offset="39.377636 -35.974751"/>
+    <Frame name="cranky_bd_arm_R_13.png" offset="33.929161 -46.855629"/>
+    <Frame name="cranky_bd_arm_R_14.png" offset="30.616331 -45.910023"/>
+    <Frame name="cranky_bd_arm_R_15.png" offset="28.422789 -34.829735"/>
+    <Frame name="cranky_bd_arm_R_16.png" offset="23.826641 -20.668194"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="7"/>
+  </Animation>
+  <Animation name="15-shmack hold" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_9.png" offset="-20.687492 -10.350179"/>
+  </Animation>
+  <Animation name="13-freaked2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821" repeat="18"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="9"/>
+  </Animation>
+  <Animation name="21-tapsbelly" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821" repeat="35"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_22.png" offset="19.114702 -4.046154"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_23.png" offset="19.063242 -4.033289"/>
+    <Frame name="cranky_bd_arm_R_24.png" offset="19.043943 -4.036506"/>
+    <Frame name="cranky_bd_arm_R_23.png" offset="19.063242 -4.033289"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_22.png" offset="19.114702 -4.046154"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_23.png" offset="19.063242 -4.033289"/>
+    <Frame name="cranky_bd_arm_R_24.png" offset="19.043943 -4.036506"/>
+    <Frame name="cranky_bd_arm_R_23.png" offset="19.063242 -4.033289"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_22.png" offset="19.114702 -4.046154"/>
+    <Frame name="cranky_bd_arm_R_21.png" offset="19.121136 -4.042938"/>
+    <Frame name="cranky_bd_arm_R_20.png" offset="19.098621 -4.049371"/>
+    <Frame name="cranky_bd_arm_R_24.png" offset="19.043943 -4.036506"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="17"/>
+  </Animation>
+  <Animation name="03-hang" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_4.png" offset="-0.476018 -0.212278" repeat="6"/>
+  </Animation>
+  <Animation name="06-kick" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+  </Animation>
+  <Animation name="20-yell" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_25.png" offset="0.295903 -1.428054" repeat="13"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_1.png" offset="3.026575 -0.749407"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000" repeat="10"/>
+  </Animation>
+  <Animation name="12-freaked" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_6.png" offset="-7.127408 -11.717124"/>
+    <Frame name="cranky_bd_arm_R_7.png" offset="4.155510 -23.726934"/>
+    <Frame name="cranky_bd_arm_R_26.png" offset="-8.114823 -25.090660" repeat="24"/>
+    <Frame name="cranky_bd_arm_R_26.png" offset="-8.114823 -25.090660"/>
+    <Frame name="cranky_bd_arm_R_7.png" offset="4.155510 -23.726934"/>
+    <Frame name="cranky_bd_arm_R_3.png" offset="1.929803 -9.452821"/>
+    <Frame name="cranky_bd_arm_R_2.png" offset="5.300527 -3.859607"/>
+    <Frame name="cranky_bd_arm_R_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+</Sprite>

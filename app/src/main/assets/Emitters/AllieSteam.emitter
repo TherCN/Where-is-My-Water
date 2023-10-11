@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Emitter name="mysterypoof" maxParticles="50" active="0">
+	<EmitterZones>
+		<EmitterZone position="1.7 4" radius="0.5" />
+		<EmitterZone position="1.8 0" radius="0.5" />
+		<EmitterZone position="3.2 2" radius="0.2" />
+	</EmitterZones>
+	<Textures>
+		<Texture path="/Textures/STEAM_1.png" />
+		<Texture path="/Textures/STEAM_2.png" />
+		<Texture path="/Textures/STEAM_3.png" />
+	</Textures>
+	<Gravity force="0 70" />
+	<Particles number="-1" >
+		<Size min="3.5 3.5" max="4.5 4.5" />
+		<Directions>
+			<Direction min="178" max="183" />
+		</Directions>        
+		<GrowToSize min="6 6" />
+        <Apex start="0.1" />
+        <SizeSlerp start="1" end="1" />        
+		<Speed min=".1" max=".2" />
+		<ScreenSpeed min="1.8" />
+		<ParticlesPerSecond min="25" max="25" />
+		<LifeTime min="0.9" max="1.2" />
+		<FadeTime min="0.1" />
+        <Angle min="0" max="359" />     
+        <Mass min="10.0" max="10.0" />   
+	</Particles>
+</Emitter>

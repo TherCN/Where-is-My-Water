@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="thercn.wmw">
+
+    <!-- 完全的网络访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!-- 查看网络连接 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- 查看 WLAN 状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- BILLING -->
+    <uses-permission android:name="com.android.vending.BILLING"/>
+
+    <!-- 读取存储卡中的内容 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!-- 修改或删除 SD 卡中的内容 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+		android:name="GlobalApplication"
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/icon">
+
+        <meta-data
+            android:name="SKUMarket"
+            android:value="google"/>
+
+        <meta-data
+            android:name="SKUType"
+            android:value="Premium"/>
+
+        <meta-data
+            android:name="RateLink"
+            android:value="https://play.google.com/store/apps/details?id=com.disney.WMW"/>
+
+        <meta-data
+            android:name="PerryUpsellLink"
+            android:value="https://play.google.com/store/apps/details?id=com.disney.WMP"/>
+
+        <meta-data
+            android:name="UpsellLink"
+            android:value="https://play.google.com/store/apps/details?id=com.disney.WMW"/>
+
+        <meta-data
+            android:name="BundleInfo"
+            android:value="TODO"/>
+
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:name="MainActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="*"
+                    android:scheme="wheresmywater"/>
+
+            </intent-filter>
+
+        </activity>
+		
+        <activity
+            android:name="com.disney.WMW.WMWActivity"/>
+		
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="4.0.0"/>
+
+        <activity
+            android:exported="false"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+    </application>
+
+</manifest>

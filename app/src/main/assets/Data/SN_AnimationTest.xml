@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_Next            0
+ WN_Prev            1
+ WN_Back            2
+ WN_Loops           3
+ WN_CrossFades      4
+ WN_AnimationName   5
+ WN_Play            6
+ -->
+<Widgets texturePath="/Textures/">
+    
+    <!-- "BACK" button -->
+	<Widget type="WT_PUSH_BUTTON" id="2" pos="0.125 0.06" size="0.15 0" forceAspect="109:80" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+	<!-- prev actor :D -->
+	<Widget type="WT_PUSH_BUTTON" id="7"  priority="0" layer="1" pos=".3 .15" size=".3 0" forceAspect="3:1" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Prev Actor" />
+	<!-- next actor :D -->
+	<Widget type="WT_PUSH_BUTTON" id="8"  priority="0" layer="1" pos=".7 .15" size=".3 0" forceAspect="3:1" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Next Actor" />
+	
+    <!-- AnimationName -->
+	<Widget type="WT_LABEL" id ="5" layer="1" pos=".5 .28" size="0.95 0.1" text="NULL" textColorRGB="0 0 0" />
+    <!-- Background -->
+	<Widget type="WT_LABEL" id ="501" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="10.5 0" tileForceAspect="1" texBGName="tile_yellow.webp" />
+    
+    <!-- Swampy button :D -->
+	<Widget type="WT_LABEL" id="502"  priority="0" layer="1" pos=".5 .5" size=".38 0" forceAspect="1" texBGName="room.webp" hilightColorRGB="255 255 255" reactOnDown="true" /> 
+    
+    <!-- Next button -->
+    <Widget type="WT_PUSH_BUTTON" id="0" pos=".9 .5" size="0.2 0" forceAspect="2:1" textNT="Next" texNormalName="button.png" texHilightName="button_highlight.png" reactOnDown="false" />
+    
+    <!-- Prev button -->
+    <Widget type="WT_PUSH_BUTTON" id="1" pos="0.1 0.5" size="0.2 0" forceAspect="2:1" textNT="Prev" texNormalName="button.png" texHilightName="button_highlight.png" reactOnDown="false" />
+    
+    <!-- play button :D -->
+	<Widget type="WT_PUSH_BUTTON" id="6"  priority="0" layer="1" pos=".5 .725" size=".3 0" forceAspect="3:1" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Play Animation" />
+    
+    <Widget type="WT_LABEL" id="999"  priority="5" layer="10" pos=".5 .5" size=".38 0" forceAspect="1"  texBGName="room_overlay.webp"  />
+    
+    <!-- looping toggle -->
+    <Widget type="WT_LABEL" id="1000"  priority="5" layer="2" pos=".75 .85" size=".2 .08" textNT="Loops" textColorRGB="0 0 0" />
+    <Widget type="WT_TOGGLE" id="3" layer="1" pos="0.75 0.925" size="0.2 0" forceAspect="2:1" texOnName="toggle_on.png" texOffName="toggle_off.png" textOn="YES" textOff="NO" textScale=".4" align="leftright" startOn="true" textColorRGB="0 0 0" />
+    
+    <!-- crossfade toggle -->
+    <Widget type="WT_LABEL" id="1001"  priority="5" layer="2" pos=".25 .85" size=".2 .08" textNT="Cross Fades" textColorRGB="0 0 0" />
+    <Widget type="WT_TOGGLE" id="4" layer="1" pos="0.25 0.925" size="0.2 0" forceAspect="2:1" texOnName="toggle_on.png" texOffName="toggle_off.png" textOn="YES" textOff="NO" textScale=".4" align="leftright" startOn="true" textColorRGB="0 0 0"/>
+</Widgets>

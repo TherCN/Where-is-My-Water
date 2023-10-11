@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Objects>
+  <Object name="Star0">
+    <AbsoluteLocation value="0.266667 -34.340626"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star1">
+    <AbsoluteLocation value="19.499720 -26.725359"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Object name="Star2">
+    <AbsoluteLocation value="-15.193218 -19.633038"/>
+    <Properties>
+      <Property name="Angle" value="0"/>
+      <Property name="Filename" value="/Objects/star.hs"/>
+      <Property name="Type" value="star"/>
+    </Properties>
+  </Object>
+  <Room>
+    <AbsoluteLocation value="-0.305953 -62.897369"/>
+  </Room>
+  <Lighting filename="/Textures/lighting_a_80x120.png"/>
+  <Properties>
+    <Property name="BonusLevel" value="1"/>
+    <Property name="ShowTopEdge" value="1"/>
+    <Property name="BonusTimer" value="20"/>
+  </Properties>
+</Objects>

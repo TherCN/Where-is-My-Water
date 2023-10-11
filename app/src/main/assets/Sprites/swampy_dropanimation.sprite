@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="splash 2" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="dropanimation_0.png" offset="-32.5815 36.1195" scale="1.0000152587890625 1.0000152587890625"/>
+    <Frame name="dropanimation_0.png" offset="-27.36875 26.984499999999997" scale="0.9999694828875292 0.9999694828875292"/>
+    <Frame name="dropanimation_0.png" offset="-20.4305 21.025" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="-14.768249999999998 19.285" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="-9.243749999999999 20.59725" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="-3.7337499999999997 25.67225" scale="0.9999694828875292 0.9999694828875292"/>
+    <Frame name="dropanimation_0.png" offset="1.0367499999999996 35.525" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="3.639499999999999 49.44499999999999" scale="1.0000152587890625 1.0000152587890625"/>
+    <Frame name="dropanimation_0.png" offset="4.06725 65.98949999999999" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="4.06725 70.41199999999999" scale="0.8883684025817478 0.8883684025817478"/>
+    <Frame name="dropanimation_0.png" offset="4.06725 74.83449999999999" scale="0.7768893907258495 0.7768893907258495"/>
+    <Frame name="dropanimation_0.png" offset="4.0455 79.24974999999999" scale="0.6653188275325389 0.6653188275325389"/>
+    <Frame name="dropanimation_0.png" offset="4.089 83.67224999999999" scale="0.5538855913453469 0.5538855913453469"/>
+  </Animation>
+  <Animation name="splash 1" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="dropanimation_0.png" offset="2.769499999999999 36.1195" scale="1.0000152587890625 1.0000152587890625" angleDeg="-155.26480102539062"/>
+    <Frame name="dropanimation_0.png" offset="-2.44325 26.984499999999997" scale="0.9999694828875292 0.9999694828875292" angleDeg="-145.79592895507812"/>
+    <Frame name="dropanimation_0.png" offset="-9.381499999999997 21.025" scale="0.9999847414437646 0.9999847414437646" angleDeg="-116.85040283203125"/>
+    <Frame name="dropanimation_0.png" offset="-15.04375 19.285" scale="0.9999847414437646 0.9999847414437646" angleDeg="-92.39234924316406"/>
+    <Frame name="dropanimation_0.png" offset="-20.568250000000003 20.59725" scale="0.9999847414437646 0.9999847414437646" angleDeg="-64.41677856445312"/>
+    <Frame name="dropanimation_0.png" offset="-26.078249999999997 25.67225" scale="0.9999694828875292 0.9999694828875292" angleDeg="-36.69599914550781"/>
+    <Frame name="dropanimation_0.png" offset="-30.84875 35.525" scale="0.9999847414437646 0.9999847414437646" angleDeg="-18.48895263671875"/>
+    <Frame name="dropanimation_0.png" offset="-33.451499999999996 49.44499999999999" scale="1.0000152587890625 1.0000152587890625" angleDeg="-7.52923583984375"/>
+    <Frame name="dropanimation_0.png" offset="-33.87925 65.98949999999999" scale="0.9999847414437646 0.9999847414437646" angleDeg="-2.0649871826171875"/>
+    <Frame name="dropanimation_0.png" offset="-33.87925 70.41199999999999" scale="0.8883684025817478 0.8883684025817478" angleDeg="-2.0160980224609375"/>
+    <Frame name="dropanimation_0.png" offset="-33.87925 74.83449999999999" scale="0.7768893907258495 0.7768893907258495" angleDeg="-2.0169677734375"/>
+    <Frame name="dropanimation_0.png" offset="-33.857499999999995 79.24974999999999" scale="0.6653188275325389 0.6653188275325389" angleDeg="-2.0160980224609375"/>
+    <Frame name="dropanimation_0.png" offset="-33.900999999999996 83.67224999999999" scale="0.5538855913453469 0.5538855913453469" angleDeg="-2.0649871826171875"/>
+  </Animation>
+  <Animation name="drop1" textureBasePath="/Textures/" atlas="/Textures/swampy_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="dropanimation_0.png" offset="0 0" scale="0.9999847414437646 0.9999847414437646"/>
+    <Frame name="dropanimation_0.png" offset="-0.007249999999999845 9.084249999999997" scale="0.9304362421227703 0.9304362421227703"/>
+    <Frame name="dropanimation_0.png" offset="0 18.1395" scale="0.8608724842455406 0.8608724842455406"/>
+    <Frame name="dropanimation_0.png" offset="0 27.223750000000003" scale="0.7913087263683111 0.7913087263683111"/>
+    <Frame name="dropanimation_0.png" offset="0.007250000000000103 36.286249999999995" scale="0.7217602270473168 0.7217602270473168"/>
+    <Frame name="dropanimation_0.png" offset="0 45.37049999999999" scale="0.6522117277263225 0.6522117277263225"/>
+    <Frame name="dropanimation_0.png" offset="-0.007250000000000103 54.42575" scale="0.5826327112928574 0.5826327112928574"/>
+    <Frame name="dropanimation_0.png" offset="0.007250000000000103 63.51" scale="0.5130994705280987 0.5130994705280987"/>
+  </Animation>
+</Sprite>

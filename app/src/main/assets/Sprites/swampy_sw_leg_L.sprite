@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="0" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="swampy_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="squash" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094" repeat="1"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236347660064698 -0.4066086654663094" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094" repeat="1"/>
+    <Frame name="sw_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="stretch" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.7571333770751961 -1.044563640594481" repeat="1"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.7290914001464828 -1.675508121490477" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.7571333770751961 -1.044563640594481" repeat="1"/>
+    <Frame name="sw_leg_R_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="stretchhold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_3.png" offset="-0.7290914001464828 -1.675508121490477"/>
+  </Animation>
+  <Animation name="squashhold" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_L_1.png" offset="-2.236347660064698 -0.4066086654663094"/>
+  </Animation>
+  <Animation name="walk" textureBasePath="/Textures/" atlas="/Textures/swampy.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_leg_R_0.png" offset="0 0" repeat="8"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094" repeat="2"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236347660064698 -0.4066086654663094" repeat="1"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.7571333770751961 -1.044563640594481"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.7290914001464828 -1.675508121490477"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236347660064698 -0.4066086654663094" repeat="6"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094" repeat="1"/>
+    <Frame name="sw_leg_L_2.png" offset="-0.7571333770751961 -1.044563640594481" repeat="1"/>
+    <Frame name="sw_leg_L_3.png" offset="-0.7290914001464828 -1.675508121490477" repeat="2"/>
+    <Frame name="sw_leg_L_0.png" offset="-1.4932352714538581 -0.4066086654663094"/>
+    <Frame name="sw_leg_L_1.png" offset="-2.236347660064698 -0.4066086654663094"/>
+  </Animation>
+</Sprite>

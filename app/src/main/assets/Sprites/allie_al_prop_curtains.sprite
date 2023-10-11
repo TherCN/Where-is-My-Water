@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="curtains" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_prop_curtains_0.png" repeat="3" offset="0 0"/>
+    <Frame name="al_prop_curtains_1.png" repeat="1" offset="0.45902557373047015 -1.0388473510742147"/>
+    <Frame name="al_prop_curtains_2.png" repeat="1" offset="1.8119430541992119 -1.5220321655273397"/>
+    <Frame name="al_prop_curtains_3.png" repeat="1" offset="2.077694702148436 -1.9327392578125"/>
+    <Frame name="al_prop_curtains_4.png" repeat="1" offset="2.9232681274414047 -3.261497497558587"/>
+    <Frame name="al_prop_curtains_5.png" repeat="1" offset="3.1890197753906224 -3.7446823120117188"/>
+    <Frame name="al_prop_curtains_6.png" repeat="1" offset="4.904325866699215 -3.406452941894523"/>
+    <Frame name="al_prop_curtains_7.png" repeat="1" offset="4.155389404296872 -2.9957458496093694"/>
+    <Frame name="al_prop_curtains_8.png" repeat="1" offset="2.319287109374992 -2.585038757324209"/>
+    <Frame name="al_prop_curtains_9.png" repeat="1" offset="1.3770767211914035 -2.1984909057617172"/>
+    <Frame name="al_prop_curtains_10.png" repeat="1" offset="1.1838027954101507 -1.7394653320312472"/>
+    <Frame name="al_prop_curtains_11.png" repeat="1" offset="1.0630065917968763 -1.4253952026367132"/>
+    <Frame name="al_prop_curtains_12.png" offset="1.4012359619140584 -1.0871658325195312"/>
+    <Frame name="al_prop_curtains_0.png" repeat="1" offset="0 0"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/allie_props.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_prop_curtains_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

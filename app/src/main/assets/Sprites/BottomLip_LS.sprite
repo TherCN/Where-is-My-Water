@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="1" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000"/>
+  </Animation>
+  <Animation name="11" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="BottomLip_LS_1.png" offset="7.021844 0.178270"/>
+    <Frame name="BottomLip_LS_2.png" offset="10.092043 0.356539"/>
+    <Frame name="BottomLip_LS_3.png" offset="24.214962 0.752694"/>
+    <Frame name="BottomLip_LS_4.png" offset="22.214380 1.267695"/>
+    <Frame name="BottomLip_LS_5.png" offset="20.837742 1.990678"/>
+    <Frame name="BottomLip_LS_6.png" offset="19.540335 2.495775" repeat="18"/>
+    <Frame name="BottomLip_LS_5.png" offset="20.837742 1.990678"/>
+    <Frame name="BottomLip_LS_4.png" offset="22.214380 1.267695"/>
+    <Frame name="BottomLip_LS_3.png" offset="24.214962 0.752694"/>
+    <Frame name="BottomLip_LS_2.png" offset="10.092043 0.356539"/>
+    <Frame name="BottomLip_LS_1.png" offset="7.021844 0.178270"/>
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000" repeat="8"/>
+  </Animation>
+  <Animation name="13" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752" repeat="14"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000" repeat="28"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752" repeat="15"/>
+    <Frame name="BottomLip_LS_10.png" offset="-2.654237 0.643752"/>
+    <Frame name="BottomLip_LS_9.png" offset="-1.485580 0.643752"/>
+    <Frame name="BottomLip_LS_8.png" offset="-0.376347 0.643752"/>
+    <Frame name="BottomLip_LS_7.png" offset="-0.009904 0.643752"/>
+    <Frame name="BottomLip_LS_0.png" offset="0.000000 0.000000" repeat="29"/>
+  </Animation>
+</Sprite>

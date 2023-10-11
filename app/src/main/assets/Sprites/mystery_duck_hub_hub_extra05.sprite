@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_hub_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="wand" textureBasePath="/Textures/" atlas="/Textures/mystery_duck_hub.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="hub_extra05_0.png" offset="4.35 -17.4"/>
+    <Frame name="hub_extra05_1.png" offset="11.009999999999998 -34.68"/>
+    <Frame name="hub_extra05_2.png" offset="16.53 -51.510000000000005"/>
+  </Animation>
+</Sprite>

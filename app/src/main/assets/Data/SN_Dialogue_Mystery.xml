@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Buttons
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_ImageLeft       4
+ WN_Image			5
+ WN_ImageRight      6
+ WN_MysteryBurst    7
+ WN_DucklingBusrt    8
+ WN_MegaBurst       9
+ 
+ WN_ButtonLeft		10
+ WN_ButtonRight		11
+ WN_ButtonCenter	12
+ WN_ButtonFacebook  14
+ 
+
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Dialogue.xml">
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="2" textColorRGB="32 95 53" font="outlined" pos=".5 .37" size="0.7 0.075"/>
+    <Widget type="WT_LABEL" id="3" pos=".5 .545" size="0.7 0.2" />
+	
+	<!-- Image -->
+    
+    <Widget type="WT_LABEL" id ="4" pos=".3 .45" size="0.15 0" texBGName="" forceAspect="1"/>
+    <Widget type="WT_LABEL" id ="5" pos=".5 .45" size="0.15 0" texBGName="" forceAspect="1"/>
+    <Widget type="WT_LABEL" id ="6" pos=".7 .45" size="0.15 0" texBGName="" forceAspect="1"/>
+     
+    <!-- burst image -->
+    <Widget type="WT_LABEL" id ="7" parent="5" pos="0 0" posByParentSize="0.5 0.5" size="0.2 0" texBGName="MD_preview_mysteryduck_burst.png" forceAspect="1" visible="false"/>
+    <Widget type="WT_LABEL" id ="8" parent="5" pos="0 0" posByParentSize="0.5 0.85" size="0.2 0" texBGName="MD_preview_duckling_burst.png" forceAspect="1" visible="false"/>
+    <Widget type="WT_LABEL" id ="9" parent="5" pos="0 0" posByParentSize="0.5 0.5" size="0.2 0" texBGName="MD_preview_megaduck_burst.png" forceAspect="1" visible="false"/>
+     
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="10" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="11" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+
+    
+</Widgets>

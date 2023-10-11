@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_WORLD_1					1
+ WN_WORLD_OVERLAY_1			145
+ WN_WORLD_BACKGROUND_1		169
+ WN_WORLD_TEXT_1			25
+ 
+ WN_WORLD_STARLABEL_1		49
+ WN_WORLD_DUCKLABEL_1		73
+ 
+ WN_WORLD_LOCKTOPLABEL_1	97
+ WN_WORLD_LOCKLABEL_1		121
+ 
+ WN_BACKGROUND      501
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+    <!-- Example pack (the rest are copied from this template) -->
+	
+	<!-- achievements and collection buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" pos="0.5 0.83" />
+	<Widget type="WT_PUSH_BUTTON" id="1006" pos="0.5 0.94" />
+    
+	<!-- Footer and slider -->
+    <Widget type="WT_LABEL" id="1008" pos="0.5 0.87" />
+    <Widget type="WT_SLIDER" id="1200" pos="0.5 0.628" />
+    
+    <!-- Background -->
+	<Widget type="WT_LABEL" id ="1001" tileOffset="0.25 0.75"/>
+	
+</Widgets>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="Closed" textureBasePath="/Textures/" atlas="/Textures/treasure_chest.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ChestBody_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="Open" textureBasePath="/Textures/" atlas="/Textures/treasure_chest.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="ChestBody_0.png" offset="0 0" repeat="7"/>
+    <Frame name="ChestBody_1.png" offset="-0.006250000000001421 0.9187500000000028"/>
+    <Frame name="ChestBody_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Widgets texturePath="/Textures/">
+	
+	<!-- Background elements -->
+    <Widget type="WT_LABEL" id="0" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="5.5 0" tileForceAspect="1:1" texBGName="credits_tile.webp" />
+    
+	<!-- Back button -->
+	<Widget type="WT_PUSH_BUTTON" id="1" layer="2" pos="0.125 0.06" size="0.15 0" forceAspect="50:40" texNormalName="back_button.png" texHilightName="back_button_highlight.png" reactOnDown="false" />
+	
+   	<!-- Language Buttons -->
+    <Widget type="WT_PUSH_BUTTON" id="100" layer="2" pos="0.26 0.1" size="0.4 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png"  font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" />
+    
+    <!-- Language Name (Label) -->
+    <Widget type="WT_LABEL" id="200" layer="3" pos="0.25 0.1" size="0.4 0.05" forceAspect="256:88" texBGName="WMW_UI_lg_english.png" />
+    
+    <!-- Language Loading Notification -->
+	<Widget type="WT_LABEL" id="2" layer="15" pos="0.5 0.5" size="0.0 0.06" forceAspect="1:1"
+    aspectBasis="height" texBGName="BUSY_INDICATOR.webp" visible="false"/>
+    
+</Widgets>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="wand" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="extra05_0.png" offset="1.74 -6.96"/>
+    <Frame name="extra05_1.png" offset="4.403999999999999 -13.871999999999998"/>
+    <Frame name="extra05_2.png" offset="6.612000000000001 -20.604000000000003"/>
+  </Animation>
+  <Animation name="rabbitduck" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="extra05_3.png" offset="1.74 -2.4480000000000004"/>
+    <Frame name="extra05_4.png" offset="1.74 -2.4480000000000004"/>
+    <Frame name="extra05_5.png" offset="1.56 -1.14"/>
+    <Frame name="extra05_6.png" offset="1.56 0.36"/>
+    <Frame name="extra05_7.png" offset="1.56 1.56"/>
+    <Frame name="extra05_8.png" offset="1.56 2.3280000000000007"/>
+    <Frame name="extra05_9.png" offset="1.56 2.6399999999999997"/>
+    <Frame name="extra05_10.png" offset="1.56 3.0960000000000014"/>
+    <Frame name="extra05_11.png" offset="1.56 2.9640000000000004"/>
+    <Frame name="extra05_12.png" offset="1.56 2.8440000000000003"/>
+    <Frame name="extra05_13.png" offset="1.08 2.772000000000001"/>
+    <Frame name="extra05_14.png" offset="0.6360000000000013 3.7920000000000007"/>
+    <Frame name="extra05_15.png" offset="0.10799999999999897 3.744"/>
+    <Frame name="extra05_16.png" offset="0.33599999999999963 3.7199999999999998"/>
+    <Frame name="extra05_17.png" offset="0.5040000000000003 3.7199999999999998"/>
+    <Frame name="extra05_18.png" offset="0.587999999999999 3.696000000000001"/>
+    <Frame name="extra05_19.png" offset="0.6240000000000003 3.7080000000000006"/>
+  </Animation>
+</Sprite>

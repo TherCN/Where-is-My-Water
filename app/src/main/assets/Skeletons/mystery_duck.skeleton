@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Skeleton name="mystery_duck" animations="/Animations/mystery_duck.ani" curveCollection="/Curves/mystery_duck_curves.bin" >
+  <Bone name="ikBoneName29" localPos="0.124482 -0.237979" localAngleRad="0.000000">
+    <Sprite localLayer="1" name="ikNode_29" relativePath="/Sprites/mystery_duck_duck.sprite" localScale="1.000000 -1.000000" localPos="-1.414150 20.835381"/>
+    <Bone name="ikBoneName30" localPos="-13.492474 19.941975" localAngleRad="0.000000">
+      <Sprite localLayer="4" name="ikNode_30" relativePath="/Sprites/mystery_duck_bowtie.sprite" localScale="1.000000 -1.000000" localPos="0.000000 0.000000"/>
+      <Bone name="ikBoneName31" localPos="4.266112 -1.141197" localAngleRad="0.081635">
+        <Sprite localLayer="3" name="ikNode_31" relativePath="/Sprites/mystery_duck_scarf.sprite" localScale="1.000000 -1.000000" localPos="-0.429456 0.023859"/>
+        <Bone name="ikBoneName32" localPos="19.352480 0.349587" localAngleRad="-0.000157"/>
+      </Bone>
+    </Bone>
+    <Bone name="ikBoneName33" localPos="-20.764471 22.341974" localAngleRad="0.000000">
+      <Sprite localLayer="0" name="ikNode_33" relativePath="/Sprites/mystery_duck_extra02.sprite" localScale="1.000000 -1.000000" localPos="0.072000 -0.072000"/>
+    </Bone>
+    <Bone name="ikBoneName34" localPos="-16.804472 50.181973" localAngleRad="0.000000">
+      <Sprite localLayer="6" name="ikNode_34" relativePath="/Sprites/mystery_duck_extra03.sprite" localScale="1.000000 -1.000000" localPos="17.628000 -6.720000"/>
+    </Bone>
+    <Bone name="ikBoneName35" localPos="16.219526 39.381977" localAngleRad="0.000000">
+      <Sprite localLayer="7" name="ikNode_35" relativePath="/Sprites/mystery_duck_extra04.sprite" localScale="1.000000 -1.000000" localPos="-0.504000 -0.216000"/>
+    </Bone>
+    <Bone name="ikBoneName36" localPos="17.875528 33.741974" localAngleRad="0.000000">
+      <Sprite localLayer="5" name="ikNode_36" relativePath="/Sprites/mystery_duck_extra05.sprite" localScale="1.000000 -1.000000" localPos="-0.312000 0.120000"/>
+    </Bone>
+  </Bone>
+</Skeleton>

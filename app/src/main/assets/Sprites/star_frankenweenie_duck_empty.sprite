@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sprite>
+	<Animation name="DUCK_EMPTY" textureBasePath="/Textures/" atlas="/Textures/frankenweenie_in_game_atlas.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Ducks2_frankenweenie__empty.png" />
+	</Animation>
+	<Animation name="DUCK_FULL" textureBasePath="/Textures/" atlas="/Textures/frankenweenie_in_game_atlas.imagelist" fps="1.0" playbackMode="ONCE" loopCount="2">
+		<Frame name="Ducks2_frankenweenie__filled_hud.png" />
+	</Animation>
+</Sprite>

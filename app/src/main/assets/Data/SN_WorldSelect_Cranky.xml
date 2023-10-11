@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+	<!-- Navigation buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Cranky_Back_W_Shadow.png" texHilightName="Cranky_Back_NO_Shadow.png" />
+	
+	<!-- Reset, unlock buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1007" layer="5" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="1002" layer="5" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+    
+    <!-- DEBUG: Buy -->
+	<Widget type="WT_PUSH_BUTTON" id="1104" layer="5" pos="0.8 0.852" size="0.2 0" forceAspect="128:44" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" text="DEBUG BUY" font="outlined" reactOnDown="false" textColorRGB="131 70 47" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+	
+	<!-- Collection, Achievement buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" visible="false"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1006" visible="false"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1009" visible="false"/>
+	
+	<!-- Challenges buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1100" layer="3" pos="0.5 0.75" size="0.4 0" forceAspect="128:44" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" text="CHALLENGES" font="outlined" reactOnDown="false" textColorRGB="32 95 53" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+	
+	<Widget type="WT_PUSH_BUTTON" id="1101" layer="5" pos="0.5 0.852" size="0.4 0" forceAspect="128:44" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" text="FOOD_GROUPS" font="outlined" reactOnDown="false" textColorRGB="32 95 53" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+    
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" id="1003" textColorRGB="173 63 134" />
+	<Widget type="WT_LABEL" id="1099" texBGName="Cranky_Duck_Counter.png" />
+	
+    <!-- Example pack (the rest are copied from this template) -->
+	<Widget type="WT_LABEL" id="101" textColorRGB="32 95 53" />
+	<Widget type="WT_LABEL" id="201" texBGName="ducky_cranky_filled.png" />
+    
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1001" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="1.25 0" tileForceAspect="1" tileOffset="0.25 0" texBGName="cranky_bricks_green.webp" />
+	
+	<!-- Cranky Shadow -->
+	<Widget type="WT_LABEL" id="1400" layer="1" pos="0 0" justifyWidget="0.5 0.5" size="1.0 1.0" texBGName="ui_cranky_lighting.png" />
+	
+	
+	
+	<Widget type="WT_LABEL" id="1008" pos="0.5 0.825" size="1.0 0" forceAspect="640:129" texBGName="Endcap-01.webp" />
+	
+	<!-- Pipes -->
+	<Widget type="WT_LABEL" id="1110" layer="2" parent="1001" pos="0 0" posByParentSize="0.345 0.050" size="0.4 0" forceAspect="552:680" texBGName="cranky_world_top_pipe.webp" />
+	<Widget type="WT_LABEL" id="1111" layer="2" parent="1001" pos="0 0" posByParentSize="0.175 0.575" size="0.25 0" forceAspect="357:626" texBGName="cranky_world_bottom_pipe.webp" />
+	
+	<!-- Animated water -->
+    <Widget type="WT_LABEL" id="1120" layer="3" pos="0.5 0.91" size="1.0 0.2" numTiles="1.5 0" tileForceAspect="64:24" texBGName="cranky_water_0.webp" />
+    <Widget type="WT_LABEL" id="1121" layer="4" pos="0.5 0.94" size="1.0 0.12" numTiles="1.5 0" tileForceAspect="64:24" texBGName="cranky_water_1.webp"/>
+    
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SCROLLABLE_SET" id="1005" pos="0.5 0.4" size="1.0 0.7" />
+	
+    <!-- Carousel Slider -->
+    <Widget type="WT_SLIDER" id="1200" pos=".5 .67" size="0.24 0" forceAspect="299:86" texBGName="scroll_set_mini_bar.webp" texHandleName="cr_scroll_set_scrubber.png" slideStep="0.04"/>
+	
+</Widgets>

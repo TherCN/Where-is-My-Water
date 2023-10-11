@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="foot1" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_foot_R_0.png" offset="0 0" repeat="199"/>
+  </Animation>
+  <Animation name="foot2" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_foot_R_1.png" offset="0.06772224426269605 0.24509002685546946"/>
+  </Animation>
+  <Animation name="foot3" textureBasePath="/Textures/" atlas="/Textures/crankyNew.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="bd_foot_R_0.png" offset="0 0" repeat="13"/>
+    <Frame name="bd_foot_R_1.png" offset="0.06772224426269605 0.24509002685546946" repeat="6"/>
+    <Frame name="bd_foot_R_0.png" offset="0 0" repeat="15"/>
+  </Animation>
+</Sprite>

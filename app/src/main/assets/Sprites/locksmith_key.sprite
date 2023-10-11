@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="impact" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="locksmith_key_0.png" offset="-52.56383705139161 -62.52367401123046"/>
+    <Frame name="locksmith_key_1.png" offset="-51.03973388671875 -62.824950218200684"/>
+    <Frame name="locksmith_key_2.png" offset="-47.49530792236328 -61.92112159729003"/>
+    <Frame name="locksmith_key_3.png" offset="-45.882594108581536 -61.44262409210204"/>
+  </Animation>
+  <Animation name="unlock" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="locksmith_key_4.png" offset="0 0" scale="0.5038178666791586 0.5191639312608611" angleDeg="31.803787231445312"/>
+    <Frame name="locksmith_key_4.png" offset="-7.230628967285155 6.521743774414064" scale="0.503443106759732 0.5187777563236146" angleDeg="14.765380859375"/>
+    <Frame name="locksmith_key_4.png" offset="-11.590272903442385 11.501662254333498" scale="0.503724176699302 0.5190673875265496" angleDeg="2.5206298828125"/>
+    <Frame name="locksmith_key_4.png" offset="-13.929594039916994 14.478980064392088" scale="0.5036773317093737 0.5190191156593937" angleDeg="-4.5549163818359375"/>
+    <Frame name="locksmith_key_4.png" offset="-14.656201362609863 15.577752113342287" scale="0.5038178666791586 0.5191639312608611" angleDeg="-7.1465301513671875"/>
+    <Frame name="locksmith_key_4.png" offset="-9.587672233581541 -14.514424324035646" scale="0.5034899517496604 0.5188260281907704" angleDeg="-50.004852294921875"/>
+    <Frame name="locksmith_key_4.png" offset="15.63091850280762 -46.928199768066406" scale="0.5027872769007354 0.5181019501834331" angleDeg="-29.406890869140625"/>
+    <Frame name="locksmith_key_4.png" offset="51.90811824798583 -65.11110496520996" scale="0.4804890616948517 0.5511681791851709" angleDeg="-26.040206909179688"/>
+    <Frame name="locksmith_key_4.png" offset="88.27392864227295 -83.27628803253174" scale="0.4594088162271045 0.5856342923344275" angleDeg="-22.621597290039062"/>
+    <Frame name="locksmith_key_4.png" offset="85.08394527435303 -81.84079551696779" scale="0.483533986040193 0.5480305078200425" angleDeg="-22.559738159179688"/>
+    <Frame name="locksmith_key_4.png" offset="83.2231216430664 -80.95468902587889" scale="0.49829015786761605 0.5258737207955204" angleDeg="-22.555267333984375"/>
+    <Frame name="locksmith_key_4.png" repeat="1" offset="82.62056922912599 -80.60024642944335" scale="0.5037710216892304 0.5191156593937053" angleDeg="-22.618621826171875"/>
+    <Frame name="locksmith_key_4.png" offset="82.62056922912599 -80.60024642944335" scale="0.5037710216892304 0.5191156593937053" angleDeg="-22.618621826171875"/>
+    <Frame name="locksmith_key_4.png" offset="76.29376888275146 -79.60780715942381" scale="0.5341734201527146 0.5485614983587566"/>
+    <Frame name="locksmith_key_4.png" offset="57.29564571380617 -76.91404342651367" scale="0.6273949501100857 0.6388781618072987" angleDeg="-15.295425415039062"/>
+    <Frame name="locksmith_key_4.png" offset="25.90975379943848 -73.51139450073241" scale="0.782779781702347 0.7895346592006178" angleDeg="-6.27301025390625"/>
+    <Frame name="locksmith_key_4.png" offset="-16.960078239440914 -71.10118484497072" angleDeg="6.2712860107421875"/>
+  </Animation>
+  <Animation name="idle" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="locksmith_key_4.png" offset="0 0" scale="0.5038178666791586 0.5191639312608611" angleDeg="31.803787231445312"/>
+  </Animation>
+  <Animation name="outro" textureBasePath="/Textures/" atlas="/Textures/locksmith_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="locksmith_key_4.png" offset="0 0" scale="0.5038178666791586 0.5191639312608611" angleDeg="31.803787231445312"/>
+    <Frame name="locksmith_key_4.png" offset="-0.42533111572265725 -0.30127620697021285" scale="0.5204009931137865 0.536252172234022" angleDeg="31.817047119140625"/>
+    <Frame name="locksmith_key_4.png" offset="-0.7797737121582041 -0.6379966735839834" scale="0.5377336393872675 0.554112763081676" angleDeg="31.817672729492188"/>
+    <Frame name="locksmith_key_4.png" offset="-1.1519384384155273 -0.9924392700195303" scale="0.5550662856607486 0.57197335392933" angleDeg="31.818313598632812"/>
+    <Frame name="locksmith_key_4.png" offset="-1.5241031646728505 -1.2759933471679668" scale="0.5723989319342296 0.5898339447769839" angleDeg="31.816421508789062"/>
+    <Frame name="locksmith_key_4.png" offset="-1.9317121505737316 -1.6304359436035136" scale="0.590621633016349 0.6086117011005986" angleDeg="31.80126953125"/>
+    <Frame name="locksmith_key_4.png" offset="6.185023307800294 -0.5848302841186493" scale="0.4176230852110367 0.43034369569414943" angleDeg="31.817672729492188"/>
+    <Frame name="locksmith_key_4.png" offset="14.31948089599609 0.42533111572265725" scale="0.24551459221436267 0.25299285576366093" angleDeg="31.812637329101562"/>
+    <Frame name="locksmith_key_4.png" offset="22.38304996490478 1.4177703857421875" scale="0.07349978919754532 0.07573855956748407" angleDeg="31.815155029296875"/>
+  </Animation>
+</Sprite>

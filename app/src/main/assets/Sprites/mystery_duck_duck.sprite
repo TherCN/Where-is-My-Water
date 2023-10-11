@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="squash1" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_0.png" offset="0.9542922363281258 4.837155212402347"/>
+  </Animation>
+  <Animation name="duck" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_1.png" offset="0 0"/>
+  </Animation>
+  <Animation name="stretch" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_2.png" offset="0.038033386230469535 -5.5459592285156205"/>
+  </Animation>
+  <Animation name="disappear" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_3.png" offset="0 0.09335467529297033"/>
+    <Frame name="duck_4.png" offset="-23.006741088867187 -15.109627075195313"/>
+  </Animation>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="mystery_duck_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="squash2" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_5.png" offset="1.0234438476562508 7.298952575683595"/>
+  </Animation>
+  <Animation name="hatless" textureBasePath="/Textures/" atlas="/Textures/mystery_duck.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="duck_6.png" offset="-0.8678527221679696 7.82450482177735"/>
+    <Frame name="duck_7.png" offset="0.8436496582031242 16.952517517089845"/>
+  </Animation>
+</Sprite>

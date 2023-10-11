@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_WorldSelect.xml">
+	
+	<!-- MODIFICATIONS TO BASE FILE -->
+	
+	<!-- Navigation buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="MD_back.png" texHilightName="MD_back_highlight.png" />
+	
+	<!-- Reset, unlock buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1007" layer="10" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="1002" layer="10" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+    
+    <!-- DEBUG: Buy -->
+	<Widget type="WT_PUSH_BUTTON" id="1104" layer="10" pos="0.8 0.852" size="0.2 0" forceAspect="128:44" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" text="DEBUG BUY" font="outlined" reactOnDown="false" textColorRGB="131 70 47" edgePaddingRelative="0.4" edgePaddingRelativeV="0.55" textHilightOffsetRelative="0 0.05f"/>
+	
+	<!-- Hide the Collection, Achievement buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="1004" visible="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="1006" visible="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="1009" visible="false"/>
+	
+    <!-- Ducky count -->
+	<Widget type="WT_LABEL" id="1003" layer="11" textColorRGB="94 41 37" />
+	<Widget type="WT_LABEL" id="1099" layer="10" texBGName="MD_duck_counter.png" />
+	
+	
+	
+	
+	<!-- Layering of the main Chapter buttons (and the color of the text) -->
+    <Widget type="WT_PUSH_BUTTON" id="1" layer="8" />
+    <Widget type="WT_LABEL" id="601" layer="13" texBGName="MD_world_select_frame.png" />
+    <Widget type="WT_LABEL" id="701" layer="9" />
+	<Widget type="WT_LABEL" id="101" layer="10" pos="0.0 -0.245" textColorRGB="94 41 37" />
+	
+	<Widget type="WT_LABEL" id="401" layer="10" />
+	<Widget type="WT_LABEL" id="501" layer="11" />
+	
+	<Widget type="WT_LABEL" id="201" layer="10" size="0.09 0" forceAspect="110:136" texBGName="ducky_teleport_filled.png" />
+	<Widget type="WT_LABEL" id="301" layer="10" textColorRGB="94 41 37" />
+	
+    <Widget type="WT_PUSH_BUTTON" id="1601" layer="10" />
+    <Widget type="WT_LABEL" id="1701" layer="15" />
+    <Widget type="WT_LABEL" id="1801" layer="14" />
+	
+	
+	
+    
+    <!-- Background -->
+	<Widget type="WT_LABEL" id="1001" layer="0" pos=".5 .5" size="1.0 1.0" numTiles="1.25 0" tileForceAspect="1" tileOffset="0.25 0" texBGName="MD_brick_tile.webp" />
+	
+	<!-- Hide the shadow (background is pre-rendered) -->
+	<Widget type="WT_LABEL" id="1400" visible="false" />
+	
+	<!-- Hide footer -->
+	<Widget type="WT_LABEL" id="1008" visible="false" />
+	
+	<!-- Hide animated water -->
+    <Widget type="WT_LABEL" id="1120" visible="false" />
+    <Widget type="WT_LABEL" id="1121" visible="false" />
+    
+	
+	<!-- Set that holds world packs -->
+	<Widget type="WT_SCROLLABLE_SET" id="1005" pos="0.5 0.375" />
+	
+	<!-- Carousel Slider -->
+    <Widget type="WT_SLIDER" id="1200" pos=".51 .62" texBGName="MD_scroll_set_bar.png" texHandleName="MD_scroll_set_scrubber.png" texStepName="MD_scroll_set_unselected.png" texLineName="MD_scroll_set_stroke.png" />
+	
+	
+	
+	
+	<!-- NEW ASSETS -->
+	
+	<!-- Background gradient (top and bottom) -->
+	<Widget type="WT_LABEL" id="1500" layer="1" pos="0 0" justifyWidget="0.5 0.0" size="1.0 0.3" texBGName="MD_gradient_top.png" />
+	<Widget type="WT_LABEL" id="1501" layer="10" pos="0 0" justifyWidget="0.5 1.0" size="1.0 0.3" texBGName="MD_gradient.png" />
+	
+	<!-- Star pattern -->
+	<Widget type="WT_LABEL" id="1510" layer="3" pos="0 0" justifyWidget="0.5 0.0" size="1.0 0" forceAspect="1024:1082" texBGName="MD_stars_tile.webp" />
+	
+	
+	<!-- Bottom posters -->
+	<Widget type="WT_LABEL" id="1520" layer="4" pos="0 0" justifyWidget="0.0 1.05" size="0.25 0" forceAspect="380:672" texBGName="MD_poster_1.png" visible="false" />
+	<Widget type="WT_LABEL" id="1521" layer="5" pos="0 0" justifyWidget="0.5 1.05" size="0.55 0" forceAspect="852:318" texBGName="MD_poster_2.png" visible="false" />
+	<Widget type="WT_LABEL" id="1522" layer="4" pos="0 0" justifyWidget="1.0 1.05" size="0.25 0" forceAspect="390:474" texBGName="MD_poster_3.png" visible="false" />
+	
+	
+	<!-- Poster -->
+	<Widget type="WT_LABEL" id="1530" layer="6" pos="0.510 0.520" size="0.675 0" forceAspect="866:1390" texBGName="MD_poster_main.png" />
+	
+	
+	<!-- Tape, Gum (on bottom posters) -->
+	<Widget type="WT_LABEL" id="1540" parent="1520" layer="5" pos="0 0" posByParentSize="0.6 0.0" size="0.08 0" forceAspect="138:126" texBGName="MD_gum.png" visible="false" />
+	<Widget type="WT_LABEL" id="1541" parent="1521" layer="6" pos="0 0" posByParentSize="1.0 0.4" size="0.11 0" forceAspect="176:136" texBGName="MD_tape_5.png" visible="false" />
+	
+	<!-- Tape (on main poster) -->
+	<Widget type="WT_LABEL" id="1550" parent="1530" layer="7" pos="0 0" posByParentSize="0.050 0.025" size="0.13 0" forceAspect="206:192" texBGName="MD_tape_1.png" />
+	<Widget type="WT_LABEL" id="1551" parent="1530" layer="7" pos="0 0" posByParentSize="0.950 0.010" size="0.13 0" forceAspect="202:170" texBGName="MD_tape_2.png" />
+	<Widget type="WT_LABEL" id="1552" parent="1530" layer="7" pos="0 0" posByParentSize="0.025 0.925" size="0.10 0" forceAspect="106:106" texBGName="MD_tape_3.png" />
+	<Widget type="WT_LABEL" id="1553" parent="1530" layer="7" pos="0 0" posByParentSize="0.950 0.975" size="0.11 0" forceAspect="164:110" texBGName="MD_tape_4.png" />
+    
+    <!-- secret level -->
+    <Widget type="WT_PUSH_BUTTON" id="2001" layer="10" pos="0.9 0.925" size="0.15 0" forceAspect="1" texNormalName="Secret_level_sketches_mystery_planet.webp" />
+	
+</Widgets>

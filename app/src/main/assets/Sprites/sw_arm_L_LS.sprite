@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="x" textureBasePath="/Textures/" atlas="/Textures/swampy_level.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="sw_arm_L_LS_0.png" offset="0.000000 0.000000" repeat="28"/>
+    <Frame name="sw_arm_L_LS_0.png" offset="0.000000 0.000000"/>
+    <Frame name="sw_arm_L_LS_1.png" offset="-0.160732 -0.068885"/>
+    <Frame name="sw_arm_L_LS_2.png" offset="-0.424792 -0.126290"/>
+    <Frame name="sw_arm_L_LS_3.png" offset="-0.826622 -0.275541"/>
+    <Frame name="sw_arm_L_LS_4.png" offset="-1.308819 -0.447754"/>
+    <Frame name="sw_arm_L_LS_5.png" offset="-1.894343 -0.608486"/>
+    <Frame name="sw_arm_L_LS_6.png" offset="-2.571714 -0.792180"/>
+    <Frame name="sw_arm_L_LS_7.png" offset="-2.939101 -0.861065"/>
+    <Frame name="sw_arm_L_LS_8.png" offset="-3.249085 -0.849584"/>
+    <Frame name="sw_arm_L_LS_9.png" offset="-3.455740 -0.895507"/>
+    <Frame name="sw_arm_L_LS_10.png" offset="-3.754243 -0.895507"/>
+    <Frame name="sw_arm_L_LS_11.png" offset="-3.846090 -0.895507" repeat="18"/>
+    <Frame name="sw_arm_L_LS_11.png" offset="-3.846090 -0.895507"/>
+    <Frame name="sw_arm_L_LS_10.png" offset="-3.754243 -0.895507"/>
+    <Frame name="sw_arm_L_LS_9.png" offset="-3.455740 -0.895507"/>
+    <Frame name="sw_arm_L_LS_8.png" offset="-3.249085 -0.849584"/>
+    <Frame name="sw_arm_L_LS_7.png" offset="-2.939101 -0.861065"/>
+    <Frame name="sw_arm_L_LS_6.png" offset="-2.571714 -0.792180"/>
+    <Frame name="sw_arm_L_LS_5.png" offset="-1.894343 -0.608486"/>
+    <Frame name="sw_arm_L_LS_4.png" offset="-1.308819 -0.447754"/>
+    <Frame name="sw_arm_L_LS_3.png" offset="-0.826622 -0.275541"/>
+    <Frame name="sw_arm_L_LS_2.png" offset="-0.424792 -0.126290"/>
+    <Frame name="sw_arm_L_LS_1.png" offset="-0.160732 -0.068885"/>
+    <Frame name="sw_arm_L_LS_0.png" offset="0.000000 0.000000" repeat="17"/>
+  </Animation>
+</Sprite>

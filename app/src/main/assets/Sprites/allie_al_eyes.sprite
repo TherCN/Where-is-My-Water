@@ -1,0 +1,392 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="fail poison" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="4"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_2.png" offset="-0.9684100151062012 2.3866621017456047"/>
+    <Frame name="al_eyes_3.png" offset="-1.0371358871459975 5.304387760162352"/>
+    <Frame name="al_eyes_4.png" offset="-0.6685153007507317 9.315479564666745"/>
+    <Frame name="al_eyes_5.png" offset="-0.6685153007507317 9.602878665924072"/>
+    <Frame name="al_eyes_6.png" offset="-0.5498069763183601 6.778870105743408"/>
+    <Frame name="al_eyes_7.png" offset="-0.5623025894165039 7.778519153594971" repeat="4"/>
+    <Frame name="al_eyes_6.png" offset="-0.5498069763183601 6.778870105743408"/>
+    <Frame name="al_eyes_5.png" offset="-0.6685153007507317 9.602878665924072"/>
+    <Frame name="al_eyes_4.png" offset="-0.6685153007507317 9.315479564666745"/>
+    <Frame name="al_eyes_3.png" offset="-1.0371358871459975 5.304387760162352"/>
+    <Frame name="al_eyes_2.png" offset="-0.9684100151062012 2.3866621017456047"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="4"/>
+  </Animation>
+  <Animation name="10.5-tuneup_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_10.png" offset="0.3123903274536133 0.568550395965574"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_11.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="1049"/>
+  </Animation>
+  <Animation name="10-idle secondary_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_15.png" offset="0.09371709823608398 0.018743419647213957"/>
+    <Frame name="al_eyes_16.png" offset="0.6685153007507317 0.568550395965574"/>
+    <Frame name="al_eyes_17.png" offset="2.130502033233644 1.0246402740478502"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_19.png" offset="3.0114427566528312 0.49357671737670755" repeat="1"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502" repeat="8"/>
+    <Frame name="al_eyes_20.png" offset="3.0489295959472664 1.2245700836181619"/>
+    <Frame name="al_eyes_21.png" offset="3.0114427566528312 2.1305020332336406" repeat="1"/>
+    <Frame name="al_eyes_20.png" offset="3.0489295959472664 1.2245700836181619"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_19.png" offset="3.0114427566528312 0.49357671737670755"/>
+    <Frame name="al_eyes_22.png" offset="3.0114427566528312 0.999649047851559"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502" repeat="8"/>
+    <Frame name="al_eyes_19.png" offset="3.0114427566528312 0.49357671737670755"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_17.png" offset="2.130502033233644 1.0246402740478502"/>
+    <Frame name="al_eyes_16.png" offset="0.6685153007507317 0.568550395965574"/>
+    <Frame name="al_eyes_15.png" offset="0.09371709823608398 0.018743419647213957"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="fail water" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_23.png" offset="0.09371709823608398 0.018743419647213957"/>
+    <Frame name="al_eyes_24.png" offset="0.6685153007507317 0.568550395965574"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632" repeat="9"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632" repeat="4"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193" repeat="9"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632" repeat="5"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632" repeat="13"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632" repeat="8"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_27.png" offset="2.130502033233644 0.7060021400451632" repeat="1"/>
+    <Frame name="al_eyes_28.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_29.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_28.png" offset="2.130502033233644 0.7060021400451632" repeat="17"/>
+    <Frame name="al_eyes_28.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_29.png" offset="2.130502033233644 0.20617761611938193"/>
+    <Frame name="al_eyes_28.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_27.png" offset="2.130502033233644 0.7060021400451632" repeat="1"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_26.png" offset="2.130502033233644 0.20617761611938193" repeat="13"/>
+    <Frame name="al_eyes_25.png" offset="2.130502033233644 0.7060021400451632"/>
+    <Frame name="al_eyes_24.png" offset="0.6685153007507317 0.568550395965574"/>
+    <Frame name="al_eyes_23.png" offset="0.09371709823608398 0.018743419647213957"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="31"/>
+  </Animation>
+  <Animation name="01-base eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="37"/>
+  </Animation>
+  <Animation name="02-blink straight_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_30.png" offset="0.29989471435546944 1.8181117057800271" repeat="2"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="26"/>
+  </Animation>
+  <Animation name="18-dance_a" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="5"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_32.png" offset="-0.06872587203979634 1.1495964050292955"/>
+    <Frame name="al_eyes_33.png" offset="-0.06872587203979634 0.6935065269470193"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="2"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="30"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="2"/>
+    <Frame name="al_eyes_33.png" offset="-0.06872587203979634 0.6935065269470193"/>
+    <Frame name="al_eyes_36.png" offset="0 1.1433485984802219"/>
+    <Frame name="al_eyes_32.png" offset="-0.06872587203979634 1.1495964050292955"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="3"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="14"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="17-bomb_splode_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="1"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156" repeat="3"/>
+    <Frame name="al_eyes_38.png" offset="7.116251659393309 2.1804844856262156" repeat="42"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156" repeat="3"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="6"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="16_dance_b_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="2"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156" repeat="38"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="6"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_eyes_39.png" offset="-0.06872587203979634 -0.4373464584350586" repeat="11"/>
+    <Frame name="al_eyes_39.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="04-buff_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_40.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_41.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_42.png" offset="0 0"/>
+    <Frame name="al_eyes_43.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_44.png" offset="0 0" repeat="12"/>
+    <Frame name="al_eyes_44.png" offset="0 0"/>
+    <Frame name="al_eyes_45.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_44.png" offset="0 0"/>
+    <Frame name="al_eyes_46.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_47.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_48.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_49.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_50.png" offset="0 0"/>
+    <Frame name="al_eyes_51.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_52.png" offset="0 0" repeat="9"/>
+    <Frame name="al_eyes_52.png" offset="0 0"/>
+    <Frame name="al_eyes_53.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_52.png" offset="0 0"/>
+    <Frame name="al_eyes_54.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_47.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_48.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_49.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_50.png" offset="0 0"/>
+    <Frame name="al_eyes_51.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_52.png" offset="0 0" repeat="24"/>
+    <Frame name="al_eyes_52.png" offset="0 0"/>
+    <Frame name="al_eyes_54.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_47.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="07a-play a_eye" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="3"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_55.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_56.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_57.png" offset="0 0"/>
+    <Frame name="al_eyes_58.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_59.png" offset="0 0" repeat="13"/>
+    <Frame name="al_eyes_59.png" offset="0 0"/>
+    <Frame name="al_eyes_56.png" offset="-0.06872587203979634 -0.4373464584350586" repeat="1"/>
+    <Frame name="al_eyes_59.png" offset="0 0"/>
+    <Frame name="al_eyes_60.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_11.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="12"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_11.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="18"/>
+  </Animation>
+  <Animation name="07b-play a_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_15.png" offset="0.09371709823608398 0.018743419647213957"/>
+    <Frame name="al_eyes_16.png" offset="0.6685153007507317 0.568550395965574"/>
+    <Frame name="al_eyes_17.png" offset="2.130502033233644 1.0246402740478502"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_19.png" offset="3.0114427566528312 0.49357671737670755" repeat="1"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_20.png" offset="3.0489295959472664 1.2245700836181619"/>
+    <Frame name="al_eyes_21.png" offset="3.0114427566528312 2.1305020332336406" repeat="1"/>
+    <Frame name="al_eyes_20.png" offset="3.0489295959472664 1.2245700836181619"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502"/>
+    <Frame name="al_eyes_19.png" offset="3.0114427566528312 0.49357671737670755"/>
+    <Frame name="al_eyes_22.png" offset="3.0114427566528312 0.999649047851559"/>
+    <Frame name="al_eyes_18.png" offset="3.0114427566528312 1.0246402740478502" repeat="2"/>
+  </Animation>
+  <Animation name="06-clap_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_47.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_61.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_62.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_63.png" offset="0 0"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="30"/>
+    <Frame name="al_eyes_63.png" offset="0 0"/>
+    <Frame name="al_eyes_62.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_61.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_61.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_62.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_63.png" offset="0 0" repeat="7"/>
+    <Frame name="al_eyes_63.png" offset="0 0"/>
+    <Frame name="al_eyes_62.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_61.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="2"/>
+  </Animation>
+  <Animation name="03-idle primary_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_64.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_65.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_66.png" offset="0 0"/>
+    <Frame name="al_eyes_67.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_68.png" offset="0 0" repeat="8"/>
+    <Frame name="al_eyes_68.png" offset="0 0"/>
+    <Frame name="al_eyes_69.png" offset="-0.06872587203979634 -0.062478065490722656" repeat="1"/>
+    <Frame name="al_eyes_68.png" offset="0 0"/>
+    <Frame name="al_eyes_60.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="9"/>
+  </Animation>
+  <Animation name="13-steam_a_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_30.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_70.png" offset="1.6931555747985818 -0.7934714317321806"/>
+    <Frame name="al_eyes_71.png" offset="1.0433836936950676 -1.943067836761476" repeat="6"/>
+    <Frame name="al_eyes_72.png" offset="1.0433836936950676 -5.079466724395754" repeat="13"/>
+    <Frame name="al_eyes_70.png" offset="1.6931555747985818 -0.7934714317321806"/>
+    <Frame name="al_eyes_73.png" offset="2.7990173339843722 0.062478065490719104" repeat="1"/>
+    <Frame name="al_eyes_70.png" offset="1.6931555747985818 -0.7934714317321806"/>
+    <Frame name="al_eyes_74.png" offset="1.0433836936950676 -1.0683749198913588" repeat="19"/>
+    <Frame name="al_eyes_75.png" offset="2.2679537773132297 2.34917526245117" repeat="32"/>
+    <Frame name="al_eyes_74.png" offset="1.0433836936950676 -1.0683749198913588"/>
+    <Frame name="al_eyes_63.png" offset="0 0"/>
+    <Frame name="al_eyes_62.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_61.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="19-air_guitar" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="6"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156" repeat="54"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="8"/>
+  </Animation>
+  <Animation name="12-giggle_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="5"/>
+    <Frame name="al_eyes_1.png" offset="-0.06872587203979634 -0.062478065490722656"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_32.png" offset="-0.06872587203979634 1.1495964050292955"/>
+    <Frame name="al_eyes_33.png" offset="-0.06872587203979634 0.6935065269470193"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="2"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_35.png" offset="-0.2311688423156731 1.1433485984802219"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="24"/>
+    <Frame name="al_eyes_34.png" offset="0.08122148513794017 1.1433485984802219" repeat="2"/>
+    <Frame name="al_eyes_33.png" offset="-0.06872587203979634 0.6935065269470193"/>
+    <Frame name="al_eyes_36.png" offset="0 1.1433485984802219"/>
+    <Frame name="al_eyes_32.png" offset="-0.06872587203979634 1.1495964050292955"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271" repeat="1"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="2"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="11-headbang_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_37.png" offset="0.4560898780822761 2.1804844856262156" repeat="51"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="3"/>
+  </Animation>
+  <Animation name="15-didunt_eyes" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_8.png" offset="-0.06872587203979634 0.29364690780639224"/>
+    <Frame name="al_eyes_0.png" offset="0 0" repeat="5"/>
+    <Frame name="al_eyes_76.png" offset="0 0"/>
+    <Frame name="al_eyes_77.png" offset="0 -1.2620569229125986" repeat="45"/>
+    <Frame name="al_eyes_9.png" offset="0.29989471435546944 1.8181117057800271"/>
+    <Frame name="al_eyes_31.png" offset="-0.06872587203979634 0.8996841430664049"/>
+    <Frame name="al_eyes_12.png" offset="-0.06872587203979634 -0.4373464584350586"/>
+    <Frame name="al_eyes_13.png" offset="0 0"/>
+    <Frame name="al_eyes_14.png" offset="-0.5123201370239251 0"/>
+    <Frame name="al_eyes_0.png" offset="0 0"/>
+  </Animation>
+</Sprite>

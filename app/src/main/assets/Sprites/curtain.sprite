@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="blank" textureBasePath="/Textures/" atlas="/Textures/curtain.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="curtain_blank_frame.png" offset="0 0"/>
+  </Animation>
+  <Animation name="curtainOut" textureBasePath="/Textures/" atlas="/Textures/curtain.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="curtain_0.png" offset="-40.73625 4.297499999999992"/>
+    <Frame name="curtain_1.png" offset="-4.84874999999999 0.736874999999995"/>
+  </Animation>
+  <Animation name="curtain" textureBasePath="/Textures/" atlas="/Textures/curtain.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="curtain_2.png" offset="0 0"/>
+    <Frame name="curtain_1.png" offset="-4.84874999999999 0.736874999999995"/>
+    <Frame name="curtain_0.png" offset="-40.73625 4.297499999999992"/>
+    <Frame name="curtain_3.png" offset="-64.90125 4.297499999999992" repeat="1"/>
+    <Frame name="curtain_4.png" offset="-69.57562499999999 4.297499999999992" repeat="1"/>
+    <Frame name="curtain_5.png" offset="-69.57562499999999 4.297499999999992" repeat="8"/>
+    <Frame name="curtain_4.png" offset="-69.57562499999999 4.297499999999992" repeat="1"/>
+    <Frame name="curtain_6.png" offset="-58.51124999999999 4.297499999999992" repeat="1"/>
+    <Frame name="curtain_7.png" offset="-55.38374999999999 4.297499999999992" repeat="1"/>
+    <Frame name="curtain_8.png" offset="-54.4725 4.297499999999992" repeat="19"/>
+    <Frame name="curtain_7.png" offset="-55.38374999999999 4.297499999999992"/>
+    <Frame name="curtain_6.png" offset="-58.51124999999999 4.297499999999992"/>
+  </Animation>
+</Sprite>

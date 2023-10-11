@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ Labels
+ WN_Background		0
+ WN_ScreenShade		1
+ 
+ WN_Header			2
+ WN_Body			3
+ 
+ WN_PromoImage		4
+ 
+ 
+ Progress Indicator
+ WN_ProgressGear	20
+ WN_ProgressLabel	21
+ WN_ProgressCancel	22
+ 
+ Results
+ WN_ResultHeader	30
+ WN_ResultBody		31
+ WN_ResultOK		32
+ 
+ Button
+ WN_ButtonBuyProduct1		40
+ WN_ButtonCancel            41
+ WN_ButtonDebugBuy          42
+ WN_ButtonBuyProduct2       43
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_InAppPurchase.xml">
+	 
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="2" textColorRGB="94 41 37" />
+	
+	
+	<!-- Bottom/top images-->
+	<Widget type="WT_LABEL" id="5" size="0.5 0" forceAspect="146:80" texBGName="WMW_UI_mystery_logo.png" />
+	
+    <Widget type="WT_LABEL" id="7" parent="0" pos="0 0" posByParentSize="0.5 1.0" size="0.8 0" forceAspect="1323:288" texBGName="MD_upsell_stars.webp" />
+	<Widget type="WT_LABEL" id="6" parent="7" pos="0 0" posByParentSize="0.5 1.0" size="0.0 0.2" forceAspect="750:824" aspectBasis="height" texBGName="MD_upsell_mysteryduck.webp" />
+	
+	
+	<!-- progress indicator -->
+	<Widget type="WT_LABEL" id="21" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="22" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	
+	<!-- result indicators -->
+	<Widget type="WT_LABEL" id="30" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="32" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="40" texNormalName="MD_upsell_button.webp" texHilightName="MD_upsell_button.webp" textColorRGB="94 41 37" />
+    <Widget type="WT_PUSH_BUTTON" id="43" texNormalName="MD_upsell_button.webp" texHilightName="MD_upsell_button.webp" textColorRGB="94 41 37" />
+	<Widget type="WT_PUSH_BUTTON" id="41" texNormalName="MD_upsell_x.webp" />
+	
+	
+	
+	<!-- DEBUG - Move back to pos="0.5 0.85" to see -->
+	<Widget type="WT_PUSH_BUTTON" id="42" texNormalName="MD_button.png" texHilightName="MD_button_highlight.png" textColorRGB="94 41 37" />
+
+</Widgets>

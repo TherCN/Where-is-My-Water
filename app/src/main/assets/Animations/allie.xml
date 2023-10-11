@@ -1,0 +1,580 @@
+<AnimationList>
+  	<!-- Scene Names -->
+	<Scenes>
+		<Scene name="GeneralLevel" />
+		<Scene name="LevelResults" />
+		<Scene name="BelowSwampy" />
+        <Scene name="MainMenu" />
+        <Scene name="LevelResults" />
+	</Scenes>
+
+<!-- Animation Group names -->
+	<Groups>
+		<Group name="NONE" />						<!-- 0 -->
+		<Group name="Idle" >						<!-- 1 --> 
+			<NextAnimationGroup name="Idle" probability="10"/>
+			<NextAnimationGroup name="IdleVariation" probability="5" />
+		</Group>
+		<Group name="IdleVariation" >				<!-- 2 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Touch" >						<!-- 4 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Win" />						<!-- 8 -->
+		<Group name="LoseSludge" />					<!-- 64 -->
+		<Group name="LoseWater" />					<!-- 128 -->
+		<Group name="LoseNoMoreFluid" >				<!-- 256 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="LoseContaminatedWater" />
+		<Group name="BombStart" >					<!-- 512 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="BombExplodes" >				<!-- 1024 -->
+			<NextAnimationGroup name="Idle" />
+		</Group>
+		<Group name="Miscellaneous" />				<!-- 2048 -->
+		<Group name="TouchOrgan">                    <!-- 4096 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+        <Group name="TouchWindow">                    <!-- 8192 -->
+            <NextAnimationGroup name="Idle" />
+        </Group>
+            
+	</Groups>
+	<Animations>
+	<Animation name="anim_allie_tap_stretch" armatureName="al_tap_stretch">
+      	<Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch"/>
+		</Groups>
+		<Events>
+			<Event type="marker" time="0.13333333333333333">
+			  <SoundAction sound="4216"/>
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_fail_poison" armatureName="al_fail_poison">
+        <Scenes>
+            <Scene name="GeneralLevel" />
+        </Scenes>
+        <Groups>
+            <Group name="LoseContaminatedWater" />
+        </Groups>
+      	<Events>
+			<Event type="marker" time="0">
+			  <SoundAction sound="4218" />
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_fail_water" armatureName="al_fail_water">
+        <Scenes>
+            <Scene name="GeneralLevel" />
+        </Scenes>
+        <Groups>
+            <Group name="LoseWater" />
+        </Groups>
+        <Events>
+			<Event type="marker" time="0" >
+				<EmitterAction emitterIndex="0" active="1" numParticles="200" />
+			</Event>
+			<Event type="marker" time="1.4" >
+				<EmitterAction emitterIndex="0" active="1" numParticles="0" />
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_win_dance1" armatureName="al_win_dance_a">
+        <Scenes>
+        	<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Win" />	
+		</Groups>
+      <Events>
+        <Event type="marker" time="0">
+          <SoundAction sound="4206" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_bomb_splode" armatureName="al_bomb_splode">
+    	<Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="BombStart"/>
+			<Group name="BombExplodes" />
+		</Groups>
+      <Events>
+        <Event type="marker" time="0">
+          <SoundAction sound="4200" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_win_dance2" armatureName="al_win_dance_b">
+        <Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Win" />
+		</Groups>
+    	<Events>
+			<Event type="marker" time="0">
+			  <PropAction propName="al_win_dance_b_Keys_win2" visible="1" relativeLayer="-1"/>
+			  <PropAction propName="al_win_dance_b_Keys_win2" animationName="Keys_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Keyboard_win2" visible="1" relativeLayer="-2"/>
+			  <PropAction propName="al_win_dance_b_Keyboard_win2" animationName="keyboar02" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Sheet_music_win2" visible="1" relativeLayer="-3"/>
+			  <PropAction propName="al_win_dance_b_Sheet_music_win2" animationName="Sheet_Music_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Barrel_win2" visible="1" relativeLayer="-4"/>
+			  <PropAction propName="al_win_dance_b_Barrel_win2" animationName="barrel2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Whistle_Roof_win2" visible="1" relativeLayer="-5"/>
+			  <PropAction propName="al_win_dance_b_Whistle_Roof_win2" animationName="Whistle_Roof_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Whistel_Outlet_win2" visible="1" relativeLayer="-6"/>
+			  <PropAction propName="al_win_dance_b_Whistel_Outlet_win2" animationName="Whistle_Outlet_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Whistle_Base_win2" visible="1" relativeLayer="-7"/>
+			  <PropAction propName="al_win_dance_b_Whistle_Base_win2" animationName="Whistle_Base_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_Drum_win2" visible="1" relativeLayer="-8"/>
+			  <PropAction propName="al_win_dance_b_Drum_win2" animationName="Drum_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_WaterHeaterTop_win2" visible="1" relativeLayer="-9"/>
+			  <PropAction propName="al_win_dance_b_WaterHeaterTop_win2" animationName="WaterHeaterTop_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_WaterHeaterMain_win2" visible="1" relativeLayer="-10"/>
+			  <PropAction propName="al_win_dance_b_WaterHeaterMain_win2" animationName="WaterHeaterMain_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_PipeC_end_win2" visible="1" relativeLayer="-11"/>
+			  <PropAction propName="al_win_dance_b_PipeC_end_win2" animationName="pipeCend_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_PipeC_bulge_win2" visible="1" relativeLayer="-12"/>
+			  <PropAction propName="al_win_dance_b_PipeC_bulge_win2" animationName="pipeCbulge_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_pipeCstem_win2" visible="1" relativeLayer="-13"/>
+			  <PropAction propName="al_win_dance_b_pipeCstem_win2" animationName="PipeCStem_01" playbackMode="single frame"/>
+			  <PropAction propName="al_win_dance_b_PipeB_End_win2" visible="1" relativeLayer="-14"/>
+			  <PropAction propName="al_win_dance_b_PipeB_End_win2" animationName="pipeBend_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_PipeB_Bulge_win2" visible="1" relativeLayer="-15"/>
+			  <PropAction propName="al_win_dance_b_PipeB_Bulge_win2" animationName="pipeB_bulge_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_pipeBstem_win2" visible="1" relativeLayer="-16"/>
+			  <PropAction propName="al_win_dance_b_pipeBstem_win2" animationName="Idle" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_PipeA_End_win2" visible="1" relativeLayer="-17"/>
+			  <PropAction propName="al_win_dance_b_PipeA_End_win2" animationName="pipeA_end_win2" playbackMode="loop"/>
+			  <PropAction propName="al_win_dance_b_pipeA_stem_win2" visible="1" relativeLayer="-19"/>
+			  <PropAction propName="al_win_dance_b_pipeA_stem_win2" animationName="Idle" playbackMode="loop"/>
+			</Event>
+			<Event type="marker" time="0.23333333333333334">
+			  <SoundAction sound="4204" />
+			</Event>
+		</Events>
+    </Animation>
+    <Animation name="anim_allie_idle_buff" armatureName="al_idle_buff">
+         <Scenes>
+			<Scene name="GeneralLevel" />
+        	<Scene name="LevelResults" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation"/>
+		</Groups>
+		      <Events>
+        <Event type="marker" time="1.5666666666666667">
+          <SoundAction sound="4211" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_idle_buff_HUD" armatureName="al_idle_buff_HUD">
+        <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation"/>
+		</Groups>
+    	<Events>
+			<Event type="marker" time="1.5666666666666667">
+			  <SoundAction sound="4211" />
+			</Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_clap" armatureName="al_tap_clap" canCrossFade="0">
+        <Scenes>
+			<Scene name="GeneralLevel" />
+        	<Scene name="LevelResults" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation"/>
+		</Groups>
+		<Events>
+			<Event type="marker" time="0.43333333333333335">
+			  <SoundAction sound="4215"/>
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_clap_HUD" armatureName="al_tap_clap_HUD">
+        <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch"/>
+		</Groups>
+		<Events>
+			<Event type="marker" time="0.43333333333333335">
+			  <SoundAction sound="4215"/>
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_win" armatureName="al_win_play_a" canCrossFade="0">
+        <Scenes>
+        	<Scene name="LevelResults" />
+		</Scenes>
+		<Groups>
+			<Group name="Win" />	
+		</Groups>
+      <Events>
+        <Event type="marker" time="0">
+          <PropAction propName="al_win_play_a_Keys_win2" visible="1" relativeLayer="-1"/>
+          <PropAction propName="al_win_play_a_Keys_win2" animationName="Keys_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Keyboard_win2" visible="1" relativeLayer="-2"/>
+          <PropAction propName="al_win_play_a_Keyboard_win2" animationName="keyboar02" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Sheet_music_win2" visible="1" relativeLayer="-3"/>
+          <PropAction propName="al_win_play_a_Sheet_music_win2" animationName="Sheet_Music_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Barrel_win2" visible="1" relativeLayer="-4"/>
+          <PropAction propName="al_win_play_a_Barrel_win2" animationName="barrel2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Whistle_Roof_win2" visible="1" relativeLayer="-5"/>
+          <PropAction propName="al_win_play_a_Whistle_Roof_win2" animationName="Whistle_Roof_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Whistel_Outlet_win2" visible="1" relativeLayer="-6"/>
+          <PropAction propName="al_win_play_a_Whistel_Outlet_win2" animationName="Whistle_Outlet_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Whistle_Base_win2" visible="1" relativeLayer="-7"/>
+          <PropAction propName="al_win_play_a_Whistle_Base_win2" animationName="Whistle_Base_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Drum_win2" visible="1" relativeLayer="-8"/>
+          <PropAction propName="al_win_play_a_Drum_win2" animationName="Drum_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_WaterHeaterTop_win2" visible="1" relativeLayer="-9"/>
+          <PropAction propName="al_win_play_a_WaterHeaterTop_win2" animationName="WaterHeaterTop_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_WaterHeaterMain_win2" visible="1" relativeLayer="-10"/>
+          <PropAction propName="al_win_play_a_WaterHeaterMain_win2" animationName="WaterHeaterMain_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_PipeC_end_win2" visible="1" relativeLayer="-11"/>
+          <PropAction propName="al_win_play_a_PipeC_end_win2" animationName="pipeCend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_PipeC_bulge_win2" visible="1" relativeLayer="-12"/>
+          <PropAction propName="al_win_play_a_PipeC_bulge_win2" animationName="pipeCbulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_pipeCstem_win2" visible="1" relativeLayer="-13"/>
+          <PropAction propName="al_win_play_a_pipeCstem_win2" animationName="PipeCStem_01" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_PipeB_End_win2" visible="1" relativeLayer="-14"/>
+          <PropAction propName="al_win_play_a_PipeB_End_win2" animationName="pipeBend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_PipeB_Bulge_win2" visible="1" relativeLayer="-15"/>
+          <PropAction propName="al_win_play_a_PipeB_Bulge_win2" animationName="pipeB_bulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_pipeBstem_win2" visible="1" relativeLayer="-16"/>
+          <PropAction propName="al_win_play_a_pipeBstem_win2" animationName="Idle" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_PipeA_End_win2" visible="1" relativeLayer="-17"/>
+          <PropAction propName="al_win_play_a_PipeA_End_win2" animationName="pipeA_end_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_pipeA_stem_win2" visible="1" relativeLayer="-19"/>
+          <PropAction propName="al_win_play_a_pipeA_stem_win2" animationName="Idle" playbackMode="loop"/>
+        </Event>
+		<Event type="finished" >
+			<AnimationAction animation="anim_allie_win_loop" isSpecific="1" crossFade="0" loops="-1"/>
+		</Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_win_loop" armatureName="al_win_play_a_Loop" canCrossFade="0">
+      <Events>
+        <Event type="marker" time="0">
+          <PropAction propName="al_win_play_a_Loop_Keys_win2" visible="1" relativeLayer="-1"/>
+          <PropAction propName="al_win_play_a_Loop_Keys_win2" animationName="Keys_win2" playbackMode="loop" playOffset="1.7666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Sheet_music_win2" visible="1" relativeLayer="-3"/>
+          <PropAction propName="al_win_play_a_Loop_Sheet_music_win2" animationName="Idle" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Roof_win2" visible="1" relativeLayer="-5"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Roof_win2" animationName="Whistle_Roof_win2" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Whistel_Outlet_win2" visible="1" relativeLayer="-6"/>
+          <PropAction propName="al_win_play_a_Loop_Whistel_Outlet_win2" animationName="Whistle_Outlet_win2" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Base_win2" visible="1" relativeLayer="-7"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Base_win2" animationName="Whistle_Base_win2" playbackMode="loop" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Drum_win2" visible="1" relativeLayer="-8"/>
+          <PropAction propName="al_win_play_a_Loop_Drum_win2" animationName="Idle" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_WaterHeaterTop_win2" visible="1" relativeLayer="-9"/>
+          <PropAction propName="al_win_play_a_Loop_WaterHeaterTop_win2" animationName="WaterHeaterTop_win2" playbackMode="loop" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_WaterHeaterMain_win2" visible="1" relativeLayer="-10"/>
+          <PropAction propName="al_win_play_a_Loop_WaterHeaterMain_win2" animationName="WaterHeaterMain_win2" playbackMode="loop" playOffset="0.1"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_end_win2" visible="1" relativeLayer="-11"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_end_win2" animationName="pipeCend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_bulge_win2" visible="1" relativeLayer="-12"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_bulge_win2" animationName="pipeCbulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_End_win2" visible="1" relativeLayer="-14"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_End_win2" animationName="pipeBend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_Bulge_win2" visible="1" relativeLayer="-15"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_Bulge_win2" animationName="pipeB_bulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeA_End_win2" visible="1" relativeLayer="-17"/>
+          <PropAction propName="al_win_play_a_Loop_PipeA_End_win2" animationName="pipeA_end_win2" playbackMode="loop"/>
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_fail_steam" armatureName="al_fail_steam_a">
+         <Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="LoseNoMoreFluid" />
+            <Group name="LoseSludge" />
+		</Groups>
+      <Events>
+        <Event type="marker" time="0.6">
+          <SoundAction sound="4201" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_impatient" armatureName="al_tap_impatient">
+    	<Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation" />	
+		</Groups>
+      <Events>
+        <Event type="marker" time="0.4">
+          <SoundAction sound="4208" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_idle" armatureName="al_idle_primary">
+        <Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Idle" />	
+		</Groups>
+      <Events>
+      </Events>
+    </Animation>
+    
+    <Animation name="anim_allie_idle_maracas" armatureName="al_idle_maracas">
+        <Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation" />	
+		</Groups>
+		<Events>
+        <Event type="marker" time="0.36666666666666664">
+          <SoundAction sound="4212"/>
+        </Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_guitar" armatureName="al_tap_air_guitar">
+    	<Scenes>
+			<Scene name="MainMenu" />
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch" />	
+		</Groups>
+		<Events>
+        <Event type="marker" time="0.166666">
+          <SoundAction sound="4214"/>
+        </Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_tuneup" armatureName="al_tap_tuneup">
+        <Scenes>
+			<Scene name="MainMenu" />
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch" />	
+		</Groups>
+		<Events>
+			<Event type="marker" time="1.3">
+			  <SoundAction sound="4217"/>
+			</Event>
+        </Events>
+    </Animation>
+    <Animation name="anim_allie_idle_hub" armatureName="al_idle_primary_HUD">
+        <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="Idle" />	
+		</Groups>
+		<Events>
+			<Event type="marker" time="0">
+			  <PropAction propName="al_idle_primary_HUD_WaterHeater_Top_HUD" visible="1" relativeLayer="-9"/>
+			  <PropAction propName="al_idle_primary_HUD_WaterHeater_Top_HUD" animationName="waterheater_Top_HUD_01" playbackMode="loop"/>
+			  <PropAction propName="al_idle_primary_HUD_WaterHeater_HUD" visible="1" relativeLayer="-10"/>
+			  <PropAction propName="al_idle_primary_HUD_WaterHeater_HUD" animationName="WaterHeater_HUD" playbackMode="loop"/>
+			</Event>
+		</Events>
+    </Animation>
+    <Animation name="anim_allie_tap_organ_hub" armatureName="al_tap_organ_HUD" canCrossFade="0">
+        <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="TouchOrgan"/>
+		</Groups>
+      <Events>
+		<Event type="marker" time="0">
+          <SoundAction sound="4068" />	
+          <PropAction propName="al_win_play_a_Loop_Keys_win2" visible="1" relativeLayer="-1"/>
+          <PropAction propName="al_win_play_a_Loop_Keys_win2" animationName="Keys_win2" playbackMode="loop" playOffset="1.7666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Sheet_music_win2" visible="1" relativeLayer="-3"/>
+          <PropAction propName="al_win_play_a_Loop_Sheet_music_win2" animationName="Idle" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Roof_win2" visible="1" relativeLayer="-5"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Roof_win2" animationName="Whistle_Roof_win2" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Whistel_Outlet_win2" visible="1" relativeLayer="-6"/>
+          <PropAction propName="al_win_play_a_Loop_Whistel_Outlet_win2" animationName="Whistle_Outlet_win2" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Base_win2" visible="1" relativeLayer="-7"/>
+          <PropAction propName="al_win_play_a_Loop_Whistle_Base_win2" animationName="Whistle_Base_win2" playbackMode="loop" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_win_play_a_Loop_Drum_win2" visible="1" relativeLayer="-8"/>
+          <PropAction propName="al_win_play_a_Loop_Drum_win2" animationName="Idle" playbackMode="loop"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_Top_HUD" visible="1" relativeLayer="-9"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_Top_HUD" animationName="WaterHeaterTop_win2" playbackMode="loop" playOffset="0.16666666666666666"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_HUD" visible="1" relativeLayer="-10"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_HUD" animationName="WaterHeaterMain_win2" playbackMode="loop" playOffset="0.1"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_end_win2" visible="1" relativeLayer="-11"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_end_win2" animationName="pipeCend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_bulge_win2" visible="1" relativeLayer="-12"/>
+          <PropAction propName="al_win_play_a_Loop_PipeC_bulge_win2" animationName="pipeCbulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_End_win2" visible="1" relativeLayer="-14"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_End_win2" animationName="pipeBend_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_Bulge_win2" visible="1" relativeLayer="-15"/>
+          <PropAction propName="al_win_play_a_Loop_PipeB_Bulge_win2" animationName="pipeB_bulge_win2" playbackMode="loop"/>
+          <PropAction propName="al_win_play_a_Loop_PipeA_End_win2" visible="1" relativeLayer="-17"/>
+          <PropAction propName="al_win_play_a_Loop_PipeA_End_win2" animationName="pipeA_end_win2" playbackMode="loop"/>
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_window_hub" armatureName="al_idle_window_HUD" canCrossFade="0">
+        <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="TouchWindow"/>
+		</Groups>
+      <Events>
+      <Event type="marker" time="0">
+      		<SoundAction sound="4213"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_Top_HUD" animationName="waterheater_Top_HUD_01"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_HUD" animationName="WaterHeater_HUD"/>
+          <PropAction propName="al_idle_window_HUD_SteamFX" animationName="steamfx"/>
+          <PropAction propName="al_idle_window_HUD_curtain string" animationName="curtainstring"/>
+          <PropAction propName="al_idle_window_HUD_curtains" animationName="curtains"/>
+          <PropAction propName="al_idle_window_HUD_window" animationName="window"/>
+        </Event>
+        <Event type="marker" time="0.9">
+          <PropAction propName="al_idle_window_HUD_WaterHeater_Top_HUD" animationName="waterheater_Top_HUD_01"/>
+          <PropAction propName="al_idle_window_HUD_WaterHeater_HUD" animationName="WaterHeater_HUD"/>
+          <PropAction propName="al_idle_window_HUD_SteamFX" animationName="Idle"/>
+          <PropAction propName="al_idle_window_HUD_curtain string" animationName="idle"/>
+          <PropAction propName="al_idle_window_HUD_curtains" animationName="idle"/>
+          <PropAction propName="al_idle_window_HUD_window" animationName="window"/>
+        </Event>
+      </Events>
+    </Animation>
+    
+    <Animation name="anim_allie_idle_secondary" armatureName="al_idle_secondary">
+      <Events>
+        <Event type="marker" time="2">
+          <SoundAction sound="4210" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_idle_giggle" armatureName="al_tap_giggle">
+     	<Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="IdleVariation"/>
+		</Groups>
+      <Events>
+        <Event type="marker" time="0.3">
+          <SoundAction sound="4202" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_tap_giggle_hub" armatureName="al_tap_giggle_HUD">
+         <Scenes>
+			<Scene name="MainMenu" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch"/>
+		</Groups>
+      <Events>
+        <Event type="marker" time="0.3">
+          <SoundAction sound="4202" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_idle_headbang" armatureName="al_tap_headbang">
+      <Events>
+        <Event type="marker" time="0">
+          <SoundAction sound="4205" />
+        </Event>
+      </Events>
+    </Animation>
+    <Animation name="anim_allie_idle_tapb" armatureName="al_tap_didunt">
+        <Scenes>
+			<Scene name="GeneralLevel" />
+		</Scenes>
+		<Groups>
+			<Group name="Touch"/>
+		</Groups>
+     <Events>
+        <Event type="marker" time="0.4666666666666667">
+          <SoundAction sound="4203" />
+        </Event>
+      </Events>
+    </Animation>
+  </Animations>
+  <Props>
+    <Prop name="al_win_dance_b_Keys_win2" sprite="/Sprites/allie_org_key_win.sprite" relativePos="52.87500000000003 16.01875000000001" relativeScale="1 1" relativeLayer="-1" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Keyboard_win2" sprite="/Sprites/allie_organ_keyboard.sprite" relativePos="57.14375000000001 15.837500000000006" relativeScale="1 1" relativeLayer="-2" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Sheet_music_win2" sprite="/Sprites/allie_org_musicsheet.sprite" relativePos="68.37500000000003 39.068749999999994" relativeScale="1 1" relativeLayer="-3" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Barrel_win2" sprite="/Sprites/allie_organ_barrel.sprite" relativePos="58.13750000000002 -5.418749999999989" relativeScale="1 1" relativeLayer="-4" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Whistle_Roof_win2" sprite="/Sprites/allie_org_whistleRoof.sprite" relativePos="77.60624999999999 87.55000000000001" relativeScale="1 1" relativeLayer="-5" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Whistel_Outlet_win2" sprite="/Sprites/allie_org_WhistleOutlet.sprite" relativePos="77.71875 78.36875" relativeScale="1 1" relativeLayer="-6" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Whistle_Base_win2" sprite="/Sprites/allie_Org_WhistleBase.sprite" relativePos="84.80000000000001 65.7375" relativeScale="1 1" relativeLayer="-7" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_Drum_win2" sprite="/Sprites/allie_Org_Drum.sprite" relativePos="78.48125000000002 26.462500000000006" relativeScale="1 1" relativeLayer="-8" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_WaterHeaterTop_win2" sprite="/Sprites/allie_WaterHeater_Top.sprite" relativePos="89.7875 131.60625" relativeScale="1 1" relativeLayer="-9" type="skeleton|scene" visible="1" scenes="GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_WaterHeaterMain_win2" sprite="/Sprites/allie_Org_WaterHeater_Main.sprite" relativePos="92.475 81.3125" relativeScale="1 1" relativeLayer="-10" type="skeleton|scene" visible="1" scenes="GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeC_end_win2" sprite="/Sprites/allie_Org_PipeC_End.sprite" relativePos="42.818749999999994 102.99375" relativeScale="1 1" relativeLayer="-11" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeC_bulge_win2" sprite="/Sprites/allie_Org_PipeC_Bulge.sprite" relativePos="65.85 41.7" relativeScale="1 1" relativeLayer="-12" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_pipeCstem_win2" sprite="/Sprites/allie_pipe_c_stem.sprite" relativePos="56.993750000000006 71.74375" relativeScale="1 1" relativeLayer="-13" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeB_End_win2" sprite="/Sprites/allie_Org_PipeB_End.sprite" relativePos="30.0625 83.47500000000001" relativeScale="1 1" relativeLayer="-14" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeB_Bulge_win2" sprite="/Sprites/allie_PipeB_Bulge.sprite" relativePos="60.58125000000001 18.181250000000006" relativeScale="1 1" relativeLayer="-15" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_pipeBstem_win2" sprite="/Sprites/allie_pipeB_stem.sprite" relativePos="48.86250000000001 55.23125" relativeScale="1 1" relativeLayer="-16" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeA_End_win2" sprite="/Sprites/allie_Org_PipeA_End.sprite" relativePos="29.337500000000006 118.94375" relativeScale="1 1" relativeLayer="-17" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_PipeA_Bulge_win2" sprite="/Sprites/allie_Org_PipeA_Bulge.sprite" relativePos="57.80000000000001 55.431250000000006" relativeScale="1 1" relativeLayer="-18" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_win_dance_b_pipeA_stem_win2" sprite="/Sprites/allie_pipeA_stem.sprite" relativePos="46.55000000000001 92.95625" relativeScale="1 1" relativeLayer="-19" type="skeleton|scene" visible="1" scenes="MainMenu|GeneralLevel|LevelResults" startAnimation="Idle" />
+    <Prop name="al_	2" sprite="/Sprites/allie_org_key_win.sprite" relativePos="52.87500000000003 16.01875000000001" relativeScale="1 1" relativeLayer="-1" visible="0"/>
+    <Prop name="al_win_play_a_Sheet_music_win2" sprite="/Sprites/allie_org_musicsheet.sprite" relativePos="68.37500000000003 39.068749999999994" relativeScale="1 1" relativeLayer="-3" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Whistle_Roof_win2" sprite="/Sprites/allie_org_whistleRoof.sprite" relativePos="77.60624999999999 87.55000000000001" relativeScale="1 1" relativeLayer="-5" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Whistel_Outlet_win2" sprite="/Sprites/allie_org_WhistleOutlet.sprite" relativePos="77.71875 78.36875" relativeScale="1 1" relativeLayer="-6" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Whistle_Base_win2" sprite="/Sprites/allie_Org_WhistleBase.sprite" relativePos="84.80000000000001 65.7375" relativeScale="1 1" relativeLayer="-7" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Drum_win2" sprite="/Sprites/allie_Org_Drum.sprite" relativePos="78.48125000000002 26.462500000000006" relativeScale="1 1" relativeLayer="-8" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_WaterHeaterTop_win2" sprite="/Sprites/allie_WaterHeater_Top.sprite" relativePos="89.7875 131.60625" relativeScale="1 1" relativeLayer="-9" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_WaterHeaterMain_win2" sprite="/Sprites/allie_Org_WaterHeater_Main.sprite" relativePos="92.475 81.3125" relativeScale="1 1" relativeLayer="-10" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeC_end_win2" sprite="/Sprites/allie_Org_PipeC_End.sprite" relativePos="42.818749999999994 102.99375" relativeScale="1 1" relativeLayer="-11" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeC_bulge_win2" sprite="/Sprites/allie_Org_PipeC_Bulge.sprite" relativePos="65.85 41.7" relativeScale="1 1" relativeLayer="-12" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeB_End_win2" sprite="/Sprites/allie_Org_PipeB_End.sprite" relativePos="30.0625 83.47500000000001" relativeScale="1 1" relativeLayer="-14" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeB_Bulge_win2" sprite="/Sprites/allie_PipeB_Bulge.sprite" relativePos="60.58125000000001 18.181250000000006" relativeScale="1 1" relativeLayer="-15" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeA_End_win2" sprite="/Sprites/allie_Org_PipeA_End.sprite" relativePos="29.337500000000006 118.94375" relativeScale="1 1" relativeLayer="-17" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_PipeA_Bulge_win2" sprite="/Sprites/allie_Org_PipeA_Bulge.sprite" relativePos="57.80000000000001 55.431250000000006" relativeScale="1 1" relativeLayer="-18" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Keys_win2" sprite="/Sprites/allie_org_key_win.sprite" relativePos="52.87500000000003 16.01875000000001" relativeScale="1 1" relativeLayer="-1" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Sheet_music_win2" sprite="/Sprites/allie_org_musicsheet.sprite" relativePos="68.37500000000003 39.068749999999994" relativeScale="1 1" relativeLayer="-3" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Whistle_Roof_win2" sprite="/Sprites/allie_org_whistleRoof.sprite" relativePos="77.60624999999999 87.55000000000001" relativeScale="1 1" relativeLayer="-5" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Whistel_Outlet_win2" sprite="/Sprites/allie_org_WhistleOutlet.sprite" relativePos="77.71875 78.36875" relativeScale="1 1" relativeLayer="-6" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Whistle_Base_win2" sprite="/Sprites/allie_Org_WhistleBase.sprite" relativePos="84.80000000000001 65.7375" relativeScale="1 1" relativeLayer="-7" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_Drum_win2" sprite="/Sprites/allie_Org_Drum.sprite" relativePos="78.48125000000002 26.462500000000006" relativeScale="1 1" relativeLayer="-8" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_WaterHeaterTop_win2" sprite="/Sprites/allie_WaterHeater_Top.sprite" relativePos="89.7875 131.60625" relativeScale="1 1" relativeLayer="-9" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_WaterHeaterMain_win2" sprite="/Sprites/allie_Org_WaterHeater_Main.sprite" relativePos="92.475 81.3125" relativeScale="1 1" relativeLayer="-10" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeC_end_win2" sprite="/Sprites/allie_Org_PipeC_End.sprite" relativePos="42.818749999999994 102.99375" relativeScale="1 1" relativeLayer="-11" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeC_bulge_win2" sprite="/Sprites/allie_Org_PipeC_Bulge.sprite" relativePos="65.85 41.7" relativeScale="1 1" relativeLayer="-12" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeB_End_win2" sprite="/Sprites/allie_Org_PipeB_End.sprite" relativePos="30.0625 83.47500000000001" relativeScale="1 1" relativeLayer="-14" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeB_Bulge_win2" sprite="/Sprites/allie_PipeB_Bulge.sprite" relativePos="60.58125000000001 18.181250000000006" relativeScale="1 1" relativeLayer="-15" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeA_End_win2" sprite="/Sprites/allie_Org_PipeA_End.sprite" relativePos="29.337500000000006 118.94375" relativeScale="1 1" relativeLayer="-17" type="skeleton" visible="0"/>
+    <Prop name="al_win_play_a_Loop_PipeA_Bulge_win2" sprite="/Sprites/allie_Org_PipeA_Bulge.sprite" relativePos="57.80000000000001 55.431250000000006" relativeScale="1 1" relativeLayer="-18" type="skeleton" visible="0"/>
+    <Prop name="al_idle_window_HUD_WaterHeater_Top_HUD" sprite="/Sprites/allie_organ_waterheater_top_HUD.sprite" relativePos="82.15625 129.6125" relativeScale="1 1" relativeLayer="-9" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+    <Prop name="al_idle_window_HUD_WaterHeater_HUD" sprite="/Sprites/allie_organ_waterheater_main_HUD.sprite" relativePos="92.42499999999998 81.3125" relativeScale="1 1" relativeLayer="-10" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+    <Prop name="al_idle_window_HUD_SteamFX" sprite="/Sprites/allie_Steam.sprite" relativePos="171.04999999999998 121.9" relativeScale="1 1" relativeLayer="-17" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+    <Prop name="al_idle_window_HUD_curtain string" sprite="/Sprites/allie_al_prop_curtainstring.sprite" relativePos="-35.104736328125 106.77442169189453" relativeScale="1 1" relativeLayer="-18" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+    <Prop name="al_idle_window_HUD_curtains" sprite="/Sprites/allie_al_prop_curtains.sprite" relativePos="-35.098657226562494 111.53673553466797" relativeScale="1 1" relativeLayer="-19" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+    <Prop name="al_idle_window_HUD_window" sprite="/Sprites/allie_al_prop_window.sprite" relativePos="-35.31489677429198 110.2968189239502" relativeScale="1 1" relativeLayer="-20" type="skeleton|scene" visible="1" scenes="MainMenu" startAnimation="Idle" />
+  </Props>
+	<Emitters>
+		<Emitter path="/Emitters/AllieWater.emitter" baseNode="ikNode_11" >
+			<EmitterZone position="15 -85" radius="6.5" />
+		</Emitter>
+	</Emitters>
+</AnimationList>

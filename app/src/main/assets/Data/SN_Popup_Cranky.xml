@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ 
+ 
+ -->
+
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_Popup.xml">
+	
+	<!-- Text -->
+	<Widget type="WT_LABEL" id="5" pos=".285 .113"/>
+	
+	<!-- Duckies -->
+	<Widget type="WT_LABEL" id="17" texBGName="Cranky_LRS_Empty_Duck.png" pos="0.150 0.204" />
+	<Widget type="WT_LABEL" id="18" texBGName="Cranky_LRS_Empty_Duck.png" pos="0.288 0.204" />
+	<Widget type="WT_LABEL" id="19" texBGName="Cranky_LRS_Empty_Duck.png" pos="0.428 0.204" />
+	
+	<Widget type="WT_LABEL" id="20" texBGName="Cranky_LRS_Duck.png" pos="0.150 0.204" />
+	<Widget type="WT_LABEL" id="21" texBGName="Cranky_LRS_Duck.png" pos="0.288 0.204" />
+	<Widget type="WT_LABEL" id="22" texBGName="Cranky_LRS_Duck.png" pos="0.428 0.204" />
+	
+	
+	<!-- Scoring -->
+	<Widget type="WT_LABEL" id="8" pos="0.665 0.1" />
+	<Widget type="WT_LABEL" id="9" pos="0.665 0.135" />
+	<Widget type="WT_LABEL" id="10" pos="0.665 0.17" />
+	<Widget type="WT_LABEL" id="11" pos="0.665 0.22" />
+	
+	<Widget type="WT_LABEL" id="12" pos="0.715 0.1" />
+	<Widget type="WT_LABEL" id="13" pos="0.715 0.135" />
+	<Widget type="WT_LABEL" id="14" pos="0.715 0.17" />
+	<Widget type="WT_LABEL" id="15" pos="0.715 0.22" />
+	
+	
+	<!-- Notification Bar -->
+	<Widget type="WT_LABEL" id="26" pos="0.5 0.40" textColorRGB="255 255 255" />
+	
+	<!-- Addition line -->
+	<Widget type="WT_LABEL" id="16" pos="0.715 0.18" />
+	
+	<!-- Buttons -->
+	<Widget type="WT_PUSH_BUTTON" id="0" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="2" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+	<Widget type="WT_PUSH_BUTTON" id="3" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" text="FOOD_GROUPS" />
+	
+	<Widget type="WT_PUSH_BUTTON" id="500" pos="0.61 0.28" text="FACEBOOK_LIKE" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="0 0 0" visible="false" />
+	<Widget type="WT_LABEL" id="501" pos="0.82 0.28" textColorRGB="255 255 255" visible="false" />
+	
+	
+	<!-- And Special cranky widgets (pipe frame, background gradient) -->
+	<Widget type="WT_LABEL" id="49" layer="2" pos="0.5 0.2" size="0.875 0.275" visible="false" />
+	<Widget type="WT_LABEL" id="50" layer="2" parent="49" pos="0 0" size="0.8875 0.2916" texBGName="dialogue_vinette.webp" visible="false" bgBlendColorRGBA="150 150 150 150" />
+	
+	<Widget type="WT_LABEL" id="51" layer="4" parent="49" pos="0 0" posByParentSize="0.999 0.0" size="0.08 0" forceAspect="1" texBGName="cranky_lrs_corner_1.webp" angleDegrees="90" visible="false" />
+	<Widget type="WT_LABEL" id="52" layer="4" parent="49" pos="0 0" posByParentSize="0.001 0.0" size="0.08 0" forceAspect="1" texBGName="cranky_lrs_corner_1.webp" visible="false" />
+	<Widget type="WT_LABEL" id="53" layer="4" parent="49" pos="0 0" posByParentSize="0.999 1.0" size="0.08 0" forceAspect="1" texBGName="cranky_lrs_corner_0.webp" angleDegrees="-90" visible="false" />
+	<Widget type="WT_LABEL" id="54" layer="4" parent="49" pos="0 0" posByParentSize="0.001 1.0" size="0.08 0" forceAspect="1" texBGName="cranky_lrs_corner_0.webp" visible="false" />
+	
+	<Widget type="WT_LABEL" id="55" layer="3" parent="49" pos="0 0" posByParentSize="0.5 0.0" size="0.875 0.05417" texBGName="cranky_lrs_pipe_pixel.webp" visible="false" />
+	<Widget type="WT_LABEL" id="56" layer="3" parent="49" pos="0 0" posByParentSize="0.5 1.0" size="0.875 -0.05417" texBGName="cranky_lrs_pipe_pixel.webp" visible="false" />
+	<Widget type="WT_LABEL" id="57" layer="3" parent="49" pos="0 0" posByParentSize="0.001 0.5" size="0.08 0.275" texBGName="cranky_lrs_pipe_pixel_vertical.webp" visible="false" />
+	<Widget type="WT_LABEL" id="58" layer="3" parent="49" pos="0 0" posByParentSize="0.999 0.5" size="-0.08 0.275" texBGName="cranky_lrs_pipe_pixel_vertical.webp" visible="false" />
+	
+	
+	<!-- Walls for transition (solid parts are double width incase of crazy resolutions) -->
+	<Widget type="WT_LABEL" id="70" layer="1" pos="-0.5 0.5" size="0 1.0" forceAspect="384:1024" aspectBasis="height" texBGName="cranky_lrs_left.webp" />
+	<Widget type="WT_LABEL" id="71" layer="1" pos="-0.5 0.5" size="0 1.0" forceAspect="768:1024" aspectBasis="height" numTiles="2 2.6666" texBGName="cranky_bricks_purple.webp" />
+	<Widget type="WT_LABEL" id="72" layer="1" pos="1.5 0.5" size="0 1.0" forceAspect="384:1024" aspectBasis="height" texBGName="cranky_lrs_right.webp" />
+	<Widget type="WT_LABEL" id="73" layer="1" pos="1.5 0.5" size="0 1.0" forceAspect="768:1024" aspectBasis="height" numTiles="2 2.6666" texBGName="cranky_bricks_purple.webp" />
+    
+    <!-- Ducky counter -->
+	<Widget type="WT_LABEL" id="1100" textColorRGB="173 63 134" />
+	<Widget type="WT_LABEL" id="1101" texBGName="Cranky_Duck_Counter.png"/>
+    
+    <!-- Photo finish -->
+    <Widget type="WT_PUSH_BUTTON" id="1110" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53"/>
+	
+</Widgets>

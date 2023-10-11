@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ImageList imgSize="256 512" file="/Textures/icicle.webp" textureBasePath="/Textures/">
+  <Image name="thorns_Loop.png" offset="0 0" size="113 113" rect="1 1 113 113"/>
+  <Image name="icicle_corner_glow.png" offset="0 0" size="99 99" rect="115 1 99 99"/>
+  <Image name="thorns_big.png" offset="0 0" size="140 99" rect="1 115 140 99"/>
+  <Image name="thorns_small.png" offset="0 0" size="77 77" rect="142 115 77 77"/>
+  <Image name="icicle_corner.png" offset="0 0" size="72 72" rect="1 215 72 72"/>
+  <Image name="thorns_overlay.png" offset="0 0" size="61 61" rect="74 215 61 61"/>
+  <Image name="dirtywall_large.png" offset="0 0" size="152 53" rect="1 288 152 53"/>
+  <Image name="icicle_large.png" offset="0 0" size="101 49" rect="1 342 101 49"/>
+  <Image name="dirtywall_mid.png" offset="0 0" size="94 43" rect="103 342 94 43"/>
+  <Image name="icicle_mid.png" offset="0 0" size="68 36" rect="1 392 68 36"/>
+  <Image name="dirtywall_small.png" offset="0 0" size="54 30" rect="70 392 54 30"/>
+  <Image name="icicle_mid_glow.png" offset="0 0" size="83 26" rect="125 392 83 26"/>
+  <Image name="icicle_large_glow.png" offset="0 0" size="149 25" rect="1 429 149 25"/>
+  <Image name="icicle_small.png" offset="0 0" size="38 25" rect="151 429 38 25"/>
+  <Image name="icicle_small_glow.png" offset="0 0" size="109 25" rect="1 455 109 25"/>
+</ImageList>

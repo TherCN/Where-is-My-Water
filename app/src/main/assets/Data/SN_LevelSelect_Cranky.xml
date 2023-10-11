@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- IDs
+ WN_LevelList               0
+ WN_MainMenu				1
+ WN_StarCount				2
+ 
+ WN_Level_1                 10
+ ...
+ WN_Level_25                34
+ 
+ ...
+ WN_EditorToggle            99
+ WN_BACKGROUND              100
+ WN_LevelSelectSwampy		101
+ WN_Water					102
+ 
+ WN_PackName				110
+ 
+ WN_FacebookButton          201
+ 
+ WN_Collectible_Reference	500
+ 
+ WN_TextListChange			700
+ -->
+<Widgets texturePath="/Textures/" baseLayoutFile="/Data/SN_LevelSelect.xml">
+	
+	<Widget type="WT_PUSH_BUTTON" id="1" texNormalName="Cranky_Back_W_Shadow.png" texHilightName="Cranky_Back_NO_Shadow.png" />
+	
+    <!-- Star count -->
+	<Widget type="WT_LABEL" id="106" pos=".806 .06" size="0.35 0" forceAspect="114:40" texBGName="Cranky_Duck_Counter.png" />
+	<Widget type="WT_LABEL" id="2" textColorRGB="173 63 134" />
+	
+    <!-- Disable secret level button -->
+    <Widget type="WT_PUSH_BUTTON" id="101" visible="false"/>
+    
+    <!-- Pack name -->
+	<Widget type="WT_LABEL" id="110" textColorRGB="32 95 53" />
+    
+    <!-- Social -->
+    <Widget type="WT_PUSH_BUTTON" id="200" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+    <Widget type="WT_PUSH_BUTTON" id="201" texNormalName="Cranky_Button_W_Shadow.png" texHilightName="Cranky_Button_no_Shadow.png" textColorRGB="32 95 53" />
+    
+    <!-- Level layout -->
+    <Widget type="WT_PUSH_BUTTON" id="10" texNormalName="Cranky_Level_Icon_Locked.png" textColorRGB="32 95 53" />
+    
+	<Widget type="WT_LABEL" id="100" numTiles="1.875 0" tileForceAspect="1" texBGName="cranky_bricks_purple.webp" />
+	
+	<Widget type="WT_LABEL" id="105" pos="0.5 0.825" size="1.0 0" forceAspect="320:65" texBGName="Endcap-01.webp" />
+	
+    <!-- Shadow -->
+	<Widget type="WT_LABEL" id="4000" texBGName="ui_cranky_lighting.png" />
+	
+	<!-- Animated water -->
+    <Widget type="WT_LABEL" id="103" size="1.0 0.25" tileForceAspect="512:192" texBGName="cranky_water_0.webp"/>
+    <Widget type="WT_LABEL" id="102" texBGName="cranky_water_1.webp" />
+	
+	
+	
+	<!-- Prepurchase shade/text -->
+	<Widget type="WT_LABEL" id="2000" parent="22" layer="6" pos="0 0" size="0.935 0.385" texBGName="dialogue_box.webp" visible="false" />
+	<Widget type="WT_LABEL" id="2001" parent="2000" layer="7" pos="0 0" posByParentSize="0.5 0.333" size="0.7 0.2" text="PURCHASE_LEVELS" textColorRGB="255 255 255" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="2002" parent="2000" layer="7" pos="0 0" posByParentSize="0.5 0.8" size="0.5 0.1" text="BUY_ALT" forceAspect="128:44" texNormalName="WMW_UI_buy_button_blank.png" texHilightName="WMW_UI_buy_button_blank_highlight.png" font="outlined" reactOnDown="false" textColorRGB="59 35 95" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05f" visible="false" />
+	
+</Widgets>

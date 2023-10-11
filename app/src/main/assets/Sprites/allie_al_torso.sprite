@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+<Sprite>
+  <Animation name="fail_poison" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="5"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="38"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1291"/>
+  </Animation>
+  <Animation name="fail_water" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="3"/>
+    <Frame name="al_torso_9.png" offset="-0.08749999999999858 -0.39375000000000426"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_12.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_13.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_14.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_15.png" offset="-0.6999999999999993 -2.356250000000003" repeat="1"/>
+    <Frame name="al_torso_11.png" offset="-0.6999999999999993 -2.356250000000003"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_16.png" offset="-0.006249999999997868 2.143749999999997"/>
+    <Frame name="al_torso_17.png" offset="0.35625000000000284 2.8125"/>
+    <Frame name="al_torso_18.png" offset="0.11250000000000071 2.825000000000003" repeat="43"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="109"/>
+  </Animation>
+  <Animation name="06-stretch_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_20.png" offset="0 0"/>
+    <Frame name="al_torso_21.png" offset="0.16249999999999787 0.29374999999999574"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="7"/>
+    <Frame name="al_torso_22.png" offset="0.9312499999999986 2.6374999999999957"/>
+    <Frame name="al_torso_23.png" offset="1.0687499999999979 1.8499999999999943"/>
+    <Frame name="al_torso_24.png" offset="1.4375 1.2437499999999986"/>
+    <Frame name="al_torso_25.png" offset="1.5124999999999993 0.8499999999999943"/>
+    <Frame name="al_torso_26.png" offset="1.6312500000000014 0.8062499999999986" repeat="26"/>
+    <Frame name="al_torso_27.png" offset="1.4000000000000021 0.8874999999999957"/>
+    <Frame name="al_torso_28.png" offset="1.15625 0.8937500000000043"/>
+    <Frame name="al_torso_29.png" offset="0.8875000000000028 0.9874999999999972"/>
+    <Frame name="al_torso_30.png" offset="0.3125 1.1437499999999972"/>
+    <Frame name="al_torso_20.png" offset="0 0" repeat="39"/>
+  </Animation>
+  <Animation name="15-dance_a" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="16"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="4"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="30"/>
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_9.png" offset="-0.08749999999999858 -0.39375000000000426"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_31.png" offset="-0.6999999999999993 -2.231250000000003" repeat="14"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_9.png" offset="-0.08749999999999858 -0.39375000000000426"/>
+    <Frame name="al_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="14-bomb_splode_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="43"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="9"/>
+  </Animation>
+  <Animation name="13-dance_b_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="5"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943" repeat="43"/>
+    <Frame name="al_torso_22.png" offset="0.9312499999999986 2.6374999999999957"/>
+    <Frame name="al_torso_23.png" offset="1.0687499999999979 1.8499999999999943"/>
+    <Frame name="al_torso_32.png" offset="1.1750000000000007 0.8374999999999986" repeat="10"/>
+    <Frame name="al_torso_33.png" offset="0.53125 0.3374999999999986"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="20"/>
+    <Frame name="al_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="02-buff_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1617"/>
+  </Animation>
+  <Animation name="09-clap_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_34.png" offset="0.4562500000000007 3.049999999999997"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986"/>
+    <Frame name="al_torso_34.png" offset="0.4562500000000007 3.049999999999997"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1465"/>
+  </Animation>
+  <Animation name="10-play win a_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_21.png" offset="0.16249999999999787 0.29374999999999574"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="2"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875" repeat="2"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="2"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_1.png" offset="0.11875000000000213 0.6062500000000028"/>
+    <Frame name="al_torso_1.png" offset="0.15000000000000213 0.6000000000000014" scale="0.9999847412109375 0.9999847412109375" angleDeg="-0.05682373046875"/>
+    <Frame name="al_torso_1.png" offset="0.5562500000000021 0.5750000000000028" scale="0.9999542236328125 0.9999542236328125" angleDeg="-0.773681640625"/>
+    <Frame name="al_torso_2.png" offset="1.1687499999999993 0.5624999999999929" scale="0.9998779296875 0.9998779296875" angleDeg="-1.7514801025390625"/>
+    <Frame name="al_torso_3.png" offset="1.8687500000000021 1.2562500000000014" scale="0.9998321533203125 0.9998321533203125" angleDeg="-2.777984619140625"/>
+    <Frame name="al_torso_4.png" offset="2.5812500000000007 2.15625" scale="0.9998016357421875 0.9998016357421875" angleDeg="-4.0167694091796875"/>
+    <Frame name="al_torso_5.png" offset="3.2687500000000007 2.7124999999999986" scale="0.99969482421875 0.99969482421875" angleDeg="-5.2561492919921875"/>
+    <Frame name="al_torso_6.png" offset="3.6937500000000014 2.8499999999999943" scale="0.9996337890625 0.9996337890625" angleDeg="-6.2825164794921875"/>
+    <Frame name="al_torso_7.png" offset="4.181249999999999 2.9937499999999986" scale="0.9995880126953125 0.9995880126953125" angleDeg="-7.260986328125"/>
+    <Frame name="al_torso_8.png" offset="4.543749999999999 2.96875" scale="0.99957275390625 0.99957275390625" angleDeg="-7.790283203125"/>
+    <Frame name="al_torso_8.png" offset="4.724999999999998 2.9750000000000014" scale="0.9999847412109375 0.9999847412109375" angleDeg="-8.129852294921875"/>
+    <Frame name="al_torso_8.png" offset="4.556249999999999 2.9750000000000014" scale="0.9995574951171875 0.9995574951171875" angleDeg="-7.7782745361328125"/>
+    <Frame name="al_torso_7.png" offset="4.068750000000001 2.981250000000003" scale="0.99957275390625 0.99957275390625" angleDeg="-7.0285797119140625"/>
+    <Frame name="al_torso_6.png" offset="3.5687500000000014 2.862499999999997" scale="0.9996490478515625 0.9996490478515625" angleDeg="-6.0068206787109375"/>
+    <Frame name="al_torso_4.png" offset="2.8562499999999993 2.1499999999999986" scale="0.9997100830078125 0.9997100830078125" angleDeg="-4.5609893798828125"/>
+    <Frame name="al_torso_3.png" offset="2.1437500000000007 1.2687499999999972" scale="0.99981689453125 0.99981689453125" angleDeg="-3.285369873046875"/>
+    <Frame name="al_torso_2.png" offset="1.34375 0.5812499999999972" scale="0.9998779296875 0.9998779296875" angleDeg="-2.0265655517578125"/>
+    <Frame name="al_torso_1.png" offset="0.6812500000000021 0.5750000000000028" scale="0.99993896484375 0.99993896484375" angleDeg="-1.0061798095703125"/>
+    <Frame name="al_torso_1.png" offset="0.26250000000000284 0.6000000000000014" angleDeg="-0.25616455078125"/>
+    <Frame name="al_torso_1.png" offset="0.11875000000000213 0.6062500000000028" repeat="1394"/>
+  </Animation>
+  <Animation name="stretch bounce" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="3"/>
+    <Frame name="al_torso_9.png" offset="-0.08749999999999858 -0.39375000000000426"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_31.png" offset="-0.6999999999999993 -2.231250000000003" repeat="6"/>
+    <Frame name="al_torso_10.png" offset="-0.625 -0.78125"/>
+    <Frame name="al_torso_16.png" offset="-0.006249999999997868 2.143749999999997"/>
+    <Frame name="al_torso_17.png" offset="0.35625000000000284 2.8125"/>
+    <Frame name="al_torso_18.png" offset="0.11250000000000071 2.825000000000003"/>
+    <Frame name="al_torso_0.png" offset="-1.2687500000000007 0.3062499999999986" repeat="51" angleDeg="5.0176544189453125"/>
+    <Frame name="al_torso_0.png" offset="-1.2687500000000007 0.3062499999999986" angleDeg="5.0176544189453125"/>
+    <Frame name="al_torso_0.png" offset="-1.1875 0.29374999999999574" scale="0.9997100830078125 0.9997100830078125" angleDeg="4.7633514404296875"/>
+    <Frame name="al_torso_0.png" offset="-0.9875000000000007 0.26249999999999574" scale="0.999786376953125 0.999786376953125" angleDeg="4.05853271484375"/>
+    <Frame name="al_torso_0.png" offset="-0.7874999999999979 0.1874999999999929" scale="0.999786376953125 0.999786376953125" angleDeg="3.2967071533203125"/>
+    <Frame name="al_torso_0.png" offset="-0.625 0.11874999999999858" scale="0.999847412109375 0.999847412109375" angleDeg="2.5023040771484375"/>
+    <Frame name="al_torso_0.png" offset="-0.3625000000000007 0.06875000000000142" scale="0.9998626708984375 0.9998626708984375" angleDeg="1.521728515625"/>
+    <Frame name="al_torso_0.png" offset="-0.1750000000000007 0.006249999999994316" scale="0.9999542236328125 0.9999542236328125" angleDeg="0.7596893310546875"/>
+    <Frame name="al_torso_0.png" offset="0.01249999999999929 -7.105427357601002e-15" scale="0.999969482421875 0.999969482421875" angleDeg="0.05419921875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1460"/>
+  </Animation>
+  <Animation name="new breathe" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_35.png" offset="0 0"/>
+    <Frame name="al_torso_36.png" offset="-0.006250000000001421 -0.012500000000002842"/>
+    <Frame name="al_torso_37.png" offset="-0.01875000000000071 -0.025000000000005684"/>
+    <Frame name="al_torso_38.png" offset="-0.03125 -0.03750000000000142"/>
+    <Frame name="al_torso_39.png" offset="-0.05000000000000071 -0.0625"/>
+    <Frame name="al_torso_40.png" offset="-0.06875000000000142 -0.08750000000000568"/>
+    <Frame name="al_torso_41.png" offset="-0.09375 -0.11249999999999716"/>
+    <Frame name="al_torso_42.png" offset="-0.11874999999999858 -0.13750000000000284"/>
+    <Frame name="al_torso_43.png" offset="-0.14999999999999858 -0.17499999999999716"/>
+    <Frame name="al_torso_44.png" offset="-0.1875 -0.19375000000000142"/>
+    <Frame name="al_torso_45.png" offset="-0.22500000000000142 -0.25"/>
+    <Frame name="al_torso_46.png" offset="-0.2624999999999993 -0.2875000000000014"/>
+    <Frame name="al_torso_47.png" offset="-0.3062499999999986 -0.3375000000000057"/>
+    <Frame name="al_torso_48.png" offset="-0.3562499999999993 -0.375"/>
+    <Frame name="al_torso_49.png" offset="-0.4125000000000014 -0.4125000000000014"/>
+    <Frame name="al_torso_50.png" offset="-0.4562500000000007 -0.4625000000000057"/>
+    <Frame name="al_torso_51.png" offset="-0.5 -0.46875"/>
+    <Frame name="al_torso_52.png" offset="-0.5375000000000014 -0.5375000000000014"/>
+    <Frame name="al_torso_53.png" offset="-0.5749999999999993 -0.5437500000000028"/>
+    <Frame name="al_torso_54.png" offset="-0.6062499999999993 -0.6062500000000028"/>
+    <Frame name="al_torso_55.png" offset="-0.6374999999999993 -0.6500000000000057"/>
+    <Frame name="al_torso_56.png" offset="-0.6625000000000014 -0.6749999999999972"/>
+    <Frame name="al_torso_57.png" offset="-0.6812499999999986 -0.6750000000000043"/>
+    <Frame name="al_torso_58.png" offset="-0.6999999999999993 -0.7374999999999972"/>
+    <Frame name="al_torso_59.png" offset="-0.71875 -0.7625000000000028"/>
+    <Frame name="al_torso_60.png" offset="-0.7250000000000014 -0.7750000000000057"/>
+    <Frame name="al_torso_61.png" offset="-0.7312499999999993 -0.7875000000000014"/>
+    <Frame name="al_torso_62.png" offset="-0.7375000000000007 -0.7562500000000014"/>
+    <Frame name="al_torso_63.png" offset="-0.7375000000000007 -0.75"/>
+    <Frame name="al_torso_62.png" offset="-0.7375000000000007 -0.7562500000000014"/>
+    <Frame name="al_torso_61.png" offset="-0.7312499999999993 -0.7875000000000014"/>
+    <Frame name="al_torso_60.png" offset="-0.7250000000000014 -0.7750000000000057"/>
+    <Frame name="al_torso_59.png" offset="-0.71875 -0.7625000000000028"/>
+    <Frame name="al_torso_58.png" offset="-0.6999999999999993 -0.7374999999999972"/>
+    <Frame name="al_torso_57.png" offset="-0.6812499999999986 -0.6750000000000043"/>
+    <Frame name="al_torso_56.png" offset="-0.6625000000000014 -0.6749999999999972"/>
+    <Frame name="al_torso_55.png" offset="-0.6374999999999993 -0.6500000000000057"/>
+    <Frame name="al_torso_54.png" offset="-0.6062499999999993 -0.6062500000000028"/>
+    <Frame name="al_torso_53.png" offset="-0.5749999999999993 -0.5437500000000028"/>
+    <Frame name="al_torso_52.png" offset="-0.5375000000000014 -0.5375000000000014"/>
+    <Frame name="al_torso_51.png" offset="-0.5 -0.46875"/>
+    <Frame name="al_torso_50.png" offset="-0.4562500000000007 -0.4625000000000057"/>
+    <Frame name="al_torso_49.png" offset="-0.4125000000000014 -0.4125000000000014"/>
+    <Frame name="al_torso_48.png" offset="-0.3562499999999993 -0.375"/>
+    <Frame name="al_torso_47.png" offset="-0.3062499999999986 -0.3375000000000057"/>
+    <Frame name="al_torso_46.png" offset="-0.2624999999999993 -0.2875000000000014"/>
+    <Frame name="al_torso_45.png" offset="-0.22500000000000142 -0.25"/>
+    <Frame name="al_torso_44.png" offset="-0.1875 -0.19375000000000142"/>
+    <Frame name="al_torso_43.png" offset="-0.14999999999999858 -0.17499999999999716"/>
+    <Frame name="al_torso_42.png" offset="-0.11874999999999858 -0.13750000000000284"/>
+    <Frame name="al_torso_41.png" offset="-0.09375 -0.11249999999999716"/>
+    <Frame name="al_torso_40.png" offset="-0.06875000000000142 -0.08750000000000568"/>
+    <Frame name="al_torso_39.png" offset="-0.05000000000000071 -0.0625"/>
+    <Frame name="al_torso_38.png" offset="-0.03125 -0.03750000000000142"/>
+    <Frame name="al_torso_37.png" offset="-0.01875000000000071 -0.025000000000005684"/>
+    <Frame name="al_torso_36.png" offset="-0.006250000000001421 -0.012500000000002842"/>
+    <Frame name="al_torso_35.png" offset="0 0"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+  <Animation name="07-steam_a_torso copy" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="7"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="15"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_64.png" offset="-0.53125 0.84375" repeat="5"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="12"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_64.png" offset="-0.53125 0.84375" repeat="2"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943" repeat="30"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="5"/>
+  </Animation>
+  <Animation name="03-maracas_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0"/>
+    <Frame name="al_torso_33.png" offset="0.53125 0.3374999999999986"/>
+    <Frame name="al_torso_32.png" offset="1.1750000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_65.png" offset="1.5500000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_26.png" offset="1.6312500000000014 0.8062499999999986" repeat="4"/>
+    <Frame name="al_torso_24.png" offset="1.4375 1.2437499999999986"/>
+    <Frame name="al_torso_23.png" offset="1.0687499999999979 1.8499999999999943"/>
+    <Frame name="al_torso_22.png" offset="0.9312499999999986 2.6374999999999957"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="2"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875" repeat="2"/>
+    <Frame name="al_torso_2.png" offset="0.19374999999999787 0.7562500000000014"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_5.png" offset="0.5187499999999972 2.924999999999997"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_7.png" offset="0.4312499999999986 3.1937499999999943"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="2"/>
+    <Frame name="al_torso_6.png" offset="0.4437500000000014 3.075000000000003"/>
+    <Frame name="al_torso_22.png" offset="0.9312499999999986 2.6374999999999957"/>
+    <Frame name="al_torso_23.png" offset="1.0687499999999979 1.8499999999999943"/>
+    <Frame name="al_torso_24.png" offset="1.4375 1.2437499999999986"/>
+    <Frame name="al_torso_26.png" offset="1.6312500000000014 0.8062499999999986" repeat="4"/>
+    <Frame name="al_torso_65.png" offset="1.5500000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_32.png" offset="1.1750000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_33.png" offset="0.53125 0.3374999999999986"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1650"/>
+  </Animation>
+  <Animation name="16-air_guitar" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_64.png" offset="-0.53125 0.84375" repeat="15"/>
+    <Frame name="al_torso_19.png" offset="-0.4562500000000007 0.8312499999999972"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="15"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="6"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="4"/>
+  </Animation>
+  <Animation name="11-tuneup_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="al_torso_39.png" offset="-0.05000000000000071 -0.0625"/>
+    <Frame name="al_torso_40.png" offset="-0.06875000000000142 -0.08750000000000568"/>
+    <Frame name="al_torso_45.png" offset="-0.22500000000000142 -0.25"/>
+    <Frame name="al_torso_48.png" offset="-0.3562499999999993 -0.375"/>
+    <Frame name="al_torso_52.png" offset="-0.5375000000000014 -0.5375000000000014"/>
+    <Frame name="al_torso_54.png" offset="-0.6062499999999993 -0.6062500000000028"/>
+    <Frame name="al_torso_58.png" offset="-0.6999999999999993 -0.7374999999999972"/>
+    <Frame name="al_torso_60.png" offset="-0.7250000000000014 -0.7750000000000057"/>
+    <Frame name="al_torso_58.png" offset="-0.6999999999999993 -0.7374999999999972"/>
+    <Frame name="al_torso_54.png" offset="-0.6062499999999993 -0.6062500000000028"/>
+    <Frame name="al_torso_52.png" offset="-0.5375000000000014 -0.5375000000000014"/>
+    <Frame name="al_torso_48.png" offset="-0.3562499999999993 -0.375"/>
+    <Frame name="al_torso_45.png" offset="-0.22500000000000142 -0.25"/>
+    <Frame name="al_torso_40.png" offset="-0.06875000000000142 -0.08750000000000568"/>
+    <Frame name="al_torso_39.png" offset="-0.05000000000000071 -0.0625"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="14"/>
+    <Frame name="al_torso_0.png" offset="-0.13750000000000284 0.1875" angleDeg="0.1617431640625"/>
+    <Frame name="al_torso_33.png" offset="0.53125 0.3374999999999986"/>
+    <Frame name="al_torso_32.png" offset="1.1750000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_65.png" offset="1.5500000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_26.png" offset="1.6312500000000014 0.8062499999999986" repeat="4"/>
+    <Frame name="al_torso_65.png" offset="1.5500000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_32.png" offset="1.1750000000000007 0.8374999999999986"/>
+    <Frame name="al_torso_33.png" offset="0.53125 0.3374999999999986"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1339"/>
+  </Animation>
+  <Animation name="0_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0"/>
+  </Animation>
+  <Animation name="06-giggle" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="10"/>
+    <Frame name="al_torso_66.png" offset="0.03750000000000142 0.018749999999997158"/>
+    <Frame name="al_torso_67.png" offset="0.08125000000000071 0.06875000000000142"/>
+    <Frame name="al_torso_68.png" offset="-0.11875000000000213 0.38749999999999574"/>
+    <Frame name="al_torso_69.png" offset="0.04374999999999929 0.41874999999999574" repeat="1"/>
+    <Frame name="al_torso_68.png" offset="-0.11875000000000213 0.38749999999999574"/>
+    <Frame name="al_torso_67.png" offset="0.08125000000000071 0.06875000000000142"/>
+    <Frame name="al_torso_66.png" offset="0.03750000000000142 0.018749999999997158"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+    <Frame name="al_torso_66.png" offset="0.03750000000000142 0.018749999999997158"/>
+    <Frame name="al_torso_67.png" offset="0.08125000000000071 0.06875000000000142"/>
+    <Frame name="al_torso_68.png" offset="-0.11875000000000213 0.38749999999999574"/>
+    <Frame name="al_torso_69.png" offset="0.04374999999999929 0.41874999999999574" repeat="22"/>
+    <Frame name="al_torso_68.png" offset="-0.11875000000000213 0.38749999999999574"/>
+    <Frame name="al_torso_67.png" offset="0.08125000000000071 0.06875000000000142"/>
+    <Frame name="al_torso_66.png" offset="0.03750000000000142 0.018749999999997158"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="9"/>
+  </Animation>
+  <Animation name="05-headbang_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="3"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943" repeat="50"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="4"/>
+  </Animation>
+  <Animation name="12-didunt_torso" textureBasePath="/Textures/" atlas="/Textures/allie.imagelist" fps="30" playbackMode="ONCE" loopCount="1">
+    <Frame name="al_torso_0.png" offset="0 0" repeat="33"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_8.png" offset="0.5374999999999979 3.1499999999999986" repeat="21"/>
+    <Frame name="al_torso_4.png" offset="0.44374999999999787 2.3687499999999986"/>
+    <Frame name="al_torso_3.png" offset="0.34375 1.4749999999999943"/>
+    <Frame name="al_torso_1.png" offset="0.10624999999999929 0.71875"/>
+    <Frame name="al_torso_0.png" offset="0 0" repeat="1"/>
+  </Animation>
+</Sprite>
