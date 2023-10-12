@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.TextView;
 import com.disney.WMW.WMWActivity;
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +22,7 @@ public class MainActivity extends Activity {
 
 	public static String appDataDir = Environment.getExternalStorageDirectory().toString() + "/WMW";
 	public static boolean isIPadScreen = false;
+	
 	static
 	{
 		System.loadLibrary("wmw");
@@ -30,7 +32,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		
 		Permission.申请(this);
+		
 		File obbdir = getObbDir();
 
 		File dataDir = new File(appDataDir);
@@ -38,6 +42,9 @@ public class MainActivity extends Activity {
 		if (!obbdir.exists() || !dataDir.exists()) {
 			obbdir.mkdirs();
 			dataDir.mkdirs();
+		} else{
+			TextView checkObb = findViewById(R.id.checkObb);
+			checkObb.setText(getString(R.string.have_obb));
 		}
 		String obbPath = getObbPath();
 		if (!extraDataFile.exists()) {

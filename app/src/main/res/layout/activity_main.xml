@@ -10,13 +10,23 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:id="@+id/resetSize"
-		android:text="开启4:3屏幕比例"/>
+		android:text="4:3"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="开始游戏"
+		android:text="@string/start_game"
 		android:id="@+id/startGame"/>
 
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/have_not_obb"
+		android:id="@+id/checkObb"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/tip"/>
 </LinearLayout>
 

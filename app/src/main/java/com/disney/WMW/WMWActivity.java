@@ -1,6 +1,8 @@
 package com.disney.WMW;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
@@ -29,7 +31,7 @@ import java.util.Locale;
 import java.util.UUID;
 import org.fmod.FMODAudioDevice;
 import thercn.wmw.MainActivity;
-import android.content.pm.PackageManager.NameNotFoundException;
+import thercn.wmw.R;
 
 public class WMWActivity extends BaseActivity {
     private static GlobalPurchaseHandler globalIapHandler;
@@ -89,6 +91,28 @@ public class WMWActivity extends BaseActivity {
 
 	class FinishActivityArgs {}
 
+	@Override
+	public void onBackPressed() {
+		Log.e("WMW","返回被按下");
+		AlertDialog dialog = new AlertDialog.Builder(this)
+			.setTitle("")
+			.setMessage(getString(R.string.exit_str))
+			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+
+				@Override
+				public void onClick(DialogInterface dia, int which) {
+					System.exit(0);
+				}
+			})
+			.setNegativeButton(android.R.string.cancel, null)
+			.create();
+		dialog.show();
+		super.onBackPressed();
+	}
+
+	
+
+	
 	static /* synthetic */ void access$100(WMWActivity wMWActivity) {
         wMWActivity.initIap();
     }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_id">110024032444757</string>
-    <string name="app_name">Water?</string>
+    <string name="app_name">"Where's My Water?"</string>
     <string name="app_name_free">"Where's My Water? Free"</string>
     <string name="error_title">Connection Error</string>
     <string name="link_japanese_market_help">Help</string>
@@ -12,4 +12,10 @@
     <string name="ok">OK</string>
     <string name="want_to_download">Do you want to download?</string>
     <string name="yes">Yes</string>
+	
+	<string name="have_not_obb">No obb found</string>
+	<string name="have_obb">obb found</string>
+	<string name="start_game">Start Game</string>
+	<string name="exit_str">Exit？</string>
+	<string name="tip">Tip: You can modify the content in /sdcard/WMW/wmw-extra.zip to add levels, and the application will automatically copy to the obb directory</string>
 </resources>
