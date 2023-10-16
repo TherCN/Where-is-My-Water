@@ -145,7 +145,6 @@ public class GlobalApplication extends Application {
                     try {
                         Looper.loop();
                     } catch (final Throwable e) {
-                        e.printStackTrace();
                         if (isRunning.get()) {
                             MAIN_HANDLER.post(new Runnable(){
 

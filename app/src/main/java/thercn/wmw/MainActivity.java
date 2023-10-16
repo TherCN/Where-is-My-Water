@@ -26,12 +26,6 @@ public class MainActivity extends Activity {
 
 	public static String appDataDir = Environment.getExternalStorageDirectory().toString() + "/WMW";
 	public static boolean isIPadScreen = false;
-	public static String loadLibrary;
-	
-	static
-	{
-		System.loadLibrary("wmw");
-	}
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +34,6 @@ public class MainActivity extends Activity {
 		Permission.申请(this);
 		Log.e("WMW","安装包目录:" + getPackageResourcePath());
 		File obbdir = getObbDir();
-
 		File dataDir = new File(appDataDir);
 		File extraDataFile = new File(appDataDir + "/wmw-extra.zip");
 		if (!obbdir.exists() || !dataDir.exists()) {
@@ -134,6 +127,4 @@ public class MainActivity extends Activity {
 				}
 			});
 	}
-	private void setupLibrary(){}
-
 }

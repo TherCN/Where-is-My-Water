@@ -3,8 +3,7 @@
 //
 
 #include "EGL.h"
-#include "patch.h"
-#include "Utils.h"
+#include "../Platinmods/PlatinmodsMemoryPatch.h"
 
 #define PATCH_LIB(lib, offset, hex) patchOffset(lib, string2Offset(offset), hex, true)
 EGL::EGL() {
@@ -241,9 +240,10 @@ void EGL::EglThread() {
                                  ImGuiInputTextFlags_CallbackAlways,
                                  ImguiAndroidInput::inputCallback);
        if (ImGui::Button("修改")){
-	   PATCH_LIB("libwmw.so",offset,str);
+	   patch(offset,str);
 	   LOGE("成功为%d打上%s",offset,str);
 	   }
+	   
        ImGui::End();
 
         imguiMainWinEnd();
@@ -251,6 +251,27 @@ void EGL::EglThread() {
         input->fps = this->FPS;
     }
 }
+
+bool EGL::patch(char offset[],char hex[]) {
+pid_t pid = Platinmods::getPid("thercn.wmw");
+    
+    std::string offset_str(offset);
+	std::string hex_str(hex);
+
+    Platinmods::MemoryPatch patch1 = Platinmods::MemoryPatch(pid, "libwmw.so", offset_str, hex_str);
+    
+    // Write Modified Hex
+    bool result = patch1.Modify();
+    if (result) {
+        LOGE("Offset patches successfully!\n");
+    } else {
+        LOGE("Patch failed\n");
+    }
+    return result;
+}
+
+
+
 int EGL::swapBuffers() {
     //opengl当前buff传递至屏幕
     if (eglSwapBuffers(mEglDisplay, mEglSurface)) {

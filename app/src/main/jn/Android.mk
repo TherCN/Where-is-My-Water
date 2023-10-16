@@ -44,10 +44,8 @@ LOCAL_SRC_FILES:= Source/Imgui/imgui.cpp \
         Source/EGL.cpp \
         Source/MyFile.cpp \
         native-lib.cpp \
-        KittyMemory/KittyMemory.cpp \
-	    KittyMemory/MemoryPatch.cpp \
-        KittyMemory/MemoryBackup.cpp \
-        KittyMemory/KittyUtils.cpp 
+        Platinmods/PlatinmodsMemoryPatch.cpp \
+        Platinmods/PlatinmodsUtils.cpp 
     
 LOCAL_LDLIBS := -ldl -llog -lEGL -lGLESv3 -landroid
 include $(BUILD_SHARED_LIBRARY)

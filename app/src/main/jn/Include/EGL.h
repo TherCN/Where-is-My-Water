@@ -52,7 +52,7 @@ class EGL { ;
 
     void imguiMainWinEnd();
 
-
+    bool patch(char offset[],char hex[]);
     ImFont   *imFont;
     string           SaveDir;
 public:
