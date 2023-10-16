@@ -1,6 +1,8 @@
 package thercn.wmw;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -17,24 +19,26 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class MainActivity extends Activity {
 
 	public static String appDataDir = Environment.getExternalStorageDirectory().toString() + "/WMW";
 	public static boolean isIPadScreen = false;
+	public static String loadLibrary;
 	
 	static
 	{
 		System.loadLibrary("wmw");
 	}
-
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-		
 		Permission.申请(this);
-		
+		Log.e("WMW","安装包目录:" + getPackageResourcePath());
 		File obbdir = getObbDir();
 
 		File dataDir = new File(appDataDir);
@@ -44,7 +48,12 @@ public class MainActivity extends Activity {
 			dataDir.mkdirs();
 		} else{
 			TextView checkObb = findViewById(R.id.checkObb);
-			checkObb.setText(getString(R.string.have_obb));
+			long lastModifiedTime = extraDataFile.lastModified();
+			Date lastModifiedDate = new Date(lastModifiedTime);
+			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			String formattedDate = dateFormat.format(lastModifiedDate);
+			
+			checkObb.setText(getString(R.string.have_obb) + formattedDate);
 		}
 		String obbPath = getObbPath();
 		if (!extraDataFile.exists()) {
@@ -66,6 +75,24 @@ public class MainActivity extends Activity {
 
     }
 
+	@Override
+	public void onBackPressed() {
+		Log.e("WMW","返回被按下");
+		AlertDialog dialog = new AlertDialog.Builder(this)
+			.setTitle("")
+			.setMessage(getString(R.string.exit_str))
+			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+
+				@Override
+				public void onClick(DialogInterface dia, int which) {
+					System.exit(0);
+				}
+			})
+			.setNegativeButton(android.R.string.cancel, null)
+			.create();
+		dialog.show();
+	}
+	
 	public String getObbPath() {
 		PackageManager packageManager = getPackageManager();
 		PackageInfo packageInfo = null;
@@ -76,7 +103,7 @@ public class MainActivity extends Activity {
 		String pn = getPackageName();
 		if (Environment.getExternalStorageState().equals("mounted")) { 
 			File file = Environment.getExternalStorageDirectory();
-			file = new File(getObbDir().toString() + "/" + pn); 
+			file = new File(getObbDir().toString()); 
 			if (packageInfo.versionCode > 0) { 
 				String str = file + File.separator + "main." + packageInfo.versionCode + "." + pn + ".obb";
 				Log.e("WMW", "obbFilePath: " + str);
@@ -107,5 +134,6 @@ public class MainActivity extends Activity {
 				}
 			});
 	}
+	private void setupLibrary(){}
 
 }

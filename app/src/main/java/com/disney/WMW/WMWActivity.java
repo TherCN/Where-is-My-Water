@@ -26,6 +26,7 @@ import com.disney.common.Constants;
 import com.disney.common.Constants.shareTarget;
 import com.disney.common.WMWView;
 import com.disney.config.GlobalPurchaseHandler;
+import com.game.ui.Launcher;
 import java.io.File;
 import java.util.Locale;
 import java.util.UUID;
@@ -59,10 +60,6 @@ public class WMWActivity extends BaseActivity {
     public boolean resumeOnFocus;
     private Runnable runInitIap;
 
-    static {
-        System.loadLibrary("fmodex");
-    }
-
     public WMWActivity() {
         this.isRunning = false;
         this.hasFocus = false;
@@ -90,28 +87,6 @@ public class WMWActivity extends BaseActivity {
 	}
 
 	class FinishActivityArgs {}
-
-	@Override
-	public void onBackPressed() {
-		Log.e("WMW","返回被按下");
-		AlertDialog dialog = new AlertDialog.Builder(this)
-			.setTitle("")
-			.setMessage(getString(R.string.exit_str))
-			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-
-				@Override
-				public void onClick(DialogInterface dia, int which) {
-					System.exit(0);
-				}
-			})
-			.setNegativeButton(android.R.string.cancel, null)
-			.create();
-		dialog.show();
-		super.onBackPressed();
-	}
-
-	
-
 	
 	static /* synthetic */ void access$100(WMWActivity wMWActivity) {
         wMWActivity.initIap();
@@ -341,18 +316,10 @@ public class WMWActivity extends BaseActivity {
             editor.putString("installationId", this.installationId);
             editor.commit();
         }
-
         this.requestWindowFeature(1);
         this.getWindow().setFlags(1024, 1024);
         this.setDataFromManifest();
-        if (SAMSUNG_DRM_ENABLED) {
-            Log.d("WMWActivity", "Samsung DRM build. Checking license");
-            this.getGlobalIapHandler().requestIAPAvailability();
-        } else {
-            Log.d("WMWActivity", "Not a Samsung DRM build. Calling switchToGameView()");
-            this.switchToGameView();
-        }
-
+        this.switchToGameView();
         this.getGlobalIapHandler();
     }
 
@@ -616,15 +583,8 @@ public class WMWActivity extends BaseActivity {
         RelativeLayout relativelayout = new RelativeLayout(this);
         relativelayout.addView(this._view);
         this.setContentView(relativelayout, new LayoutParams(-1, -1));
-        byte b0;
-        if (APP_INFO.toLowerCase().contains("google")) {
-            b0 = 1;
-        } else if (APP_INFO.toLowerCase().contains("amazon")) {
-            b0 = 2;
-        } else {
-            b0 = 0;
-        }
-
-        this.mSKU = b0;
+		
+		Launcher.Init(this);
+        this.mSKU = 1;
     }
 }
