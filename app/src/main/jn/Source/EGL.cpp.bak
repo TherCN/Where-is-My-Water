@@ -23,12 +23,14 @@ int EGL::initEgl() {
         LOGE("eglGetDisplay error=%u", glGetError());
         return -1;
     }
+    LOGE("生成mEglDisplay");
     //2、
     EGLint *version = new EGLint[2];
     if (!eglInitialize(mEglDisplay, &version[0], &version[1])) {
         LOGE("eglInitialize error=%u", glGetError());
         return -1;
     }
+    LOGE("eglInitialize成功");
     //3、
     const EGLint attribs[] = {EGL_BUFFER_SIZE, 32, EGL_RED_SIZE, 8, EGL_GREEN_SIZE, 8,
                               EGL_BLUE_SIZE, 8, EGL_ALPHA_SIZE, 8, EGL_DEPTH_SIZE, 8, EGL_STENCIL_SIZE, 8, EGL_RENDERABLE_TYPE, EGL_OPENGL_ES2_BIT, EGL_SURFACE_TYPE, EGL_WINDOW_BIT, EGL_NONE};
@@ -38,11 +40,13 @@ int EGL::initEgl() {
         LOGE("eglGetConfigs  error =%u", glGetError());
         return -1;
     }
+    LOGE("num_config=%d", num_config);
     // 4、
     if (!eglChooseConfig(mEglDisplay, attribs, &mEglConfig, 1, &num_config)) {
         LOGE("eglChooseConfig  error=%u", glGetError());
         return -1;
     }
+    LOGE("eglChooseConfig成功");
     //5、
     int attrib_list[] = {EGL_CONTEXT_CLIENT_VERSION, 2, EGL_NONE};
     mEglContext = eglCreateContext(mEglDisplay, mEglConfig, EGL_NO_CONTEXT, attrib_list);
@@ -56,11 +60,13 @@ int EGL::initEgl() {
         LOGE("eglCreateWindowSurface  error = %u", glGetError());
         return -1;
     }
+    LOGE("eglCreateWindowSurface成功");
     //7、
     if (!eglMakeCurrent(mEglDisplay, mEglSurface, mEglSurface, mEglContext)) {
         LOGE("eglMakeCurrent  error = %u", glGetError());
         return -1;
     }
+    LOGE("eglMakeCurrent成功");
     return 1;
 }
 

@@ -45,7 +45,6 @@ public class MainActivity extends Activity {
 			Date lastModifiedDate = new Date(lastModifiedTime);
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			String formattedDate = dateFormat.format(lastModifiedDate);
-			
 			checkObb.setText(getString(R.string.have_obb) + formattedDate);
 		}
 		String obbPath = getObbPath();
@@ -92,7 +91,6 @@ public class MainActivity extends Activity {
 		try {
 			packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
 		} catch (PackageManager.NameNotFoundException e) {}
-
 		String pn = getPackageName();
 		if (Environment.getExternalStorageState().equals("mounted")) { 
 			File file = Environment.getExternalStorageDirectory();
