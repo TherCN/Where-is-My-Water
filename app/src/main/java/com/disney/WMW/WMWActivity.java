@@ -90,7 +90,7 @@ public class WMWActivity extends BaseActivity {
 
 	class FinishActivityArgs {}
 	
-	public static native void redirectOutput()
+	public static native void redirectOutput();
 	
 	static /* synthetic */ void access$100(WMWActivity wMWActivity) {
         wMWActivity.initIap();
