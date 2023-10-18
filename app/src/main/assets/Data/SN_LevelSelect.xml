@@ -61,9 +61,9 @@
     
 	
     <!-- Social -->
-    <Widget type="WT_PUSH_BUTTON" id="201" layer="12" pos="0.2 0.95" size="0.3 0.0" forceAspect="128:44"  texNormalName="button.png" texHilightName="button_highlight.png" text="FACEBOOK_BUTTON" reactOnDown="false" textColorRGB="0 0 0" font="outlined" visible="false" edgePaddingRelative=".35" />
+    <Widget type="WT_PUSH_BUTTON" id="201" layer="12" pos="0.2 0.95" size="0.3 0.0" forceAspect="128:44"  texNormalName="button.png" texHilightName="button_highlight.png" text="FACEBOOK_BUTTON" reactOnDown="false" textColorRGB="0 0 0" font="outlined"  edgePaddingRelative=".35" />
     <!-- Social Share -->
-    <!-- <Widget type="WT_PUSH_BUTTON" id="202" layer="5" pos="0.8 0.95" size="0.2 0" forceAspect="200:110" texNormalName="WMW_UI_play_button_blank.png" texHilightName="WMW_UI_play_button_blank_highlight.png" text="SOCIAL_SHARE" reactOnDown="false" visible="false" textColorRGB="255 255 255" /> -->
+    <Widget type="WT_PUSH_BUTTON" id="202" layer="5" pos="0.8 0.95" size="0.2 0" forceAspect="200:110" texNormalName="WMW_UI_play_button_blank.png" texHilightName="WMW_UI_play_button_blank_highlight.png" text="SOCIAL_SHARE" reactOnDown="false"  textColorRGB="255 255 255" />
 	
 	
 	
@@ -94,22 +94,22 @@
     <Widget type="WT_PUSH_BUTTON" id="29" parent="28" pos="0.188 0" />
     
 	<!-- Special extra bonus level -->
-    <Widget type="WT_PUSH_BUTTON" id="30" parent="25" pos="0 0.130" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="30" parent="25" pos="0 0.130"  />
 	
     <!-- Collectible badge reference -->
-	<Widget type="WT_LABEL" id="500" layer="4" pos="-0.07 -0.03" size="0.09 0" forceAspect="1" visible="false"/>
+	<Widget type="WT_LABEL" id="500" layer="4" pos="-0.07 -0.03" size="0.09 0" forceAspect="1" />
 		
 	
 	
 	<!-- DEBUG WIDGETS!! -->
 	
 	<!-- Buttons -->
-	<Widget type="WT_PUSH_BUTTON" id="99999" layer="10" pos=".3 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock 1" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="99999" layer="10" pos=".3 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock 1" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" enabled="true" />
     <!-- Buttons -->
-	<Widget type="WT_PUSH_BUTTON" id="999999" layer="10" pos=".7 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock All" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" visible="false" />
+	<Widget type="WT_PUSH_BUTTON" id="999999" layer="10" pos=".7 .75" size="0.3 0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Unlock All" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.4" textHilightOffsetRelative="0 0.05" enabled="true" />
 	
 	<!-- Folder list (for debug) -->
-	<Widget type="WT_LABEL" id="2500" layer="11" pos=".6 .06" size="0.6 0.075" textPadding=".2" paddingH=".05" texBGName="transparent_black.webp" textColorRGB="255 255 255" visible="false"/>
+	<Widget type="WT_LABEL" id="2500" layer="11" pos=".6 .06" size="0.6 0.075" textPadding=".2" paddingH=".05" texBGName="transparent_black.webp" textColorRGB="255 255 255" />
 	
 	<!-- Icon list for displaying pictures of levels -->
 	<Widget type="WT_ICON_LIST" id="0" priority="0" layer="10" pos=".5 .5" iconSize="0.3 0" forceIconAspect="1:1" iconsPerRow="3" listHeight="0.8" edgePadding="4" iconPadding="3" />
@@ -118,12 +118,12 @@
 	<Widget type="WT_GROUP" id="701" priority="0" layer="10" pos=".5 .5" size="0.9 0.8" visisble="false" />
 	
 	<!-- Play/Edit toggle -->
-    <Widget type="WT_TOGGLE" id="99" layer="21" pos="0.25 0.95" size="0.2 0" forceAspect="2:1" texOnName="toggle_on.png" texOffName="toggle_off.png" textOn="PLAY" textOff="EDIT" textScale=".4" align="leftright" startOn="false" textColorRGB="255 255 255" visible="false" />
+    <Widget type="WT_TOGGLE" id="99" layer="21" pos="0.25 0.95" size="0.2 0" forceAspect="2:1" texOnName="toggle_on.png" texOffName="toggle_off.png" textOn="PLAY" textOff="EDIT" textScale=".4" align="leftright" startOn="false" textColorRGB="0 0 0" visible="true" />
 	
 	<!-- Text/Image toggle -->
-	<Widget type="WT_PUSH_BUTTON" id="700" priority="0" layer="21" pos="0.85 0.95" size="0.25 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="TEXT" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.3" textHilightOffsetRelative="0 0.05f" visible="false" enabled="false" />
+	<Widget type="WT_PUSH_BUTTON" id="700" priority="0" layer="21" pos="0.85 0.95" size="0.25 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" text="TEXT" font="outlined" reactOnDown="false" textColorRGB="34 124 158" edgePaddingRelative="0.3" textHilightOffsetRelative="0 0.05f"  enabled="true" visible="false" />
 	
 	<!-- The shade over the bottom area (to prevent you from pressing a level accidentally) -->
-	<Widget type="WT_PUSH_BUTTON" id="702" priority="1" layer="20" pos="0.5 0.95" size="1.0 0.1" texNormalName="transparent_black.webp" texHilightName="transparent_black.webp" visible="false"/>
+	<Widget type="WT_PUSH_BUTTON" id="702" priority="1" layer="20" pos="0.5 0.95" size="1.0 0.1" texNormalName="transparent_black.webp" texHilightName="transparent_black.webp" />
 	
 </Widgets>

@@ -33,36 +33,38 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 		Permission.申请(this);
 		Log.e("WMW","安装包目录:" + getPackageResourcePath());
+		
 		File obbdir = getObbDir();
 		File dataDir = new File(appDataDir);
 		File extraDataFile = new File(appDataDir + "/wmw-extra.zip");
+		
 		if (!obbdir.exists() || !dataDir.exists()) {
 			obbdir.mkdirs();
 			dataDir.mkdirs();
 		} else{
 			TextView checkObb = findViewById(R.id.checkObb);
+			
 			long lastModifiedTime = extraDataFile.lastModified();
 			Date lastModifiedDate = new Date(lastModifiedTime);
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			String formattedDate = dateFormat.format(lastModifiedDate);
+			
 			checkObb.setText(getString(R.string.have_obb) + formattedDate);
 		}
+		
 		String obbPath = getObbPath();
 		if (!extraDataFile.exists()) {
 			AppUtils.ExportAssets(this, appDataDir, "wmw-extra.zip");
 		}
+		
 		try {
 			Runtime.getRuntime().exec("cp " + extraDataFile.toString() + " " + obbPath);
+			//Runtime.getRuntime().exec("logcat -c");
 			Runtime.getRuntime().exec("logcat >" + appDataDir + "/wmw.log");
 		} catch (IOException e) {
-			
-		} finally {
-			Path source = Paths.get(extraDataFile.toString());
-			Path target = Paths.get(obbPath);
-			try {
-				Files.copy(source, target);
-			} catch (IOException e) {}
+			Log.e("WMW","",e);
 		}
+		
 		initLayout();
 
     }

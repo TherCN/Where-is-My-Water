@@ -212,6 +212,6 @@
 
     
     <!-- Animation Test -->
-    <Widget type="WT_PUSH_BUTTON" id="99999" layer="6" pos="1.8 0.05" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Animations" font="outlined" reactOnDown="false" textColorRGB="34 124 158" visible="false" />
+    <Widget type="WT_PUSH_BUTTON" id="99" layer="6" pos="1.8 0.05" size="0.3 0.0" forceAspect="128:44" texNormalName="button.png" texHilightName="button_highlight.png" textNT="Animations" font="outlined" reactOnDown="false" textColorRGB="34 124 158" />
     
 </Widgets>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-	
+
     package="thercn.wmw">
 
     <!-- 完全的网络访问权限 -->
@@ -98,6 +98,7 @@
         </activity>
 
         <activity android:name="com.disney.WMW.WMWActivity"/>
+		<activity android:name="GlobalApplication$CrashActivity"/>
 
         <meta-data
             android:name="com.google.android.play.billingclient.version"

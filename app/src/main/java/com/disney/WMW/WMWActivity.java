@@ -37,9 +37,6 @@ import thercn.wmw.R;
 public class WMWActivity extends BaseActivity {
     private static GlobalPurchaseHandler globalIapHandler;
     private static boolean isScreenCaptureReady = false;
-    private static final int kAmazonSKUID = 2;
-    private static final int kDefaultSKUID = 0;
-    private static final int kGoogleSKUID = 1;
     private static String mLocale;
     private static String mMessage;
     private static String mTitle;
@@ -60,7 +57,12 @@ public class WMWActivity extends BaseActivity {
     public boolean resumeOnFocus;
     private Runnable runInitIap;
 
+	static 
+	{
+		System.loadLibrary("mui");
+	}
     public WMWActivity() {
+		redirectOutput();
         this.isRunning = false;
         this.hasFocus = false;
         this.gamePaused = true;
@@ -87,6 +89,8 @@ public class WMWActivity extends BaseActivity {
 	}
 
 	class FinishActivityArgs {}
+	
+	public static native void redirectOutput()
 	
 	static /* synthetic */ void access$100(WMWActivity wMWActivity) {
         wMWActivity.initIap();

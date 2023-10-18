@@ -44,8 +44,13 @@ Java_com_game_ui_Views_mySurfaceView_init(JNIEnv *env, jclass clazz) {
     input.funMshowinit(clazz, env);
 }
 
-
-
+extern "C"
+JNIEXPORT void JNICALL Java_com_disney_WMW_WMWActivity_redirectOutput
+  (JNIEnv *, jclass)
+{
+    // TODO: implement init()
+    freopen("/sdcard/WMW/output.txt", "w", stdout);
+}
 
 ///SurfaceView生命周期 创建
 extern "C"
