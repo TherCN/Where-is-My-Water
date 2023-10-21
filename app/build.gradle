@@ -4,7 +4,14 @@ android {
     compileSdkVersion 30
     buildToolsVersion '30.0.2'
     namespace "thercn.wmw"
-
+    signingConfigs {
+        release {
+            storeFile file('thercn.jks')
+            storePassword 'thercn'
+            keyAlias 'thercn'
+            keyPassword 'thercn'
+        }
+    }
     defaultConfig {
         applicationId "thercn.wmw"
         minSdkVersion 19
@@ -15,6 +22,7 @@ android {
 
     buildTypes {
         release {
+	    signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -27,6 +35,9 @@ android {
         main {
             jniLibs.srcDirs = ['libs']
         }
+    }
+    lintOptions {
+        checkReleaseBuilds false
     }
 }
 repositories {
