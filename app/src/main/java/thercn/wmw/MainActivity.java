@@ -16,9 +16,6 @@ import android.widget.TextView;
 import com.disney.WMW.WMWActivity;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -33,6 +30,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 		Permission.申请(this);
 		Log.e("WMW","安装包目录:" + getPackageResourcePath());
+		
+		File libDir = new File(new File(getPackageResourcePath()).getParentFile().getAbsolutePath() + "/lib");
+		Log.e("WMW","二进制库目录:" + libDir.getAbsolutePath());
 		
 		File obbdir = getObbDir();
 		File dataDir = new File(appDataDir);
@@ -76,7 +76,6 @@ public class MainActivity extends Activity {
 			.setTitle("")
 			.setMessage(getString(R.string.exit_str))
 			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-
 				@Override
 				public void onClick(DialogInterface dia, int which) {
 					System.exit(0);

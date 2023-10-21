@@ -13,23 +13,27 @@ android {
         versionName "1.18.8.2"
     }
 
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            jniDebuggable true
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
     }
 }
 repositories {
     maven {     
+	google()
         url "https://jitpack.io"
-		url "https://maven.google.com"
+	url "https://maven.google.com"
         mavenCentral()
     }    
 } 
