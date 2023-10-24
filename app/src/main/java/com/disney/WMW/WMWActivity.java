@@ -556,7 +556,7 @@ public class WMWActivity extends BaseActivity {
             StringBuilder stringbuilder1 = new StringBuilder();
             Log.d("WMWActivity", stringbuilder1.append("SAMSUNG_DRM_ENABLED=").append(SAMSUNG_DRM_ENABLED).toString());
         } catch (Exception exception) {
-            Log.wtf("WMWJava", "Package manager get FAILED!");
+            Log.e("WMWJava", "Package manager get FAILED!",exception);
         }
     }
 

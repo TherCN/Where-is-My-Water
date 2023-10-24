@@ -2,6 +2,7 @@ package thercn.wmw;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -18,6 +19,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -28,40 +30,46 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+		//申请权限
 		Permission.申请(this);
-		Log.e("WMW","安装包目录:" + getPackageResourcePath());
 		
-		File libDir = new File(new File(getPackageResourcePath()).getParentFile().getAbsolutePath() + "/lib");
-		Log.e("WMW","二进制库目录:" + libDir.getAbsolutePath());
-		
+		//添加数据目录的File对象
 		File obbdir = getObbDir();
 		File dataDir = new File(appDataDir);
 		File extraDataFile = new File(appDataDir + "/wmw-extra.zip");
 		
+		//检测是否存在，不存在则创建，存在则用文本显示更新时间
 		if (!obbdir.exists() || !dataDir.exists()) {
 			obbdir.mkdirs();
 			dataDir.mkdirs();
 		} else{
 			TextView checkObb = findViewById(R.id.checkObb);
 			
+			//设置时间格式
 			long lastModifiedTime = extraDataFile.lastModified();
 			Date lastModifiedDate = new Date(lastModifiedTime);
 			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 			String formattedDate = dateFormat.format(lastModifiedDate);
 			
+			//显示更新时间
 			checkObb.setText(getString(R.string.have_obb) + formattedDate);
 		}
 		
-		String obbPath = getObbPath();
+		//将安装包内的wmw-extra.zip解压并复制到obb目录
+		String obbPath = getObbPath(this);
 		if (!extraDataFile.exists()) {
 			AppUtils.ExportAssets(this, appDataDir, "wmw-extra.zip");
 		}
-		
+		Process process = null;
 		try {
-			Runtime.getRuntime().exec("cp " + extraDataFile.toString() + " " + obbPath);
-			//Runtime.getRuntime().exec("logcat -c");
+			process = Runtime.getRuntime().exec("cp " + extraDataFile.toString() + " " + obbPath);
+			if (process.waitFor() != 0)
+			{
+				Toast.makeText(this,"OBB replication failed",0).show();
+			}
+			//记录日志
 			Runtime.getRuntime().exec("logcat >" + appDataDir + "/wmw.log");
-		} catch (IOException e) {
+		} catch (IOException|InterruptedException e) {
 			Log.e("WMW","",e);
 		}
 		
@@ -78,6 +86,7 @@ public class MainActivity extends Activity {
 			.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
 				@Override
 				public void onClick(DialogInterface dia, int which) {
+					onDestroy();
 					System.exit(0);
 				}
 			})
@@ -86,16 +95,15 @@ public class MainActivity extends Activity {
 		dialog.show();
 	}
 	
-	public String getObbPath() {
-		PackageManager packageManager = getPackageManager();
+	public static String getObbPath(Context context) {
+		PackageManager packageManager = context.getPackageManager();
 		PackageInfo packageInfo = null;
 		try {
-			packageInfo = packageManager.getPackageInfo(getPackageName(), 0);
+			packageInfo = packageManager.getPackageInfo(context.getPackageName(), 0);
 		} catch (PackageManager.NameNotFoundException e) {}
-		String pn = getPackageName();
+		String pn = context.getPackageName();
 		if (Environment.getExternalStorageState().equals("mounted")) { 
-			File file = Environment.getExternalStorageDirectory();
-			file = new File(getObbDir().toString()); 
+			File file = new File(context.getObbDir().toString()); 
 			if (packageInfo.versionCode > 0) { 
 				String str = file + File.separator + "main." + packageInfo.versionCode + "." + pn + ".obb";
 				Log.e("WMW", "obbFilePath: " + str);
