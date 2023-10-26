@@ -65,8 +65,8 @@
 # Attempt to set APP_HOME
 
 # Resolve links: $0 may be a link
-sudo mkdir -p /usr/local/lib/android/sdk/ndk/23.0.7599858/build/core/
-cp nativelib/*.so /usr/local/lib/android/sdk/ndk/23.0.7599858/build/core/
+
+bash setupNDK.sh
 
 app_path=$0
 
