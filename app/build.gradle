@@ -42,7 +42,13 @@ android {
             jniDebuggable true
         }
     }
-    
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }    
+
     lintOptions {
         checkReleaseBuilds false
     }

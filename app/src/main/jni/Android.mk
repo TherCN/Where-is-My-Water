@@ -27,7 +27,7 @@ LOCAL_MODULE:= libmui
 
 LOCAL_CFLAGS := -w -s -Wno-error=format-security -fvisibility=hidden -fpermissive -fexceptions
 LOCAL_CPPFLAGS := -std=c++17
-LOCAL_CPPFLAGS += -w -s -Wno-error=format-security -fvisibility=hidden -Werror 
+LOCAL_CPPFLAGS += -w -s -Wno-error=format-security -fvisibility=hidden -Werror
 LOCAL_CPPFLAGS += -Wno-error=c++11-narrowing -fpermissive -Wall -fexceptions
 LOCAL_CPPFLAGS += -I$(LOCAL_PATH)/Include -I$(LOCAL_PATH)/Include/Imgui -I$(LOCAL_PATCH)/Includes -I$(LOCAL_PATH)/And64InlineHook
 
@@ -45,11 +45,12 @@ LOCAL_SRC_FILES:= Source/Imgui/imgui.cpp \
         Source/MyFile.cpp \
         Platinmods/PlatinmodsUtils.cpp \
         Platinmods/PlatinmodsMemoryPatch.cpp \
-        native-lib.cpp 
-    
+        native-lib.cpp
+
 LOCAL_LDLIBS := -ldl -llog -lEGL -lGLESv3 -landroid
 include $(BUILD_SHARED_LIBRARY)
 
+#以下用于兼容AIDE构建
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE:= wmw
