@@ -66,7 +66,7 @@
 
 # Resolve links: $0 may be a link
 
-bash setupNDK.sh
+sudo bash setupNDK.sh
 
 app_path=$0
 
