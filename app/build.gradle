@@ -3,6 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 30
     buildToolsVersion '30.0.2'
+    ndkVersion '23.0.7599858'
     namespace "thercn.wmw"
     signingConfigs {
         release {
@@ -30,12 +31,7 @@ android {
             jniDebuggable true
         }
     }
-
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
-    }
+    
     lintOptions {
         checkReleaseBuilds false
     }
@@ -44,7 +40,7 @@ repositories {
     maven {     
 	google()
         url "https://jitpack.io"
-	url "https://maven.google.com"
+	    url "https://maven.google.com"
         mavenCentral()
     }    
 } 

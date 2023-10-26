@@ -1,0 +1,1 @@
+.incbin "libwmw.so"
