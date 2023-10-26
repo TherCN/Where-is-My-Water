@@ -4,7 +4,7 @@
 
 
 #include "PlatinmodsMemoryPatch.h"
-#include <fstream>
+
 #define LOGGER_ENABLED
 #include "../Include/log.h"
 

@@ -43,9 +43,9 @@ LOCAL_SRC_FILES:= Source/Imgui/imgui.cpp \
         Source/Imgui_Android_Input.cpp \
         Source/EGL.cpp \
         Source/MyFile.cpp \
-        native-lib.cpp \
+        Platinmods/PlatinmodsUtils.cpp \
         Platinmods/PlatinmodsMemoryPatch.cpp \
-        Platinmods/PlatinmodsUtils.cpp 
+        native-lib.cpp 
     
 LOCAL_LDLIBS := -ldl -llog -lEGL -lGLESv3 -landroid
 include $(BUILD_SHARED_LIBRARY)
