@@ -197,27 +197,32 @@ void EGL::EglThread() {
         }
 
        ImGui::Begin("Where's My Water？Mod Tool");
-        input->g_window = g_window = ImGui::GetCurrentWindow();
-        ImGui::SetWindowSize({500, 500}, ImGuiCond_FirstUseEver);
-        ImGui::SetWindowPos({0, 200}, ImGuiCond_FirstUseEver);
-        ImGui::Text("libwmw.so Mod Tool");
+       input->g_window = g_window = ImGui::GetCurrentWindow();
+       ImGui::SetWindowSize({500, 500}, ImGuiCond_FirstUseEver);
+       ImGui::SetWindowPos({0, 200}, ImGuiCond_FirstUseEver);
+       ImGui::Text("libwmw.so Mod Tool");
         
-        ImGui::InputTextWithHint("##偏移", "请输入偏移(input offset)", offset, IM_ARRAYSIZE(offset),
+       ImGui::InputTextWithHint("##偏移", "请输入偏移(input offset)", offset, IM_ARRAYSIZE(offset),
                                  ImGuiInputTextFlags_CallbackAlways,
                                  ImguiAndroidInput::inputCallback);
         
-        ImGui::InputTextWithHint("##字节", "请输入hex(input hex)", str, IM_ARRAYSIZE(str),
+       ImGui::InputTextWithHint("##字节", "请输入hex(input hex)", str, IM_ARRAYSIZE(str),
                                  ImGuiInputTextFlags_CallbackAlways,
                                  ImguiAndroidInput::inputCallback);
+								 
        if (ImGui::Button("修改(modify)")){
 	        if (patch(offset,str)) LOGE("成功为%d打上%s",offset,str);
 	   }
 	   
+	   if (ImGui::Button("退出游戏(exit)")){
+		   exit(0);
+	   }
+	   
        ImGui::End();
 
-        imguiMainWinEnd();
-        this->swapBuffers();
-        input->fps = this->FPS;
+       imguiMainWinEnd();
+       this->swapBuffers();
+       input->fps = this->FPS;
     }
 }
 
