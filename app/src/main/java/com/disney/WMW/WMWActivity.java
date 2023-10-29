@@ -33,6 +33,8 @@ import java.util.UUID;
 import org.fmod.FMODAudioDevice;
 import thercn.wmw.MainActivity;
 import thercn.wmw.R;
+import android.view.ActionMode;
+import android.view.ActionMode.Callback;
 
 public class WMWActivity extends BaseActivity {
     private static GlobalPurchaseHandler globalIapHandler;
@@ -61,6 +63,12 @@ public class WMWActivity extends BaseActivity {
 	{
 		System.loadLibrary("mui");
 	}
+
+	@Override
+	public ActionMode onWindowStartingActionMode(ActionMode.Callback callback, int type) {
+		return super.onWindowStartingActionMode(callback, type);
+	}
+	
     public WMWActivity() {
 		redirectOutput();
         this.isRunning = false;

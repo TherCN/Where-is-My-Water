@@ -145,6 +145,7 @@ public class GlobalApplication extends Application {
                     try {
                         Looper.loop();
                     } catch (final Throwable e) {
+						Log.e("WMW",Log.getStackTraceString(e));
                         if (isRunning.get()) {
                             MAIN_HANDLER.post(new Runnable(){
 
