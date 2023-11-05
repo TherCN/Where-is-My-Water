@@ -1,6 +1,5 @@
 package thercn.wmw;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,14 +13,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
+import androidx.appcompat.app.AppCompatActivity;
 import com.disney.WMW.WMWActivity;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 	public static String appDataDir = Environment.getExternalStorageDirectory().toString() + "/WMW";
 	public static boolean isIPadScreen = false;

@@ -38,6 +38,7 @@
         android:label="@string/app_name"
         android:name="GlobalApplication"
         android:resizeableActivity="false"
+		android:theme="@style/MainTheme"
         android:roundIcon="@drawable/icon">
 
         <meta-data
