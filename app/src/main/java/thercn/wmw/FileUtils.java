@@ -2,7 +2,6 @@ package thercn.wmw;
 
 import java.io.File;
 import java.io.IOException;
-import android.os.FileUtils;
 
 public class FileUtils {
 	public static boolean createFile(String filePath, boolean isDir) throws IOException
