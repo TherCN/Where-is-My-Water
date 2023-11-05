@@ -5,8 +5,7 @@ import java.io.IOException;
 import android.os.FileUtils;
 
 public class FileUtils {
-    
-    public static boolean createFile(String filePath, boolean isDir) throws IOException 
+	public static boolean createFile(String filePath, boolean isDir) throws IOException
 	{
 		File file = new File(filePath);
 		if (!isDir) {
@@ -18,7 +17,7 @@ public class FileUtils {
 		File file = new File(filePath);
 		return file.delete();
 	}
-    public static int moveFile(String sourcePath, String targetPath) throws IOException, InterruptedException
+	public static int moveFile(String sourcePath, String targetPath) throws IOException, InterruptedException
 	{
 		Process move = Runtime.getRuntime().exec("mv " + sourcePath + " " + targetPath);
 		return move.waitFor();
