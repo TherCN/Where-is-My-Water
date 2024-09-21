@@ -200,7 +200,7 @@ void EGL::EglThread() {
        input->g_window = g_window = ImGui::GetCurrentWindow();
        ImGui::SetWindowSize({500, 500}, ImGuiCond_FirstUseEver);
        ImGui::SetWindowPos({0, 200}, ImGuiCond_FirstUseEver);
-       ImGui::Text("libwmw.so Mod Tool");
+       ImGui::Text("libwmw.so Modify Tool");
         
        ImGui::InputTextWithHint("##偏移", "请输入偏移(input offset)", offset, IM_ARRAYSIZE(offset),
                                  ImGuiInputTextFlags_CallbackAlways,
